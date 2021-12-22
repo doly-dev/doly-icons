@@ -23,6 +23,11 @@
   },
   "module": "es/index.js",
   "typings": "es/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "es",
+    "lib"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
@@ -44,6 +49,7 @@
     ]
   },
   "dependencies": {
+    "@babel/runtime": "^7.16.5",
     "react": "^16.12.0 || ^17.0.0"
   },
   "devDependencies": {
@@ -52,12 +58,15 @@
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
+    "@types/react-helmet": "^6.1.4",
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "@umijs/fabric": "^2.8.1",
     "@umijs/test": "^3.0.5",
     "antd": "^4.17.4",
     "babel-plugin-import": "^1.13.3",
+    "bootstrap-icons": "1.7.2",
+    "cheerio": "^1.0.0-rc.10",
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "dumi": "^1.1.0",
@@ -65,10 +74,15 @@
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "father-build": "^1.17.2",
+    "fs-extra": "^10.0.0",
     "gh-pages": "^3.0.0",
+    "glob": "^7.2.0",
+    "iconv-lite": "^0.6.3",
     "lint-staged": "^10.0.7",
+    "lodash": "^4.17.21",
     "prettier": "^2.2.1",
     "prettier-plugin-two-style-order": "^1.0.1",
+    "react-helmet": "^6.1.0",
     "stylelint": "^14.2.0",
     "stylelint-config-css-modules": "^2.3.0",
     "stylelint-config-prettier": "^9.0.3",

@@ -65,6 +65,7 @@ export default defineConfig({
   },
   hash: true,
   navs: [
+    null,
     // {
     // title: `v${preMajorVersionNumber}.x`,
     // path: `https://doly-dev.github.io/doly-icons/${preVersionSiteRoot}/index.html`
