@@ -2,7 +2,8 @@ import React, { cloneElement, forwardRef, ReactElement, useContext } from 'react
 import classnames from 'classnames';
 import IconContext from './IconContext';
 import { IconBaseProps } from './type';
-import './IconBase.less';
+import { useInsertStyle } from './dynamicStyle';
+// import './IconBase.less';
 
 const prefixClass = 'doly-icon';
 
@@ -30,6 +31,8 @@ const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
 
     const realSpin = typeof spin !== 'undefined' ? spin : ctxSpin;
     const realSpinReverse = typeof spinReverse !== 'undefined' ? spinReverse : ctxSpinReverse;
+
+    useInsertStyle();
 
     return (
       <span

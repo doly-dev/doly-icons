@@ -8,11 +8,23 @@ order: 1
 
 除内置图标外，还支持自定义图标和 [SVG Symbol] ，可以很方便的集成到 UI 库或项目中。
 
-## 安装
+目前主流的构建工具都支持 [`Tree Sharking`](https://webpack.js.org/guides/tree-shaking/) 技术，无需担心构建后的包大小。
+
+**安装**
 
 ```bash
 npm install doly-icons --save
+# or
+yarn add doly-icons
 ```
+
+然后直接引入你需要的图标：
+
+```typescript
+import { Gear, HeartFill } from 'doly-icons';
+```
+
+或者通过 `Icon` 处理自定义图标，具体可查看下面示例。
 
 ## 代码演示
 

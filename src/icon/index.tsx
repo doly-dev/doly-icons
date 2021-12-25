@@ -13,10 +13,8 @@ function Icon(props: ThirdIconProps): ReactElement;
 function Icon(props: SVGSymbolIconProps): ReactElement;
 function Icon(props: ThirdIconProps | SVGSymbolIconProps) {
   const {
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     component,
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     symbolId,
     ...restProps

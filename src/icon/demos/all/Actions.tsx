@@ -62,11 +62,11 @@ const Actions: React.FunctionComponent<{
       </Menu.Item>
       <Menu.Item key="download-svg">
         <a href={`/assets/icons/${fileName}.svg`} download>
-          下载 SVG 图标
+          下载 SVG
         </a>
       </Menu.Item>
       <Menu.Item key="download-custom-svg">
-        <a onClick={downloadCustom}>下载当前样式 SVG 图标</a>
+        <a onClick={downloadCustom}>下载当前样式 SVG</a>
       </Menu.Item>
     </Menu>
   );

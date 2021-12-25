@@ -9,18 +9,17 @@ const versionSiteRoot = `refs/heads/v${MajorVersionNumber}`;
 
 const version = process.env.BUIDL_DOC_VERSION ? versionSiteRoot : 'latest';
 
-const serverRootDirect =
-  process.env.NODE_ENV === 'production' ? 'https://doly-dev.github.io/doly-icons/' : '/';
+const isProd = process.env.NODE_ENV === 'production';
+
+const serverRootDirect = isProd ? 'https://doly-dev.github.io/doly-icons/' : '/';
 const logo = 'https://www.caijinfeng.com/assets/images/logo-doly@3x.png';
 const favicon = 'https://www.caijinfeng.com/assets/images/doly-touch-icon_48x48.png';
 
 const publicPath = serverRootDirect + version + '/';
 
-const isProd = process.env.NODE_ENV === 'production';
-
 const prodConfig: any = {};
 
-if (process.env.NODE_ENV === 'production') {
+if (isProd) {
   prodConfig.headScripts = [
     {
       src: 'https://www.googletagmanager.com/gtag/js?id=G-C5R17JSQCN',
@@ -67,7 +66,7 @@ export default defineConfig({
   },
   hash: true,
   define: {
-    PATH_ROOT: isProd ? '/doly-icons/' : '/',
+    PATH_ROOT: isProd ? `/doly-icons/${version}/` : '/',
   },
   navs: [
     // {
