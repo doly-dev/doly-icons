@@ -18,11 +18,12 @@ const defaultSvgProps = {
 };
 
 const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
-  ({ spin, spinReverse, className, svgProps, children, ...restProps }, ref) => {
+  ({ spin, spinReverse, className, style, svgProps, children, ...restProps }, ref) => {
     const {
       spin: ctxSpin,
       spinReverse: ctxSpinReverse,
       className: ctxClassName,
+      style: ctxStyle,
       svgProps: ctxSvgProps,
       ...ctxRestProps
     } = useContext(IconContext);
@@ -42,6 +43,7 @@ const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
           ctxClassName,
           className,
         )}
+        style={{ ...ctxStyle, ...style }}
         {...ctxRestProps}
         {...restProps}
         ref={ref}

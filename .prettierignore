@@ -7,3 +7,5 @@ package.json
 .umi-test
 src/icons
 src/icons-index.ts
+src/icon/demos/all/data.ts
+src/icon/demo/icons

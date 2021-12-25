@@ -16,6 +16,8 @@ const favicon = 'https://www.caijinfeng.com/assets/images/doly-touch-icon_48x48.
 
 const publicPath = serverRootDirect + version + '/';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const prodConfig: any = {};
 
 if (process.env.NODE_ENV === 'production') {
@@ -64,12 +66,22 @@ export default defineConfig({
     type: 'hash',
   },
   hash: true,
+  define: {
+    PATH_ROOT: isProd ? '/doly-icons/' : '/',
+  },
   navs: [
-    null,
     // {
     // title: `v${preMajorVersionNumber}.x`,
     // path: `https://doly-dev.github.io/doly-icons/${preVersionSiteRoot}/index.html`
     // },
+    {
+      title: '图标库',
+      path: '/icons',
+    },
+    {
+      title: '文档',
+      path: '/documents',
+    },
     {
       title: 'GitHub',
       path: 'https://github.com/doly-dev/doly-icons',

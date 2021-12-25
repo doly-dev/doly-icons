@@ -1,7 +1,7 @@
-import * as React from 'react';
+import { createContext } from 'react';
 import { IconBaseProps } from './type';
 
-const context = React.createContext<IconBaseProps>({});
+const context = createContext<IconBaseProps>({});
 
 export const IconProvider = context.Provider;
 

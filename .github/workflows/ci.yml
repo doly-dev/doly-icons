@@ -26,6 +26,8 @@ jobs:
         run: yarn install
       - name: Build package
         run: yarn build
+      - name: Generator assets
+        run: yarn generator:assets
       - name: Build latest docs
         if: ${{github.ref == 'refs/heads/main'}}
         run: yarn docs:build
