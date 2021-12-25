@@ -4,13 +4,11 @@ order: 1
 
 # 使用说明
 
-全部内置图标都是基于 [Bootstrap 官方图标库] 进行 React 组件封装，方便设计师和开发者使用（[图标库](/icons)中快速查找）。
+图标是基于 [Bootstrap 官方图标库] 进行 React 组件封装，方便设计师和开发者使用（[图标库](/icons)中快速查找）。
 
-除内置图标外，还支持自定义图标和 [SVG Symbol] ，可以很方便的集成到 UI 库或项目中。
+目前主流的构建工具都支持 [Tree Sharking](https://webpack.js.org/guides/tree-shaking/) 技术，无需担心构建后的包大小。
 
-目前主流的构建工具都支持 [`Tree Sharking`](https://webpack.js.org/guides/tree-shaking/) 技术，无需担心构建后的包大小。
-
-**安装**
+安装
 
 ```bash
 npm install doly-icons --save
@@ -24,7 +22,7 @@ yarn add doly-icons
 import { Gear, HeartFill } from 'doly-icons';
 ```
 
-或者通过 `Icon` 处理自定义图标，具体可查看下面示例。
+除内置的图标外，还支持自定义图标和 [SVG Symbol] ，可以很方便的集成到 UI 库或项目，具体请查看下面示例。
 
 ## 代码演示
 
@@ -42,9 +40,9 @@ import { Gear, HeartFill } from 'doly-icons';
 
 ### 使用 SVG Symbol 图标
 
-_在 [iconfont] 上将图标添加到 `我的项目` ，进入项目，生成在线链接，选择 `Symbol` 。参考[iconfont.cn 使用帮助](http://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code)_
+<!-- 在 [iconfont] 上将图标添加到 `我的项目` ，进入项目，生成在线链接，选择 `Symbol` 。 -->
 
-方便开发者调用在 [iconfont] 上的图标 或者 使用自定义的 [SVG Symbol] 。
+方便开发者调用在 [iconfont] 上的图标 或者 使用自定义的 [SVG Symbol] 。_参考 [iconfont.cn 使用帮助](http://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code)。_
 
 <code src='../../src/icon/demos/svg-symbol.tsx' iframe=100 />
 

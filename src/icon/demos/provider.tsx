@@ -5,7 +5,7 @@ import styles from './demo.less';
 
 const Demo = () => {
   return (
-    <div>
+    <>
       <TestPage title="默认" />
       <IconProvider value={{ spin: true, style: { fontSize: 16, color: 'blue' } }}>
         <TestPage title="大小颜色旋转" />
@@ -13,7 +13,7 @@ const Demo = () => {
       <IconProvider value={{ className: styles.iconButton }}>
         <TestPage title="class" />
       </IconProvider>
-    </div>
+    </>
   );
 };
 

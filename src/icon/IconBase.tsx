@@ -3,7 +3,6 @@ import classnames from 'classnames';
 import IconContext from './IconContext';
 import { IconBaseProps } from './type';
 import { useInsertStyle } from './dynamicStyle';
-// import './IconBase.less';
 
 const prefixClass = 'doly-icon';
 

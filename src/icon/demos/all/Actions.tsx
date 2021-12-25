@@ -61,7 +61,7 @@ const Actions: React.FunctionComponent<{
         </Copy>
       </Menu.Item>
       <Menu.Item key="download-svg">
-        <a href={`/assets/icons/${fileName}.svg`} download>
+        <a href={`${PATH_ROOT}assets/icons/${fileName}.svg`} download>
           下载 SVG
         </a>
       </Menu.Item>

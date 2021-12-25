@@ -61,8 +61,7 @@ export const iconStyle = `@-webkit-keyframes doly-icon-animate_spin {
 .doly-icon-spin-reverse {
   -webkit-animation: doly-icon-animate_spin-reverse 1s infinite linear;
   animation: doly-icon-animate_spin-reverse 1s infinite linear;
-}
-`;
+}`;
 
 export function useInsertStyle() {
   useEffect(() => {
