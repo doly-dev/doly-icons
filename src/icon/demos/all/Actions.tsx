@@ -52,12 +52,12 @@ const Actions: React.FunctionComponent<{
       </Menu.Item>
       <Menu.Item key="copy-custom-react-component">
         <Copy text={customReactComponentText}>
-          <div>复制当前样式 JSX</div>
+          <div>复制 JSX 含样式</div>
         </Copy>
       </Menu.Item>
       <Menu.Item key="download-svg-name">
         <Copy text={fileName}>
-          <div>复制 SVG 文件名称</div>
+          <div>复制文件名称</div>
         </Copy>
       </Menu.Item>
       <Menu.Item key="download-svg">
@@ -66,7 +66,7 @@ const Actions: React.FunctionComponent<{
         </a>
       </Menu.Item>
       <Menu.Item key="download-custom-svg">
-        <a onClick={downloadCustom}>下载当前样式 SVG</a>
+        <a onClick={downloadCustom}>下载 SVG 含样式</a>
       </Menu.Item>
     </Menu>
   );
