@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "doly-icons",
   "version": "1.0.0",
   "description": "React icon component based on Bootstrap Icons",
@@ -62,6 +61,8 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "author": "caijf <369756941@qq.com>",
+  "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.16.5",
     "classnames": "^2.3.1",
