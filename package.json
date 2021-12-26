@@ -2,6 +2,16 @@
   "private": true,
   "name": "doly-icons",
   "version": "1.0.0",
+  "description": "React icon component based on Bootstrap Icons",
+  "repository": "git@github.com:doly-dev/doly-icons.git",
+  "keywords": [
+    "react",
+    "doly",
+    "icons",
+    "svg",
+    "bootstrap",
+    "bootstrap-icons"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
