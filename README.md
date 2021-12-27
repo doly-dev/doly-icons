@@ -22,9 +22,11 @@ yarn add doly-icons
 
 ## 使用
 
+> [查看代码演示](https://doly-dev.github.io/doly-icons/latest/index.html#/documents/instruction#代码演示)
+
 支持以下方式：
 
-1. [内置图标](https://doly-dev.github.io/doly-icons/latest/index.html#/icons)
+1. [使用 Bootstrap 图标](https://doly-dev.github.io/doly-icons/latest/index.html#/icons)
 
 ```typescript
 import { Gear HeartFill } from 'doly-icons'
