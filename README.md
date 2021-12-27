@@ -1,14 +1,14 @@
 # doly-icons
 
-[![npm][npm]][npm-url] ![GitHub]
-
-中文 | [English](./README.en-US.md)
-
 基于 [Bootstrap Icons] 的 React 图标组件。
 
 不仅包含全部 [Bootstrap Icons] ，还支持使用自定义图标以及 [SVG Symbol] 。
 
 了解更多，请[点击查阅文档](https://doly-dev.github.io/doly-icons/latest/index.html)。
+
+[![npm][npm]][npm-url] ![GitHub]
+
+中文 | [English](./README.en-US.md)
 
 ## 安装
 

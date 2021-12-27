@@ -1,14 +1,14 @@
 # doly-icons
 
-[![npm][npm]][npm-url] ![GitHub]
-
-[Chinese](..) | English
-
 React icon component based on [Bootstrap Icons].
 
 Not only includes all [Bootstrap Icons] , but also supports the use of custom icons and [SVG Symbol].
 
 To learn more, please [click to view the document](https://doly-dev.github.io/doly-icons/latest/index.html/#/en-US).
+
+[![npm][npm]][npm-url] ![GitHub]
+
+[Chinese](..) | English
 
 ## Install
 
