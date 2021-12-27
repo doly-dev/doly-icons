@@ -68,28 +68,56 @@ export default defineConfig({
   define: {
     PATH_ROOT: isProd ? `/doly-icons/${version}/` : '/',
   },
-  navs: [
-    // {
-    // title: `v${preMajorVersionNumber}.x`,
-    // path: `https://doly-dev.github.io/doly-icons/${preVersionSiteRoot}/index.html`
-    // },
-    {
-      title: '图标库',
-      path: '/icons',
-    },
-    {
-      title: '文档',
-      path: '/documents',
-    },
-    {
-      title: 'GitHub',
-      path: 'https://github.com/doly-dev/doly-icons',
-    },
-    {
-      title: '更新日志',
-      path: 'https://github.com/doly-dev/doly-icons/releases',
-    },
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
   ],
+  navs: {
+    'zh-CN': [
+      {
+        title: '图标库',
+        path: '/icons',
+      },
+      {
+        title: '文档',
+        path: '/documents',
+      },
+      // {
+      // title: `v${preMajorVersionNumber}.x`,
+      // path: `https://doly-dev.github.io/doly-icons/${preVersionSiteRoot}/index.html`
+      // },
+      {
+        title: 'GitHub',
+        path: 'https://github.com/doly-dev/doly-icons',
+      },
+      {
+        title: '更新日志',
+        path: 'https://github.com/doly-dev/doly-icons/releases',
+      },
+    ],
+    'en-US': [
+      {
+        title: 'Icons',
+        path: '/en-US/icons',
+      },
+      {
+        title: 'Docs',
+        path: '/en-US/documents',
+      },
+      // {
+      // title: `v${preMajorVersionNumber}.x`,
+      // path: `https://doly-dev.github.io/doly-icons/${preVersionSiteRoot}/index.html`
+      // },
+      {
+        title: 'GitHub',
+        path: 'https://github.com/doly-dev/doly-icons',
+      },
+      {
+        title: 'ChangeLog',
+        path: 'https://github.com/doly-dev/doly-icons/releases',
+      },
+    ],
+  },
   extraBabelPlugins: [
     [
       'babel-plugin-import',

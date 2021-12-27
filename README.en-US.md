@@ -2,15 +2,15 @@
 
 [![npm][npm]][npm-url] ![GitHub]
 
-中文 | [English](./README.en-US.md)
+[Chinese](..) | English
 
-基于 [Bootstrap Icons] 的 React 图标组件。
+React icon component based on [Bootstrap Icons].
 
-不仅包含全部 [Bootstrap Icons] ，还支持使用自定义图标以及 [SVG Symbol] 。
+Not only includes all [Bootstrap Icons] , but also supports the use of custom icons and [SVG Symbol].
 
-了解更多，请[点击查阅文档](https://doly-dev.github.io/doly-icons/latest/index.html)。
+To learn more, please [click to view the document](https://doly-dev.github.io/doly-icons/latest/index.html/#/en-US).
 
-## 安装
+## Install
 
 ```bash
 npm install doly-icons --save
@@ -18,11 +18,11 @@ npm install doly-icons --save
 yarn add doly-icons
 ```
 
-## 使用
+## Use
 
-支持以下方式：
+The following methods are supported:
 
-1. 内置图标
+1. Built-in icon
 
 ```typescript
 import { Gear HeartFill } from 'doly-icons'
@@ -35,7 +35,7 @@ export default ()=>(
 )
 ```
 
-2. 自定义图标
+2. Custom icon
 
 ```typescript
 import Icon from 'doly-icons';
@@ -64,7 +64,7 @@ import Icon from 'doly-icons';
 export default () => (
   <>
     <Helmet>
-      {/* 建议下载到项目中使用。如果一定要引入在线地址，建议在页面入口引入，避免重复加载。 */}
+      {/* It is recommended to download to the project for use. If you must introduce an online address, it is recommended to introduce it at the page entrance to avoid repeated loading. */}
       <script src="//at.alicdn.com/t/font_3061930_ney4a0jv5ul.js" type="text/javascript" />
     </Helmet>
     <Icon symbolId="loading" spin />
