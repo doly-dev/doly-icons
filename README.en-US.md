@@ -1,6 +1,6 @@
 # doly-icons
 
-[Chinese](./README.md) | English
+[中文](./README.md) | English
 
 [![npm][npm]][npm-url] ![GitHub]
 
