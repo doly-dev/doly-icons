@@ -8,7 +8,7 @@ To learn more, please [click to view the document](https://doly-dev.github.io/do
 
 [![npm][npm]][npm-url] ![GitHub]
 
-[Chinese](..) | English
+[Chinese](./README.md) | English
 
 ## Install
 
