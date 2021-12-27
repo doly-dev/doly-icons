@@ -24,7 +24,7 @@ yarn add doly-icons
 
 The following methods are supported:
 
-1. Built-in icon
+1. [Built-in icon](https://doly-dev.github.io/doly-icons/latest/index.html#/en-US/icons)
 
 ```typescript
 import { Gear HeartFill } from 'doly-icons'

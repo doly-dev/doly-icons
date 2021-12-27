@@ -24,7 +24,7 @@ yarn add doly-icons
 
 支持以下方式：
 
-1. 内置图标
+1. [内置图标](https://doly-dev.github.io/doly-icons/latest/index.html#/icons)
 
 ```typescript
 import { Gear HeartFill } from 'doly-icons'
