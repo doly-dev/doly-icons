@@ -3,8 +3,8 @@ const capitalize = (str) => str.substring(0, 1).toUpperCase() + str.substring(1)
 
 const regEnglish = /[a-z]/i;
 
-// 首字母是否为英语字母
-const initialIsEnglish = (str) => regEnglish.test(str.substring(0, 1));
+// 首字母是否为英语
+const isInitialEnglish = (str) => regEnglish.test(str.substring(0, 1));
 
 /**
  * 转换为 react 属性名
@@ -40,7 +40,7 @@ const transformComponentName = (componentName) => {
     .split('-')
     .filter((strItem) => !!strItem)
     .map((strItem, i) => {
-      if (i === 0 && !initialIsEnglish(strItem)) {
+      if (i === 0 && !isInitialEnglish(strItem)) {
         return `Icon${strItem}`;
       }
       return capitalize(strItem);
