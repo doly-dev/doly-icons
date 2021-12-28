@@ -23,8 +23,6 @@ footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](http
 
 ## Start Using
 
-`doly-icons` Not only includes all [Bootstrap Icons], but also supports the use of custom icons and [SVG Symbol].
-
 **Install**
 
 ```bash

@@ -21,8 +21,6 @@ footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](http
 
 ## 开始使用
 
-`doly-icons` 不仅包含全部 [Bootstrap Icons] ，还支持使用自定义图标以及 [SVG Symbol] 。
-
 **安装**
 
 ```bash

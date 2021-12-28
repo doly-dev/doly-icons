@@ -6,7 +6,7 @@
 
 基于 [Bootstrap Icons] 的 React 图标组件。
 
-> 目前使用 v1.7.2，超过 1500 个图标。你可以在 UI 库或项目中使用。了解更多信息，请[点击查阅文档](https://doly-dev.github.io/doly-icons/latest/index.html)。
+> 目前使用 v1.7.2，超过 1500 个图标，你可以在 UI 库或项目中使用。了解更多信息，请[点击查阅文档](https://doly-dev.github.io/doly-icons/latest/index.html)。
 
 ## 安装
 

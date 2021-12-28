@@ -6,7 +6,7 @@ order: 1
 
 图标是基于 [Bootstrap 官方图标库] 进行 React 组件封装，方便设计师和开发者使用（[图标库](/icons)中快速查找）。
 
-目前主流的构建工具都支持 [Tree Sharking](https://webpack.js.org/guides/tree-shaking/) 技术，无需担心构建后的包大小。
+> 目前使用 v1.7.2，超过 1500 个图标，你可以在 UI 库或项目中使用。
 
 安装
 
@@ -22,7 +22,9 @@ yarn add doly-icons
 import { Gear, HeartFill } from 'doly-icons';
 ```
 
-除内置的图标外，还支持自定义图标和 [SVG Symbol] ，可以很方便的集成到 UI 库或项目，具体请查看下面示例。
+目前主流的构建工具都支持 [Tree Sharking](https://webpack.js.org/guides/tree-shaking/) 技术，无需担心构建后的包大小。
+
+除了内置的 Bootstrap 图标外，还支持自定义图标和 [SVG Symbol] ，具体请查看下面示例。
 
 ## 代码演示
 

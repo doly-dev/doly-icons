@@ -6,7 +6,7 @@ order: 1
 
 The icon is based on the [official Bootstrap icon library] for React component encapsulation, which is convenient for designers and developers to use (quick search in the [icon library](/en-US/icons)).
 
-The current mainstream construction tools all support [Tree Sharking](https://webpack.js.org/guides/tree-shaking/) technology, so there is no need to worry about the package size after construction.
+> Currently using v1.7.2, there are more than 1500 icons that you can use in UI libraries or projects.
 
 Install
 
@@ -22,7 +22,9 @@ Then directly introduce the icons you need:
 import { Gear, HeartFill } from 'doly-icons';
 ```
 
-In addition to the built-in icons, it also supports custom icons and [SVG Symbol], which can be easily integrated into UI libraries or projects. Please check the following examples for details.
+The current mainstream construction tools all support [Tree Sharking](https://webpack.js.org/guides/tree-shaking/) technology, so there is no need to worry about the package size after construction.
+
+In addition to the built-in Bootstrap icons, it also supports custom icons and [SVG Symbol]. For details, please see the example below.
 
 ## Code demo
 
