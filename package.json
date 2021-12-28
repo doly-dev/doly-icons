@@ -34,6 +34,7 @@
     "generator:icons": "node scripts/generator-icons.js",
     "generator:data": "node scripts/generator-data.js"
   },
+  "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "sideEffects": false,
