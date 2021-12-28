@@ -4,7 +4,7 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const getUrlContent = require('./getUrlContent');
 const { transformComponentName, transformFileName } = require('./utils');
-const translate = require('./translate');
+const { translate } = require('./translate-utils');
 const dataCorrect = require('./data-correct');
 
 const cwd = process.cwd();

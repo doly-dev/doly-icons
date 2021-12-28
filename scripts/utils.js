@@ -64,8 +64,22 @@ const transformFileName = (componentName) => {
     .join('');
 };
 
+/**
+ * 延时触发 Promise
+ *
+ * @param {number} [time=100] time 延后时长，单位ms
+ * @returns
+ */
+const waitTime = (time) => {
+  const realTime = time || 100;
+  return new Promise((resolve) => {
+    setTimeout(resolve, realTime);
+  });
+};
+
 module.exports = {
   transformPropName,
   transformComponentName,
   transformFileName,
+  waitTime,
 };
