@@ -92,6 +92,8 @@
     "bootstrap-icons": "1.7.2",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
+    "copy-image-clipboard": "^2.0.1",
+    "copy-to-clipboard": "^3.3.1",
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "dumi": "^1.1.0",

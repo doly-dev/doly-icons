@@ -1,12 +1,14 @@
 import * as React from 'react';
 import { Menu, Dropdown, message, Typography } from 'antd';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import copy from 'copy-to-clipboard';
+import { copyImageToClipboard } from 'copy-image-clipboard';
 import { ThreeDots } from 'doly-icons';
-import { saveSvgAsPng } from 'save-svg-as-png';
+import { saveSvgAsPng, svgAsPngUri } from 'save-svg-as-png';
 import { downloadSvg } from './utils';
 import styles from './Actions.less';
 
-const Copy: React.FC<{ text: string }> = ({ text, children }) => (
+const CopyComponent: React.FC<{ text: string }> = ({ text, children }) => (
   <CopyToClipboard
     text={text}
     onCopy={() => {
@@ -27,6 +29,7 @@ const Actions: React.FunctionComponent<{
   fontSize: number;
   color: string;
 }> = ({ componentName, fileName, fontSize, color }) => {
+  const svgNodeRef = React.useRef<SVGSVGElement | null>();
   const reactComponentText = `<${componentName} />`;
   // const customReactComponentText = `<${componentName} style={{ fontSize: ${fontSize}, color: '${color}' }} />`;
 
@@ -39,27 +42,73 @@ const Actions: React.FunctionComponent<{
     });
   }, [color, fileName, fontSize]);
 
+  const updateSvgNode = React.useCallback(
+    (withStyle = true) => {
+      svgNodeRef.current = document
+        .querySelector(`.icon-${fileName} svg`)
+        ?.cloneNode(true) as SVGSVGElement;
+      if (withStyle) {
+        svgNodeRef.current.setAttribute('width', `${fontSize}`);
+        svgNodeRef.current.setAttribute('height', `${fontSize}`);
+        svgNodeRef.current.setAttribute('fill', color);
+      }
+    },
+    [color, fileName, fontSize],
+  );
+
   const downloadPng = React.useCallback(() => {
-    let svgNode = document.querySelector(`.icon-${fileName} svg`)?.cloneNode(true) as SVGSVGElement;
-    svgNode.setAttribute('width', `${fontSize}`);
-    svgNode.setAttribute('height', `${fontSize}`);
-    svgNode.setAttribute('fill', color);
-    saveSvgAsPng(svgNode, `${fileName}.png`);
-    // @ts-ignore
-    svgNode = null;
-  }, [color, fileName, fontSize]);
+    updateSvgNode();
+    saveSvgAsPng(svgNodeRef.current, `${fileName}.png`);
+    svgNodeRef.current = null;
+  }, [fileName, updateSvgNode]);
+
+  const copyPng = React.useCallback(async () => {
+    updateSvgNode();
+    const pngUri = await svgAsPngUri(svgNodeRef.current);
+    // console.log(pngUri);
+    try {
+      copyImageToClipboard(pngUri);
+      message.success('复制成功！');
+    } catch (err) {
+      message.error('复制失败！');
+    }
+    svgNodeRef.current = null;
+  }, [updateSvgNode]);
+
+  const copySvg = React.useCallback(async () => {
+    updateSvgNode();
+    let div = document.createElement('div');
+    div.append(svgNodeRef.current as SVGSVGElement);
+    // console.log(typeof div.innerHTML);
+    copy(div.innerHTML, {
+      format: 'text/plain',
+      onCopy: () => {
+        message.success('复制成功！');
+        // @ts-ignore
+        div = null;
+        svgNodeRef.current = null;
+      },
+    });
+  }, [updateSvgNode]);
 
   const menu = (
     <Menu>
       <Menu.Item key="copy-component-name">
-        <Copy text={componentName}>
+        <CopyComponent text={componentName}>
           <div>复制组件名称</div>
-        </Copy>
+        </CopyComponent>
       </Menu.Item>
       <Menu.Item key="copy-react-component">
-        <Copy text={reactComponentText}>
+        <CopyComponent text={reactComponentText}>
           <div>复制 JSX</div>
-        </Copy>
+        </CopyComponent>
+      </Menu.Item>
+      <Menu.Divider />
+      <Menu.Item key="copy-svg">
+        <a onClick={copySvg}>复制 SVG</a>
+      </Menu.Item>
+      <Menu.Item key="copy-png">
+        <a onClick={copyPng}>复制 PNG</a>
       </Menu.Item>
       <Menu.Divider />
       <Menu.Item key="download-svg">
