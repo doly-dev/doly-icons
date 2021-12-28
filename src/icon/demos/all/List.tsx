@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Row, Col } from 'antd';
-import * as DolyIcons from 'doly-icons';
+import classnames from 'classnames';
+import * as Icons from 'doly-icons';
 import type { IconClassDataItem } from './dataMain';
 import Actions from './Actions';
 import styles from './List.less';
@@ -24,12 +25,12 @@ const IconList: React.FunctionComponent<
       <Row gutter={[16, 16]}>
         {list.map((item) => {
           // @ts-ignore
-          const C = DolyIcons[item.componentName];
+          const C = Icons[item.componentName];
 
           return (
             <Col key={item.name} {...colSpan}>
               <div className={styles.item}>
-                <div className={styles.icon}>
+                <div className={classnames(styles.icon, `icon-${item.name}`)}>
                   <C />
                 </div>
                 <div className={styles.info}>

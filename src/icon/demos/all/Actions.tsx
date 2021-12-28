@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Menu, Dropdown, message, Typography } from 'antd';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { ThreeDots } from 'doly-icons';
+import { saveSvgAsPng } from 'save-svg-as-png';
 import { downloadSvg } from './utils';
 import styles from './Actions.less';
 
@@ -27,7 +28,7 @@ const Actions: React.FunctionComponent<{
   color: string;
 }> = ({ componentName, fileName, fontSize, color }) => {
   const reactComponentText = `<${componentName} />`;
-  const customReactComponentText = `<${componentName} style={{ fontSize: ${fontSize}, color: '${color}' }} />`;
+  // const customReactComponentText = `<${componentName} style={{ fontSize: ${fontSize}, color: '${color}' }} />`;
 
   const downloadCustom = React.useCallback(() => {
     const url = `${PATH_ROOT}assets/icons/${fileName}.svg`;
@@ -36,6 +37,16 @@ const Actions: React.FunctionComponent<{
       fontSize,
       color,
     });
+  }, [color, fileName, fontSize]);
+
+  const downloadPng = React.useCallback(() => {
+    let svgNode = document.querySelector(`.icon-${fileName} svg`)?.cloneNode(true) as SVGSVGElement;
+    svgNode.setAttribute('width', `${fontSize}`);
+    svgNode.setAttribute('height', `${fontSize}`);
+    svgNode.setAttribute('fill', color);
+    saveSvgAsPng(svgNode, `${fileName}.png`);
+    // @ts-ignore
+    svgNode = null;
   }, [color, fileName, fontSize]);
 
   const menu = (
@@ -50,23 +61,12 @@ const Actions: React.FunctionComponent<{
           <div>复制 JSX</div>
         </Copy>
       </Menu.Item>
-      <Menu.Item key="copy-custom-react-component">
-        <Copy text={customReactComponentText}>
-          <div>复制 JSX 含样式</div>
-        </Copy>
-      </Menu.Item>
-      <Menu.Item key="download-svg-name">
-        <Copy text={fileName}>
-          <div>复制文件名称</div>
-        </Copy>
-      </Menu.Item>
+      <Menu.Divider />
       <Menu.Item key="download-svg">
-        <a href={`${PATH_ROOT}assets/icons/${fileName}.svg`} download>
-          下载 SVG
-        </a>
+        <a onClick={downloadCustom}>下载 SVG</a>
       </Menu.Item>
-      <Menu.Item key="download-custom-svg">
-        <a onClick={downloadCustom}>下载 SVG 含样式</a>
+      <Menu.Item key="download-png">
+        <a onClick={downloadPng}>下载 PNG</a>
       </Menu.Item>
     </Menu>
   );
