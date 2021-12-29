@@ -1,7 +1,7 @@
 const COMMON_CONFIG = {
-  lessInBabelMode: true,
-  injectCSS: true,
-  extractCSS: false,
+  // lessInBabelMode: true,
+  // injectCSS: true,
+  // extractCSS: false,
 };
 
 export default [
