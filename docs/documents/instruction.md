@@ -44,7 +44,7 @@ import { Gear, HeartFill } from 'doly-icons';
 
 <!-- 在 [iconfont] 上将图标添加到 `我的项目` ，进入项目，生成在线链接，选择 `Symbol` 。 -->
 
-方便开发者调用在 [iconfont] 上的图标 或者 使用自定义的 [SVG Symbol] 。_参考 [iconfont.cn 使用帮助](http://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code)。_
+方便开发者调用在 [iconfont] 上的图标 或者 使用自定义的 [SVG Symbol] 。_参考 [iconfont.cn 使用帮助](https://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code)。_
 
 <code src='../../src/icon/demos/svg-symbol.tsx' iframe=100 />
 
