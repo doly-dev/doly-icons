@@ -44,7 +44,7 @@ export const downloadSvg = (
   ajax(
     url,
     (res) => {
-      console.log(res);
+      // console.log(res);
       const fr = new FileReader();
       fr.onload = () => {
         // console.log(fr.result);

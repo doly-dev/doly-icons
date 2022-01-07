@@ -68,9 +68,9 @@ const Actions: React.FunctionComponent<{
     // console.log(pngUri);
     try {
       copyImageToClipboard(pngUri);
-      message.success('复制成功！');
+      message.success('PNG 复制成功！');
     } catch (err) {
-      message.error('复制失败！');
+      message.error('PNG 复制失败！');
     }
     svgNodeRef.current = null;
   }, [updateSvgNode]);
@@ -83,7 +83,7 @@ const Actions: React.FunctionComponent<{
     copy(div.innerHTML, {
       format: 'text/plain',
       onCopy: () => {
-        message.success('复制成功！');
+        message.success('SVG 复制成功！');
         // @ts-ignore
         div = null;
         svgNodeRef.current = null;
