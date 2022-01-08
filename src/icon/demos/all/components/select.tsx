@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Select, SelectProps } from 'antd';
+import type { SelectProps } from 'antd';
+import { Select } from 'antd';
 import { useDebounce } from 'rc-hooks';
 
 // 只支持非受控模式

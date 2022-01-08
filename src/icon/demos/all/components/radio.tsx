@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Radio, RadioGroupProps } from 'antd';
+import type { RadioGroupProps } from 'antd';
+import { Radio } from 'antd';
 import { useDebounce } from 'rc-hooks';
 
 // 只支持非受控模式

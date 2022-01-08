@@ -1,7 +1,8 @@
-import React, { cloneElement, forwardRef, ReactElement, useContext } from 'react';
+import React, { cloneElement, forwardRef, useContext } from 'react';
+import type { CSSProperties, ReactElement } from 'react';
 import classnames from 'classnames';
 import IconContext from './IconContext';
-import { IconBaseProps } from './type';
+import type { IconBaseProps } from './type';
 import { useInsertStyle } from './dynamicStyle';
 
 const prefixClass = 'doly-icon';
@@ -35,7 +36,6 @@ const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
 
     return (
       <span
-        role="img"
         className={classnames(
           prefixClass,
           {
@@ -45,9 +45,10 @@ const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
           ctxClassName,
           className,
         )}
-        style={{ ...ctxStyle, ...style }}
+        style={{ ...ctxStyle, ...style } as CSSProperties}
         {...ctxRestProps}
         {...restProps}
+        role="img"
         ref={ref}
       >
         {children &&

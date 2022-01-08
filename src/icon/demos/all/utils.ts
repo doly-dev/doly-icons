@@ -59,3 +59,13 @@ export const downloadSvg = (
     'blob',
   );
 };
+
+export const formatPx = (num: number | string) => {
+  if (typeof num === 'string') {
+    return num;
+  }
+  if (typeof num === 'number') {
+    return `${num}px`;
+  }
+  return num;
+};

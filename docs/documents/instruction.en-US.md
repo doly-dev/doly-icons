@@ -48,11 +48,19 @@ It is convenient for developers to call icons on [iconfont] or use custom SVG Sy
 
 <code src='../../src/icon/demos/svg-symbol.tsx' iframe=100 />
 
-### Unified configuration
+### Use CSS variables
 
-The priority of the component attribute is higher than the context configuration, and the class and style will be merged internally.
+> Understanding [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
-<!-- 如果字体大小不同会导致对不齐，影响演示效果（受 `vertical-align: -0.125em` 影响）。 -->
+<code src='../../src/icon/demos/css-variable.tsx' />
+
+### Global configuration
+
+> If you need to set the size and color uniformly, it is recommended to use CSS variables
+
+Component properties have higher priority than context, and class and style will be merged internally.
+
+<!-- If a different font size will result in arrhythmia, affecting the presentation effect (under `vertical-align: -0.125em` the influence). -->
 
 <code src='../../src/icon/demos/provider.tsx' />
 
@@ -82,6 +90,14 @@ All icons are built to support the following properties, as well as `span` prope
 ### IconProvider
 
 Supports all common APIs to facilitate the unified configuration of global or local icons.
+
+### CSS variables
+
+| variable name             | instruction                 | Defaults       |
+| ------------------------- | --------------------------- | -------------- |
+| --doly-icon-font-size     | Icon size                   | `1em`          |
+| --doly-icon-color         | Icon color                  | `currentColor` |
+| --doly-icon-spin-duration | Rotation animation duration | `1s`           |
 
 [official bootstrap icon library]: https://icons.getbootstrap.com/
 [iconfont]: https://www.iconfont.cn/

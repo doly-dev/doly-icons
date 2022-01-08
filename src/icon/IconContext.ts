@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import { IconBaseProps } from './type';
+import type { IconBaseProps } from './type';
 
 const context = createContext<IconBaseProps>({});
 

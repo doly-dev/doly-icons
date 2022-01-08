@@ -29,6 +29,7 @@
     "lint:style": "stylelint src/**/*.less",
     "lint-fix:style": "npm run lint:stylelint -- --fix",
     "commit": "cz",
+    "lint-staged": "lint-staged",
     "generator:all": "npm run generator:assets && npm run generator:icons && npm run generator:data",
     "generator:assets": "node scripts/generator-assets.js",
     "generator:icons": "node scripts/generator-icons.js",

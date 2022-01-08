@@ -1,5 +1,7 @@
-import React, { ReactElement, useMemo } from 'react';
-import IconBase, { IconBaseProps } from './IconBase';
+import type { ReactElement } from 'react';
+import React, { useMemo } from 'react';
+import type { IconBaseProps } from './IconBase';
+import IconBase from './IconBase';
 
 interface ThirdIconProps extends IconBaseProps {
   component: ReactElement;
@@ -8,6 +10,8 @@ interface ThirdIconProps extends IconBaseProps {
 interface SVGSymbolIconProps extends IconBaseProps {
   symbolId: string;
 }
+
+export type IconProps = ThirdIconProps | SVGSymbolIconProps;
 
 function Icon(props: ThirdIconProps): ReactElement;
 function Icon(props: SVGSymbolIconProps): ReactElement;

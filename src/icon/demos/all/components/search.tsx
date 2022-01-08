@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Input, InputProps } from 'antd';
+import type { InputProps } from 'antd';
+import { Input } from 'antd';
 import { useDebounce } from 'rc-hooks';
 
 // 只支持非受控模式

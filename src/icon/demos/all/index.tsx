@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Row, Col, Button, Spin, Empty } from 'antd';
 import { useUpdateEffect } from 'rc-hooks';
-import { Square, SquareFill, IconProvider } from 'doly-icons';
+import { Square, SquareFill } from 'doly-icons';
 import { CategoriesOptions, filterClassData } from './dataMain';
 import Color from './components/color';
 import SizeSlider from './components/size-slider';
@@ -11,6 +11,7 @@ import Search from './components/search';
 import List from './List';
 import { getFilterStore, setAllFilterStore, removeFilterStore } from './store';
 import { Theme } from './enum';
+import { formatPx } from './utils';
 import styles from './index.less';
 
 // 图标风格选项
@@ -64,6 +65,14 @@ const AllIcons = () => {
     setTimeout(() => window.location.reload(), 50);
   }, []);
 
+  const iconWrapperStyles = React.useMemo(
+    () => ({
+      '--doly-icon-font-size': formatPx(fontSize),
+      '--doly-icon-color': color,
+    }),
+    [color, fontSize],
+  );
+
   return (
     <div className={styles.demo}>
       <div className={styles.formArea}>
@@ -110,7 +119,7 @@ const AllIcons = () => {
                   <Row gutter={8}>
                     <Col style={{ lineHeight: '32px' }}>尺寸</Col>
                     <Col flex={1}>
-                      <SizeSlider defaultValue={fontSize} onChange={setFontSize} />
+                      <SizeSlider defaultValue={fontSize} onChange={setFontSize} wait={100} />
                     </Col>
                   </Row>
                 </Col>
@@ -124,15 +133,12 @@ const AllIcons = () => {
           </Row>
         </Spin>
       </div>
-      {/* <div>图标右下角更多浮层操作（复制图标名称，复制图标组件，下载SVG图标根据当前设置的大小颜色动态组合）</div> */}
-
       {result.length <= 0 && <Empty description="暂无数据" />}
-
-      <IconProvider value={{ style: { fontSize, color } }}>
+      <div style={iconWrapperStyles}>
         {result.map((clsItem) => (
           <List key={clsItem.title} fontSize={fontSize} color={color} {...clsItem} />
         ))}
-      </IconProvider>
+      </div>
     </div>
   );
 };

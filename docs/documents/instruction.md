@@ -48,9 +48,17 @@ import { Gear, HeartFill } from 'doly-icons';
 
 <code src='../../src/icon/demos/svg-symbol.tsx' iframe=100 />
 
-### 统一配置
+### 使用 CSS 变量
 
-组件属性优先级高于上下文配置，内部会将 class 和 style 进行合并。
+> 了解 [CSS 变量](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)
+
+<code src='../../src/icon/demos/css-variable.tsx' />
+
+### 全局配置
+
+> 如果需要全局设置大小和颜色，建议使用 CSS 变量
+
+组件属性优先级高于上下文，内部会将 class 和 style 进行合并。
 
 <!-- 如果字体大小不同会导致对不齐，影响演示效果（受 `vertical-align: -0.125em` 影响）。 -->
 
@@ -82,6 +90,14 @@ import { Gear, HeartFill } from 'doly-icons';
 ### IconProvider
 
 支持所有共同的 API ，方便对全局或局部的图标进行统一配置。
+
+### CSS 变量
+
+| 变量名                    | 说明         | 默认值         |
+| ------------------------- | ------------ | -------------- |
+| --doly-icon-font-size     | 图标大小     | `1em`          |
+| --doly-icon-color         | 图标颜色     | `currentColor` |
+| --doly-icon-spin-duration | 旋转动画时长 | `1s`           |
 
 [bootstrap 官方图标库]: https://icons.getbootstrap.com/
 [iconfont]: https://www.iconfont.cn/

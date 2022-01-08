@@ -37,6 +37,19 @@ describe('renader icons snapshot', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('render as built-in icon with use css variables', () => {
+    const tree = renderer
+      .create(
+        <div>
+          <Gear style={{ '--doly-icon-color': '#e91e63' }} />
+          <HeartFill style={{ '--doly-icon-font-size': '16px', '--doly-icon-color': '#e91e63' }} />
+          <HeartFill style={{ '--doly-icon-spin-duration': '2s' }} />
+        </div>,
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('render with provider', () => {
     const tree = renderer
       .create(

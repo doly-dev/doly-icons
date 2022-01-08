@@ -12,7 +12,7 @@ interface SizeSliderProps {
 
 const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
   min = 12,
-  max = 48,
+  max = 64,
   wait = 300,
   defaultValue,
   onChange,
