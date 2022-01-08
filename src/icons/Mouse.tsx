@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react';
-import IconBase, { IconBaseProps } from '../icon/IconBase';
+import type { IconBaseProps } from '../icon/IconBase';
+import IconBase from '../icon/IconBase';
 
 const Mouse = forwardRef<HTMLSpanElement, IconBaseProps>(({ svgProps, ...restProps }, ref) => {
   return (

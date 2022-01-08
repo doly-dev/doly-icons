@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react';
-import IconBase, { IconBaseProps } from '../icon/IconBase';
+import type { IconBaseProps } from '../icon/IconBase';
+import IconBase from '../icon/IconBase';
 
 const Cart4 = forwardRef<HTMLSpanElement, IconBaseProps>(({ svgProps, ...restProps }, ref) => {
   return (
