@@ -69,3 +69,5 @@ export const formatPx = (num: number | string) => {
   }
   return num;
 };
+
+export const pixelRatio = window?.devicePixelRatio || 1;

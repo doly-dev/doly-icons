@@ -14,9 +14,7 @@ const colSpan = {
   xs: 8,
 };
 
-const IconList: React.FunctionComponent<
-  IconClassDataItem & { fontSize: number; color: string }
-> = ({ title, list, fontSize, color }) => {
+const IconList: React.FunctionComponent<IconClassDataItem> = ({ title, list }) => {
   return (
     <div className={styles.demoList}>
       <h3>
@@ -39,12 +37,7 @@ const IconList: React.FunctionComponent<
                     <div className={styles.enName}>{item.name}</div>
                   </div>
                   <div className={styles.extra}>
-                    <Actions
-                      componentName={item.componentName}
-                      fileName={item.name}
-                      fontSize={fontSize}
-                      color={color}
-                    />
+                    <Actions componentName={item.componentName} fileName={item.name} />
                   </div>
                 </div>
               </div>

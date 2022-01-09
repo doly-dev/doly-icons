@@ -9,9 +9,17 @@ import Radio from './components/radio';
 import Select from './components/select';
 import Search from './components/search';
 import List from './List';
-import { getFilterStore, setAllFilterStore, removeFilterStore } from './store';
+import {
+  getFilterStore,
+  setAllFilterStore,
+  removeFilterStore,
+  getConfigStore,
+  setAllConfigStore,
+} from './store';
 import { Theme } from './enum';
 import { formatPx } from './utils';
+import Context, { DefaultFilter, DefaultConfig } from './context';
+import Config from './Config';
 import styles from './index.less';
 
 // 图标风格选项
@@ -39,15 +47,20 @@ const ThemeOptions = [
 ];
 
 const AllIcons = () => {
-  const [keyword, setKeyword] = React.useState(() => getFilterStore('keyword'));
-  const [theme, setTheme] = React.useState(() => getFilterStore('theme') || Theme.All);
-  const [category, setCategory] = React.useState(
-    () => getFilterStore('category') || CategoriesOptions[0].value,
+  const [keyword, setKeyword] = React.useState(
+    () => getFilterStore('keyword') || DefaultFilter.keyword,
   );
-  const [color, setColor] = React.useState(() => getFilterStore('color') || '#333');
-  const [fontSize, setFontSize] = React.useState(() => getFilterStore('fontSize') || 32);
+  const [theme, setTheme] = React.useState(() => getFilterStore('theme') || DefaultFilter.theme);
+  const [category, setCategory] = React.useState(
+    () => getFilterStore('category') || DefaultFilter.category,
+  );
+  const [color, setColor] = React.useState(() => getFilterStore('color') || DefaultFilter.color);
+  const [fontSize, setFontSize] = React.useState(
+    () => getFilterStore('fontSize') || DefaultFilter.fontSize,
+  );
 
   const [spinning, setSpinning] = React.useState(false);
+  const [options, setOptions] = React.useState(() => getConfigStore() || DefaultConfig);
 
   const [result, setResult] = React.useState(() => filterClassData({ keyword, category, theme }));
 
@@ -63,6 +76,11 @@ const AllIcons = () => {
     setSpinning(true);
     removeFilterStore();
     setTimeout(() => window.location.reload(), 50);
+  }, []);
+
+  const changeOptions = React.useCallback((opts) => {
+    setAllConfigStore(opts);
+    setOptions(opts);
   }, []);
 
   const iconWrapperStyles = React.useMemo(
@@ -119,7 +137,7 @@ const AllIcons = () => {
                   <Row gutter={8}>
                     <Col style={{ lineHeight: '32px' }}>尺寸</Col>
                     <Col flex={1}>
-                      <SizeSlider defaultValue={fontSize} onChange={setFontSize} wait={100} />
+                      <SizeSlider defaultValue={fontSize} onChange={setFontSize} />
                     </Col>
                   </Row>
                 </Col>
@@ -128,6 +146,9 @@ const AllIcons = () => {
                     重置筛选条件
                   </Button>
                 </Col>
+                <Col>
+                  <Config value={options} onChange={changeOptions} />
+                </Col>
               </Row>
             </Col>
           </Row>
@@ -135,9 +156,11 @@ const AllIcons = () => {
       </div>
       {result.length <= 0 && <Empty description="暂无数据" />}
       <div style={iconWrapperStyles}>
-        {result.map((clsItem) => (
-          <List key={clsItem.title} fontSize={fontSize} color={color} {...clsItem} />
-        ))}
+        <Context.Provider value={{ fontSize, color, theme, keyword, category, ...options }}>
+          {result.map((clsItem) => (
+            <List key={clsItem.title} {...clsItem} />
+          ))}
+        </Context.Provider>
       </div>
     </div>
   );

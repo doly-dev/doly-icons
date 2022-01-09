@@ -6,7 +6,10 @@ interface SizeSliderProps {
   min?: number;
   max?: number;
   defaultValue?: number;
+  value?: number;
   wait?: number;
+  step?: number;
+  precision?: number;
   onChange?: (value: number) => void;
 }
 
@@ -15,9 +18,12 @@ const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
   max = 64,
   wait = 300,
   defaultValue,
+  value,
+  step = 1,
+  precision = 0,
   onChange,
 }) => {
-  const [innerValue, setInnerValue] = React.useState(defaultValue);
+  const [innerValue, setInnerValue] = React.useState(value || defaultValue);
   const debounceInnerValue = useDebounce(innerValue, wait >= 0 ? wait : 0);
   const changeRef = React.useRef<typeof onChange>();
   changeRef.current = onChange;
@@ -31,15 +37,15 @@ const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
   return (
     <Row gutter={16}>
       <Col flex={1}>
-        <Slider min={min} max={max} value={innerValue} onChange={setInnerValue} />
+        <Slider min={min} max={max} value={innerValue} step={step} onChange={setInnerValue} />
       </Col>
       <Col>
         <InputNumber
           min={min}
           max={max}
-          step={1}
-          precision={0}
+          precision={precision}
           value={innerValue}
+          step={step}
           onChange={setInnerValue}
         />
       </Col>

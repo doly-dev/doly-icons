@@ -5,8 +5,29 @@ import copy from 'copy-to-clipboard';
 import { copyImageToClipboard } from 'copy-image-clipboard';
 import { ThreeDots } from 'doly-icons';
 import { saveSvgAsPng, svgAsPngUri } from 'save-svg-as-png';
-import { downloadSvg } from './utils';
+import { downloadSvg, formatPx, pixelRatio } from './utils';
+import Context from './context';
 import styles from './Actions.less';
+
+const VIEWBOX_SIZE = 16;
+
+function getPngScale(pngSize: number) {
+  return pngSize / pixelRatio / VIEWBOX_SIZE;
+}
+
+function getSvgToPngOptions({
+  pngBackgroundColor,
+  pngSize,
+}: {
+  pngBackgroundColor: string;
+  pngSize: number;
+}) {
+  return {
+    scale: getPngScale(pngSize),
+    backgroundColor: pngBackgroundColor,
+    excludeCss: true,
+  };
+}
 
 const CopyComponent: React.FC<{ text: string }> = ({ text, children }) => (
   <CopyToClipboard
@@ -26,12 +47,11 @@ const CopyComponent: React.FC<{ text: string }> = ({ text, children }) => (
 const Actions: React.FunctionComponent<{
   componentName: string;
   fileName: string;
-  fontSize: number;
-  color: string;
-}> = ({ componentName, fileName, fontSize, color }) => {
+}> = ({ componentName, fileName }) => {
+  const { fontSize, color, pngBackgroundColor, pngSize } = React.useContext(Context);
+
   const svgNodeRef = React.useRef<SVGSVGElement | null>();
   const reactComponentText = `<${componentName} />`;
-  // const customReactComponentText = `<${componentName} style={{ fontSize: ${fontSize}, color: '${color}' }} />`;
 
   const downloadCustom = React.useCallback(() => {
     const url = `${PATH_ROOT}assets/icons/${fileName}.svg`;
@@ -48,8 +68,9 @@ const Actions: React.FunctionComponent<{
         .querySelector(`.icon-${fileName} svg`)
         ?.cloneNode(true) as SVGSVGElement;
       if (withStyle) {
-        svgNodeRef.current.setAttribute('width', `${fontSize}`);
-        svgNodeRef.current.setAttribute('height', `${fontSize}`);
+        const realSize = formatPx(fontSize);
+        svgNodeRef.current.setAttribute('width', `${realSize}`);
+        svgNodeRef.current.setAttribute('height', `${realSize}`);
         svgNodeRef.current.setAttribute('fill', color);
       }
     },
@@ -58,13 +79,20 @@ const Actions: React.FunctionComponent<{
 
   const downloadPng = React.useCallback(() => {
     updateSvgNode();
-    saveSvgAsPng(svgNodeRef.current, `${fileName}.png`);
+    saveSvgAsPng(
+      svgNodeRef.current,
+      `${fileName}.png`,
+      getSvgToPngOptions({ pngBackgroundColor, pngSize }),
+    );
     svgNodeRef.current = null;
-  }, [fileName, updateSvgNode]);
+  }, [fileName, pngBackgroundColor, pngSize, updateSvgNode]);
 
   const copyPng = React.useCallback(async () => {
     updateSvgNode();
-    const pngUri = await svgAsPngUri(svgNodeRef.current);
+    const pngUri = await svgAsPngUri(
+      svgNodeRef.current,
+      getSvgToPngOptions({ pngBackgroundColor, pngSize }),
+    );
     // console.log(pngUri);
     try {
       copyImageToClipboard(pngUri);
@@ -73,7 +101,7 @@ const Actions: React.FunctionComponent<{
       message.error('PNG 复制失败！');
     }
     svgNodeRef.current = null;
-  }, [updateSvgNode]);
+  }, [pngBackgroundColor, pngSize, updateSvgNode]);
 
   const copySvg = React.useCallback(async () => {
     updateSvgNode();
