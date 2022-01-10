@@ -5,25 +5,36 @@ export const canUseDom =
   window?.document &&
   window.document?.createElement;
 
+// 插入样式节点缓存
 const styleNodeCache: { [key: string]: HTMLStyleElement } = {};
 
 // 插入样式
-export const injectStyle = (css: string, key: string) => {
+export const injectStyle = (
+  css: string,
+  key: string,
+  options: { csp?: { nonce?: string } } = {},
+) => {
   if (!canUseDom) {
     return null;
   }
 
   if (styleNodeCache[key]) {
+    if (options.csp?.nonce && styleNodeCache[key].nonce !== options.csp.nonce) {
+      styleNodeCache[key].nonce = options.csp.nonce;
+    }
     if (styleNodeCache[key].innerHTML !== css) {
       styleNodeCache[key].innerHTML = css;
     }
     return styleNodeCache[key];
   }
 
+  const container = document.querySelector('head') || document.body;
   const styleNode = document.createElement('style');
   styleNode.innerHTML = css;
 
-  const container = document.querySelector('head') || document.body;
+  if (options.csp?.nonce) {
+    styleNode.nonce = options.csp.nonce;
+  }
 
   if (container.prepend) {
     container.prepend(styleNode);

@@ -89,7 +89,11 @@ import { Gear, HeartFill } from 'doly-icons';
 
 ### IconProvider
 
-支持所有共同的 API ，方便对全局或局部的图标进行统一配置。
+除了以下参数外，支持所有共同的 API ，方便对全局或局部的图标进行统一配置。
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| csp | [内容安全政策](https://developers.google.com/web/fundamentals/security/csp/)，用于添加 [nonce](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/nonce) 到内联的 style 元素，一般情况下不用设置。 | `{nonce?:string;}` | - |
 
 ### CSS 变量
 

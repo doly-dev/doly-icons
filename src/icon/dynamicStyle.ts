@@ -1,4 +1,5 @@
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
+import IconContext from './IconContext';
 import { injectStyle } from './utils';
 
 export const iconStyle = `:root {
@@ -75,7 +76,9 @@ export const iconStyle = `:root {
 }`;
 
 export function useInsertStyle() {
+  const { csp } = useContext(IconContext);
+
   useEffect(() => {
-    injectStyle(iconStyle, 'doly-icons');
-  }, []);
+    injectStyle(iconStyle, 'doly-icons', { csp });
+  }, [csp]);
 }

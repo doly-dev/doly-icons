@@ -89,7 +89,11 @@ All icons are built to support the following properties, as well as `span` prope
 
 ### IconProvider
 
-Supports all common APIs to facilitate the unified configuration of global or local icons.
+In addition to the following parameters, all common APIs are supported to facilitate unified configuration of global or local icons.
+
+| parameter | instruction | type | Defaults |
+| --- | --- | --- | --- |
+| csp | [Content security policy](https://developers.google.com/web/fundamentals/security/csp/) , used to add [nonce](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/nonce) to inline style elements, generally do not need to be set. | `{nonce?:string}` | - |
 
 ### CSS variables
 

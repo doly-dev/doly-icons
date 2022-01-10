@@ -21,6 +21,8 @@ const defaultSvgProps = {
 const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
   ({ spin, spinReverse, className, style, svgProps, children, ...restProps }, ref) => {
     const {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      csp,
       spin: ctxSpin,
       spinReverse: ctxSpinReverse,
       className: ctxClassName,
