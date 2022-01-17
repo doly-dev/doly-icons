@@ -50,7 +50,7 @@ import { Gear, HeartFill } from 'doly-icons';
 
 ### 使用 CSS 变量
 
-> 了解 [CSS 变量](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)
+> 了解 [CSS 变量](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)、[How to define css variables in style attribute in React and typescript](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
 
 <code src='../../src/icon/demos/css-variable.tsx' />
 

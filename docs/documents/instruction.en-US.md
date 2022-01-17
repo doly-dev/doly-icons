@@ -50,7 +50,7 @@ It is convenient for developers to call icons on [iconfont] or use custom SVG Sy
 
 ### Use CSS variables
 
-> Understanding [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+> Understanding [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)、[How to define css variables in style attribute in React and typescript](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
 
 <code src='../../src/icon/demos/css-variable.tsx' />
 

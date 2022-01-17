@@ -84,10 +84,11 @@ const AllIcons = () => {
   }, []);
 
   const iconWrapperStyles = React.useMemo(
-    () => ({
-      '--doly-icon-font-size': formatPx(fontSize),
-      '--doly-icon-color': color,
-    }),
+    () =>
+      ({
+        '--doly-icon-font-size': formatPx(fontSize),
+        '--doly-icon-color': color,
+      } as React.CSSProperties),
     [color, fontSize],
   );
 
