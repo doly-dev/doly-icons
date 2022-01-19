@@ -28,6 +28,7 @@ const AllIcons = () => {
   );
 
   React.useEffect(() => {
+    document.body.scrollTop = 0;
     document.body.style.overflow = 'hidden';
 
     return () => {
