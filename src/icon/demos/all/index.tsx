@@ -28,11 +28,14 @@ const AllIcons = () => {
   );
 
   React.useEffect(() => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-    document.body.style.overflow = 'hidden';
+    const timer = setTimeout(() => {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      document.body.style.overflow = 'hidden';
+    }, 1000);
 
     return () => {
+      clearTimeout(timer);
       document.body.style.overflow = '';
     };
   }, []);
