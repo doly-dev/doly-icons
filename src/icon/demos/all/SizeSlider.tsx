@@ -27,7 +27,7 @@ const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
   const [state, setState] = useControllableValue(restProps);
 
   return (
-    <Row gutter={16}>
+    <Row gutter={16} style={{ flexWrap: 'nowrap' }}>
       <Col flex={1}>
         <Slider
           min={min}

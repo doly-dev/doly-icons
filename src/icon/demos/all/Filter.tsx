@@ -72,7 +72,7 @@ const Filter: React.FC<FilterProps> = React.memo(
           onValuesChange={run}
           hideLabel
           submitter={false}
-          size="large"
+          layout="horizontal"
           form={form}
         >
           <Row gutter={16} justify="space-between">
@@ -80,7 +80,7 @@ const Filter: React.FC<FilterProps> = React.memo(
               <BizForm.ItemSelect
                 name="category"
                 options={CategoriesOptions}
-                selectProps={{ showSearch: true }}
+                selectProps={{ showSearch: true, size: 'large' }}
               />
             </Col>
             <Col>
@@ -88,49 +88,36 @@ const Filter: React.FC<FilterProps> = React.memo(
                 name="theme"
                 optionType="button"
                 options={ThemeOptions}
-                radioGroupProps={{ buttonStyle: 'solid' }}
+                radioGroupProps={{ buttonStyle: 'solid', size: 'large' }}
               />
             </Col>
             <Col flex={1}>
               <BizForm.Item name="keyword">
-                <Input.Search placeholder="输入图标关键字" allowClear />
+                <Input.Search placeholder="输入图标关键字" allowClear size="large" />
               </BizForm.Item>
             </Col>
-            <Col span={24}>
-              <Row gutter={[16, 16]}>
-                <Col span={4}>
-                  <BizForm.ItemColor
-                    name="color"
-                    label="颜色"
-                    hideLabel={false}
-                    style={{ margin: 0 }}
-                    colorMode="rgb"
-                    colorProps={{ size: 'middle' }}
-                    colon={false}
-                    labelWidth={42}
-                  />
-                </Col>
-                <Col flex={1}>
-                  <BizForm.Item
-                    name="fontSize"
-                    label="尺寸"
-                    hideLabel={false}
-                    style={{ margin: 0 }}
-                    colon={false}
-                    labelWidth={42}
-                  >
-                    <SizeSlider inputProps={{ size: 'middle' }} />
-                  </BizForm.Item>
-                </Col>
-                <Col>
-                  <Button type="link" onClick={handleResetFilter}>
-                    重置筛选条件
-                  </Button>
-                </Col>
-                <Col>
-                  <Config value={options} onChange={handleOptionsChange} />
-                </Col>
-              </Row>
+          </Row>
+          <Row gutter={[16, 16]}>
+            <Col>
+              <BizForm.ItemColor
+                name="color"
+                style={{ margin: 0 }}
+                colorProps={{ size: 'middle' }}
+                colorMode="rgb"
+              />
+            </Col>
+            <Col flex={1}>
+              <BizForm.Item name="fontSize" style={{ margin: 0 }}>
+                <SizeSlider />
+              </BizForm.Item>
+            </Col>
+            <Col>
+              <Button type="link" onClick={handleResetFilter}>
+                重置筛选条件
+              </Button>
+            </Col>
+            <Col>
+              <Config value={options} onChange={handleOptionsChange} />
             </Col>
           </Row>
         </BizForm>

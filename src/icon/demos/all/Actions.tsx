@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Menu, Dropdown, message, Typography } from 'antd';
-import classnames from 'classnames';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import copy from 'copy-to-clipboard';
 import { copyImageToClipboard } from 'copy-image-clipboard';
@@ -50,7 +49,6 @@ const Actions: React.FunctionComponent<{
   fileName: string;
 }> = ({ componentName, fileName }) => {
   const { fontSize, color, pngBackgroundColor, pngSize } = React.useContext(Context);
-  const [visible, setVisible] = React.useState(false);
 
   const svgNodeRef = React.useRef<SVGSVGElement | null>();
   const reactComponentText = `<${componentName} />`;
@@ -151,8 +149,8 @@ const Actions: React.FunctionComponent<{
   );
 
   return (
-    <Dropdown overlay={menu} arrow destroyPopupOnHide onVisibleChange={setVisible}>
-      <ThreeDots className={classnames(styles.more, { [styles.active]: visible })} />
+    <Dropdown overlay={menu} arrow destroyPopupOnHide>
+      <ThreeDots className={styles.more} />
     </Dropdown>
   );
 };
