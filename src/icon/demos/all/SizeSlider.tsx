@@ -1,52 +1,52 @@
 import * as React from 'react';
+import type { SliderSingleProps, InputNumberProps } from 'antd';
 import { Slider, Row, Col, InputNumber } from 'antd';
-import { useDebounce } from 'rc-hooks';
+import { useControllableValue } from 'rc-hooks';
 
 interface SizeSliderProps {
   min?: number;
   max?: number;
   defaultValue?: number;
   value?: number;
-  wait?: number;
   step?: number;
   precision?: number;
   onChange?: (value: number) => void;
+  sliderProps?: SliderSingleProps;
+  inputProps?: InputNumberProps;
 }
 
 const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
   min = 12,
   max = 64,
-  wait = 300,
-  defaultValue,
-  value,
   step = 1,
   precision = 0,
-  onChange,
+  sliderProps,
+  inputProps,
+  ...restProps
 }) => {
-  const [innerValue, setInnerValue] = React.useState(value || defaultValue);
-  const debounceInnerValue = useDebounce(innerValue, wait >= 0 ? wait : 0);
-  const changeRef = React.useRef<typeof onChange>();
-  changeRef.current = onChange;
-
-  React.useEffect(() => {
-    if (debounceInnerValue) {
-      changeRef.current?.(debounceInnerValue);
-    }
-  }, [debounceInnerValue]);
+  const [state, setState] = useControllableValue(restProps);
 
   return (
     <Row gutter={16}>
       <Col flex={1}>
-        <Slider min={min} max={max} value={innerValue} step={step} onChange={setInnerValue} />
+        <Slider
+          min={min}
+          max={max}
+          step={step}
+          {...sliderProps}
+          value={state}
+          onChange={setState}
+        />
       </Col>
       <Col>
         <InputNumber
           min={min}
           max={max}
           precision={precision}
-          value={innerValue}
           step={step}
-          onChange={setInnerValue}
+          {...inputProps}
+          value={state}
+          onChange={setState}
         />
       </Col>
     </Row>

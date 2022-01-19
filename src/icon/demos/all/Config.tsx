@@ -6,7 +6,7 @@ import { DefaultConfig } from './context';
 const { ModalForm, ItemColor, ItemNumber } = BizForm;
 
 const colSpan = {
-  span: 12,
+  span: 24,
 };
 
 interface ConfigProps {
@@ -28,54 +28,57 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
   }, [form]);
 
   return (
-    <>
-      <Button type="link" onClick={() => setVisible(true)}>
-        设置
-      </Button>
-      <ModalForm
-        initialValues={value}
-        title="设置"
-        form={form}
-        modalProps={{
-          maskClosable: false,
-          destroyOnClose: true,
-        }}
-        visible={visible}
-        onVisibleChange={setVisible}
-        onFinish={onChange}
-        requiredMark={false}
+    <ModalForm
+      initialValues={value}
+      trigger={
+        <Button type="link" onClick={() => setVisible(true)}>
+          设置
+        </Button>
+      }
+      title="设置"
+      form={form}
+      modalProps={{
+        maskClosable: false,
+        destroyOnClose: true,
+      }}
+      visible={visible}
+      onVisibleChange={setVisible}
+      onFinish={onChange}
+      requiredMark={false}
+      size="middle"
+    >
+      <Card
+        type="inner"
+        title="复制/下载 PNG"
+        bordered={false}
+        extra={<a onClick={handlePngReset}>恢复默认</a>}
       >
-        <Card
-          type="inner"
-          title="复制/下载 PNG"
-          bordered={false}
-          extra={<a onClick={handlePngReset}>恢复默认</a>}
-        >
-          <Row gutter={16}>
-            <Col {...colSpan}>
-              <BizForm.Item
-                shouldUpdate={(prevValues, curValues) =>
-                  prevValues.pngBackgroundColor !== curValues.pngBackgroundColor
-                }
-                noStyle
-              >
-                {() => (
-                  <ItemColor
-                    label="背景颜色"
-                    name="pngBackgroundColor"
-                    colorMode="rgb"
-                    contentAfter={
-                      form.getFieldValue('pngBackgroundColor') !== 'transparent' && (
-                        <a style={{ fontSize: 12 }} onClick={handlePngBgColorTransparent}>
-                          设为透明
-                        </a>
-                      )
-                    }
-                  />
-                )}
-              </BizForm.Item>
-            </Col>
-            {/* <Col {...colSpan}>
+        <Row gutter={16}>
+          <Col {...colSpan}>
+            <BizForm.Item
+              shouldUpdate={(prevValues, curValues) =>
+                prevValues.pngBackgroundColor !== curValues.pngBackgroundColor
+              }
+              noStyle
+            >
+              {() => (
+                <ItemColor
+                  label="背景颜色"
+                  name="pngBackgroundColor"
+                  // showText
+                  colorMode="rgb"
+                  contentAfter={
+                    form.getFieldValue('pngBackgroundColor') !== 'transparent' && (
+                      <a style={{ fontSize: 12 }} onClick={handlePngBgColorTransparent}>
+                        设为透明
+                      </a>
+                    )
+                  }
+                />
+              )}
+            </BizForm.Item>
+          </Col>
+          {/* <Col {...colSpan}>
               <ItemNumber
                 label='图像质量'
                 name='pngEncoderOptions'
@@ -83,29 +86,28 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
                 tooltip='图像质量 0-1 之间'
               />
             </Col> */}
-            <Col {...colSpan}>
-              <ItemNumber
-                label="图像尺寸"
-                name="pngSize"
-                inputProps={{ min: 16, step: 2, precision: 0 }}
-                tooltip="宽高必须为2的倍数，且不能小于16"
-                required
-                extendRules={[
-                  {
-                    validator(rules, value) {
-                      if (value % 2 !== 0) {
-                        return Promise.reject('宽高必须为2的倍数');
-                      }
-                      return Promise.resolve();
-                    },
+          <Col {...colSpan}>
+            <ItemNumber
+              label="图像尺寸"
+              name="pngSize"
+              inputProps={{ min: 16, step: 2, precision: 0 }}
+              tooltip="宽高必须为2的倍数，且不能小于16"
+              required
+              extendRules={[
+                {
+                  validator(rules, value) {
+                    if (value % 2 !== 0) {
+                      return Promise.reject('宽高必须为2的倍数');
+                    }
+                    return Promise.resolve();
                   },
-                ]}
-              />
-            </Col>
-          </Row>
-        </Card>
-      </ModalForm>
-    </>
+                },
+              ]}
+            />
+          </Col>
+        </Row>
+      </Card>
+    </ModalForm>
   );
 };
 

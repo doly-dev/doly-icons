@@ -1,19 +1,20 @@
 import store from 'store2';
-import type { DefaultConfig } from './context';
+import type { DefaultConfig, DefaultFilter } from './context';
 
 const { local } = store.namespace('doly_icons');
 
 const FilterKey = '__icons_filter__';
 
-export function getFilterStore(): Record<string, any> | undefined;
+export function getFilterStore(): typeof DefaultFilter | undefined;
 export function getFilterStore(field: string): any;
 export function getFilterStore(field?: string) {
   const data = local.get(FilterKey);
   return field ? data?.[field] : data;
 }
 
-export function setFilterStore(field: string, value: any) {
+export function setFilterStore(field: keyof typeof DefaultFilter, value: any) {
   const data = getFilterStore() || {};
+  // @ts-ignore
   data[field] = value;
   local.set(FilterKey, data);
 }

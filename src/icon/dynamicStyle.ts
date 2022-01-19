@@ -44,7 +44,8 @@ export const iconStyle = `:root {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: inherit;
+  color: currentColor;
+  font-size: 1em;
   color: var(--doly-icon-color);
   font-size: var(--doly-icon-font-size);
   font-style: normal;
