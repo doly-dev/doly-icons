@@ -27,6 +27,14 @@ const AllIcons = () => {
     [filter?.color, filter?.fontSize],
   );
 
+  React.useEffect(() => {
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
+
   return (
     <div className={styles.demo}>
       <div className={styles.formArea}>
@@ -40,9 +48,7 @@ const AllIcons = () => {
       {result.length <= 0 && <Empty description="暂无数据" />}
       <div style={iconWrapperStyles}>
         <Context.Provider value={{ ...filter, ...options }}>
-          {result.map((clsItem) => (
-            <List key={clsItem.title} {...clsItem} />
-          ))}
+          <List data={result} />
         </Context.Provider>
       </div>
     </div>
