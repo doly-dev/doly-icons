@@ -7,6 +7,7 @@ import { CategoriesOptions } from './dataMain';
 import SizeSlider from './SizeSlider';
 import { setAllFilterStore, removeFilterStore, setAllConfigStore } from './store';
 import { Theme } from './enum';
+import { resetScrollTop } from './utils';
 import { DefaultFilter, DefaultConfig } from './context';
 import Config from './Config';
 
@@ -80,7 +81,7 @@ const Filter: React.FC<FilterProps> = React.memo(
               <BizForm.ItemSelect
                 name="category"
                 options={CategoriesOptions}
-                selectProps={{ showSearch: true, size: 'large' }}
+                selectProps={{ size: 'large', onChange: resetScrollTop }}
               />
             </Col>
             <Col>
@@ -93,7 +94,12 @@ const Filter: React.FC<FilterProps> = React.memo(
             </Col>
             <Col flex={1}>
               <BizForm.Item name="keyword">
-                <Input.Search placeholder="输入图标关键字" allowClear size="large" />
+                <Input.Search
+                  placeholder="输入图标关键字"
+                  allowClear
+                  size="large"
+                  onBlur={resetScrollTop}
+                />
               </BizForm.Item>
             </Col>
           </Row>
@@ -108,7 +114,7 @@ const Filter: React.FC<FilterProps> = React.memo(
             </Col>
             <Col flex={1}>
               <BizForm.Item name="fontSize" style={{ margin: 0 }}>
-                <SizeSlider />
+                <SizeSlider inputProps={{ onBlur: resetScrollTop }} />
               </BizForm.Item>
             </Col>
             <Col>

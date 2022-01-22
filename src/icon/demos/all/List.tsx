@@ -171,7 +171,7 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
         const padding = screenInfoRef.current?.padding || 16;
         setHeight(window.innerHeight - target.getBoundingClientRect().top - 24);
         setWidth(window.innerWidth - padding);
-      }, 300);
+      }, 100);
       handleResize();
       window.addEventListener('resize', handleResize);
 
@@ -179,7 +179,7 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
         window.removeEventListener('resize', handleResize);
       };
     }
-  }, []);
+  }, [data]);
 
   return (
     <div ref={wrapperRef}>

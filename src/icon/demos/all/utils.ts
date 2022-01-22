@@ -71,3 +71,8 @@ export const formatPx = (num: number | string) => {
 };
 
 export const pixelRatio = window?.devicePixelRatio || 1;
+
+export const resetScrollTop = () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+};

@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Button, Row, Col, Card } from 'antd';
 import { BizForm } from 'antd-more';
 import { DefaultConfig } from './context';
+import { resetScrollTop } from './utils';
 
 const { ModalForm, ItemColor, ItemNumber } = BizForm;
 
@@ -16,36 +17,42 @@ interface ConfigProps {
 
 const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
   const [form] = BizForm.useForm();
-  const [visible, setVisible] = React.useState(false);
+  const [isTransparent, setIsTransparent] = React.useState(
+    value?.pngBackgroundColor === DefaultConfig.pngBackgroundColor,
+  );
 
   const handlePngBgColorTransparent = React.useCallback(() => {
     const fieldsValue = form.getFieldsValue();
-    form.setFieldsValue({ ...fieldsValue, pngBackgroundColor: 'transparent' });
+    form.setFieldsValue({ ...fieldsValue, pngBackgroundColor: DefaultConfig.pngBackgroundColor });
+    setIsTransparent(true);
   }, [form]);
 
   const handlePngReset = React.useCallback(() => {
     form.setFieldsValue(DefaultConfig);
+    setIsTransparent(true);
   }, [form]);
 
   return (
     <ModalForm
       initialValues={value}
-      trigger={
-        <Button type="link" onClick={() => setVisible(true)}>
-          设置
-        </Button>
-      }
+      trigger={<Button type="link">设置</Button>}
       title="设置"
       form={form}
       modalProps={{
         maskClosable: false,
         destroyOnClose: true,
       }}
-      visible={visible}
-      onVisibleChange={setVisible}
       onFinish={onChange}
       requiredMark={false}
+      onValuesChange={(_, allValues) => {
+        setIsTransparent(allValues.pngBackgroundColor === DefaultConfig.pngBackgroundColor);
+      }}
       size="middle"
+      onVisibleChange={(visible) => {
+        if (!visible) {
+          resetScrollTop();
+        }
+      }}
     >
       <Card
         type="inner"
@@ -55,28 +62,18 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
       >
         <Row gutter={16}>
           <Col {...colSpan}>
-            <BizForm.Item
-              shouldUpdate={(prevValues, curValues) =>
-                prevValues.pngBackgroundColor !== curValues.pngBackgroundColor
+            <ItemColor
+              label="背景颜色"
+              name="pngBackgroundColor"
+              colorMode="rgb"
+              contentAfter={
+                !isTransparent && (
+                  <a style={{ fontSize: 12 }} onClick={handlePngBgColorTransparent}>
+                    设为透明
+                  </a>
+                )
               }
-              noStyle
-            >
-              {() => (
-                <ItemColor
-                  label="背景颜色"
-                  name="pngBackgroundColor"
-                  // showText
-                  colorMode="rgb"
-                  contentAfter={
-                    form.getFieldValue('pngBackgroundColor') !== 'transparent' && (
-                      <a style={{ fontSize: 12 }} onClick={handlePngBgColorTransparent}>
-                        设为透明
-                      </a>
-                    )
-                  }
-                />
-              )}
-            </BizForm.Item>
+            />
           </Col>
           {/* <Col {...colSpan}>
               <ItemNumber

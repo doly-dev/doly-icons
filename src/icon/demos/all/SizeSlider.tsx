@@ -38,7 +38,7 @@ const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
           onChange={setState}
         />
       </Col>
-      <Col>
+      <Col style={{ width: 90 }}>
         <InputNumber
           min={min}
           max={max}

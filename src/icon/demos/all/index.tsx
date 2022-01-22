@@ -4,7 +4,7 @@ import { useUpdateEffect } from 'rc-hooks';
 import { filterClassData } from './dataMain';
 import List from './List';
 import { getFilterStore, getConfigStore } from './store';
-import { formatPx } from './utils';
+import { formatPx, resetScrollTop } from './utils';
 import Context, { DefaultFilter, DefaultConfig } from './context';
 import Filter from './Filter';
 import styles from './index.less';
@@ -28,15 +28,23 @@ const AllIcons = () => {
   );
 
   React.useEffect(() => {
+    const footerDom = document.querySelector('.__dumi-default-layout-footer-meta') as HTMLElement;
     const timer = setTimeout(() => {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+      resetScrollTop();
+      document.documentElement.style.overflow = 'hidden';
       document.body.style.overflow = 'hidden';
+      if (footerDom) {
+        footerDom.style.display = 'none';
+      }
     }, 1000);
 
     return () => {
       clearTimeout(timer);
+      document.documentElement.style.overflow = '';
       document.body.style.overflow = '';
+      if (footerDom) {
+        footerDom.style.display = '';
+      }
     };
   }, []);
 
