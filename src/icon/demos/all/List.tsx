@@ -108,20 +108,17 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
   const RowItem = ({ index, style }: { index: number; style: React.CSSProperties }) => {
     const curr = retData[index];
 
-    let view: any = null;
+    let view: React.ReactNode = null;
 
-    // @ts-ignore
-    if (curr.title) {
+    if ('title' in curr) {
       view = (
         <h3>
-          {/* @ts-ignore */}
           {curr.title}({curr.len})
         </h3>
       );
     } else {
       view = (
         <Row gutter={[16, 16]}>
-          {/* @ts-ignore */}
           {curr.list.map((item) => {
             // @ts-ignore
             const C = Icons[item.componentName];
