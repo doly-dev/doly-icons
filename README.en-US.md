@@ -6,7 +6,7 @@
 
 React icon component based on [Bootstrap Icons].
 
-> Currently using v1.7.2, there are more than 1500 icons that you can use in UI libraries or projects. For more information, please [click Consult documentation](https://doly-dev.github.io/doly-icons/latest/index.html#/en-US).
+> Currently using v1.8.0, there are more than 1600 icons that you can use in UI libraries or projects. For more information, please [click Consult documentation](https://doly-dev.github.io/doly-icons/latest/index.html#/en-US).
 
 ## Install
 

@@ -61,10 +61,11 @@ const getTranslateOne = async (text, type = 'AUTO') => {
   const resJson = JSON.parse(res) || {};
 
   if (resJson.errorCode === 0 && resJson?.translateResult?.[0]?.[0]?.tgt) {
+    console.log(chalk.green('【TranslateOne Success】'), `text: ${text}`, `, res: ${res}`);
     return resJson?.translateResult?.[0]?.[0]?.tgt;
   }
 
-  console.log(chalk.red('TranslateOne Error】 '), `text: ${text}`, `res: ${res}`);
+  console.log(chalk.red('【TranslateOne Error】'), `text: ${text}`, `, res: ${res}`);
 
   return null;
 };
@@ -82,10 +83,11 @@ const getTranslateTwo = async (text) => {
   const resJson = JSON.parse(res) || {};
 
   if (resJson.errorCode === 0 && resJson?.translation?.[0]) {
+    console.log(chalk.green('【TranslateTwo Success】'), `text: ${text}`, `, res: ${res}`);
     return resJson?.translation?.[0];
   }
 
-  console.log(chalk.red('TranslateTwo Error】 '), `text: ${text}`, `res: ${res}`);
+  console.log(chalk.red('【TranslateTwo Error】'), `text: ${text}`, `, res: ${res}`);
 
   return null;
 };

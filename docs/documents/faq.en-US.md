@@ -13,7 +13,7 @@ If there is a need to download a set of official [Bootstrap icons](https://githu
 1. Enter the page [Releases the latest version](https://github.com/twbs/icons/releases/latest)
 2. Click to `Source code (zip)` download all of svg icons `icons` folder
 
-_Or you can [click here to download](https://github.com/twbs/icons/archive/refs/tags/v1.7.2.zip)_
+_Or you can [click here to download](https://github.com/twbs/icons/archive/refs/tags/v1.8.0.zip)_
 
 ### What if I can’t find the icon I need?
 
