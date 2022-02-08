@@ -6,7 +6,7 @@ order: 1
 
 The icon is based on the [official Bootstrap icon library] for React component encapsulation, which is convenient for designers and developers to use (quick search in the [icon library](/en-US/icons)).
 
-> Currently using v1.8.0, there are more than 1600 icons that you can use in UI libraries or projects.
+> Currently using v1.8.1, there are more than 1600 icons that you can use in UI libraries or projects.
 
 Install
 
