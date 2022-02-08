@@ -1648,7 +1648,7 @@ export { default as Window } from './icons/Window';
 export { default as Windows } from './icons/Windows';
 export { default as Wordpress } from './icons/Wordpress';
 export { default as WrenchAdjustableCircleFill } from './icons/WrenchAdjustableCircleFill';
-export { default as WrenchAdjustableCricle } from './icons/WrenchAdjustableCricle';
+export { default as WrenchAdjustableCircle } from './icons/WrenchAdjustableCircle';
 export { default as WrenchAdjustable } from './icons/WrenchAdjustable';
 export { default as Wrench } from './icons/Wrench';
 export { default as XCircleFill } from './icons/XCircleFill';

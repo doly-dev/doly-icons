@@ -2187,7 +2187,9 @@
   "valentine2": "情人节贺卡2",
   "wrench-adjustable": "扳手可调节",
   "wrench-adjustable-circle-fill": "扳手可调节圆",
-  "wrench-adjustable-cricle": "扳手可调节圆",
   "file file type extension font type": "文件 文件类型 扩展 字体类型",
-  "file file type extension code python": "文件文件类型扩展码python"
+  "file file type extension code python": "文件文件类型扩展码python",
+  "arrow spin turn around round rotate sync": "箭头旋转转身轮同步旋转",
+  "reception cellphone mobile carrier network signal": "接收手机移动运营商网络信号",
+  "wrench-adjustable-circle": "扳手可调节圆"
 }
