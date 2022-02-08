@@ -48,8 +48,8 @@ const categories = {
   valentine2: 'real world',
   'heart-pulse': 'person',
   'heart-pulse-fill': 'person',
-  hospital: 'person',
-  'hospital-fill': 'person',
+  hospital: 'commerce',
+  'hospital-fill': 'commerce',
   'filetype-ppt': 'files and folders',
   'filetype-xls': 'files and folders',
 };
