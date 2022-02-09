@@ -1,6 +1,12 @@
 import * as React from 'react';
 import { Row, Col, Button, Spin, Input } from 'antd';
-import { BizForm } from 'antd-more';
+import {
+  BizForm,
+  BizFormItem,
+  BizFormItemSelect,
+  BizFormItemRadio,
+  BizFormItemColor,
+} from 'antd-more';
 import { Square, SquareFill } from 'doly-icons';
 import { useDebounceFn } from 'rc-hooks';
 import { CategoriesOptions } from './dataMain';
@@ -78,14 +84,14 @@ const Filter: React.FC<FilterProps> = React.memo(
         >
           <Row gutter={16} justify="space-between">
             <Col style={{ width: 180 }}>
-              <BizForm.ItemSelect
+              <BizFormItemSelect
                 name="category"
                 options={CategoriesOptions}
                 selectProps={{ size: 'large', onChange: resetScrollTop }}
               />
             </Col>
             <Col>
-              <BizForm.ItemRadio
+              <BizFormItemRadio
                 name="theme"
                 optionType="button"
                 options={ThemeOptions}
@@ -93,19 +99,19 @@ const Filter: React.FC<FilterProps> = React.memo(
               />
             </Col>
             <Col flex={1}>
-              <BizForm.Item name="keyword">
+              <BizFormItem name="keyword">
                 <Input.Search
                   placeholder="输入图标关键字"
                   allowClear
                   size="large"
                   onBlur={resetScrollTop}
                 />
-              </BizForm.Item>
+              </BizFormItem>
             </Col>
           </Row>
           <Row gutter={[16, 16]}>
             <Col>
-              <BizForm.ItemColor
+              <BizFormItemColor
                 name="color"
                 style={{ margin: 0 }}
                 colorProps={{ size: 'middle' }}
@@ -113,9 +119,9 @@ const Filter: React.FC<FilterProps> = React.memo(
               />
             </Col>
             <Col flex={1}>
-              <BizForm.Item name="fontSize" style={{ margin: 0 }}>
+              <BizFormItem name="fontSize" style={{ margin: 0 }}>
                 <SizeSlider inputProps={{ onBlur: resetScrollTop }} />
-              </BizForm.Item>
+              </BizFormItem>
             </Col>
             <Col>
               <Button type="link" onClick={handleResetFilter}>

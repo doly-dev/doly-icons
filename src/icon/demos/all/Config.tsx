@@ -1,10 +1,8 @@
 import * as React from 'react';
 import { Button, Row, Col, Card } from 'antd';
-import { BizForm } from 'antd-more';
+import { BizForm, ModalForm, BizFormItemColor, BizFormItemNumber } from 'antd-more';
 import { DefaultConfig } from './context';
 import { resetScrollTop } from './utils';
-
-const { ModalForm, ItemColor, ItemNumber } = BizForm;
 
 const colSpan = {
   span: 24,
@@ -62,7 +60,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
       >
         <Row gutter={16}>
           <Col {...colSpan}>
-            <ItemColor
+            <BizFormItemColor
               label="背景颜色"
               name="pngBackgroundColor"
               colorMode="rgb"
@@ -76,7 +74,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
             />
           </Col>
           {/* <Col {...colSpan}>
-              <ItemNumber
+              <BizFormItemNumber
                 label='图像质量'
                 name='pngEncoderOptions'
                 inputProps={{ min: 0, max: 1, step: 0.1, precision: 1 }}
@@ -84,7 +82,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
               />
             </Col> */}
           <Col {...colSpan}>
-            <ItemNumber
+            <BizFormItemNumber
               label="图像尺寸"
               name="pngSize"
               inputProps={{ min: 16, step: 2, precision: 0 }}
