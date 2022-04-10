@@ -109,7 +109,7 @@ const Filter: React.FC<FilterProps> = React.memo(
               </BizFormItem>
             </Col>
           </Row>
-          <Row gutter={[16, 16]}>
+          <Row gutter={[16, 16]} wrap={false}>
             <Col>
               <BizFormItemColor
                 name="color"

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Row, Col } from 'antd';
 import classnames from 'classnames';
 import { VariableSizeList } from 'react-window';
-import { throttle } from 'lodash';
+import { debounce } from 'lodash';
 import * as Icons from 'doly-icons';
 import { useUpdateEffect } from 'rc-hooks';
 import type { IconClassDataItem } from './dataMain';
@@ -164,11 +164,12 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
   React.useEffect(() => {
     if (wrapperRef.current) {
       const target = wrapperRef.current;
-      const handleResize = throttle(() => {
+      const handleResize = debounce(() => {
+        screenInfoRef.current = getColumnsAndPadding();
         const padding = screenInfoRef.current?.padding || 16;
         setHeight(window.innerHeight - target.getBoundingClientRect().top - 24);
         setWidth(window.innerWidth - padding);
-      }, 100);
+      }, 300);
       handleResize();
       window.addEventListener('resize', handleResize);
 
@@ -177,6 +178,8 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
       };
     }
   }, [data]);
+
+  console.log('render');
 
   return (
     <div ref={wrapperRef}>
