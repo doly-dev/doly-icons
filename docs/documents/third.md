@@ -11,3 +11,4 @@ order: 3
 - [icomoon](https://icomoon.io/)<!--  - 有付费版和免费版 -->
 - [Material icons](https://mui.com/zh/components/material-icons/)
 - [Framework7 Icons](https://framework7.io/icons/)
+- [react-icons](https://react-icons.github.io/react-icons)
