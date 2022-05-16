@@ -90,7 +90,6 @@
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "@umijs/fabric": "^2.10.2",
-    "@umijs/test": "^3.5.23",
     "antd": "^4.20.5",
     "antd-more": "^3.2.6",
     "babel-jest": "^28.1.0",

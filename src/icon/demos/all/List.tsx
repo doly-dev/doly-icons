@@ -179,7 +179,7 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
     }
   }, [data]);
 
-  console.log('render');
+  // console.log('render');
 
   return (
     <div ref={wrapperRef}>
