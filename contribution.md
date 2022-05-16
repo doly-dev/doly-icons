@@ -29,9 +29,7 @@
 
 原则上是同 Bootstrap Icons 版本更新而更新。
 
-**更新步骤**
-
-1. 安装最新的 `bootstrap-icons`
+1. 更新 `bootstrap-icons` 依赖
 
 ```bash
 yarn add bootstrap-icons@^ --dev
@@ -40,33 +38,48 @@ yarn add bootstrap-icons@^ --dev
 2. 生成数据
 
 ```bash
-# 将 bootstrap-icons 的图标处理到 src/icons 目录下
-yarn generator:icons
-
-# 抓取官网的标签分类生成索引数据并缓存（如果分类或标签出错，请在 scripts/data-correct.js 中修正）
-# 如果部分数据无法正确翻译，需要在 scripts/translate-cache.json 中修正
-# 然后生成图标数据到 src/icon/demos/all/data.ts
-yarn generator:data
+yarn generator
 ```
 
-> ps: git 提交后，会自动生成文档站点。
+3. 本地测试
 
-3. 构建发布
+本地文档站点，查看变动图标是否正确
 
 ```bash
-# 构建
-yarn build
-
-# 发布
-npm publish
+yarn start
 ```
 
-## git 提交信息
+快照测试
 
-> 规范使用的是 [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional)
+```bash
+yarn test
+```
+
+4. 本地提交 git
+
+> 提交信息规范使用的是 [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional)
 
 你可以使用交互式命令方式生成规范的提交格式。
 
 ```bash
 yarn commit
+```
+
+5. 发布 `npm`
+
+```bash
+# 生成一个版本，并创建一个git tag
+npm version [newversion]
+
+npm publish
+```
+
+6. 远程提交 git
+
+```bash
+# git action 会自动生成文档站点
+git push
+
+# 提交tag
+git push --tags
 ```

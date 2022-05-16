@@ -1,4 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
+
+// feature: 将 bootstrap-icons 的图标处理到 src/icons 目录下
+
 const path = require('path');
 const { readFileSync, writeFileSync } = require('fs');
 const fse = require('fs-extra');

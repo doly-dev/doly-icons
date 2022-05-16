@@ -1,4 +1,9 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
+
+// 抓取官网的标签分类生成索引数据并缓存（如果分类或标签出错，请在 scripts/data-correct.js 中修正）
+// 如果部分数据无法正确翻译，需要在 scripts/translate-cache.json 中修正
+// 然后生成图标数据到 src/icon/demos/all/data.ts
+
 const path = require('path');
 const fs = require('fs');
 const cheerio = require('cheerio');
