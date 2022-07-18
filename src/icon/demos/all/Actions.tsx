@@ -29,7 +29,10 @@ function getSvgToPngOptions({
   };
 }
 
-const CopyComponent: React.FC<{ text: string }> = ({ text, children }) => (
+const CopyComponent: React.FC<{ text: string; children: React.ReactNode }> = ({
+  text,
+  children,
+}) => (
   <CopyToClipboard
     text={text}
     onCopy={() => {
@@ -149,7 +152,7 @@ const Actions: React.FunctionComponent<{
   );
 
   return (
-    <Dropdown overlay={menu} arrow destroyPopupOnHide>
+    <Dropdown overlay={menu} arrow={{ pointAtCenter: true }} destroyPopupOnHide>
       <ThreeDots className={styles.more} />
     </Dropdown>
   );
