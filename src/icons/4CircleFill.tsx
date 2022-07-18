@@ -1,0 +1,17 @@
+import React, { forwardRef } from 'react';
+import type { IconBaseProps } from '../icon/IconBase';
+import IconBase from '../icon/IconBase';
+
+const Icon4CircleFill = forwardRef<HTMLSpanElement, IconBaseProps>(({ svgProps, ...restProps }, ref) => {
+  return (
+    <IconBase aria-label="4-circle-fill" {...restProps} ref={ref}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" {...svgProps}>
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM7.519 5.057c-.886 1.418-1.772 2.838-2.542 4.265v1.12H8.85V12h1.26v-1.559h1.007V9.334H10.11V4.002H8.176c-.218.352-.438.703-.657 1.055ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z"/>
+</svg>
+    </IconBase>
+  );
+});
+
+Icon4CircleFill.displayName = 'Icon4CircleFill';
+
+export default Icon4CircleFill;  

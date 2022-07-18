@@ -4,11 +4,9 @@ order: 1
 
 # 使用说明
 
-图标是基于 [Bootstrap 官方图标库] 进行 React 组件封装，方便设计师和开发者使用（[图标库](/icons)中快速查找）。
+图标是基于 [Bootstrap 官方图标库] 的 React 封装，方便设计师和开发者使用（[图标库](/icons)中快速查找）。
 
-> 目前使用 v1.8.1，超过 1600 个图标，你可以在 UI 库或项目中使用。
-
-安装
+**安装**
 
 ```bash
 npm install doly-icons --save

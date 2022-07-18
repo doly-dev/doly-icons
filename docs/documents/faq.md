@@ -13,8 +13,6 @@ order: 2
 1. 进入页面 [Releases 最新版本](https://github.com/twbs/icons/releases/latest)
 2. 点击 `Source code (zip)` 下载，全部的 svg 图标在 `icons` 文件夹下
 
-_或者你也可以[点击此处进行下载](https://github.com/twbs/icons/archive/refs/tags/v1.8.1.zip)_
-
 ### 找不到需要的图标怎么办？
 
 如果缺失比较多，推荐使用 [iconfont](https://iconfont.cn/) 管理项目图标。参考 [使用 SVG Symbol 图标](/documents/instruction#使用-svg-symbol-图标)

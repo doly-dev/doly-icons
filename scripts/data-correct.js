@@ -52,6 +52,11 @@ const categories = {
   'hospital-fill': 'commerce',
   'filetype-ppt': 'files and folders',
   'filetype-xls': 'files and folders',
+
+  // bootstrap icons v1.9.1
+  alexa: 'brand',
+  pass: 'files and folders',
+  'pass-fill': 'files and folders',
 };
 
 // 额外备注，为了检索

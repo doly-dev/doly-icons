@@ -92,9 +92,9 @@ const writeDataToFile = () => {
 const run = async () => {
   const htmlStr = await getUrlContent(BootstrapIconsUrl);
   // console.log(htmlStr);
-
+  // console.log('process before data: ', data);
   processHtmlToData(htmlStr);
-
+  // console.log('process after data: ', data);
   await translateData();
 
   writeDataToFile();
