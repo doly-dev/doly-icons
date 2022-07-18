@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Row, Col } from 'antd';
+import { Row, Col, Typography } from 'antd';
 import classnames from 'classnames';
 import { VariableSizeList } from 'react-window';
 import { debounce } from 'lodash';
@@ -131,8 +131,18 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
                   </div>
                   <div className={styles.info}>
                     <div className={styles.inner}>
-                      <div className={styles.name}>{item.cnName}</div>
-                      <div className={styles.enName}>{item.name}</div>
+                      <div className={styles.cnName}>
+                        <Typography.Text ellipsis={{ tooltip: item.cnName }}>
+                          {item.cnName}
+                        </Typography.Text>
+                      </div>
+                      <div className={styles.enName}>
+                        <Typography.Text ellipsis={{ tooltip: item.name }}>
+                          {item.name}
+                        </Typography.Text>
+                      </div>
+                      {/* <div className={styles.cnName}>{item.cnName}</div>
+                      <div className={styles.enName}>{item.name}</div> */}
                     </div>
                     <div className={styles.extra}>
                       <Actions componentName={item.componentName} fileName={item.name} />
