@@ -3,11 +3,15 @@ import React, { useMemo } from 'react';
 import type { IconBaseProps } from './IconBase';
 import IconBase from './IconBase';
 
-interface ThirdIconProps extends IconBaseProps {
+type IconBaseRef = {
+  ref?: React.Ref<HTMLSpanElement>;
+};
+
+interface ThirdIconProps extends IconBaseProps, IconBaseRef {
   component: ReactElement;
 }
 
-interface SVGSymbolIconProps extends IconBaseProps {
+interface SVGSymbolIconProps extends IconBaseProps, IconBaseRef {
   symbolId: string;
 }
 
