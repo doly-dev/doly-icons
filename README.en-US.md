@@ -9,7 +9,7 @@ React icon component based on [Bootstrap Icons]. For more information, please [c
 ## Install
 
 ```bash
-npm install doly-icons --save
+npm install doly-icons
 # or
 yarn add doly-icons
 ```

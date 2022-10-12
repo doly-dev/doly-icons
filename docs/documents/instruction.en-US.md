@@ -9,7 +9,7 @@ The icon is based on the [official Bootstrap icon library] for React component e
 **Install**
 
 ```bash
-npm install doly-icons --save
+npm install doly-icons
 # or
 yarn add doly-icons
 ```

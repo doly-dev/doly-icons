@@ -9,7 +9,7 @@ order: 1
 **安装**
 
 ```bash
-npm install doly-icons --save
+npm install doly-icons
 # or
 yarn add doly-icons
 ```
