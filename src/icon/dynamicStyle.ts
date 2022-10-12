@@ -2,24 +2,19 @@ import { useContext, useEffect } from 'react';
 import IconContext from './IconContext';
 import { injectStyle } from './utils';
 
-export const iconStyle = `:root {
-  --doly-icon-font-size: 1em;
-  --doly-icon-color: currentColor;
-  --doly-icon-spin-duration: 1s;
-}
-@-webkit-keyframes doly-icon-animate_spin {
+export const iconStyle = `@-webkit-keyframes doly-icon-animate-spin {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
-@keyframes doly-icon-animate_spin {
+@keyframes doly-icon-animate-spin {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes doly-icon-animate_spin-reverse {
+@-webkit-keyframes doly-icon-animate-spin-reverse {
   from {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -29,7 +24,7 @@ export const iconStyle = `:root {
     transform: rotate(0deg);
   }
 }
-@keyframes doly-icon-animate_spin-reverse {
+@keyframes doly-icon-animate-spin-reverse {
   from {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -46,8 +41,8 @@ export const iconStyle = `:root {
   justify-content: center;
   color: currentColor;
   font-size: 1em;
-  color: var(--doly-icon-color);
-  font-size: var(--doly-icon-font-size);
+  color: var(--doly-icon-color, currentColor);
+  font-size: var(--doly-icon-font-size, 1em);
   font-style: normal;
   line-height: 0;
   text-align: center;
@@ -64,16 +59,16 @@ export const iconStyle = `:root {
   display: inline-block;
 }
 .doly-icon-spin {
-  -webkit-animation: doly-icon-animate_spin 1s infinite linear;
-  animation: doly-icon-animate_spin 1s infinite linear;
-  -webkit-animation: doly-icon-animate_spin var(--doly-icon-spin-duration) infinite linear;
-  animation: doly-icon-animate_spin var(--doly-icon-spin-duration) infinite linear;
+  -webkit-animation: doly-icon-animate-spin 1s infinite linear;
+  animation: doly-icon-animate-spin 1s infinite linear;
+  -webkit-animation: doly-icon-animate-spin var(--doly-icon-spin-duration, 1s) infinite linear;
+  animation: doly-icon-animate-spin var(--doly-icon-spin-duration, 1s) infinite linear;
 }
 .doly-icon-spin-reverse {
-  -webkit-animation: doly-icon-animate_spin-reverse 1s infinite linear;
-  animation: doly-icon-animate_spin-reverse 1s infinite linear;
-  -webkit-animation: doly-icon-animate_spin-reverse var(--doly-icon-spin-duration) infinite linear;
-  animation: doly-icon-animate_spin-reverse var(--doly-icon-spin-duration) infinite linear;
+  -webkit-animation: doly-icon-animate-spin-reverse 1s infinite linear;
+  animation: doly-icon-animate-spin-reverse 1s infinite linear;
+  -webkit-animation: doly-icon-animate-spin-reverse var(--doly-icon-spin-duration, 1s) infinite linear;
+  animation: doly-icon-animate-spin-reverse var(--doly-icon-spin-duration, 1s) infinite linear;
 }`;
 
 export function useInsertStyle() {

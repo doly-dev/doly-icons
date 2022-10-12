@@ -7,9 +7,9 @@ const Demo: React.FC<{ title?: React.ReactNode }> = ({ title }) => {
     <>
       <h3>{title || '测试页面'}</h3>
       <div className={styles.iconList}>
-        <StarFill />
+        <StarFill style={{ color: 'gold' }} />
         <MoonFill />
-        <SunFill style={{ color: 'gold' }} />
+        <SunFill />
       </div>
     </>
   );
