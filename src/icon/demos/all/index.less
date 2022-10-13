@@ -6,6 +6,15 @@
 
 .formArea {
   padding-bottom: 16px;
+
+  :global {
+    @media screen and(-ms-high-contrast:active), (-ms-high-contrast: none) {
+      // 这里写样式，IE 11 下才有效
+      .ant-radio-group {
+        white-space: nowrap;
+      }
+    }
+  }
 }
 
 [data-prefers-color='dark'] {

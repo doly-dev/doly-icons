@@ -59,7 +59,7 @@ const Filter: React.FC<FilterProps> = React.memo(
     }, 300);
 
     const handleOptionsChange = React.useCallback(
-      (opts) => {
+      (opts: typeof DefaultConfig) => {
         onOptionsChange?.(opts);
         setAllConfigStore(opts);
       },
@@ -90,7 +90,7 @@ const Filter: React.FC<FilterProps> = React.memo(
                 selectProps={{ size: 'large', onChange: resetScrollTop }}
               />
             </Col>
-            <Col>
+            <Col style={{ minWidth: 342 }}>
               <BizFormItemRadio
                 name="theme"
                 optionType="button"
@@ -110,7 +110,7 @@ const Filter: React.FC<FilterProps> = React.memo(
             </Col>
           </Row>
           <Row gutter={[16, 16]} wrap={false}>
-            <Col>
+            <Col style={{ minWidth: 48 }}>
               <BizFormItemColor
                 name="color"
                 style={{ margin: 0 }}

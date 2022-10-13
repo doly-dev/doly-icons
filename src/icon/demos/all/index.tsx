@@ -4,7 +4,7 @@ import { useUpdateEffect } from 'rc-hooks';
 import { filterClassData } from './dataMain';
 import List from './List';
 import { getFilterStore, getConfigStore } from './store';
-import { formatPx, resetScrollTop } from './utils';
+import { formatPx, resetScrollTop, isIE } from './utils';
 import Context, { DefaultFilter, DefaultConfig } from './context';
 import Filter from './Filter';
 import styles from './index.less';
@@ -20,10 +20,15 @@ const AllIcons = () => {
 
   const iconWrapperStyles = React.useMemo(
     () =>
-      ({
-        '--doly-icon-font-size': formatPx(filter?.fontSize),
-        '--doly-icon-color': filter?.color,
-      } as React.CSSProperties),
+      isIE
+        ? {
+            fontSize: filter.fontSize,
+            color: filter.color,
+          }
+        : {
+            '--doly-icon-font-size': formatPx(filter?.fontSize),
+            '--doly-icon-color': filter?.color,
+          },
     [filter?.color, filter?.fontSize],
   );
 
@@ -59,7 +64,7 @@ const AllIcons = () => {
         />
       </div>
       {result.length <= 0 && <Empty description="暂无数据" />}
-      <div style={iconWrapperStyles}>
+      <div style={iconWrapperStyles as React.CSSProperties}>
         <Context.Provider value={{ ...filter, ...options }}>
           <List data={result} />
         </Context.Provider>

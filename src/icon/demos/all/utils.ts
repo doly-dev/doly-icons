@@ -76,3 +76,6 @@ export const resetScrollTop = () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 };
+
+export const isIE: boolean =
+  typeof window === 'object' && (!!window.ActiveXObject || 'ActiveXObject' in window);

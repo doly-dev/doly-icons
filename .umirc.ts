@@ -128,6 +128,13 @@ export default defineConfig({
       },
     ],
   ],
+  // esbuild: !isProd,
+  nodeModulesTransform: {
+    type: 'all',
+  },
+  targets: {
+    ie: 11,
+  },
   ...prodConfig,
   // more config: https://d.umijs.org/config
 });
