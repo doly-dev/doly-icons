@@ -13,7 +13,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const serverRootDirect = isProd ? 'https://doly-dev.github.io/doly-icons/' : '/';
 const logo = 'https://doly-dev.github.io/logo.png';
-const favicon = 'https://doly-dev.github.io/favicon.ico';
+const favicon = 'https://doly-dev.github.io/favicon.png';
 
 const publicPath = serverRootDirect + version + '/';
 
