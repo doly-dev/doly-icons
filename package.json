@@ -32,7 +32,8 @@
     "generator": "npm run generator:assets && npm run generator:icons && npm run generator:data",
     "generator:assets": "node scripts/generator-assets.js",
     "generator:icons": "node scripts/generator-icons.js",
-    "generator:data": "node scripts/generator-data.js"
+    "generator:data": "node scripts/generator-data.js",
+    "tsc": "tsc --noEmit"
   },
   "main": "lib/index.js",
   "module": "es/index.js",

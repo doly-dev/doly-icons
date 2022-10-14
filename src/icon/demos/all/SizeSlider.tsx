@@ -46,6 +46,7 @@ const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
           step={step}
           {...inputProps}
           value={state}
+          // @ts-ignore
           onChange={setState}
         />
       </Col>
