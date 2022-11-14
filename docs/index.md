@@ -9,7 +9,7 @@ hero:
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: 开箱即用
-    desc: 拥有超过1600个图标
+    desc: 拥有超过1800个图标
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/d60657df-0822-4631-9d7c-e7a869c2f21c/k79dmz3q_w126_h126.png
     title: 高效检索
     desc: 图标库支持查找/预览/复制/下载

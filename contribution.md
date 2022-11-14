@@ -32,7 +32,7 @@
 1. 更新 `bootstrap-icons` 依赖
 
 ```bash
-yarn add bootstrap-icons@^ --dev
+yarn add bootstrap-icons@xx --dev
 ```
 
 2. 生成数据
@@ -40,6 +40,10 @@ yarn add bootstrap-icons@^ --dev
 ```bash
 yarn generator
 ```
+
+在 `scripts/translate-cache.json` 中查看翻译是否准确；在 `yarn start` 运行查看分类是否准确；
+
+校对完成后，重新运行 `yarn generator`
 
 3. 本地测试
 
