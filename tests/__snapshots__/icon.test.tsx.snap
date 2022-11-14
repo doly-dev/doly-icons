@@ -6,7 +6,7 @@ exports[`renader icons snapshot render as built-in icon 1`] = `
     aria-label="gear"
     className="doly-icon doly-icon-spin"
     role="img"
-    style={Object {}}
+    style={{}}
   >
     <svg
       aria-hidden={true}
@@ -30,7 +30,7 @@ exports[`renader icons snapshot render as built-in icon 1`] = `
     className="doly-icon"
     role="img"
     style={
-      Object {
+      {
         "color": "red",
       }
     }
@@ -60,7 +60,7 @@ exports[`renader icons snapshot render as built-in icon with use css variables 1
     className="doly-icon"
     role="img"
     style={
-      Object {
+      {
         "--doly-icon-color": "#e91e63",
       }
     }
@@ -87,7 +87,7 @@ exports[`renader icons snapshot render as built-in icon with use css variables 1
     className="doly-icon"
     role="img"
     style={
-      Object {
+      {
         "--doly-icon-color": "#e91e63",
         "--doly-icon-font-size": "16px",
       }
@@ -113,7 +113,7 @@ exports[`renader icons snapshot render as built-in icon with use css variables 1
     className="doly-icon"
     role="img"
     style={
-      Object {
+      {
         "--doly-icon-spin-duration": "2s",
       }
     }
@@ -140,7 +140,7 @@ exports[`renader icons snapshot render as custom icon 1`] = `
 <span
   className="doly-icon"
   role="img"
-  style={Object {}}
+  style={{}}
 >
   <svg
     aria-hidden={true}
@@ -162,7 +162,7 @@ exports[`renader icons snapshot render as virtual svg symbol 1`] = `
 <span
   className="doly-icon"
   role="img"
-  style={Object {}}
+  style={{}}
 >
   <svg
     aria-hidden={true}
@@ -179,13 +179,13 @@ exports[`renader icons snapshot render as virtual svg symbol 1`] = `
 `;
 
 exports[`renader icons snapshot render with provider 1`] = `
-Array [
+[
   <span
     aria-label="gear"
     className="doly-icon"
     role="img"
     style={
-      Object {
+      {
         "color": "yellow",
       }
     }
@@ -212,7 +212,7 @@ Array [
     className="doly-icon"
     role="img"
     style={
-      Object {
+      {
         "color": "red",
       }
     }
