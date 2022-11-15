@@ -1,13 +1,13 @@
-import * as React from 'react';
 import { Empty } from 'antd';
 import { useUpdateEffect } from 'rc-hooks';
+import * as React from 'react';
+import Context, { DefaultConfig, DefaultFilter } from './context';
 import { filterClassData } from './dataMain';
-import List from './List';
-import { getFilterStore, getConfigStore } from './store';
-import { formatPx, resetScrollTop, isIE } from './utils';
-import Context, { DefaultFilter, DefaultConfig } from './context';
 import Filter from './Filter';
 import styles from './index.less';
+import List from './List';
+import { getConfigStore, getFilterStore } from './store';
+import { formatPx, isIE, resetScrollTop } from './utils';
 
 const AllIcons = () => {
   const [filter, setFilter] = React.useState(() => getFilterStore() || DefaultFilter);
@@ -54,22 +54,22 @@ const AllIcons = () => {
   }, []);
 
   return (
-    <div className={styles.demo}>
-      <div className={styles.formArea}>
-        <Filter
-          options={options}
-          onOptionsChange={setOptions}
-          filter={filter}
-          onFilterChange={setFilter}
-        />
-      </div>
-      {result.length <= 0 && <Empty description="暂无数据" />}
-      <div style={iconWrapperStyles as React.CSSProperties}>
-        <Context.Provider value={{ ...filter, ...options }}>
+    <Context.Provider value={{ ...filter, ...options, result }}>
+      <div className={styles.demo}>
+        <div className={styles.formArea}>
+          <Filter
+            options={options}
+            onOptionsChange={setOptions}
+            filter={filter}
+            onFilterChange={setFilter}
+          />
+        </div>
+        {result.length <= 0 && <Empty description="暂无数据" />}
+        <div style={iconWrapperStyles as React.CSSProperties}>
           <List data={result} />
-        </Context.Provider>
+        </div>
       </div>
-    </div>
+    </Context.Provider>
   );
 };
 

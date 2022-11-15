@@ -1,6 +1,7 @@
 import { createContext } from 'react';
-import { Theme } from './enum';
+import type { IconClassDataItem } from './dataMain';
 import { CategoriesOptions } from './dataMain';
+import { Theme } from './enum';
 
 export const DefaultFilter = {
   fontSize: 32,
@@ -20,7 +21,10 @@ export const DefaultConfig = {
   // svgStyle: 'current', // 当前 或 原图标
 };
 
-export default createContext<typeof DefaultFilter & typeof DefaultConfig>({
+export default createContext<
+  typeof DefaultFilter & typeof DefaultConfig & { result: IconClassDataItem[] }
+>({
   ...DefaultFilter,
   ...DefaultConfig,
+  result: [],
 });

@@ -1,13 +1,14 @@
-import * as React from 'react';
-import { Menu, Dropdown, message, Typography } from 'antd';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
-import copy from 'copy-to-clipboard';
+import type { MenuProps } from 'antd';
+import { Dropdown, Menu, message, Typography } from 'antd';
 import { copyImageToClipboard } from 'copy-image-clipboard';
+import copy from 'copy-to-clipboard';
 import { ThreeDots } from 'doly-icons';
+import * as React from 'react';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { saveSvgAsPng, svgAsPngUri } from 'save-svg-as-png';
-import { downloadSvg, formatPx, pixelRatio } from './utils';
-import Context from './context';
 import styles from './Actions.less';
+import Context from './context';
+import { downloadSvg, formatPx, pixelRatio } from './utils';
 
 const VIEWBOX_SIZE = 16;
 
@@ -122,37 +123,47 @@ const Actions: React.FunctionComponent<{
     });
   }, [updateSvgNode]);
 
-  const menu = (
-    <Menu>
-      <Menu.Item key="copy-component-name">
+  const menuItems: MenuProps['items'] = [
+    {
+      key: 'copy-component-name',
+      label: (
         <CopyComponent text={componentName}>
           <div>复制组件名称</div>
         </CopyComponent>
-      </Menu.Item>
-      <Menu.Item key="copy-react-component">
+      ),
+    },
+    {
+      key: 'copy-react-component',
+      label: (
         <CopyComponent text={reactComponentText}>
           <div>复制 JSX</div>
         </CopyComponent>
-      </Menu.Item>
-      <Menu.Divider />
-      <Menu.Item key="copy-svg">
-        <a onClick={copySvg}>复制 SVG</a>
-      </Menu.Item>
-      <Menu.Item key="copy-png">
-        <a onClick={copyPng}>复制 PNG</a>
-      </Menu.Item>
-      <Menu.Divider />
-      <Menu.Item key="download-svg">
-        <a onClick={downloadCustom}>下载 SVG</a>
-      </Menu.Item>
-      <Menu.Item key="download-png">
-        <a onClick={downloadPng}>下载 PNG</a>
-      </Menu.Item>
-    </Menu>
-  );
+      ),
+    },
+    {
+      key: 'copy-svg',
+      label: <a onClick={copySvg}>复制 SVG</a>,
+    },
+    {
+      key: 'copy-png',
+      label: <a onClick={copyPng}>复制 PNG</a>,
+    },
+    {
+      key: 'download-svg',
+      label: <a onClick={downloadCustom}>下载 SVG</a>,
+    },
+    {
+      key: 'download-png',
+      label: <a onClick={downloadPng}>下载 PNG</a>,
+    },
+  ];
 
   return (
-    <Dropdown overlay={menu} arrow={{ pointAtCenter: true }} destroyPopupOnHide>
+    <Dropdown
+      overlay={<Menu items={menuItems} />}
+      arrow={{ pointAtCenter: true }}
+      destroyPopupOnHide
+    >
       <ThreeDots className={styles.more} />
     </Dropdown>
   );
