@@ -1,10 +1,8 @@
-import * as React from 'react';
 import allIcons from './data';
 import { Theme } from './enum';
-import styles from './index.less';
 
 // 图标分类
-let CategoriesOptions: { label: React.ReactNode; value: any }[] = [
+let CategoriesOptions: { label: React.ReactNode; value: any; total?: number }[] = [
   {
     label: '所有类别',
     value: '',
@@ -36,16 +34,6 @@ allIcons.forEach((iconItem) => {
   }
 });
 
-// 渲染类别label
-function renderCategoryLabel(label: React.ReactNode, len?: number) {
-  return (
-    <div className={styles.categoryLabel}>
-      <span>{label}</span>
-      <span>{len || ''}</span>
-    </div>
-  );
-}
-
 // 图标总数量
 let total = 0;
 CategoriesOptions = CategoriesOptions.map((item) => {
@@ -55,13 +43,13 @@ CategoriesOptions = CategoriesOptions.map((item) => {
     total += clsLen;
     return {
       ...item,
-      label: renderCategoryLabel(item.label, clsLen),
+      total: clsLen,
     };
   }
   return item;
 });
 // 总数量
-CategoriesOptions[0].label = renderCategoryLabel(CategoriesOptions[0].label, total);
+CategoriesOptions[0].total = total;
 
 type FilterParam = {
   category?: string;

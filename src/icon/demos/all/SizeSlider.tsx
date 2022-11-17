@@ -1,7 +1,8 @@
-import * as React from 'react';
-import type { SliderSingleProps, InputNumberProps } from 'antd';
-import { Slider, Row, Col, InputNumber } from 'antd';
+import type { InputNumberProps, SliderSingleProps } from 'antd';
+import { Col, InputNumber, Row, Slider } from 'antd';
 import { useControllableValue } from 'rc-hooks';
+import * as React from 'react';
+import styles from './SizeSlider.less';
 
 interface SizeSliderProps {
   min?: number;
@@ -28,7 +29,7 @@ const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
 
   return (
     <Row gutter={16} style={{ flexWrap: 'nowrap' }}>
-      <Col flex={1}>
+      <Col flex={1} className={styles.slider}>
         <Slider
           min={min}
           max={max}
@@ -38,7 +39,7 @@ const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
           onChange={setState}
         />
       </Col>
-      <Col style={{ width: 90 }}>
+      <Col style={{ width: 90 }} className={styles.inputNumber}>
         <InputNumber
           min={min}
           max={max}

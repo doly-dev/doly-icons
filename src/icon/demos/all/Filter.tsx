@@ -1,21 +1,32 @@
-import * as React from 'react';
-import { Row, Col, Button, Spin, Input } from 'antd';
+import { Button, Col, Input, Row, Spin } from 'antd';
 import {
   BizForm,
   BizFormItem,
-  BizFormItemSelect,
-  BizFormItemRadio,
   BizFormItemColor,
+  BizFormItemRadio,
+  BizFormItemSelect,
 } from 'antd-more';
 import { Square, SquareFill } from 'doly-icons';
 import { useDebounceFn } from 'rc-hooks';
-import { CategoriesOptions } from './dataMain';
-import SizeSlider from './SizeSlider';
-import { setAllFilterStore, removeFilterStore, setAllConfigStore } from './store';
-import { Theme } from './enum';
-import { resetScrollTop } from './utils';
-import { DefaultFilter, DefaultConfig } from './context';
+import * as React from 'react';
 import Config from './Config';
+import { DefaultConfig, DefaultFilter } from './context';
+import { CategoriesOptions } from './dataMain';
+import { Theme } from './enum';
+import styles from './index.less';
+import SizeSlider from './SizeSlider';
+import { removeFilterStore, setAllConfigStore, setAllFilterStore } from './store';
+import { resetScrollTop } from './utils';
+
+// 渲染类别label
+function renderCategoryLabel(label: React.ReactNode, rightContent?: React.ReactNode) {
+  return (
+    <div className={styles.categoryLabel}>
+      <span>{label}</span>
+      <span>{rightContent || ''}</span>
+    </div>
+  );
+}
 
 // 图标风格选项
 const ThemeOptions = [
@@ -52,6 +63,14 @@ const Filter: React.FC<FilterProps> = React.memo(
   ({ options = DefaultConfig, onOptionsChange, filter = DefaultFilter, onFilterChange }) => {
     const [form] = BizForm.useForm();
     const [spinning, setSpinning] = React.useState(false);
+    const cateOptions = React.useMemo(
+      () =>
+        CategoriesOptions.map((item) => ({
+          ...item,
+          label: renderCategoryLabel(item.label, item.total),
+        })),
+      [],
+    );
 
     const { run } = useDebounceFn((_, values) => {
       setAllFilterStore(values);
@@ -83,10 +102,10 @@ const Filter: React.FC<FilterProps> = React.memo(
           form={form}
         >
           <Row gutter={16} justify="space-between">
-            <Col style={{ width: 180 }}>
+            <Col style={{ width: 240 }}>
               <BizFormItemSelect
                 name="category"
-                options={CategoriesOptions}
+                options={cateOptions}
                 selectProps={{ size: 'large', onChange: resetScrollTop }}
               />
             </Col>
