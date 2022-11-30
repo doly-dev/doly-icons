@@ -6,7 +6,7 @@ order: 1
 
 图标是基于 [Bootstrap 官方图标库] 的 React 封装，方便设计师和开发者使用（[图标库](/icons)中快速查找）。
 
-**安装**
+## 安装
 
 ```bash
 npm install doly-icons

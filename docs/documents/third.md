@@ -12,3 +12,5 @@ order: 3
 - [Material icons](https://mui.com/zh/components/material-icons/)
 - [Framework7 Icons](https://framework7.io/icons/)
 - [react-icons](https://react-icons.github.io/react-icons)
+- [IconBox](https://arco.design/iconbox/libs)
+- [semi-icons](https://semi.design/zh-CN/basic/icon)
