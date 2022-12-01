@@ -1,7 +1,8 @@
+import { Button, Card, Col, Row } from 'antd';
+import { BizForm, BizFormItemColor, BizFormItemNumber, ModalForm } from 'antd-more';
 import * as React from 'react';
-import { Button, Row, Col, Card } from 'antd';
-import { BizForm, ModalForm, BizFormItemColor, BizFormItemNumber } from 'antd-more';
 import { DefaultConfig } from './context';
+import styles from './index.less';
 import { resetScrollTop } from './utils';
 
 const colSpan = {
@@ -20,8 +21,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
   );
 
   const handlePngBgColorTransparent = React.useCallback(() => {
-    const fieldsValue = form.getFieldsValue();
-    form.setFieldsValue({ ...fieldsValue, pngBackgroundColor: DefaultConfig.pngBackgroundColor });
+    form.setFieldsValue({ pngBackgroundColor: DefaultConfig.pngBackgroundColor });
     setIsTransparent(true);
   }, [form]);
 
@@ -32,14 +32,9 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
 
   return (
     <ModalForm
-      initialValues={value}
       trigger={<Button type="link">设置</Button>}
       title="设置"
       form={form}
-      modalProps={{
-        maskClosable: false,
-        destroyOnClose: true,
-      }}
       onFinish={onChange}
       requiredMark={false}
       onValuesChange={(_, allValues) => {
@@ -49,8 +44,11 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
       onVisibleChange={(visible) => {
         if (!visible) {
           resetScrollTop();
+        } else {
+          form.setFieldsValue(value);
         }
       }}
+      className={styles.configModal}
     >
       <Card
         type="inner"
@@ -90,8 +88,8 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
               required
               extendRules={[
                 {
-                  validator(rules, value) {
-                    if (value % 2 !== 0) {
+                  validator(rules, val) {
+                    if (val % 2 !== 0) {
                       return Promise.reject('宽高必须为2的倍数');
                     }
                     return Promise.resolve();
