@@ -33,6 +33,9 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
       onFinish={onChange}
       requiredMark={false}
       size="middle"
+      modalProps={{
+        maskClosable: false,
+      }}
       onVisibleChange={(visible) => {
         if (!visible) {
           resetScrollTop();
