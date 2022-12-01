@@ -16,19 +16,14 @@ interface ConfigProps {
 
 const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
   const [form] = BizForm.useForm();
-  const [isTransparent, setIsTransparent] = React.useState(
-    value?.pngBackgroundColor === DefaultConfig.pngBackgroundColor,
-  );
 
-  const handlePngBgColorTransparent = React.useCallback(() => {
+  const handlePngBgColorTransparent = () => {
     form.setFieldsValue({ pngBackgroundColor: DefaultConfig.pngBackgroundColor });
-    setIsTransparent(true);
-  }, [form]);
+  };
 
-  const handlePngReset = React.useCallback(() => {
+  const handlePngReset = () => {
     form.setFieldsValue(DefaultConfig);
-    setIsTransparent(true);
-  }, [form]);
+  };
 
   return (
     <ModalForm
@@ -37,9 +32,6 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
       form={form}
       onFinish={onChange}
       requiredMark={false}
-      onValuesChange={(_, allValues) => {
-        setIsTransparent(allValues.pngBackgroundColor === DefaultConfig.pngBackgroundColor);
-      }}
       size="middle"
       onVisibleChange={(visible) => {
         if (!visible) {
@@ -63,11 +55,9 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
               name="pngBackgroundColor"
               colorMode="rgb"
               contentAfter={
-                !isTransparent && (
-                  <a style={{ fontSize: 12 }} onClick={handlePngBgColorTransparent}>
-                    设为透明
-                  </a>
-                )
+                <a style={{ fontSize: 12 }} onClick={handlePngBgColorTransparent}>
+                  设为透明
+                </a>
               }
             />
           </Col>
