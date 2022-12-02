@@ -1,7 +1,13 @@
-import { Button, Card, Col, Row } from 'antd';
-import { BizForm, BizFormItemColor, BizFormItemNumber, ModalForm } from 'antd-more';
+import { Button, Card, Col, message, Row } from 'antd';
+import {
+  BizForm,
+  BizFormItemColor,
+  BizFormItemNumber,
+  BizFormItemSelect,
+  DrawerForm,
+} from 'antd-more';
 import * as React from 'react';
-import { DefaultConfig } from './context';
+import { ClickIconActionOptions, DefaultConfig } from './context';
 import styles from './index.less';
 import { resetScrollTop } from './utils';
 
@@ -26,16 +32,19 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
   };
 
   return (
-    <ModalForm
+    <DrawerForm
       trigger={<Button type="link">设置</Button>}
       title="设置"
       form={form}
-      onFinish={onChange}
+      onFinish={(values) => {
+        message.success('设置成功');
+        onChange?.(values);
+      }}
       requiredMark={false}
       size="middle"
-      modalProps={{
-        maskClosable: false,
-      }}
+      // drawerProps={{
+      //   maskClosable: false,
+      // }}
       onVisibleChange={(visible) => {
         if (!visible) {
           resetScrollTop();
@@ -44,6 +53,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
         }
       }}
       className={styles.configModal}
+      labelWidth={98}
     >
       <Card
         type="inner"
@@ -93,7 +103,18 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
           </Col>
         </Row>
       </Card>
-    </ModalForm>
+      <Card type="inner" title="更多操作" bordered={false}>
+        <Row gutter={16}>
+          <Col {...colSpan}>
+            <BizFormItemSelect
+              label="点击图标操作"
+              name="clickIconAction"
+              options={ClickIconActionOptions}
+            />
+          </Col>
+        </Row>
+      </Card>
+    </DrawerForm>
   );
 };
 

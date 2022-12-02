@@ -1,12 +1,13 @@
-import * as React from 'react';
-import { Row, Col, Typography } from 'antd';
+import { Col, Row, Typography } from 'antd';
 import classnames from 'classnames';
-import { VariableSizeList } from 'react-window';
-import { debounce } from 'lodash';
 import * as Icons from 'doly-icons';
+import { debounce } from 'lodash';
 import { useUpdateEffect } from 'rc-hooks';
+import * as React from 'react';
+import { VariableSizeList } from 'react-window';
+import Actions, { CopyComponent, useActions } from './Actions';
+import Context, { ClickIconAction } from './context';
 import type { IconClassDataItem } from './dataMain';
-import Actions from './Actions';
 import styles from './List.less';
 
 enum Screen {
@@ -65,6 +66,45 @@ const getColumnsAndPadding = () => {
 const ColHeight = 116;
 const TitleHeight = 66;
 const RowGap = 16;
+
+const IconName: React.FC<{ children: React.ReactNode; name: string; componentName: string }> = ({
+  children,
+  name,
+  componentName,
+}) => {
+  const { clickIconAction } = React.useContext(Context);
+  const { copyPng, copySvg } = useActions(name);
+
+  const view = (
+    <div
+      className={classnames(styles.icon, `icon-${name}`)}
+      onClick={() => {
+        if (clickIconAction === ClickIconAction.CopySvg) {
+          copySvg();
+        } else if (clickIconAction === ClickIconAction.CopyPng) {
+          copyPng();
+        }
+      }}
+    >
+      {children}
+    </div>
+  );
+
+  return clickIconAction === ClickIconAction.CopyComponentName ||
+    clickIconAction === ClickIconAction.CopyJSX ? (
+    <CopyComponent
+      text={
+        clickIconAction === ClickIconAction.CopyComponentName
+          ? componentName
+          : `<${componentName} />`
+      }
+    >
+      {view}
+    </CopyComponent>
+  ) : (
+    view
+  );
+};
 
 const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data }) => {
   const listRef = React.useRef<any>();
@@ -126,9 +166,9 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
             return (
               <Col key={item.name} {...colSpan}>
                 <div className={styles.item}>
-                  <div className={classnames(styles.icon, `icon-${item.name}`)}>
+                  <IconName name={item.name} componentName={item.componentName}>
                     <C />
-                  </div>
+                  </IconName>
                   <div className={styles.info}>
                     <div className={styles.inner}>
                       <div className={styles.cnName}>

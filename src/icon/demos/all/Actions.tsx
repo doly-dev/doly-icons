@@ -30,7 +30,7 @@ function getSvgToPngOptions({
   };
 }
 
-const CopyComponent: React.FC<{ text: string; children: React.ReactNode }> = ({
+export const CopyComponent: React.FC<{ text: string; children: React.ReactNode }> = ({
   text,
   children,
 }) => (
@@ -48,23 +48,9 @@ const CopyComponent: React.FC<{ text: string; children: React.ReactNode }> = ({
   </CopyToClipboard>
 );
 
-const Actions: React.FunctionComponent<{
-  componentName: string;
-  fileName: string;
-}> = ({ componentName, fileName }) => {
+export function useActions(fileName: string) {
   const { fontSize, color, pngBackgroundColor, pngSize } = React.useContext(Context);
-
   const svgNodeRef = React.useRef<SVGSVGElement | null>();
-  const reactComponentText = `<${componentName} />`;
-
-  const downloadCustom = React.useCallback(() => {
-    const url = `${PATH_ROOT}assets/icons/${fileName}.svg`;
-
-    downloadSvg(url, fileName, {
-      fontSize,
-      color,
-    });
-  }, [color, fileName, fontSize]);
 
   const updateSvgNode = React.useCallback(
     (withStyle = true) => {
@@ -122,6 +108,31 @@ const Actions: React.FunctionComponent<{
       },
     });
   }, [updateSvgNode]);
+
+  return {
+    copyPng,
+    copySvg,
+    downloadPng,
+  };
+}
+
+const Actions: React.FunctionComponent<{
+  componentName: string;
+  fileName: string;
+}> = ({ componentName, fileName }) => {
+  const { fontSize, color } = React.useContext(Context);
+  const { copyPng, copySvg, downloadPng } = useActions(fileName);
+
+  const reactComponentText = `<${componentName} />`;
+
+  const downloadCustom = React.useCallback(() => {
+    const url = `${PATH_ROOT}assets/icons/${fileName}.svg`;
+
+    downloadSvg(url, fileName, {
+      fontSize,
+      color,
+    });
+  }, [color, fileName, fontSize]);
 
   const menuItems: MenuProps['items'] = [
     {
