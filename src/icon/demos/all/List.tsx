@@ -19,7 +19,7 @@ enum Screen {
 }
 
 enum ScreenColumns {
-  XXL = 24,
+  XXL = 12,
   LG = 8,
   MD = 6,
   SM = 4,
@@ -35,7 +35,7 @@ enum ScreenPadding {
 }
 
 const colSpan = {
-  xxl: 1,
+  xxl: 2,
   lg: 3,
   md: 4,
   sm: 6,
