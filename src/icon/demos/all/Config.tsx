@@ -52,6 +52,9 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
           form.setFieldsValue(value);
         }
       }}
+      drawerProps={{
+        className: styles.drawerWrapper,
+      }}
       className={styles.configModal}
       labelWidth={98}
     >
