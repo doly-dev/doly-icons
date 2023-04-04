@@ -2,7 +2,7 @@
 
 `doly-icons` 是一个基于 Bootstrap Icons 的 React 图标组件。
 
-**特性**
+## 特性
 
 - 内置图标使用 Bootstrap Icons
 - 支持自定义图标
@@ -11,7 +11,7 @@
 
 ## 目录结构
 
-```
+```text
 .
 ├── babel.config.js       # 用于测试环境的 babel 配置
 ├── docs                  # 项目文档
@@ -32,7 +32,7 @@
 1. 更新 `bootstrap-icons` 依赖
 
 ```bash
-yarn add bootstrap-icons@xx --dev
+yarn upgrade bootstrap-icons@latest --dev
 ```
 
 2. 生成数据
