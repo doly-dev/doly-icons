@@ -6,6 +6,7 @@ import { ThreeDots } from 'doly-icons';
 import * as React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { saveSvgAsPng, svgAsPngUri } from 'save-svg-as-png';
+import { dataURLToBlob } from 'util-helpers';
 import styles from './Actions.less';
 import Context from './context';
 import { downloadSvg, formatPx, pixelRatio } from './utils';
@@ -85,8 +86,19 @@ export function useActions(fileName: string) {
     );
     // console.log(pngUri);
     try {
-      copyImageToClipboard(pngUri);
-      message.success('PNG 复制成功！');
+      try {
+        await copyImageToClipboard(pngUri);
+        message.success('PNG 复制成功！');
+      } catch (err) {
+        // ref: https://github.com/LuanEdCosta/copy-image-clipboard/issues/37
+        const canUseClipboardItem = typeof ClipboardItem !== 'undefined';
+        if (canUseClipboardItem) {
+          await navigator.clipboard.write([
+            new ClipboardItem({ 'image/png': dataURLToBlob(pngUri) }),
+          ]);
+          message.success('PNG 复制成功！');
+        }
+      }
     } catch (err) {
       message.error('PNG 复制失败！');
     }
