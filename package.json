@@ -113,7 +113,7 @@
     "lodash": "^4.17.21",
     "prettier": "^2.8.8",
     "prettier-plugin-two-style-order": "^1.0.1",
-    "rc-hooks": "^2.3.0",
+    "rc-hooks": "^3.0.1",
     "react": "^18.2.0",
     "react-color": "^2.19.3",
     "react-copy-to-clipboard": "^5.1.0",
@@ -132,7 +132,7 @@
     "stylelint-no-unsupported-browser-features": "^6.1.0",
     "ts-jest": "^29.1.0",
     "typescript": "^4.9.5",
-    "util-helpers": "^4.16.2",
+    "util-helpers": "^4.18.0",
     "yorkie": "^2.0.0"
   }
 }
