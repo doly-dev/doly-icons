@@ -1,7 +1,9 @@
-import store from 'store2';
+import Cache from 'cache2';
 import type { DefaultConfig, DefaultFilter } from './context';
 
-const { local } = store.namespace('doly_icons');
+const local = new Cache('doly_icons', {
+  storage: localStorage,
+});
 
 const FilterKey = '__icons_filter__';
 
@@ -24,7 +26,7 @@ export function setAllFilterStore(data: any) {
 }
 
 export function removeFilterStore() {
-  local.remove(FilterKey);
+  local.del(FilterKey);
 }
 
 const ConfigKey = '__icons_config__';
@@ -48,5 +50,5 @@ export function setAllConfigStore(data: Partial<typeof DefaultConfig>) {
 }
 
 export function removeConfigStore() {
-  local.remove(ConfigKey);
+  local.del(ConfigKey);
 }
