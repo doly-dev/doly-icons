@@ -70,7 +70,7 @@ const AllIcons = () => {
           <List data={result} />
         </div>
         <FloatButton
-          tooltip={`${options.isShowFilter ? '隐藏' : '显示'}筛选项`}
+          // tooltip={`${options.isShowFilter ? '隐藏' : '显示'}筛选项`}
           onClick={() => {
             setOptions((opts) => ({
               ...opts,
@@ -78,6 +78,8 @@ const AllIcons = () => {
             }));
           }}
           type={options.isShowFilter ? 'primary' : 'default'}
+          shape="square"
+          description={options.isShowFilter ? '显示' : '隐藏'}
           icon={<Funnel />}
         />
       </div>
