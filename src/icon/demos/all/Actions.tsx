@@ -1,5 +1,5 @@
 import type { MenuProps } from 'antd';
-import { Dropdown, Menu, message, Typography } from 'antd';
+import { Dropdown, message, Typography } from 'antd';
 import { copyImageToClipboard } from 'copy-image-clipboard';
 import copy from 'copy-to-clipboard';
 import { ThreeDots } from 'doly-icons';
@@ -183,7 +183,9 @@ const Actions: React.FunctionComponent<{
 
   return (
     <Dropdown
-      overlay={<Menu items={menuItems} />}
+      menu={{
+        items: menuItems,
+      }}
       arrow={{ pointAtCenter: true }}
       destroyPopupOnHide
     >

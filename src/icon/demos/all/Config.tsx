@@ -45,7 +45,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
       // drawerProps={{
       //   maskClosable: false,
       // }}
-      onVisibleChange={(visible) => {
+      onOpenChange={(visible) => {
         if (!visible) {
           resetScrollTop();
         } else {
