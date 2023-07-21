@@ -1,8 +1,7 @@
 import React, { cloneElement, forwardRef, useContext } from 'react';
-import type { CSSProperties, ReactElement } from 'react';
+import type { CSSProperties, ReactElement, HTMLAttributes, SVGProps } from 'react';
 import classnames from 'classnames';
 import IconContext from './IconContext';
-import type { IconBaseProps } from './type';
 import { useInsertStyle } from './dynamicStyle';
 
 const prefixClass = 'doly-icon';
@@ -17,6 +16,17 @@ const defaultSvgProps = {
   'aria-hidden': true,
   focusable: false,
 };
+
+interface CSSPropertiesWithVariable extends CSSProperties {
+  [key: `--${string}`]: string | number;
+}
+
+export interface IconBaseProps extends Omit<HTMLAttributes<HTMLSpanElement>, 'style'> {
+  spin?: boolean;
+  spinReverse?: boolean;
+  svgProps?: SVGProps<SVGSVGElement>;
+  style?: CSSPropertiesWithVariable;
+}
 
 const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
   ({ spin, spinReverse, className, style, svgProps, children, ...restProps }, ref) => {
@@ -65,7 +75,5 @@ const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
 );
 
 IconBase.displayName = 'IconBase';
-
-export type { IconBaseProps };
 
 export default IconBase;

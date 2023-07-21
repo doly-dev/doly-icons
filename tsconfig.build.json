@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src"],
+  "exclude": ["src/icon/demos", "src/.umi", "src/.umi-production"]
+}

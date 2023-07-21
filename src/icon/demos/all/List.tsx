@@ -1,7 +1,7 @@
 import { Col, Row, Typography } from 'antd';
 import classnames from 'classnames';
 import * as Icons from 'doly-icons';
-import { debounce } from 'lodash';
+import { debounce } from 'ut2';
 import { useUpdateEffect } from 'rc-hooks';
 import * as React from 'react';
 import { VariableSizeList } from 'react-window';

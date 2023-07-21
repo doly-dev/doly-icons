@@ -1,10 +1,10 @@
-import type { ReactElement } from 'react';
+import type { ReactElement, Ref } from 'react';
 import React, { useMemo } from 'react';
 import type { IconBaseProps } from './IconBase';
 import IconBase from './IconBase';
 
 type IconBaseRef = {
-  ref?: React.Ref<HTMLSpanElement>;
+  ref?: Ref<HTMLSpanElement>;
 };
 
 interface ThirdIconProps extends IconBaseProps, IconBaseRef {
