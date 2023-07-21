@@ -54,6 +54,9 @@ export const DefaultConfig = {
 
   // 其他操作
   clickIconAction: ClickIconAction.CopySvg, // 点击图标操作
+
+  // 是否显示筛选表单
+  isShowFilter: true,
 };
 
 export default createContext<

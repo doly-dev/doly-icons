@@ -1,4 +1,5 @@
-import { Empty } from 'antd';
+import { Empty, FloatButton } from 'antd';
+import { Funnel } from 'doly-icons';
 import { useUpdateEffect } from 'rc-hooks';
 import * as React from 'react';
 import Context, { DefaultConfig, DefaultFilter } from './context';
@@ -68,6 +69,17 @@ const AllIcons = () => {
         <div style={iconWrapperStyles as React.CSSProperties}>
           <List data={result} />
         </div>
+        <FloatButton
+          // tooltip={`${options.isShowFilter ? '隐藏' : '显示'}筛选项`}
+          onClick={() => {
+            setOptions((opts) => ({
+              ...opts,
+              isShowFilter: !opts.isShowFilter,
+            }));
+          }}
+          type={options.isShowFilter ? 'primary' : 'default'}
+          icon={<Funnel />}
+        />
       </div>
     </Context.Provider>
   );

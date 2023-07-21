@@ -111,6 +111,7 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
   const wrapperRef = React.useRef<HTMLDivElement>(null);
   const screenInfoRef = React.useRef<ReturnType<typeof getColumnsAndPadding>>();
   screenInfoRef.current = getColumnsAndPadding();
+  const { isShowFilter } = React.useContext(Context);
   const [height, setHeight] = React.useState(window.innerHeight);
   const [width, setWidth] = React.useState(window.innerWidth - screenInfoRef.current.padding);
 
@@ -211,25 +212,34 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
     }
   }, [retData]);
 
-  React.useEffect(() => {
-    if (wrapperRef.current) {
+  const resizeRef = React.useRef<() => any>();
+
+  if (!resizeRef.current) {
+    resizeRef.current = debounce(() => {
       const target = wrapperRef.current;
-      const handleResize = debounce(() => {
+      if (target) {
         screenInfoRef.current = getColumnsAndPadding();
         const padding = screenInfoRef.current?.padding || 16;
-        setHeight(window.innerHeight - target.getBoundingClientRect().top - 24);
+        setHeight(window.innerHeight - target.getBoundingClientRect().top - 16);
         setWidth(window.innerWidth - padding);
-      }, 300);
-      handleResize();
-      window.addEventListener('resize', handleResize);
+      }
+    }, 300);
+  }
+
+  React.useEffect(() => {
+    if (resizeRef.current) {
+      const fn = resizeRef.current;
+      window.addEventListener('resize', fn);
 
       return () => {
-        window.removeEventListener('resize', handleResize);
+        window.removeEventListener('resize', fn);
       };
     }
-  }, [data]);
+  }, []);
 
-  // console.log('render');
+  React.useEffect(() => {
+    resizeRef.current?.();
+  }, [data, isShowFilter]);
 
   return (
     <div ref={wrapperRef}>

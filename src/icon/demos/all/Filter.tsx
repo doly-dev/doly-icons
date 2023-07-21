@@ -10,7 +10,7 @@ import { Square, SquareFill } from 'doly-icons';
 import { useDebounceFn } from 'rc-hooks';
 import * as React from 'react';
 import Config from './Config';
-import { DefaultConfig, DefaultFilter } from './context';
+import Context, { DefaultConfig, DefaultFilter } from './context';
 import { CategoriesOptions } from './dataMain';
 import { Theme } from './enum';
 import styles from './index.less';
@@ -61,6 +61,7 @@ interface FilterProps {
 
 const Filter: React.FC<FilterProps> = React.memo(
   ({ options = DefaultConfig, onOptionsChange, filter = DefaultFilter, onFilterChange }) => {
+    const { isShowFilter } = React.useContext(Context);
     const [form] = BizForm.useForm();
     const [spinning, setSpinning] = React.useState(false);
     const cateOptions = React.useMemo(
@@ -101,7 +102,7 @@ const Filter: React.FC<FilterProps> = React.memo(
           layout="horizontal"
           form={form}
         >
-          <Row gutter={16} justify="space-between">
+          <Row gutter={16} justify="space-between" style={!isShowFilter ? { display: 'none' } : {}}>
             <Col style={{ width: 240 }}>
               <BizFormItemSelect
                 name="category"
