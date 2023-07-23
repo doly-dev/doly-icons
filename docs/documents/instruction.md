@@ -4,7 +4,9 @@ order: 1
 
 # 使用说明
 
-图标是基于 [Bootstrap 官方图标库] 的 React 封装，方便设计师和开发者使用（[图标库](/icons)中快速查找）。
+基于 [Bootstrap Icons] 的 React 图标组件。
+
+[![npm][npm]][npm-url] ![GitHub]
 
 ## 安装
 
@@ -101,6 +103,9 @@ import { Gear, HeartFill } from 'doly-icons';
 | --doly-icon-color         | 图标颜色     | `currentColor` |
 | --doly-icon-spin-duration | 旋转动画时长 | `1s`           |
 
-[bootstrap 官方图标库]: https://icons.getbootstrap.com/
+[Bootstrap Icons]: https://icons.getbootstrap.com/
 [iconfont]: https://www.iconfont.cn/
 [svg symbol]: https://css-tricks.com/svg-symbol-good-choice-icons/
+[npm]: https://img.shields.io/npm/v/doly-icons.svg
+[npm-url]: https://npmjs.com/package/doly-icons
+[github]: https://img.shields.io/github/license/doly-dev/doly-icons.svg

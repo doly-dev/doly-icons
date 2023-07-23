@@ -4,7 +4,9 @@ order: 1
 
 # Instruction
 
-The icon is based on the [official Bootstrap icon library] for React component encapsulation, which is convenient for designers and developers to use (quick search in the [icon library](/en-US/icons)).
+React icon component based on [Bootstrap Icons].
+
+[![npm][npm]][npm-url] ![GitHub]
 
 ## Install
 
@@ -101,6 +103,9 @@ In addition to the following parameters, all common APIs are supported to facili
 | --doly-icon-color         | Icon color                  | `currentColor` |
 | --doly-icon-spin-duration | Rotation animation duration | `1s`           |
 
-[official bootstrap icon library]: https://icons.getbootstrap.com/
+[Bootstrap Icons]: https://icons.getbootstrap.com/
 [iconfont]: https://www.iconfont.cn/
 [svg symbol]: https://css-tricks.com/svg-symbol-good-choice-icons/
+[npm]: https://img.shields.io/npm/v/doly-icons.svg
+[npm-url]: https://npmjs.com/package/doly-icons
+[github]: https://img.shields.io/github/license/doly-dev/doly-icons.svg

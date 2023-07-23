@@ -77,7 +77,6 @@ export default () => (
 MIT License
 
 [bootstrap icons]: https://icons.getbootstrap.com/
-[svg symbol]: https://css-tricks.com/svg-symbol-good-choice-icons/
 [npm]: https://img.shields.io/npm/v/doly-icons.svg
 [npm-url]: https://npmjs.com/package/doly-icons
 [github]: https://img.shields.io/github/license/doly-dev/doly-icons.svg
