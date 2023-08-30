@@ -7,7 +7,7 @@ import { filterClassData } from './dataMain';
 import Filter from './Filter';
 import styles from './index.less';
 import List from './List';
-import { getConfigStore, getFilterStore } from './store';
+import { getConfigStore, getFilterStore, setAllConfigStore } from './store';
 import { formatPx, isIE, resetScrollTop } from './utils';
 
 const AllIcons = () => {
@@ -72,10 +72,14 @@ const AllIcons = () => {
         <FloatButton
           // tooltip={`${options.isShowFilter ? '隐藏' : '显示'}筛选项`}
           onClick={() => {
-            setOptions((opts) => ({
-              ...opts,
-              isShowFilter: !opts.isShowFilter,
-            }));
+            setOptions((opts) => {
+              const newOpts = {
+                ...opts,
+                isShowFilter: !opts.isShowFilter,
+              };
+              setAllConfigStore(newOpts);
+              return newOpts;
+            });
           }}
           type={options.isShowFilter ? 'primary' : 'default'}
           shape="square"

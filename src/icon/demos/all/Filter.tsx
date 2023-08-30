@@ -81,9 +81,9 @@ const Filter: React.FC<FilterProps> = React.memo(
     const handleOptionsChange = React.useCallback(
       (opts: typeof DefaultConfig) => {
         onOptionsChange?.(opts);
-        setAllConfigStore(opts);
+        setAllConfigStore({ ...opts, isShowFilter });
       },
-      [onOptionsChange],
+      [onOptionsChange, isShowFilter],
     );
 
     const handleResetFilter = React.useCallback(() => {
