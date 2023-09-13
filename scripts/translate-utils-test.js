@@ -8,7 +8,7 @@ const testProcessTranslateText = () => {
 };
 
 const testTranslate = async () => {
-  const res1 = await translate('世界', 'AUTO', false);
+  const res1 = await translate('世界', false);
   const res2 = await translate('123');
 
   console.log(res1);

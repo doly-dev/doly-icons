@@ -2,7 +2,10 @@
 const fse = require('fs-extra');
 const path = require('path');
 const chalk = require('chalk');
-const getUrlContent = require('./getUrlContent');
+const http = require('http');
+const { randomString } = require('util-helpers');
+const md5 = require('crypto-js/md5');
+const { isArray, isObject } = require('ut2');
 
 /**
  * 处理翻译文本
@@ -48,51 +51,41 @@ const setTranslateCache = (text, value) => {
 };
 
 /**
- * 获取翻译1
- *
- * @param {string} text 要翻译的文本
- * @param {string} [type='AUTO'] type 翻译类型，可选值：AUTO, EN2ZH_CN, ZH_CN2EN
- * @returns {Promise<string|null>}
+ * 百度翻译， http://api.fanyi.baidu.com/api/trans/product/desktop 开启服务
+ * @param {string} text 需要翻译的文本
+ * @returns
  */
-const getTranslateOne = async (text, type = 'AUTO') => {
-  const res = await getUrlContent(
-    `https://fanyi.youdao.com/translate?&doctype=json&type=${type}&i=${text}`,
-  );
-  const resJson = JSON.parse(res) || {};
+const getTranslate = (text) => {
+  return new Promise((resolve, reject) => {
+    const AppId = '20230913001815870';
+    const SecretKey = 'Ge0dDALydnIKIzxMLhgC';
+    const salt = randomString(8, '0123456789');
 
-  if (resJson.errorCode === 0 && resJson?.translateResult?.[0]?.[0]?.tgt) {
-    console.log(chalk.green('【TranslateOne Success】'), `text: ${text}`, `, res: ${res}`);
-    return resJson?.translateResult?.[0]?.[0]?.tgt;
-  }
+    const str1 = AppId + text + salt + SecretKey;
+    const str1Md5 = md5(str1).toString();
 
-  console.log(chalk.red('【TranslateOne Error】'), `text: ${text}`, `, res: ${res}`);
+    const url = `http://api.fanyi.baidu.com/api/trans/vip/translate?q=${text}&from=en&to=zh&appid=${AppId}&salt=${salt}&sign=${str1Md5}`;
 
-  return null;
+    http.get(url, (res) => {
+      res.setEncoding('utf8');
+      let rawData = '';
+      res.on('data', (chunk) => {
+        rawData += chunk;
+      });
+      res.on('end', () => {
+        try {
+          const parsedData = JSON.parse(rawData);
+          resolve(parsedData);
+        } catch (e) {
+          console.log('translate error: ', e);
+          reject(e);
+        }
+      });
+    });
+  });
 };
 
-/**
- * 获取翻译2
- *
- * @param {string} text 要翻译的文本
- * @returns {Promise<string|null>}
- */
-const getTranslateTwo = async (text) => {
-  const res = await getUrlContent(
-    `https://fanyi.youdao.com/openapi.do?keyfrom=node-fanyi&key=110811608&type=data&doctype=json&version=1.1&q=${text}`,
-  );
-  const resJson = JSON.parse(res) || {};
-
-  if (resJson.errorCode === 0 && resJson?.translation?.[0]) {
-    console.log(chalk.green('【TranslateTwo Success】'), `text: ${text}`, `, res: ${res}`);
-    return resJson?.translation?.[0];
-  }
-
-  console.log(chalk.red('【TranslateTwo Error】'), `text: ${text}`, `, res: ${res}`);
-
-  return null;
-};
-
-const translate = async (text, type = 'AUTO', cache = true) => {
+const translate = async (text, cache = true) => {
   // 从缓存中获取
   if (cache) {
     const cacheValue = getTranslateCache(text);
@@ -102,14 +95,15 @@ const translate = async (text, type = 'AUTO', cache = true) => {
   }
 
   const translateText = processTranslateText(text);
+  const res = await getTranslate(translateText);
 
-  let value = await getTranslateOne(translateText, type);
+  let value =
+    isObject(res) && isArray(res.trans_result) && res.trans_result[0]
+      ? res.trans_result[0].dst
+      : '';
 
   if (!value) {
-    value = await getTranslateTwo(translateText);
-  }
-
-  if (!value) {
+    console.log(chalk.red('【Translate Error】'), `text: ${text}`);
     value = text;
   } else {
     cache && setTranslateCache(text, value);
