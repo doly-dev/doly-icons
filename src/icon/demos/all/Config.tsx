@@ -58,14 +58,14 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
       className={styles.configModal}
       labelWidth={98}
     >
-      <Card
-        type="inner"
-        title="复制/下载 PNG"
-        bordered={false}
-        extra={<a onClick={handlePngReset}>恢复默认</a>}
-      >
-        <Row gutter={16}>
-          <Col {...colSpan}>
+      <Row gutter={[0, 16]}>
+        <Col {...colSpan}>
+          <Card
+            type="inner"
+            title="复制/下载 PNG"
+            size="small"
+            extra={<a onClick={handlePngReset}>恢复默认</a>}
+          >
             <BizFormItemColor
               label="背景颜色"
               name="pngBackgroundColor"
@@ -76,16 +76,12 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
                 </a>
               }
             />
-          </Col>
-          {/* <Col {...colSpan}>
-              <BizFormItemNumber
+            {/* <BizFormItemNumber
                 label='图像质量'
                 name='pngEncoderOptions'
                 inputProps={{ min: 0, max: 1, step: 0.1, precision: 1 }}
                 tooltip='图像质量 0-1 之间'
-              />
-            </Col> */}
-          <Col {...colSpan}>
+              /> */}
             <BizFormItemNumber
               label="图像尺寸"
               name="pngSize"
@@ -103,20 +99,18 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
                 },
               ]}
             />
-          </Col>
-        </Row>
-      </Card>
-      <Card type="inner" title="更多操作" bordered={false}>
-        <Row gutter={16}>
-          <Col {...colSpan}>
+          </Card>
+        </Col>
+        <Col {...colSpan}>
+          <Card type="inner" title="更多操作" size="small">
             <BizFormItemSelect
               label="点击图标操作"
               name="clickIconAction"
               options={ClickIconActionOptions}
             />
-          </Col>
-        </Row>
-      </Card>
+          </Card>
+        </Col>
+      </Row>
     </DrawerForm>
   );
 };
