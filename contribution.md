@@ -32,31 +32,31 @@
 1. 更新 `bootstrap-icons` 依赖
 
 ```bash
-yarn upgrade bootstrap-icons@latest --dev
+pnpm update bootstrap-icons@latest --dev
 ```
 
 2. 生成数据
 
 ```bash
-yarn generator
+pnpm generator
 ```
 
-在 `scripts/translate-cache.json` 中查看翻译是否准确；在 `yarn start` 运行查看分类是否准确；
+在 `scripts/translate-cache.json` 中查看翻译是否准确；在 `pnpm start` 运行查看分类是否准确；
 
-校对完成后，重新运行 `yarn generator`
+校对完成后，重新运行 `pnpm generator`
 
 3. 本地测试
 
 本地文档站点，查看变动图标是否正确
 
 ```bash
-yarn start
+pnpm start
 ```
 
 快照测试
 
 ```bash
-yarn test
+pnpm test
 ```
 
 4. 本地提交 git
@@ -66,7 +66,7 @@ yarn test
 你可以使用交互式命令方式生成规范的提交格式。
 
 ```bash
-yarn commit
+pnpm commit
 ```
 
 5. 发布 `npm`

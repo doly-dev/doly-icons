@@ -25,10 +25,16 @@ footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](http
 
 **Install**
 
-```bash
+```shell
 npm install doly-icons --save
-# or
+```
+
+```shell
 yarn add doly-icons
+```
+
+```shell
+pnpm add doly-icons
 ```
 
 **Use**

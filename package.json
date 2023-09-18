@@ -90,7 +90,7 @@
     "antd": "^5.9.0",
     "antd-more": "^4.1.43",
     "babel-jest": "^29.5.0",
-    "bootstrap-icons": "1.11.0",
+    "bootstrap-icons": "1.11.1",
     "cache2": "^1.0.4",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.12",

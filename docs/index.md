@@ -21,15 +21,21 @@ footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](http
 
 ## 开始使用
 
-**安装**
+### 安装
 
-```bash
+```shell
 npm install doly-icons --save
-# or
+```
+
+```shell
 yarn add doly-icons
 ```
 
-**使用**
+```shell
+pnpm add doly-icons
+```
+
+### 使用
 
 ```typescript
 import { Gear, HeartFill } from 'doly-icons';

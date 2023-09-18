@@ -10,10 +10,16 @@ order: 1
 
 ## 安装
 
-```bash
+```shell
 npm install doly-icons
-# or
+```
+
+```shell
 yarn add doly-icons
+```
+
+```shell
+pnpm add doly-icons
 ```
 
 然后直接引入你需要的图标：

@@ -8,10 +8,16 @@ React icon component based on [Bootstrap Icons]. For more information, please [c
 
 ## Install
 
-```bash
+```shell
 npm install doly-icons
-# or
+```
+
+```shell
 yarn add doly-icons
+```
+
+```shell
+pnpm add doly-icons
 ```
 
 ## Use

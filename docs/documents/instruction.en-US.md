@@ -10,10 +10,16 @@ React icon component based on [Bootstrap Icons].
 
 ## Install
 
-```bash
+```shell
 npm install doly-icons
-# or
+```
+
+```shell
 yarn add doly-icons
+```
+
+```shell
+pnpm add doly-icons
 ```
 
 Then directly introduce the icons you need:
