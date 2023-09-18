@@ -4,14 +4,14 @@ import pkg from './package.json';
 const MajorVersionNumber = Number(pkg.version.split('.')[0]);
 const versionSiteRoot = `refs/heads/v${MajorVersionNumber}`;
 
-// const preMajorVersionNumber = MajorVersionNumber - 1;
-// const preVersionSiteRoot = `refs/heads/v${preMajorVersionNumber}`;
+const preMajorVersionNumber = MajorVersionNumber - 1;
+const preVersionSiteRoot = `refs/heads/v${preMajorVersionNumber}`;
 
 const version = process.env.BUIDL_DOC_VERSION ? versionSiteRoot : 'latest';
 
 const isProd = process.env.NODE_ENV === 'production';
 
-const serverRootDirect = isProd ? 'https://doly-dev.github.io/doly-icons/' : '/';
+const serverRootDirect = isProd ? `https://doly-dev.github.io/${pkg.name}/` : '/';
 const logo = 'https://doly-dev.github.io/logo.png';
 const favicon = 'https://doly-dev.github.io/favicon.png';
 
@@ -55,7 +55,7 @@ gtag('config', 'G-C5R17JSQCN');
 }
 
 export default defineConfig({
-  title: 'doly-icons',
+  title: pkg.name,
   publicPath,
   logo,
   favicon,
@@ -66,7 +66,7 @@ export default defineConfig({
   },
   hash: true,
   define: {
-    PATH_ROOT: isProd ? `/doly-icons/${version}/` : '/',
+    PATH_ROOT: isProd ? `/${pkg.name}/${version}/` : '/',
   },
   locales: [
     ['zh-CN', '中文'],
@@ -84,15 +84,15 @@ export default defineConfig({
       },
       // {
       // title: `v${preMajorVersionNumber}.x`,
-      // path: `https://doly-dev.github.io/doly-icons/${preVersionSiteRoot}/index.html`
+      // path: `https://doly-dev.github.io/${pkg.name}/${preVersionSiteRoot}/index.html`
       // },
       {
         title: 'GitHub',
-        path: 'https://github.com/doly-dev/doly-icons',
+        path: `https://github.com/doly-dev/${pkg.name}`,
       },
       {
         title: '更新日志',
-        path: 'https://github.com/doly-dev/doly-icons/releases',
+        path: `https://github.com/doly-dev/${pkg.name}/releases`,
       },
     ],
     'en-US': [
@@ -106,15 +106,15 @@ export default defineConfig({
       },
       // {
       // title: `v${preMajorVersionNumber}.x`,
-      // path: `https://doly-dev.github.io/doly-icons/${preVersionSiteRoot}/index.html`
+      // path: `https://doly-dev.github.io/${pkg.name}/${preVersionSiteRoot}/index.html`
       // },
       {
         title: 'GitHub',
-        path: 'https://github.com/doly-dev/doly-icons',
+        path: `https://github.com/doly-dev/${pkg.name}`,
       },
       {
         title: 'ChangeLog',
-        path: 'https://github.com/doly-dev/doly-icons/releases',
+        path: `https://github.com/doly-dev/${pkg.name}/releases`,
       },
     ],
   },
@@ -128,8 +128,6 @@ export default defineConfig({
         },
       }
     : {
-        // https://github.com/umijs/umi/issues/6766
-        mfsu: {},
         nodeModulesTransform: {
           type: 'none',
         },
