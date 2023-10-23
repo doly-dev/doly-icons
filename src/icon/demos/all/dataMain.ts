@@ -1,5 +1,10 @@
+import { lowerCase } from 'ut2';
 import allIcons from './data';
 import { Theme } from './enum';
+
+function formatWord(word: string) {
+  return lowerCase(word).replace(/\s+/g, '');
+}
 
 // 图标分类
 let CategoriesOptions: { label: React.ReactNode; value: any; total?: number }[] = [
@@ -69,13 +74,15 @@ const filterClassData = ({ category, theme, keyword }: FilterParam) => {
               (theme === Theme.Fill && item.fill) ||
               (theme === Theme.Outline && !item.fill);
 
+            const keywordLowerCase = formatWord(keyword || '');
+
             const enableKeyword =
-              !keyword ||
-              item.name.indexOf(keyword) > -1 ||
-              item.cnName.indexOf(keyword) > -1 ||
-              item.tags.indexOf(keyword) > -1 ||
-              item.cnTags.indexOf(keyword) > -1 ||
-              (item.remark && item.remark.indexOf(keyword) > -1);
+              !keywordLowerCase ||
+              formatWord(item.name).indexOf(keywordLowerCase) > -1 ||
+              formatWord(item.cnName).indexOf(keywordLowerCase) > -1 ||
+              formatWord(item.tags).indexOf(keywordLowerCase) > -1 ||
+              formatWord(item.cnTags).indexOf(keywordLowerCase) > -1 ||
+              (item.remark && formatWord(item.remark).indexOf(keywordLowerCase) > -1);
 
             return enableTheme && enableKeyword;
           }),
