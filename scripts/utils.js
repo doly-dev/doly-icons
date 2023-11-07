@@ -1,10 +1,10 @@
-// 首字母大写
-const capitalize = (str) => str.substring(0, 1).toUpperCase() + str.substring(1);
+/* eslint-disable @typescript-eslint/no-var-requires */
+const { camelCase, upperFirst, words } = require('ut2');
 
 const regEnglish = /[a-z]/i;
 
 // 首字母是否为英语
-const isInitialEnglish = (str) => regEnglish.test(str.substring(0, 1));
+const firstIsEnglish = (str) => regEnglish.test(str.substring(0, 1));
 
 /**
  * 转换为 react 属性名
@@ -15,16 +15,7 @@ const isInitialEnglish = (str) => regEnglish.test(str.substring(0, 1));
  * @returns
  */
 const transformPropName = (propName) => {
-  return propName
-    .split('-')
-    .filter((strItem) => !!strItem)
-    .map((strItem, i) => {
-      if (i === 0) {
-        return strItem;
-      }
-      return capitalize(strItem);
-    })
-    .join('');
+  return camelCase(propName);
 };
 
 /**
@@ -36,14 +27,12 @@ const transformPropName = (propName) => {
  * @returns
  */
 const transformComponentName = (componentName) => {
-  return componentName
-    .split('-')
-    .filter((strItem) => !!strItem)
+  return words(componentName)
     .map((strItem, i) => {
-      if (i === 0 && !isInitialEnglish(strItem)) {
+      if (i === 0 && !firstIsEnglish(strItem)) {
         return `Icon${strItem}`;
       }
-      return capitalize(strItem);
+      return upperFirst(strItem);
     })
     .join('');
 };
@@ -57,29 +46,11 @@ const transformComponentName = (componentName) => {
  * @returns
  */
 const transformFileName = (componentName) => {
-  return componentName
-    .split('-')
-    .filter((strItem) => !!strItem)
-    .map((strItem) => capitalize(strItem))
-    .join('');
-};
-
-/**
- * 延时触发 Promise
- *
- * @param {number} [time=100] time 延后时长，单位ms
- * @returns
- */
-const waitTime = (time) => {
-  const realTime = time || 100;
-  return new Promise((resolve) => {
-    setTimeout(resolve, realTime);
-  });
+  return upperFirst(camelCase(componentName));
 };
 
 module.exports = {
   transformPropName,
   transformComponentName,
   transformFileName,
-  waitTime,
 };
