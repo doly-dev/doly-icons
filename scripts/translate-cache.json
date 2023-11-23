@@ -103,7 +103,7 @@
   "checkmark confirm done": "选中标记确认完成",
   "checkmark todo done select": "选中标记待办事项选择完成",
   "checkmark todo select done checkbox": "选中标记待办事项选择完成复选框",
-  "chevron": "V形",
+  "chevron": "V形箭头",
   "shape": "形状",
   "shape stop ban false": "形状停止禁止虚假",
   "graphics vector merge layers": "图形矢量图层合并",
@@ -2697,5 +2697,6 @@
   "type-h5": "五级标题",
   "type-h6": "六级标题",
   "vignette": "渐晕",
-  "speed tachometer dashboard gauge": "转速表仪表板"
+  "speed tachometer dashboard gauge": "转速表仪表板",
+  "false not allowed block": "false不允许块"
 }

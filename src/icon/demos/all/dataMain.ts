@@ -1,9 +1,9 @@
-import { lowerCase } from 'ut2';
+import { lowerCase, words } from 'ut2';
 import allIcons from './data';
 import { Theme } from './enum';
 
 function formatWord(word: string) {
-  return lowerCase(word).replace(/\s+/g, '');
+  return lowerCase(word);
 }
 
 // 图标分类
@@ -74,17 +74,24 @@ const filterClassData = ({ category, theme, keyword }: FilterParam) => {
               (theme === Theme.Fill && item.fill) ||
               (theme === Theme.Outline && !item.fill);
 
-            const keywordLowerCase = formatWord(keyword || '');
+            if (enableTheme) {
+              if (!keyword) {
+                return true;
+              }
 
-            const enableKeyword =
-              !keywordLowerCase ||
-              formatWord(item.name).indexOf(keywordLowerCase) > -1 ||
-              formatWord(item.cnName).indexOf(keywordLowerCase) > -1 ||
-              formatWord(item.tags).indexOf(keywordLowerCase) > -1 ||
-              formatWord(item.cnTags).indexOf(keywordLowerCase) > -1 ||
-              (item.remark && formatWord(item.remark).indexOf(keywordLowerCase) > -1);
+              const description = (
+                item.name +
+                item.cnName +
+                item.tags +
+                item.cnTags +
+                (item.remark || '')
+              ).toLowerCase();
+              const keywords = words(keyword.toLowerCase());
 
-            return enableTheme && enableKeyword;
+              return keywords.every((item) => description.indexOf(item) > -1);
+            }
+
+            return false;
           }),
         };
       }
