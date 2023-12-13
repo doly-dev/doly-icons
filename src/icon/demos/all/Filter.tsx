@@ -75,7 +75,7 @@ const Filter: React.FC<FilterProps> = React.memo(
     const { run } = useDebounceFn((_, values) => {
       setAllFilterStore(values);
       onFilterChange?.(values);
-    }, 300);
+    }, 100);
 
     const handleOptionsChange = (opts: typeof DefaultConfig) => {
       const newOpts = { ...opts, isShowFilter };

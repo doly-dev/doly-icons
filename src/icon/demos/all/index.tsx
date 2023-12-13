@@ -14,6 +14,7 @@ const AllIcons = () => {
   const [filter, setFilter] = React.useState(() => getFilterStore() || DefaultFilter);
   const [options, setOptions] = React.useState(() => getConfigStore() || DefaultConfig);
   const [result, setResult] = React.useState(() => filterClassData(filter));
+  const timerRef = React.useRef<any>(null);
 
   useUpdateEffect(() => {
     setResult(filterClassData(filter));
@@ -35,7 +36,8 @@ const AllIcons = () => {
 
   React.useEffect(() => {
     const footerDom = document.querySelector('.__dumi-default-layout-footer-meta') as HTMLElement;
-    const timer = setTimeout(() => {
+    clearTimeout(timerRef.current);
+    timerRef.current = setTimeout(() => {
       resetScrollTop();
       document.documentElement.style.overflow = 'hidden';
       document.body.style.overflow = 'hidden';
@@ -45,7 +47,7 @@ const AllIcons = () => {
     }, 1000);
 
     return () => {
-      clearTimeout(timer);
+      clearTimeout(timerRef.current);
       document.documentElement.style.overflow = '';
       document.body.style.overflow = '';
       if (footerDom) {
