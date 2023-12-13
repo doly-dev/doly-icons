@@ -1,10 +1,6 @@
-import { lowerCase, words } from 'ut2';
+import { words } from 'ut2';
 import allIcons from './data';
 import { Theme } from './enum';
-
-function formatWord(word: string) {
-  return lowerCase(word);
-}
 
 // 图标分类
 let CategoriesOptions: { label: React.ReactNode; value: any; total?: number }[] = [

@@ -1,4 +1,4 @@
-import { Button, Col, Input, Row, Spin } from 'antd';
+import { Button, Col, Input, Row } from 'antd';
 import {
   BizForm,
   BizFormItem,
@@ -60,10 +60,9 @@ interface FilterProps {
 }
 
 const Filter: React.FC<FilterProps> = React.memo(
-  ({ options = DefaultConfig, onOptionsChange, filter = DefaultFilter, onFilterChange }) => {
+  ({ options = DefaultConfig, onOptionsChange, filter, onFilterChange }) => {
     const { isShowFilter } = React.useContext(Context);
     const [form] = BizForm.useForm();
-    const [spinning, setSpinning] = React.useState(false);
     const cateOptions = React.useMemo(
       () =>
         CategoriesOptions.map((item) => ({
@@ -78,83 +77,83 @@ const Filter: React.FC<FilterProps> = React.memo(
       onFilterChange?.(values);
     }, 300);
 
-    const handleOptionsChange = React.useCallback(
-      (opts: typeof DefaultConfig) => {
-        const newOpts = { ...opts, isShowFilter };
-        onOptionsChange?.(newOpts);
-        setAllConfigStore(newOpts);
-      },
-      [onOptionsChange, isShowFilter],
-    );
+    const handleOptionsChange = (opts: typeof DefaultConfig) => {
+      const newOpts = { ...opts, isShowFilter };
+      onOptionsChange?.(newOpts);
+      setAllConfigStore(newOpts);
+    };
 
-    const handleResetFilter = React.useCallback(() => {
-      setSpinning(true);
+    const handleResetFilter = () => {
       removeFilterStore();
-      setTimeout(() => window.location.reload(), 50);
+      form.resetFields();
+      onFilterChange?.(DefaultFilter);
+    };
+
+    React.useEffect(() => {
+      form.setFieldsValue(filter);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
-      <Spin spinning={spinning}>
-        <BizForm
-          initialValues={filter}
-          onValuesChange={run}
-          hideLabel
-          submitter={false}
-          layout="horizontal"
-          form={form}
-        >
-          <Row gutter={16} justify="space-between" style={!isShowFilter ? { display: 'none' } : {}}>
-            <Col style={{ width: 240 }}>
-              <BizFormItemSelect
-                name="category"
-                options={cateOptions}
-                selectProps={{ size: 'large', onChange: resetScrollTop }}
+      <BizForm
+        initialValues={DefaultFilter}
+        onValuesChange={run}
+        hideLabel
+        submitter={false}
+        layout="horizontal"
+        form={form}
+      >
+        <Row gutter={16} justify="space-between" style={!isShowFilter ? { display: 'none' } : {}}>
+          <Col style={{ width: 240 }}>
+            <BizFormItemSelect
+              name="category"
+              options={cateOptions}
+              selectProps={{ size: 'large', onChange: resetScrollTop }}
+            />
+          </Col>
+          <Col style={{ minWidth: 342 }}>
+            <BizFormItemRadio
+              name="theme"
+              optionType="button"
+              options={ThemeOptions}
+              radioGroupProps={{ buttonStyle: 'solid', size: 'large' }}
+            />
+          </Col>
+          <Col flex={1}>
+            <BizFormItem name="keyword">
+              <Input.Search
+                placeholder="输入图标关键字（多个关键词可使用空格分隔，如：箭头 下）"
+                allowClear
+                size="large"
+                onBlur={resetScrollTop}
               />
-            </Col>
-            <Col style={{ minWidth: 342 }}>
-              <BizFormItemRadio
-                name="theme"
-                optionType="button"
-                options={ThemeOptions}
-                radioGroupProps={{ buttonStyle: 'solid', size: 'large' }}
-              />
-            </Col>
-            <Col flex={1}>
-              <BizFormItem name="keyword">
-                <Input.Search
-                  placeholder="输入图标关键字（多个关键词可使用空格分隔，如：箭头 下）"
-                  allowClear
-                  size="large"
-                  onBlur={resetScrollTop}
-                />
-              </BizFormItem>
-            </Col>
-          </Row>
-          <Row gutter={[16, 16]} wrap={false}>
-            <Col style={{ minWidth: 48 }}>
-              <BizFormItemColor
-                name="color"
-                style={{ margin: 0 }}
-                colorProps={{ size: 'middle' }}
-                colorMode="rgb"
-              />
-            </Col>
-            <Col flex={1}>
-              <BizFormItem name="fontSize" style={{ margin: 0 }}>
-                <SizeSlider inputProps={{ onBlur: resetScrollTop }} />
-              </BizFormItem>
-            </Col>
-            <Col>
-              <Button type="link" onClick={handleResetFilter}>
-                重置筛选条件
-              </Button>
-            </Col>
-            <Col>
-              <Config value={options} onChange={handleOptionsChange} />
-            </Col>
-          </Row>
-        </BizForm>
-      </Spin>
+            </BizFormItem>
+          </Col>
+        </Row>
+        <Row gutter={[16, 16]} wrap={false}>
+          <Col style={{ minWidth: 48 }}>
+            <BizFormItemColor
+              name="color"
+              style={{ margin: 0 }}
+              colorProps={{ size: 'middle' }}
+              colorMode="rgb"
+            />
+          </Col>
+          <Col flex={1}>
+            <BizFormItem name="fontSize" style={{ margin: 0 }}>
+              <SizeSlider inputProps={{ onBlur: resetScrollTop }} />
+            </BizFormItem>
+          </Col>
+          <Col>
+            <Button type="link" onClick={handleResetFilter}>
+              重置筛选条件
+            </Button>
+          </Col>
+          <Col>
+            <Config value={options} onChange={handleOptionsChange} />
+          </Col>
+        </Row>
+      </BizForm>
     );
   },
 );
