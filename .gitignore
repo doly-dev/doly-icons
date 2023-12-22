@@ -18,6 +18,7 @@ pnpm-lock.yaml
 # misc
 .DS_Store
 /coverage
+.vscode
 
 # umi
 .umi

@@ -122,7 +122,7 @@ const Filter: React.FC<FilterProps> = React.memo(
           <Col flex={1}>
             <BizFormItem name="keyword">
               <Input.Search
-                placeholder="输入图标关键字（多个关键词可使用空格分隔，如：箭头 下）"
+                placeholder="输入图标关键词，如：箭头 下"
                 allowClear
                 size="large"
                 onBlur={resetScrollTop}
