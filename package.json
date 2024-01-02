@@ -78,7 +78,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.1.2",
     "@types/jest": "^29.5.11",
-    "@types/react": "^18.2.45",
+    "@types/react": "^18.2.46",
     "@types/react-color": "^3.0.10",
     "@types/react-copy-to-clipboard": "^5.0.7",
     "@types/react-helmet": "^6.1.11",
@@ -88,8 +88,8 @@
     "@typescript-eslint/parser": "^5.62.0",
     "@umijs/fabric": "^3.0.0",
     "@umijs/types": "^3.5.41",
-    "antd": "^5.12.4",
-    "antd-more": "^4.2.4",
+    "antd": "^5.12.6",
+    "antd-more": "^4.2.5",
     "babel-jest": "^29.7.0",
     "bootstrap-icons": "1.11.1",
     "cache2": "^2.0.1",
@@ -127,14 +127,15 @@
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^29.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
     "stylelint-no-unsupported-browser-features": "^6.1.0",
     "ts-jest": "^29.1.1",
     "typescript": "^5.3.3",
     "ut2": "^1.5.6",
-    "util-helpers": "^4.20.8"
+    "util-helpers": "^4.21.0"
   },
   "resolutions": {
-    "@babel/helper-compilation-targets": "~7.21.5"
+    "@babel/helper-compilation-targets": "~7.21.5",
+    "@ctrl/tinycolor": "3"
   }
 }

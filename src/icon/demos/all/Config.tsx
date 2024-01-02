@@ -1,4 +1,4 @@
-import { Button, Card, Col, message, Row } from 'antd';
+import { App, Button, Card, Col, Row } from 'antd';
 import {
   BizForm,
   BizFormItemColor,
@@ -21,6 +21,7 @@ interface ConfigProps {
 }
 
 const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
+  const { message } = App.useApp();
   const [form] = BizForm.useForm();
 
   const handlePngBgColorTransparent = () => {

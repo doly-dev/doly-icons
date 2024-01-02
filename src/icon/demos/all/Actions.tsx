@@ -1,5 +1,5 @@
-import type { MenuProps } from 'antd';
-import { Dropdown, message, Typography } from 'antd';
+import type { DropdownProps, MenuProps } from 'antd';
+import { App, Dropdown, Typography } from 'antd';
 import { copyImageToClipboard } from 'copy-image-clipboard';
 import copy from 'copy-to-clipboard';
 import { ThreeDots } from 'doly-icons';
@@ -34,22 +34,26 @@ function getSvgToPngOptions({
 export const CopyComponent: React.FC<{ text: string; children: React.ReactNode }> = ({
   text,
   children,
-}) => (
-  <CopyToClipboard
-    text={text}
-    onCopy={() => {
-      message.success(
-        <>
-          复制成功！<Typography.Text code>{text}</Typography.Text>
-        </>,
-      );
-    }}
-  >
-    {children}
-  </CopyToClipboard>
-);
+}) => {
+  const { message } = App.useApp();
+  return (
+    <CopyToClipboard
+      text={text}
+      onCopy={() => {
+        message.success(
+          <>
+            复制成功！<Typography.Text code>{text}</Typography.Text>
+          </>,
+        );
+      }}
+    >
+      {children}
+    </CopyToClipboard>
+  );
+};
 
 export function useActions(fileName: string) {
+  const { message } = App.useApp();
   const { fontSize, color, pngBackgroundColor, pngSize } = React.useContext(Context);
   const svgNodeRef = React.useRef<SVGSVGElement | null>();
 
@@ -128,10 +132,12 @@ export function useActions(fileName: string) {
   };
 }
 
-const Actions: React.FunctionComponent<{
+interface ActionsProps extends DropdownProps {
   componentName: string;
   fileName: string;
-}> = ({ componentName, fileName }) => {
+}
+
+const Actions: React.FC<ActionsProps> = ({ componentName, fileName, ...restProps }) => {
   const { fontSize, color } = React.useContext(Context);
   const { copyPng, copySvg, downloadPng } = useActions(fileName);
 
@@ -188,6 +194,7 @@ const Actions: React.FunctionComponent<{
       }}
       arrow={{ pointAtCenter: true }}
       destroyPopupOnHide
+      {...restProps}
     >
       <ThreeDots className={styles.more} />
     </Dropdown>

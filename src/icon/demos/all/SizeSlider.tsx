@@ -16,7 +16,7 @@ interface SizeSliderProps {
   inputProps?: InputNumberProps;
 }
 
-const SizeSlider: React.FunctionComponent<SizeSliderProps> = ({
+const SizeSlider: React.FC<SizeSliderProps> = ({
   min = 12,
   max = 64,
   step = 1,

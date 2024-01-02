@@ -1,4 +1,4 @@
-import { Empty, FloatButton } from 'antd';
+import { App, Empty, FloatButton } from 'antd';
 import { Funnel } from 'doly-icons';
 import { useUpdateEffect } from 'rc-hooks';
 import * as React from 'react';
@@ -57,39 +57,41 @@ const AllIcons = () => {
   }, []);
 
   return (
-    <Context.Provider value={{ ...filter, ...options, result }}>
-      <div className={styles.demo}>
-        <div className={styles.formArea}>
-          <Filter
-            options={options}
-            onOptionsChange={setOptions}
-            filter={filter}
-            onFilterChange={setFilter}
+    <App>
+      <Context.Provider value={{ ...filter, ...options, result }}>
+        <div className={styles.demo}>
+          <div className={styles.formArea}>
+            <Filter
+              options={options}
+              onOptionsChange={setOptions}
+              filter={filter}
+              onFilterChange={setFilter}
+            />
+          </div>
+          {result.length <= 0 && <Empty description="暂无数据" />}
+          <div style={iconWrapperStyles as React.CSSProperties}>
+            <List data={result} />
+          </div>
+          <FloatButton
+            // tooltip={`${options.isShowFilter ? '隐藏' : '显示'}筛选项`}
+            onClick={() => {
+              setOptions((opts) => {
+                const newOpts = {
+                  ...opts,
+                  isShowFilter: !opts.isShowFilter,
+                };
+                setAllConfigStore(newOpts);
+                return newOpts;
+              });
+            }}
+            type={options.isShowFilter ? 'primary' : 'default'}
+            shape="square"
+            description={options.isShowFilter ? '显示' : '隐藏'}
+            icon={<Funnel />}
           />
         </div>
-        {result.length <= 0 && <Empty description="暂无数据" />}
-        <div style={iconWrapperStyles as React.CSSProperties}>
-          <List data={result} />
-        </div>
-        <FloatButton
-          // tooltip={`${options.isShowFilter ? '隐藏' : '显示'}筛选项`}
-          onClick={() => {
-            setOptions((opts) => {
-              const newOpts = {
-                ...opts,
-                isShowFilter: !opts.isShowFilter,
-              };
-              setAllConfigStore(newOpts);
-              return newOpts;
-            });
-          }}
-          type={options.isShowFilter ? 'primary' : 'default'}
-          shape="square"
-          description={options.isShowFilter ? '显示' : '隐藏'}
-          icon={<Funnel />}
-        />
-      </div>
-    </Context.Provider>
+      </Context.Provider>
+    </App>
   );
 };
 

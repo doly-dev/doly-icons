@@ -75,7 +75,9 @@ const IconName: React.FC<{ children: React.ReactNode; name: string; componentNam
   const { clickIconAction } = React.useContext(Context);
   const { copyPng, copySvg } = useActions(name);
   const hasClickAction = clickIconAction !== ClickIconAction.None;
-  const actionName = ClickIconActionOptions.find((item) => item.value === clickIconAction)?.label;
+  const actionName = hasClickAction
+    ? ClickIconActionOptions.find((item) => item.value === clickIconAction)?.label
+    : undefined;
 
   const view = (
     <div
@@ -109,7 +111,42 @@ const IconName: React.FC<{ children: React.ReactNode; name: string; componentNam
   );
 };
 
-const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data }) => {
+const IconItem: React.FC<{ data: IconClassDataItem['list'][0] }> = ({ data }) => {
+  const [open, setOpen] = React.useState(false);
+  const { name, componentName, cnName } = data || {};
+  // @ts-ignore
+  const C = Icons[componentName];
+
+  return (
+    <div className={classnames(styles.item, { [styles.itemHover]: open })}>
+      <IconName name={name} componentName={componentName}>
+        <C />
+      </IconName>
+      <div className={styles.info}>
+        <div className={styles.inner}>
+          <div className={styles.cnName}>
+            <Typography.Text ellipsis={{ tooltip: cnName }}>{cnName}</Typography.Text>
+          </div>
+          <div className={styles.enName}>
+            <Typography.Text ellipsis={{ tooltip: name }}>{name}</Typography.Text>
+          </div>
+          {/* <div className={styles.cnName}>{cnName}</div>
+                      <div className={styles.enName}>{name}</div> */}
+        </div>
+        <div className={styles.extra}>
+          <Actions
+            componentName={componentName}
+            fileName={name}
+            open={open}
+            onOpenChange={setOpen}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const IconList: React.FC<{ data: IconClassDataItem[] }> = ({ data }) => {
   const listRef = React.useRef<any>();
   const wrapperRef = React.useRef<HTMLDivElement>(null);
   const screenInfoRef = React.useRef<ReturnType<typeof getColumnsAndPadding>>();
@@ -169,30 +206,7 @@ const IconList: React.FunctionComponent<{ data: IconClassDataItem[] }> = ({ data
 
             return (
               <Col key={item.name} {...colSpan}>
-                <div className={styles.item}>
-                  <IconName name={item.name} componentName={item.componentName}>
-                    <C />
-                  </IconName>
-                  <div className={styles.info}>
-                    <div className={styles.inner}>
-                      <div className={styles.cnName}>
-                        <Typography.Text ellipsis={{ tooltip: item.cnName }}>
-                          {item.cnName}
-                        </Typography.Text>
-                      </div>
-                      <div className={styles.enName}>
-                        <Typography.Text ellipsis={{ tooltip: item.name }}>
-                          {item.name}
-                        </Typography.Text>
-                      </div>
-                      {/* <div className={styles.cnName}>{item.cnName}</div>
-                      <div className={styles.enName}>{item.name}</div> */}
-                    </div>
-                    <div className={styles.extra}>
-                      <Actions componentName={item.componentName} fileName={item.name} />
-                    </div>
-                  </div>
-                </div>
+                <IconItem data={item} />
               </Col>
             );
           })}
