@@ -79,7 +79,7 @@
     "@testing-library/react": "^14.1.2",
     "@types/jest": "^29.5.11",
     "@types/react": "^18.2.46",
-    "@types/react-color": "^3.0.10",
+    "@types/react-color": "^3.0.11",
     "@types/react-copy-to-clipboard": "^5.0.7",
     "@types/react-helmet": "^6.1.11",
     "@types/react-test-renderer": "^18.0.7",
@@ -88,7 +88,7 @@
     "@typescript-eslint/parser": "^5.62.0",
     "@umijs/fabric": "^3.0.0",
     "@umijs/types": "^3.5.41",
-    "antd": "^5.12.6",
+    "antd": "^5.12.7",
     "antd-more": "^4.2.5",
     "babel-jest": "^29.7.0",
     "bootstrap-icons": "1.11.1",
@@ -135,7 +135,6 @@
     "util-helpers": "^4.21.0"
   },
   "resolutions": {
-    "@babel/helper-compilation-targets": "~7.21.5",
-    "@ctrl/tinycolor": "3"
+    "@babel/helper-compilation-targets": "~7.21.5"
   }
 }
