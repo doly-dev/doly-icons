@@ -57,22 +57,19 @@ export function useActions(fileName: string) {
   const { fontSize, color, pngBackgroundColor, pngSize } = React.useContext(Context);
   const svgNodeRef = React.useRef<SVGSVGElement | null>();
 
-  const updateSvgNode = React.useCallback(
-    (withStyle = true) => {
-      svgNodeRef.current = document
-        .querySelector(`.icon-${fileName} svg`)
-        ?.cloneNode(true) as SVGSVGElement;
-      if (withStyle) {
-        const realSize = formatPx(fontSize);
-        svgNodeRef.current.setAttribute('width', `${realSize}`);
-        svgNodeRef.current.setAttribute('height', `${realSize}`);
-        svgNodeRef.current.setAttribute('fill', color);
-      }
-    },
-    [color, fileName, fontSize],
-  );
+  const updateSvgNode = (withStyle = true) => {
+    svgNodeRef.current = document
+      .querySelector(`.icon-${fileName} svg`)
+      ?.cloneNode(true) as SVGSVGElement;
+    if (withStyle) {
+      const realSize = formatPx(fontSize);
+      svgNodeRef.current.setAttribute('width', `${realSize}`);
+      svgNodeRef.current.setAttribute('height', `${realSize}`);
+      svgNodeRef.current.setAttribute('fill', color);
+    }
+  };
 
-  const downloadPng = React.useCallback(() => {
+  const downloadPng = () => {
     updateSvgNode();
     saveSvgAsPng(
       svgNodeRef.current,
@@ -80,9 +77,9 @@ export function useActions(fileName: string) {
       getSvgToPngOptions({ pngBackgroundColor, pngSize }),
     );
     svgNodeRef.current = null;
-  }, [fileName, pngBackgroundColor, pngSize, updateSvgNode]);
+  };
 
-  const copyPng = React.useCallback(async () => {
+  const copyPng = async () => {
     updateSvgNode();
     const pngUri = await svgAsPngUri(
       svgNodeRef.current,
@@ -107,9 +104,9 @@ export function useActions(fileName: string) {
       message.error('PNG 复制失败！');
     }
     svgNodeRef.current = null;
-  }, [pngBackgroundColor, pngSize, updateSvgNode]);
+  };
 
-  const copySvg = React.useCallback(async () => {
+  const copySvg = () => {
     updateSvgNode();
     let div = document.createElement('div');
     div.append(svgNodeRef.current as SVGSVGElement);
@@ -123,7 +120,7 @@ export function useActions(fileName: string) {
         svgNodeRef.current = null;
       },
     });
-  }, [updateSvgNode]);
+  };
 
   return {
     copyPng,
