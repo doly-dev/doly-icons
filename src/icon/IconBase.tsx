@@ -17,15 +17,15 @@ const defaultSvgProps = {
   focusable: false,
 };
 
-interface CSSPropertiesWithVariable extends CSSProperties {
-  [key: `--${string}`]: string | number;
-}
+type StyleWithVariable<V extends string = never> = CSSProperties & Partial<Record<V, string>>;
 
 export interface IconBaseProps extends Omit<HTMLAttributes<HTMLSpanElement>, 'style'> {
   spin?: boolean;
   spinReverse?: boolean;
   svgProps?: SVGProps<SVGSVGElement>;
-  style?: CSSPropertiesWithVariable;
+  style?: StyleWithVariable<
+    '--doly-icon-font-size' | '--doly-icon-color' | '--doly-icon-spin-duration'
+  >;
 }
 
 const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
