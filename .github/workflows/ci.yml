@@ -12,6 +12,7 @@ on:
       - src/**
       - .umirc.ts
       - .github/**
+      - package.json
 
 jobs:
   build-and-deploy:
