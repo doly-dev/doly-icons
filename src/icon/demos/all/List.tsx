@@ -2,7 +2,7 @@ import { Col, Row, Typography } from 'antd';
 import classnames from 'classnames';
 import * as Icons from 'doly-icons';
 import { debounce } from 'ut2';
-import { useUpdateEffect } from 'rc-hooks';
+import { useDebounce, useUpdateEffect } from 'rc-hooks';
 import * as React from 'react';
 import { VariableSizeList } from 'react-window';
 import Actions, { CopyComponent, useActions } from './Actions';
@@ -112,23 +112,48 @@ const IconName: React.FC<{ children: React.ReactNode; name: string; componentNam
 };
 
 const IconItem: React.FC<{ data: IconClassDataItem['list'][0] }> = ({ data }) => {
+  const wrapperRef = React.useRef<HTMLDivElement>(null);
   const [open, setOpen] = React.useState(false);
   const { name, componentName, cnName } = data || {};
   // @ts-ignore
   const C = Icons[componentName];
 
+  const debounceOpen = useDebounce(open, 300);
+
   return (
-    <div className={classnames(styles.item, { [styles.itemHover]: open })}>
+    <div className={classnames(styles.item, { [styles.itemHover]: debounceOpen })} ref={wrapperRef}>
       <IconName name={name} componentName={componentName}>
         <C />
       </IconName>
       <div className={styles.info}>
         <div className={styles.inner}>
           <div className={styles.cnName}>
-            <Typography.Text ellipsis={{ tooltip: cnName }}>{cnName}</Typography.Text>
+            <Typography.Text
+              ellipsis={{
+                tooltip: {
+                  title: cnName,
+                  getPopupContainer() {
+                    return wrapperRef.current!;
+                  },
+                },
+              }}
+            >
+              {cnName}
+            </Typography.Text>
           </div>
           <div className={styles.enName}>
-            <Typography.Text ellipsis={{ tooltip: name }}>{name}</Typography.Text>
+            <Typography.Text
+              ellipsis={{
+                tooltip: {
+                  title: name,
+                  getPopupContainer() {
+                    return wrapperRef.current!;
+                  },
+                },
+              }}
+            >
+              {name}
+            </Typography.Text>
           </div>
           {/* <div className={styles.cnName}>{cnName}</div>
                       <div className={styles.enName}>{name}</div> */}
