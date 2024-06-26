@@ -24,7 +24,7 @@ footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](http
 ### 安装
 
 ```shell
-npm install doly-icons --save
+npm install doly-icons
 ```
 
 ```shell
