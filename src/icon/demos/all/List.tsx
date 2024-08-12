@@ -226,9 +226,6 @@ const IconList: React.FC<{ data: IconClassDataItem[] }> = ({ data }) => {
       view = (
         <Row gutter={[16, 16]}>
           {curr.list.map((item) => {
-            // @ts-ignore
-            const C = Icons[item.componentName];
-
             return (
               <Col key={item.name} {...colSpan}>
                 <IconItem data={item} />
