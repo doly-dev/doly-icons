@@ -1,5 +1,12 @@
-import React, { cloneElement, forwardRef, useContext } from 'react';
-import type { CSSProperties, ReactElement, HTMLAttributes, SVGProps } from 'react';
+import React, {
+  cloneElement,
+  forwardRef,
+  useContext,
+  CSSProperties,
+  ReactElement,
+  HTMLAttributes,
+  SVGProps,
+} from 'react';
 import classnames from 'classnames';
 import IconContext from './IconContext';
 import { useInsertStyle } from './dynamicStyle';
@@ -20,8 +27,21 @@ const defaultSvgProps = {
 type StyleWithVariable<V extends string = never> = CSSProperties & Partial<Record<V, string>>;
 
 export interface IconBaseProps extends Omit<HTMLAttributes<HTMLSpanElement>, 'style'> {
+  /**
+   * @description 旋转动画。
+   * @default false
+   */
   spin?: boolean;
+
+  /**
+   * @description 反向旋转动画，优先级比 spin 高。
+   * @default false
+   */
   spinReverse?: boolean;
+
+  /**
+   * @description svg 标签属性。
+   */
   svgProps?: SVGProps<SVGSVGElement>;
   style?: StyleWithVariable<
     '--doly-icon-font-size' | '--doly-icon-color' | '--doly-icon-spin-duration'

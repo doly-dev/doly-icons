@@ -1,6 +1,6 @@
 import { useContext, useEffect } from 'react';
 import IconContext from './IconContext';
-import { injectStyle } from './utils';
+import { injectCss } from './utils';
 
 export const iconStyle = `@-webkit-keyframes doly-icon-animate-spin {
   100% {
@@ -75,6 +75,6 @@ export function useInsertStyle() {
   const { csp } = useContext(IconContext);
 
   useEffect(() => {
-    injectStyle(iconStyle, 'doly-icons', { csp });
+    injectCss(iconStyle, 'doly-icons', { csp });
   }, [csp]);
 }

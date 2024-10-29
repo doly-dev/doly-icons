@@ -1,17 +1,23 @@
-import type { ReactElement, Ref } from 'react';
-import React, { useMemo } from 'react';
-import type { IconBaseProps } from './IconBase';
-import IconBase from './IconBase';
+import React, { useMemo, ReactElement, Ref } from 'react';
+import IconBase, { IconBaseProps } from './IconBase';
 
 type IconBaseRef = {
   ref?: Ref<HTMLSpanElement>;
 };
 
 interface ThirdIconProps extends IconBaseProps, IconBaseRef {
+  /**
+   * @description svg 组件。
+   */
   component: ReactElement;
 }
 
 interface SVGSymbolIconProps extends IconBaseProps, IconBaseRef {
+  /**
+   * @description 使用 SVG Symbol 图标。方便开发者调用在 iconfont 上的图标 或者 使用自定义的 SVG Symbol 。
+   * @see {@link https://www.iconfont.cn/ | iconfont}
+   * @see {@link https://css-tricks.com/svg-symbol-good-choice-icons/ | SVG symbol a Good Choice for Icons}
+   */
   symbolId: string;
 }
 

@@ -1,11 +1,13 @@
 import { createContext } from 'react';
-import type { IconBaseProps } from './IconBase';
+import { IconBaseProps } from './IconBase';
 
 const context = createContext<
   IconBaseProps & {
-    // 内容安全政策
-    // ref: https://developers.google.com/web/fundamentals/security/csp/
-    // ref: https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/nonce
+    /**
+     * @description 内容安全政策。
+     * @see {@link https://web.dev/articles/csp?hl=zh-cn | 内容安全政策}
+     * @see {@link https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/nonce | HTMLElement.nonce}
+     */
     csp?: {
       nonce?: string;
     };
