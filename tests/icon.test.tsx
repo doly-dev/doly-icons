@@ -1,18 +1,19 @@
+/**
+ * @jest-environment jsdom
+ */
 import * as React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import Icon, { IconProvider, Gear, HeartFill } from '../src';
 
 describe('renader icons snapshot', () => {
   it('render as built-in icon', () => {
-    const tree = renderer
-      .create(
-        <div>
-          <Gear spin />
-          <HeartFill style={{ color: 'red' }} />
-        </div>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const { asFragment } = render(
+      <div>
+        <Gear spin />
+        <HeartFill style={{ color: 'red' }} />
+      </div>,
+    );
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('render as custom icon', () => {
@@ -28,37 +29,33 @@ describe('renader icons snapshot', () => {
       </svg>
     );
 
-    const tree = renderer.create(<Icon component={PuzzleSVG} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const { asFragment } = render(<Icon component={PuzzleSVG} />);
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('render as virtual svg symbol', () => {
-    const tree = renderer.create(<Icon symbolId="vip" />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const { asFragment } = render(<Icon symbolId="vip" />);
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('render as built-in icon with use css variables', () => {
-    const tree = renderer
-      .create(
-        <div>
-          <Gear style={{ '--doly-icon-color': '#e91e63' }} />
-          <HeartFill style={{ '--doly-icon-font-size': '16px', '--doly-icon-color': '#e91e63' }} />
-          <HeartFill style={{ '--doly-icon-spin-duration': '2s' }} />
-        </div>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const { asFragment } = render(
+      <div>
+        <Gear style={{ '--doly-icon-color': '#e91e63' }} />
+        <HeartFill style={{ '--doly-icon-font-size': '16px', '--doly-icon-color': '#e91e63' }} />
+        <HeartFill style={{ '--doly-icon-spin-duration': '2s' }} />
+      </div>,
+    );
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('render with provider', () => {
-    const tree = renderer
-      .create(
-        <IconProvider value={{ style: { color: 'yellow' } }}>
-          <Gear />
-          <HeartFill style={{ color: 'red' }} />
-        </IconProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const { asFragment } = render(
+      <IconProvider value={{ style: { color: 'yellow' } }}>
+        <Gear />
+        <HeartFill style={{ color: 'red' }} />
+      </IconProvider>,
+    );
+    expect(asFragment()).toMatchSnapshot();
   });
 });
