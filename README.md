@@ -4,7 +4,7 @@
 
 [![npm][npm]][npm-url] ![GitHub]
 
-基于 [Bootstrap Icons] 的 React 图标组件。了解更多信息，请[点击查阅文档](https://doly-dev.github.io/doly-icons/latest/index.html)。
+基于 [Bootstrap Icons] 的 React 图标组件。了解更多信息，请[点击查阅文档](https://doly-dev.github.io/doly-icons/latest/)。
 
 ## 安装
 
@@ -12,15 +12,17 @@
 npm install doly-icons
 # or
 yarn add doly-icons
+# or
+pnpm add doly-icons
 ```
 
 ## 使用
 
-> [查看代码演示](https://doly-dev.github.io/doly-icons/latest/index.html#/documents/instruction#代码演示)
+> [查看代码演示](https://doly-dev.github.io/doly-icons/latest/documents#代码演示)
 
 支持以下方式：
 
-1. [使用 Bootstrap 图标](https://doly-dev.github.io/doly-icons/latest/index.html#/icons)
+1. [使用 Bootstrap 图标](https://doly-dev.github.io/doly-icons/latest/icons)
 
 ```typescript
 import { Gear HeartFill } from 'doly-icons'

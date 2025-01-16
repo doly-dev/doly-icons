@@ -5,7 +5,7 @@ import * as React from 'react';
 import Context, { DefaultConfig, DefaultFilter } from './context';
 import { filterClassData } from './dataMain';
 import Filter from './Filter';
-import styles from './index.less';
+import styles from './index.module.less';
 import List from './List';
 import { getConfigStore, getFilterStore, setAllConfigStore } from './store';
 import { formatPx, isIE, resetScrollTop } from './utils';
@@ -84,9 +84,9 @@ const AllIcons = () => {
                 return newOpts;
               });
             }}
-            type={options.isShowFilter ? 'primary' : 'default'}
+            type={!options.isShowFilter ? 'primary' : 'default'}
             shape="square"
-            description={options.isShowFilter ? '显示' : '隐藏'}
+            description={!options.isShowFilter ? '显示' : '隐藏'}
             icon={<Funnel />}
           />
         </div>

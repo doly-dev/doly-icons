@@ -10,7 +10,7 @@ import {
   YinYang,
 } from 'doly-icons';
 import IconLoading from './components/IconLoading';
-import styles from './demo.less';
+import styles from './demo.module.less';
 
 const Demo = () => (
   <>

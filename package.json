@@ -34,7 +34,7 @@
     "generator:icons": "node scripts/generator-icons.js",
     "generator:data": "node scripts/generator-data.js",
     "tsc": "tsc --noEmit",
-    "prepare": "husky"
+    "prepare": "husky && dumi setup"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -103,8 +103,7 @@
     "copy-to-clipboard": "^3.3.3",
     "cross-env": "^7.0.3",
     "crypto-js": "^4.2.0",
-    "dumi": "^1.1.54",
-    "dumi-theme-default": "^1.1.24",
+    "dumi": "^2.4.17",
     "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^4.6.2",

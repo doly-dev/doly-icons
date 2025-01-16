@@ -3,7 +3,7 @@ import IconEmail from './components/IconEmail';
 import IconHome from './components/IconHome';
 import IconLoading from './components/IconLoading';
 import IconPuzzle from './components/IconPuzzle';
-import styles from './demo.less';
+import styles from './demo.module.less';
 
 const Demo = () => {
   return (

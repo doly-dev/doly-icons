@@ -2,20 +2,20 @@
 title: doly-icons
 hero:
   title: doly-icons
-  desc: 基于 Bootstrap Icons 的 React 图标组件
+  description: 基于 Bootstrap Icons 的 React 图标组件
   actions:
     - text: 快速上手
       link: /documents
 features:
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
+  - emoji: 📦
     title: 开箱即用
-    desc: 拥有超过2000个图标
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d60657df-0822-4631-9d7c-e7a869c2f21c/k79dmz3q_w126_h126.png
+    description: 拥有超过 2000 个图标
+  - emoji: 🔍
     title: 高效检索
-    desc: 图标库支持查找/预览/复制/下载
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
+    description: 图标库支持查找/预览/复制/下载
+  - emoji: 💡
     title: TypeScript
-    desc: 全量使用 TypeScript 开发
+    description: 全量使用 TypeScript 开发
 footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](https://d.umijs.org/zh-CN)
 ---
 
@@ -49,5 +49,5 @@ import { Gear, HeartFill } from 'doly-icons';
 
 你可以从 Figma 应用程序安装它：[Bootstrap Icons Plugin for Figma](https://www.figma.com/community/plugin/868341386266170307/Bootstrap-Icons)
 
-[bootstrap icons]: https://icons.getbootstrap.com/
-[svg symbol]: https://css-tricks.com/svg-symbol-good-choice-icons/
+<!-- [bootstrap icons]: https://icons.getbootstrap.com/
+[svg symbol]: https://css-tricks.com/svg-symbol-good-choice-icons/ -->

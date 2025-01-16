@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StarFill, MoonFill, SunFill } from 'doly-icons';
-import styles from './provider.less';
+import styles from './provider.module.less';
 
 const Demo: React.FC<{ title?: React.ReactNode }> = ({ title }) => {
   return (

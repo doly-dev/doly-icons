@@ -13,7 +13,7 @@ import Config from './Config';
 import Context, { DefaultConfig, DefaultFilter } from './context';
 import { CategoriesOptions } from './dataMain';
 import { Theme } from './enum';
-import styles from './index.less';
+import styles from './index.module.less';
 import SizeSlider from './SizeSlider';
 import { removeFilterStore, setAllConfigStore, setAllFilterStore } from './store';
 import { resetScrollTop } from './utils';

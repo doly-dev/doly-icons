@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { IconProvider } from 'doly-icons';
 import TestPage from './provider-test-page';
-import styles from './provider.less';
+import styles from './provider.module.less';
 
 const Demo = () => {
   return (

@@ -8,7 +8,7 @@ import {
 } from 'antd-more';
 import * as React from 'react';
 import { ClickIconActionOptions, DefaultConfig } from './context';
-import styles from './index.less';
+import styles from './index.module.less';
 import { resetScrollTop } from './utils';
 
 const colSpan = {

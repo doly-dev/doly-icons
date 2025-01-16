@@ -10,6 +10,11 @@
     "skipLibCheck": true,
     "declaration": true,
     "downlevelIteration": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "doly-icons": ["src"]
+    }
   }
 }

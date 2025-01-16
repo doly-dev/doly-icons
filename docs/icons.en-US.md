@@ -1,6 +1,8 @@
 ---
-sidemenu: false
+sidebar: false
 title: Icons
 ---
 
-<code src='../src/icon/demos/all/index.tsx' inline />
+<br />
+
+<code src='../src/icon/demos/all/index.tsx' inline></code>

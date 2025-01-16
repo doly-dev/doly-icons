@@ -1,6 +1,8 @@
 ---
-sidemenu: false
+sidebar: false
 title: 图标库
 ---
 
-<code src='../src/icon/demos/all/index.tsx' inline />
+<br />
+
+<code src='../src/icon/demos/all/index.tsx' inline></code>

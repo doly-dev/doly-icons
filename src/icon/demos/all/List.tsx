@@ -8,7 +8,7 @@ import { VariableSizeList } from 'react-window';
 import Actions, { CopyComponent, useActions } from './Actions';
 import Context, { ClickIconAction, ClickIconActionOptions } from './context';
 import type { IconClassDataItem } from './dataMain';
-import styles from './List.less';
+import styles from './List.module.less';
 
 enum Screen {
   XXL = 1600,

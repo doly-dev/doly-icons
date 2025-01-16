@@ -7,7 +7,7 @@ import * as React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { saveSvgAsPng, svgAsPngUri } from 'save-svg-as-png';
 import { dataURLToBlob } from 'util-helpers';
-import styles from './Actions.less';
+import styles from './Actions.module.less';
 import Context from './context';
 import { downloadSvg, formatPx, pixelRatio } from './utils';
 

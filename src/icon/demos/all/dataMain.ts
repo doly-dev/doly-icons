@@ -78,6 +78,8 @@ const filterClassData = ({ category, theme, keyword }: FilterParam) => {
               const description = (
                 item.name +
                 item.cnName +
+                item.componentName +
+                item.fileName +
                 item.tags +
                 item.cnTags +
                 (item.remark || '')

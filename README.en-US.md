@@ -4,7 +4,7 @@
 
 [![npm][npm]][npm-url] ![GitHub]
 
-React icon component based on [Bootstrap Icons]. For more information, please [click Consult documentation](https://doly-dev.github.io/doly-icons/latest/index.html#/en-US).
+React icon component based on [Bootstrap Icons]. For more information, please [click Consult documentation](https://doly-dev.github.io/doly-icons/latest/).
 
 ## Install
 
@@ -22,11 +22,11 @@ pnpm add doly-icons
 
 ## Use
 
-> [View code demo](https://doly-dev.github.io/doly-icons/latest/index.html#/documents/instruction#code-demo)
+> [View code demo](https://doly-dev.github.io/doly-icons/latest/documents#code-demo)
 
 The following methods are supported:
 
-1. [Use the Bootstrap icon](https://doly-dev.github.io/doly-icons/latest/index.html#/icons)
+1. [Use the Bootstrap icon](https://doly-dev.github.io/doly-icons/latest/icons)
 
 ```typescript
 import { Gear HeartFill } from 'doly-icons'

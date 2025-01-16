@@ -38,13 +38,13 @@ In addition to the built-in Bootstrap icons, it also supports custom icons and [
 
 By setting `fontSize` `color` you can change the size and color of the icon of style.
 
-<code src='../../src/icon/demos/basic.tsx' />
+<code src='../../src/icon/demos/basic.tsx'></code>
 
 ### Custom icon
 
 It is recommended to use colors `currentColor` and set width and height to `1em` facilitate adjustment according to business scenarios.
 
-<code src='../../src/icon/demos/define.tsx' />
+<code src='../../src/icon/demos/define.tsx'></code>
 
 ### Use SVG Symbol icons
 
@@ -52,13 +52,13 @@ It is recommended to use colors `currentColor` and set width and height to `1em`
 
 It is convenient for developers to call icons on [iconfont] or use custom SVG Symbols . _Refer to [iconfont.cn usage help](https://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code)._
 
-<code src='../../src/icon/demos/svg-symbol.tsx' iframe=100 />
+<code src='../../src/icon/demos/svg-symbol.tsx' iframe=100></code>
 
 ### Use CSS variables
 
 > Understanding [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)、[How to define css variables in style attribute in React and typescript](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
 
-<code src='../../src/icon/demos/css-variable.tsx' />
+<code src='../../src/icon/demos/css-variable.tsx'></code>
 
 ### Global configuration
 
@@ -68,7 +68,7 @@ Component properties have higher priority than context, and class and style will
 
 <!-- If a different font size will result in arrhythmia, affecting the presentation effect (under `vertical-align: -0.125em` the influence). -->
 
-<code src='../../src/icon/demos/provider.tsx' />
+<code src='../../src/icon/demos/provider.tsx'></code>
 
 ## API
 

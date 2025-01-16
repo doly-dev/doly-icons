@@ -9,7 +9,7 @@ import {
   Search,
   YinYang,
 } from 'doly-icons';
-import styles from './demo.less';
+import styles from './demo.module.less';
 
 const Demo = () => {
   return (

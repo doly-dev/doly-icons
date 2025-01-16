@@ -38,13 +38,13 @@ import { Gear, HeartFill } from 'doly-icons';
 
 通过设置 `fontSize` `color` 样式可以改变图标的尺寸和颜色。
 
-<code src='../../src/icon/demos/basic.tsx' />
+<code src='../../src/icon/demos/basic.tsx'></code>
 
 ### 自定义图标
 
 建议颜色使用 `currentColor`， 宽高设为 `1em` ，方便根据业务场景调整。
 
-<code src='../../src/icon/demos/define.tsx' />
+<code src='../../src/icon/demos/define.tsx'></code>
 
 ### 使用 SVG Symbol 图标
 
@@ -52,13 +52,13 @@ import { Gear, HeartFill } from 'doly-icons';
 
 方便开发者调用在 [iconfont] 上的图标 或者 使用自定义的 [SVG Symbol] 。_参考 [iconfont.cn 使用帮助](https://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code)。_
 
-<code src='../../src/icon/demos/svg-symbol.tsx' iframe=100 />
+<code src='../../src/icon/demos/svg-symbol.tsx' iframe=100></code>
 
 ### 使用 CSS 变量
 
 > 了解 [CSS 变量](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)、[How to define css variables in style attribute in React and typescript](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
 
-<code src='../../src/icon/demos/css-variable.tsx' />
+<code src='../../src/icon/demos/css-variable.tsx'></code>
 
 ### 全局配置
 
@@ -68,7 +68,7 @@ import { Gear, HeartFill } from 'doly-icons';
 
 <!-- 如果字体大小不同会导致对不齐，影响演示效果（受 `vertical-align: -0.125em` 影响）。 -->
 
-<code src='../../src/icon/demos/provider.tsx' />
+<code src='../../src/icon/demos/provider.tsx'></code>
 
 ## API
 
