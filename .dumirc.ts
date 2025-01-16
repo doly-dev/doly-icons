@@ -11,7 +11,7 @@ const preVersionSiteRoot = `refs/heads/v${preMajorVersionNumber}`;
 
 const version = process.env.BUIDL_DOC_VERSION ? versionSiteRoot : 'latest';
 
-const serverRootDirect = isProd ? `https://doly-dev.github.io/${pkg.name}/` : '/';
+const serverRootDirect = isProd ? `/${pkg.name}/` : '/';
 
 const publicPath = serverRootDirect + version + '/';
 

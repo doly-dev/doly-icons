@@ -13,6 +13,8 @@ on:
       - .umirc.ts
       - .github/**
       - package.json
+      - .dumirc.ts
+      - README.md
 
 jobs:
   build-and-deploy:
