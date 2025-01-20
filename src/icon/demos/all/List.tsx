@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import * as Icons from 'doly-icons';
 import { debounce } from 'ut2';
 import { useDebounce, useUpdateEffect } from 'rc-hooks';
-import * as React from 'react';
+import React from 'react';
 import { VariableSizeList } from 'react-window';
 import Actions, { CopyComponent, useActions } from './Actions';
 import Context, { ClickIconAction, ClickIconActionOptions } from './context';
@@ -11,7 +11,7 @@ import type { IconClassDataItem } from './dataMain';
 import styles from './List.module.less';
 
 enum Screen {
-  XXL = 1600,
+  // XXL = 1600,
   LG = 992,
   MD = 768,
   SM = 576,
@@ -19,7 +19,7 @@ enum Screen {
 }
 
 enum ScreenColumns {
-  XXL = 12,
+  // XXL = 12,
   LG = 8,
   MD = 6,
   SM = 4,
@@ -27,7 +27,7 @@ enum ScreenColumns {
 }
 
 enum ScreenPadding {
-  XXL = 58 * 2,
+  // XXL = 58 * 2,
   LG = 58 * 2,
   MD = 58 * 2,
   SM = 16 * 2,
@@ -35,7 +35,7 @@ enum ScreenPadding {
 }
 
 const colSpan = {
-  xxl: 2,
+  // xxl: 2,
   lg: 3,
   md: 4,
   sm: 6,
@@ -47,10 +47,11 @@ const getColumnsAndPadding = () => {
   let cols = ScreenColumns.XS;
   let padding = ScreenPadding.XS;
 
-  if (w > Screen.XXL) {
-    cols = ScreenColumns.XXL;
-    padding = ScreenPadding.XXL;
-  } else if (w > Screen.LG) {
+  // if (w > Screen.XXL) {
+  //   cols = ScreenColumns.XXL;
+  //   padding = ScreenPadding.XXL;
+  // } else
+  if (w > Screen.LG) {
     cols = ScreenColumns.LG;
     padding = ScreenPadding.LG;
   } else if (w > Screen.MD) {
@@ -174,11 +175,9 @@ const IconItem: React.FC<{ data: IconClassDataItem['list'][0] }> = ({ data }) =>
 const IconList: React.FC<{ data: IconClassDataItem[] }> = ({ data }) => {
   const listRef = React.useRef<any>();
   const wrapperRef = React.useRef<HTMLDivElement>(null);
-  const screenInfoRef = React.useRef<ReturnType<typeof getColumnsAndPadding>>();
-  screenInfoRef.current = getColumnsAndPadding();
   const { isShowFilter } = React.useContext(Context);
   const [height, setHeight] = React.useState(window.innerHeight);
-  const [width, setWidth] = React.useState(window.innerWidth - screenInfoRef.current.padding);
+  const [width, setWidth] = React.useState<string | number>('auto');
 
   const formatData = () => {
     const ret: (
@@ -192,7 +191,7 @@ const IconList: React.FC<{ data: IconClassDataItem[] }> = ({ data }) => {
         height: TitleHeight,
       });
 
-      const cols = screenInfoRef.current?.cols || 3;
+      const cols = getColumnsAndPadding()?.cols || 3;
 
       const rows = Math.ceil(list.length / cols);
       for (let i = 0; i < rows; i++) {
@@ -257,12 +256,11 @@ const IconList: React.FC<{ data: IconClassDataItem[] }> = ({ data }) => {
     resizeRef.current = debounce(() => {
       const target = wrapperRef.current;
       if (target) {
-        screenInfoRef.current = getColumnsAndPadding();
-        const padding = screenInfoRef.current?.padding || 16;
-        setHeight(window.innerHeight - target.getBoundingClientRect().top - 16);
-        setWidth(window.innerWidth - padding);
+        const rect = target.getBoundingClientRect();
+        setHeight(window.innerHeight - rect.top - 16);
+        setWidth(rect.width);
       }
-    }, 300);
+    }, 100);
   }
 
   React.useEffect(() => {
