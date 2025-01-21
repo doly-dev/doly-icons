@@ -1,17 +1,16 @@
-import React, { forwardRef } from 'react';
-import type { IconBaseProps } from '../icon/IconBase';
-import IconBase from '../icon/IconBase';
+import React from 'react';
+import IconBase, { IconBaseProps } from '../icon/IconBase';
 
-const FolderFill = forwardRef<HTMLSpanElement, IconBaseProps>(({ svgProps, ...restProps }, ref) => {
-  return (
-    <IconBase aria-label="folder-fill" {...restProps} ref={ref}>
-      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" {...svgProps}>
+const FolderFill: React.FC<IconBaseProps> = (props) => (
+    <IconBase
+      aria-label="folder-fill"
+      {...props}
+      renderChild={(childProps) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" {...childProps}>
   <path d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a2 2 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3m-8.322.12q.322-.119.684-.12h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981z"/>
 </svg>
-    </IconBase>
+      )}
+    />
   );
-});
 
-FolderFill.displayName = 'FolderFill';
-
-export default FolderFill;  
+export default FolderFill;

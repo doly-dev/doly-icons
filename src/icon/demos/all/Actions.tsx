@@ -1,5 +1,4 @@
-import type { DropdownProps, MenuProps } from 'antd';
-import { App, Dropdown, Typography } from 'antd';
+import { App, Dropdown, Typography, DropdownProps, MenuProps } from 'antd';
 import { copyImageToClipboard } from 'copy-image-clipboard';
 import copy from 'copy-to-clipboard';
 import { ThreeDots } from 'doly-icons';

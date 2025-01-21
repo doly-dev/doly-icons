@@ -1,19 +1,18 @@
-import React, { forwardRef } from 'react';
-import type { IconBaseProps } from '../icon/IconBase';
-import IconBase from '../icon/IconBase';
+import React from 'react';
+import IconBase, { IconBaseProps } from '../icon/IconBase';
 
-const HddStack = forwardRef<HTMLSpanElement, IconBaseProps>(({ svgProps, ...restProps }, ref) => {
-  return (
-    <IconBase aria-label="hdd-stack" {...restProps} ref={ref}>
-      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" {...svgProps}>
+const HddStack: React.FC<IconBaseProps> = (props) => (
+    <IconBase
+      aria-label="hdd-stack"
+      {...props}
+      renderChild={(childProps) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" {...childProps}>
   <path d="M14 10a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1zM2 9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2z"/>
   <path d="M5 11.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M14 3a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
   <path d="M5 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
 </svg>
-    </IconBase>
+      )}
+    />
   );
-});
 
-HddStack.displayName = 'HddStack';
-
-export default HddStack;  
+export default HddStack;

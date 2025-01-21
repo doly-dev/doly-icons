@@ -1,17 +1,16 @@
-import React, { forwardRef } from 'react';
-import type { IconBaseProps } from '../icon/IconBase';
-import IconBase from '../icon/IconBase';
+import React from 'react';
+import IconBase, { IconBaseProps } from '../icon/IconBase';
 
-const Save = forwardRef<HTMLSpanElement, IconBaseProps>(({ svgProps, ...restProps }, ref) => {
-  return (
-    <IconBase aria-label="save" {...restProps} ref={ref}>
-      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" {...svgProps}>
+const Save: React.FC<IconBaseProps> = (props) => (
+    <IconBase
+      aria-label="save"
+      {...props}
+      renderChild={(childProps) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" {...childProps}>
   <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1z"/>
 </svg>
-    </IconBase>
+      )}
+    />
   );
-});
 
-Save.displayName = 'Save';
-
-export default Save;  
+export default Save;

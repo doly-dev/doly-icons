@@ -1,18 +1,17 @@
-import React, { forwardRef } from 'react';
-import type { IconBaseProps } from '../icon/IconBase';
-import IconBase from '../icon/IconBase';
+import React from 'react';
+import IconBase, { IconBaseProps } from '../icon/IconBase';
 
-const CameraFill = forwardRef<HTMLSpanElement, IconBaseProps>(({ svgProps, ...restProps }, ref) => {
-  return (
-    <IconBase aria-label="camera-fill" {...restProps} ref={ref}>
-      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" {...svgProps}>
+const CameraFill: React.FC<IconBaseProps> = (props) => (
+    <IconBase
+      aria-label="camera-fill"
+      {...props}
+      renderChild={(childProps) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" {...childProps}>
   <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
   <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"/>
 </svg>
-    </IconBase>
+      )}
+    />
   );
-});
 
-CameraFill.displayName = 'CameraFill';
-
-export default CameraFill;  
+export default CameraFill;

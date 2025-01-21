@@ -7,7 +7,7 @@ import React from 'react';
 import { VariableSizeList } from 'react-window';
 import Actions, { CopyComponent, useActions } from './Actions';
 import Context, { ClickIconAction, ClickIconActionOptions } from './context';
-import type { IconClassDataItem } from './dataMain';
+import { IconClassDataItem } from './dataMain';
 import styles from './List.module.less';
 
 enum Screen {

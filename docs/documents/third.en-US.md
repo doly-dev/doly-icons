@@ -1,5 +1,6 @@
 ---
 order: 3
+toc: content
 ---
 
 # Third party recommendation

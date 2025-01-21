@@ -2,9 +2,9 @@
 **/*.ejs
 **/*.html
 package.json
-.umi
-.umi-production
-.umi-test
+.dumi/tmp
+.dumi/tmp-test
+.dumi/tmp-production
 src/icons
 src/icons-index.ts
 src/icon/demos/all/data.ts

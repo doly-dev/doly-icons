@@ -4,6 +4,8 @@ import { injectStyle } from 'util-helpers';
 // 插入样式节点缓存
 const styleNodeCache: { [key: string]: HTMLStyleElement } = {};
 
+export type InjectCssOptions = { csp?: { nonce?: string } };
+
 // 插入样式
 export const injectCss = (css: string, key: string, options: { csp?: { nonce?: string } } = {}) => {
   if (!isBrowser) {

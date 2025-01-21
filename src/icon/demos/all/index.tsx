@@ -1,6 +1,6 @@
 import { App, Empty, FloatButton } from 'antd';
 import { Funnel } from 'doly-icons';
-import { useUpdateEffect } from 'rc-hooks';
+import { useSetState, useUpdateEffect } from 'rc-hooks';
 import * as React from 'react';
 import Context, { DefaultConfig, DefaultFilter } from './context';
 import { filterClassData } from './dataMain';
@@ -11,27 +11,33 @@ import { getConfigStore, getFilterStore, setAllConfigStore } from './store';
 import { formatPx, isIE, resetScrollTop } from './utils';
 
 const AllIcons = () => {
-  const [filter, setFilter] = React.useState(() => getFilterStore() || DefaultFilter);
-  const [options, setOptions] = React.useState(() => getConfigStore() || DefaultConfig);
-  const [result, setResult] = React.useState(() => filterClassData(filter));
+  const [state, setState] = useSetState(() => {
+    const defaultFilter = getFilterStore() || DefaultFilter;
+    const defaultConfig = getConfigStore() || DefaultConfig;
+    return {
+      filter: defaultFilter,
+      options: defaultConfig,
+      result: filterClassData(defaultFilter),
+    };
+  });
   const timerRef = React.useRef<any>(null);
 
   useUpdateEffect(() => {
-    setResult(filterClassData(filter));
-  }, [filter?.keyword, filter?.category, filter?.theme]);
+    setState({ result: filterClassData(state.filter) });
+  }, [state.filter?.keyword, state.filter?.category, state.filter?.theme]);
 
   const iconWrapperStyles = React.useMemo(
     () =>
       isIE
         ? {
-            fontSize: filter.fontSize,
-            color: filter.color,
+            fontSize: state.filter.fontSize,
+            color: state.filter.color,
           }
         : {
-            '--doly-icon-font-size': formatPx(filter?.fontSize),
-            '--doly-icon-color': filter?.color,
+            '--doly-icon-font-size': formatPx(state.filter?.fontSize),
+            '--doly-icon-color': state.filter?.color,
           },
-    [filter?.color, filter?.fontSize],
+    [state.filter?.color, state.filter?.fontSize],
   );
 
   React.useEffect(() => {
@@ -58,35 +64,42 @@ const AllIcons = () => {
 
   return (
     <App>
-      <Context.Provider value={{ ...filter, ...options, result }}>
+      <Context.Provider value={{ ...state.filter, ...state.options, result: state.result }}>
         <div className={styles.demo}>
           <div className={styles.formArea}>
             <Filter
-              options={options}
-              onOptionsChange={setOptions}
-              filter={filter}
-              onFilterChange={setFilter}
+              options={state.options}
+              onOptionsChange={(value) => {
+                setState({ options: value });
+              }}
+              filter={state.filter}
+              onFilterChange={(value) => {
+                setState({ filter: value });
+              }}
             />
           </div>
-          {result.length <= 0 && <Empty description="暂无数据" />}
+          {state.result.length <= 0 && <Empty description="暂无数据" />}
           <div style={iconWrapperStyles as React.CSSProperties}>
-            <List data={result} />
+            <List data={state.result} />
           </div>
           <FloatButton
             // tooltip={`${options.isShowFilter ? '隐藏' : '显示'}筛选项`}
             onClick={() => {
-              setOptions((opts) => {
+              setState((s) => {
                 const newOpts = {
-                  ...opts,
-                  isShowFilter: !opts.isShowFilter,
+                  ...s.options,
+                  isShowFilter: !s.options.isShowFilter,
                 };
                 setAllConfigStore(newOpts);
-                return newOpts;
+                return {
+                  ...s,
+                  options: newOpts,
+                };
               });
             }}
-            type={!options.isShowFilter ? 'primary' : 'default'}
+            type={!state.options.isShowFilter ? 'primary' : 'default'}
             shape="square"
-            description={!options.isShowFilter ? '显示' : '隐藏'}
+            description={!state.options.isShowFilter ? '显示' : '隐藏'}
             icon={<Funnel />}
           />
         </div>

@@ -1,7 +1,6 @@
-import type { InputNumberProps, SliderSingleProps } from 'antd';
-import { Col, InputNumber, Row, Slider } from 'antd';
+import React from 'react';
+import { Col, InputNumber, Row, Slider, InputNumberProps, SliderSingleProps } from 'antd';
 import { useControllableValue } from 'rc-hooks';
-import * as React from 'react';
 import styles from './SizeSlider.module.less';
 
 interface SizeSliderProps {

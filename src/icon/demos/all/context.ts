@@ -1,6 +1,5 @@
 import { createContext } from 'react';
-import type { IconClassDataItem } from './dataMain';
-import { CategoriesOptions } from './dataMain';
+import { CategoriesOptions, IconClassDataItem } from './dataMain';
 import { Theme } from './enum';
 
 export const DefaultFilter = {

@@ -1,5 +1,6 @@
 ---
 order: 3
+toc: content
 ---
 
 # 第三方推荐

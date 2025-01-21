@@ -1,5 +1,6 @@
 ---
 order: 2
+toc: content
 ---
 
 # 常见问题

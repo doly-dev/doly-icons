@@ -25,12 +25,6 @@ module.exports = {
     'react/prop-types': 0,
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/ban-ts-comment': 0,
-    '@typescript-eslint/consistent-type-imports': [
-      1,
-      {
-        prefer: 'type-imports',
-        disallowTypeAnnotations: true,
-      },
-    ],
+    '@typescript-eslint/consistent-type-imports': 0,
   },
 };

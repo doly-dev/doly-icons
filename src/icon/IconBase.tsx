@@ -1,11 +1,10 @@
 import React, {
-  cloneElement,
-  forwardRef,
   useContext,
   CSSProperties,
-  ReactElement,
   HTMLAttributes,
   SVGProps,
+  ReactNode,
+  RefObject,
 } from 'react';
 import classnames from 'classnames';
 import IconContext from './IconContext';
@@ -26,7 +25,7 @@ const defaultSvgProps = {
 
 type StyleWithVariable<V extends string = never> = CSSProperties & Partial<Record<V, string>>;
 
-export interface IconBaseProps extends Omit<HTMLAttributes<HTMLSpanElement>, 'style'> {
+export interface IconBaseProps extends Omit<HTMLAttributes<HTMLSpanElement>, 'style' | 'children'> {
   /**
    * @description 旋转动画。
    * @default false
@@ -46,53 +45,64 @@ export interface IconBaseProps extends Omit<HTMLAttributes<HTMLSpanElement>, 'st
   style?: StyleWithVariable<
     '--doly-icon-font-size' | '--doly-icon-color' | '--doly-icon-spin-duration'
   >;
+
+  ref?: RefObject<HTMLSpanElement>;
 }
 
-const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
-  ({ spin, spinReverse, className, style, svgProps, children, ...restProps }, ref) => {
-    const {
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      csp,
-      spin: ctxSpin,
-      spinReverse: ctxSpinReverse,
-      className: ctxClassName,
-      style: ctxStyle,
-      svgProps: ctxSvgProps,
-      ...ctxRestProps
-    } = useContext(IconContext);
+const IconBase: React.FC<
+  IconBaseProps & {
+    /**
+     * 自定义渲染子节点。
+     *
+     * @param childProps 合并上下文配置和组件配置的 `svgProps`。
+     * @returns
+     */
+    renderChild: (childProps: SVGProps<SVGSVGElement>) => ReactNode;
+  }
+> = ({ spin, spinReverse, className, style, svgProps, renderChild, ...restProps }) => {
+  const {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    ref,
+    csp,
+    spin: ctxSpin,
+    spinReverse: ctxSpinReverse,
+    className: ctxClassName,
+    style: ctxStyle,
+    svgProps: ctxSvgProps,
+    ...ctxRestProps
+  } = useContext(IconContext);
 
-    const realSpin = typeof spin !== 'undefined' ? spin : ctxSpin;
-    const realSpinReverse = typeof spinReverse !== 'undefined' ? spinReverse : ctxSpinReverse;
+  const realSpin = typeof spin !== 'undefined' ? spin : ctxSpin;
+  const realSpinReverse = typeof spinReverse !== 'undefined' ? spinReverse : ctxSpinReverse;
 
-    useInsertStyle();
+  useInsertStyle(csp);
 
-    return (
-      <span
-        className={classnames(
-          prefixClass,
-          {
-            [classes.spin]: realSpin,
-            [classes.spinReverse]: realSpinReverse,
-          },
-          ctxClassName,
-          className,
-        )}
-        style={{ ...ctxStyle, ...style } as CSSProperties}
-        {...ctxRestProps}
-        {...restProps}
-        role="img"
-        ref={ref}
-      >
-        {children &&
-          cloneElement(children as ReactElement, {
-            ...defaultSvgProps,
-            ...ctxSvgProps,
-            ...svgProps,
-          })}
-      </span>
-    );
-  },
-);
+  const mergeProps = {
+    ...defaultSvgProps,
+    ...ctxSvgProps,
+    ...svgProps,
+  };
+
+  return (
+    <span
+      className={classnames(
+        prefixClass,
+        {
+          [classes.spin]: realSpin,
+          [classes.spinReverse]: realSpinReverse,
+        },
+        ctxClassName,
+        className,
+      )}
+      role="img"
+      style={{ ...ctxStyle, ...style } as CSSProperties}
+      {...ctxRestProps}
+      {...restProps}
+    >
+      {renderChild(mergeProps)}
+    </span>
+  );
+};
 
 IconBase.displayName = 'IconBase';
 

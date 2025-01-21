@@ -1,6 +1,5 @@
-import { useContext, useEffect } from 'react';
-import IconContext from './IconContext';
-import { injectCss } from './utils';
+import { useEffect } from 'react';
+import { injectCss, InjectCssOptions } from './utils';
 
 export const iconStyle = `@-webkit-keyframes doly-icon-animate-spin {
   100% {
@@ -71,9 +70,7 @@ export const iconStyle = `@-webkit-keyframes doly-icon-animate-spin {
   animation: doly-icon-animate-spin-reverse var(--doly-icon-spin-duration, 1s) infinite linear;
 }`;
 
-export function useInsertStyle() {
-  const { csp } = useContext(IconContext);
-
+export function useInsertStyle(csp: InjectCssOptions['csp']) {
   useEffect(() => {
     injectCss(iconStyle, 'doly-icons', { csp });
   }, [csp]);

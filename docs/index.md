@@ -16,7 +16,6 @@ features:
   - emoji: 💡
     title: TypeScript
     description: 全量使用 TypeScript 开发
-footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](https://d.umijs.org/zh-CN)
 ---
 
 ## 开始使用

@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 import pkg from './package.json';
 
-const isProd = process.env.NODE_ENV === 'production';
+const isDev = process.env.NODE_ENV === 'development';
 
 const MajorVersionNumber = Number(pkg.version.split('.')[0]);
 const versionSiteRoot = `refs/heads/v${MajorVersionNumber}`;
@@ -11,9 +11,7 @@ const preVersionSiteRoot = `refs/heads/v${preMajorVersionNumber}`;
 
 const version = process.env.BUIDL_DOC_VERSION ? versionSiteRoot : 'latest';
 
-const serverRootDirect = isProd ? `/${pkg.name}/` : '/';
-
-const publicPath = serverRootDirect + version + '/';
+const publicPath = isDev ? '/' : `/${pkg.name}/${version}/`;
 
 export default defineConfig({
   themeConfig: {
@@ -22,12 +20,12 @@ export default defineConfig({
     nav: {
       'zh-CN': [
         {
-          title: '图标库',
-          link: '/icons',
-        },
-        {
           title: '文档',
           link: '/documents',
+        },
+        {
+          title: '图标库',
+          link: '/icons',
         },
         // {
         // title: `v${preMajorVersionNumber}.x`,
@@ -44,12 +42,12 @@ export default defineConfig({
       ],
       'en-US': [
         {
-          title: 'Icons',
-          link: '/en-US/icons',
-        },
-        {
           title: 'Docs',
           link: '/en-US/documents',
+        },
+        {
+          title: 'Icons',
+          link: '/en-US/icons',
         },
         // {
         // title: `v${preMajorVersionNumber}.x`,
@@ -65,6 +63,7 @@ export default defineConfig({
         },
       ],
     },
+    footer: 'doly-dev | Copyright © 2021-present',
   },
   favicons: ['https://doly-dev.github.io/favicon.png'],
 
@@ -72,7 +71,7 @@ export default defineConfig({
   publicPath,
   outputPath: 'docs-dist',
   define: {
-    PATH_ROOT: isProd ? `/${pkg.name}/${version}/` : '/',
+    PATH_ROOT: publicPath,
   },
   locales: [
     { id: 'zh-CN', name: '中文' },
