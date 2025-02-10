@@ -1,7 +1,7 @@
 import { App, Empty, FloatButton } from 'antd';
 import { Funnel } from 'doly-icons';
 import { useSetState, useUpdateEffect } from 'rc-hooks';
-import * as React from 'react';
+import React from 'react';
 import Context, { DefaultConfig, DefaultFilter } from './context';
 import { filterClassData } from './dataMain';
 import Filter from './Filter';

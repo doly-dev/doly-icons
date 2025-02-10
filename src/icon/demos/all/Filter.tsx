@@ -8,7 +8,7 @@ import {
 } from 'antd-more';
 import { Square, SquareFill } from 'doly-icons';
 import { useDebounceFn } from 'rc-hooks';
-import * as React from 'react';
+import React from 'react';
 import Config from './Config';
 import Context, { DefaultConfig, DefaultFilter } from './context';
 import { CategoriesOptions } from './dataMain';

@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import IconEmail from './components/IconEmail';
 import IconHome from './components/IconHome';
 import IconLoading from './components/IconLoading';

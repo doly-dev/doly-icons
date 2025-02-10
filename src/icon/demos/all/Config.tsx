@@ -6,7 +6,7 @@ import {
   BizFormItemSelect,
   DrawerForm,
 } from 'antd-more';
-import * as React from 'react';
+import React from 'react';
 import { ClickIconActionOptions, DefaultConfig } from './context';
 import styles from './index.module.less';
 import { resetScrollTop } from './utils';

@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import Icon from 'doly-icons';
 import styles from './demo.module.less';

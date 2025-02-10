@@ -1,8 +1,9 @@
+import React from 'react';
+import classNames from 'classnames';
 import { App, Dropdown, Typography, DropdownProps, MenuProps } from 'antd';
 import { copyImageToClipboard } from 'copy-image-clipboard';
 import copy from 'copy-to-clipboard';
 import { ThreeDots } from 'doly-icons';
-import * as React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { saveSvgAsPng, svgAsPngUri } from 'save-svg-as-png';
 import { dataURLToBlob } from 'util-helpers';
@@ -133,7 +134,7 @@ interface ActionsProps extends DropdownProps {
   fileName: string;
 }
 
-const Actions: React.FC<ActionsProps> = ({ componentName, fileName, ...restProps }) => {
+const Actions: React.FC<ActionsProps> = ({ componentName, fileName, open, ...restProps }) => {
   const { fontSize, color } = React.useContext(Context);
   const { copyPng, copySvg, downloadPng } = useActions(fileName);
 
@@ -190,9 +191,10 @@ const Actions: React.FC<ActionsProps> = ({ componentName, fileName, ...restProps
       }}
       arrow={{ pointAtCenter: true }}
       destroyPopupOnHide
+      open={open}
       {...restProps}
     >
-      <ThreeDots className={styles.more} />
+      <ThreeDots className={classNames(styles.more, { [styles.moreActive]: open })} />
     </Dropdown>
   );
 };

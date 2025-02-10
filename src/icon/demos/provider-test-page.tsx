@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { StarFill, MoonFill, SunFill } from 'doly-icons';
 import styles from './provider.module.less';
 
