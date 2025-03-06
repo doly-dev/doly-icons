@@ -6,7 +6,7 @@ import {
   BizFormItemRadio,
   BizFormItemSelect,
 } from 'antd-more';
-import { Square, SquareFill } from 'doly-icons';
+import { Search, Square, SquareFill } from 'doly-icons';
 import { useDebounceFn } from 'rc-hooks';
 import React from 'react';
 import Config from './Config';
@@ -121,11 +121,12 @@ const Filter: React.FC<FilterProps> = React.memo(
           </Col>
           <Col flex={1}>
             <BizFormItem name="keyword">
-              <Input.Search
+              <Input
                 placeholder="输入图标关键词，如：箭头 下"
                 allowClear
                 size="large"
                 onBlur={resetScrollTop}
+                prefix={<Search style={{ color: 'rgba(0,0,0,0.25)' }} />}
               />
             </BizFormItem>
           </Col>

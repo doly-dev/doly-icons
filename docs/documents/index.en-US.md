@@ -49,9 +49,11 @@ It is recommended to use colors `currentColor` and set width and height to `1em`
 
 ### Use SVG Symbol icons
 
+> Refer to [iconfont.cn usage help](https://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code).
+
 <!-- 在 [iconfont] 上将图标添加到 `我的项目` ，进入项目，生成在线链接，选择 `Symbol` 。 -->
 
-It is convenient for developers to call icons on [iconfont] or use custom SVG Symbols . _Refer to [iconfont.cn usage help](https://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code)._
+It is convenient for developers to call icons on [iconfont] or use custom SVG Symbols .
 
 <code src='../../src/icon/demos/svg-symbol.tsx' iframe=100></code>
 
