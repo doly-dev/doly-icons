@@ -1,3 +1,5 @@
+import React from 'react';
+import { isEqual } from 'ut2';
 import { App, Button, Card, Col, Row } from 'antd';
 import {
   BizForm,
@@ -6,8 +8,8 @@ import {
   BizFormItemSelect,
   DrawerForm,
 } from 'antd-more';
-import React from 'react';
-import { ClickIconActionOptions, DefaultConfig } from './context';
+import { BoolTypeOptions, ClickIconActionOptions } from './constants';
+import { DefaultConfig } from './context';
 import styles from './index.module.less';
 import { resetScrollTop } from './utils';
 
@@ -16,8 +18,8 @@ const colSpan = {
 };
 
 interface ConfigProps {
-  value?: Partial<typeof DefaultConfig>;
-  onChange?: (value: typeof DefaultConfig) => void;
+  value: Partial<typeof DefaultConfig>;
+  onChange: (value: typeof DefaultConfig) => void;
 }
 
 const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
@@ -37,17 +39,16 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
       trigger={<Button type="link">设置</Button>}
       title="设置"
       form={form}
-      onFinish={(values) => {
-        message.success('设置成功');
-        onChange?.(values);
-      }}
+      submitter={false}
       requiredMark={false}
       size="middle"
-      // drawerProps={{
-      //   maskClosable: false,
-      // }}
       onOpenChange={(visible) => {
         if (!visible) {
+          const formValues = form.getFieldsValue();
+          if (!isEqual(value, formValues)) {
+            onChange(formValues);
+            message.success('设置成功');
+          }
           resetScrollTop();
         } else {
           form.setFieldsValue(value);
@@ -86,19 +87,10 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
             <BizFormItemNumber
               label="图像尺寸"
               name="pngSize"
-              inputProps={{ min: 16, step: 2, precision: 0 }}
-              tooltip="宽高必须为2的倍数，且不能小于16"
+              inputNumberProps={{ min: 16, step: 2, precision: 0 }}
+              tooltip="宽高必须为2的倍数，不能小于16"
+              normalize={(value) => (value % 2 > 0 ? value + 1 : value)}
               required
-              extendRules={[
-                {
-                  validator(rules, val) {
-                    if (val % 2 !== 0) {
-                      return Promise.reject('宽高必须为2的倍数');
-                    }
-                    return Promise.resolve();
-                  },
-                },
-              ]}
             />
           </Card>
         </Col>
@@ -109,6 +101,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
               name="clickIconAction"
               options={ClickIconActionOptions}
             />
+            <BizFormItemSelect label="显示筛选表单" name="isShowFilter" options={BoolTypeOptions} />
           </Card>
         </Col>
       </Row>

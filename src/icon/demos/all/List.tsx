@@ -6,9 +6,10 @@ import { useDebounce, useUpdateEffect } from 'rc-hooks';
 import React from 'react';
 import { VariableSizeList } from 'react-window';
 import Actions, { CopyComponent, useActions } from './Actions';
-import Context, { ClickIconAction, ClickIconActionOptions } from './context';
+import Context from './context';
 import { IconClassDataItem } from './dataMain';
 import styles from './List.module.less';
+import { ClickIconActionOptions, EClickIconAction } from './constants';
 
 enum Screen {
   // XXL = 1600,
@@ -75,7 +76,7 @@ const IconName: React.FC<{ children: React.ReactNode; name: string; componentNam
 }) => {
   const { clickIconAction } = React.useContext(Context);
   const { copyPng, copySvg } = useActions(name);
-  const hasClickAction = clickIconAction !== ClickIconAction.None;
+  const hasClickAction = clickIconAction !== EClickIconAction.None;
   const actionName = hasClickAction
     ? ClickIconActionOptions.find((item) => item.value === clickIconAction)?.label
     : undefined;
@@ -84,9 +85,9 @@ const IconName: React.FC<{ children: React.ReactNode; name: string; componentNam
     <div
       className={classnames(styles.icon, { [styles.iconAction]: hasClickAction }, `icon-${name}`)}
       onClick={() => {
-        if (clickIconAction === ClickIconAction.CopySvg) {
+        if (clickIconAction === EClickIconAction.CopySvg) {
           copySvg();
-        } else if (clickIconAction === ClickIconAction.CopyPng) {
+        } else if (clickIconAction === EClickIconAction.CopyPng) {
           copyPng();
         }
       }}
@@ -96,11 +97,11 @@ const IconName: React.FC<{ children: React.ReactNode; name: string; componentNam
     </div>
   );
 
-  return clickIconAction === ClickIconAction.CopyComponentName ||
-    clickIconAction === ClickIconAction.CopyJSX ? (
+  return clickIconAction === EClickIconAction.CopyComponentName ||
+    clickIconAction === EClickIconAction.CopyJSX ? (
     <CopyComponent
       text={
-        clickIconAction === ClickIconAction.CopyComponentName
+        clickIconAction === EClickIconAction.CopyComponentName
           ? componentName
           : `<${componentName} />`
       }

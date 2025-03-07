@@ -1,6 +1,6 @@
 import { words } from 'ut2';
 import allIcons from './data';
-import { Theme } from './enum';
+import { ETheme } from './constants';
 
 // 图标分类
 let CategoriesOptions: { label: React.ReactNode; value: any; total?: number }[] = [
@@ -54,7 +54,7 @@ CategoriesOptions[0].total = total;
 
 type FilterParam = {
   category?: string;
-  theme?: Theme;
+  theme?: ETheme;
   keyword?: string;
 };
 
@@ -66,9 +66,9 @@ const filterClassData = ({ category, theme, keyword }: FilterParam) => {
           title: clsItem.title,
           list: clsItem.list.filter((item) => {
             const enableTheme =
-              theme === Theme.All ||
-              (theme === Theme.Fill && item.fill) ||
-              (theme === Theme.Outline && !item.fill);
+              theme === ETheme.All ||
+              (theme === ETheme.Fill && item.fill) ||
+              (theme === ETheme.Outline && !item.fill);
 
             if (enableTheme) {
               if (!keyword) {

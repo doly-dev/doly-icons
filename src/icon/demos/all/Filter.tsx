@@ -7,16 +7,39 @@ import {
   BizFormItemSelect,
 } from 'antd-more';
 import { Search, Square, SquareFill } from 'doly-icons';
-import { useDebounceFn } from 'rc-hooks';
 import React from 'react';
 import Config from './Config';
 import Context, { DefaultConfig, DefaultFilter } from './context';
 import { CategoriesOptions } from './dataMain';
-import { Theme } from './enum';
+import { EBoolType, ETheme } from './constants';
 import styles from './index.module.less';
 import SizeSlider from './SizeSlider';
-import { removeFilterStore, setAllConfigStore, setAllFilterStore } from './store';
 import { resetScrollTop } from './utils';
+import { useDebounceFn, useMount } from 'rc-hooks';
+
+// 图标风格选项
+const ThemeOptions = [
+  {
+    value: ETheme.All,
+    label: '全部风格',
+  },
+  {
+    value: ETheme.Outline,
+    label: (
+      <>
+        <Square /> 线性风格
+      </>
+    ),
+  },
+  {
+    value: ETheme.Fill,
+    label: (
+      <>
+        <SquareFill /> 填充风格
+      </>
+    ),
+  },
+];
 
 // 渲染类别label
 function renderCategoryLabel(label: React.ReactNode, rightContent?: React.ReactNode) {
@@ -28,35 +51,11 @@ function renderCategoryLabel(label: React.ReactNode, rightContent?: React.ReactN
   );
 }
 
-// 图标风格选项
-const ThemeOptions = [
-  {
-    value: Theme.All,
-    label: '全部风格',
-  },
-  {
-    value: Theme.Outline,
-    label: (
-      <>
-        <Square /> 线性风格
-      </>
-    ),
-  },
-  {
-    value: Theme.Fill,
-    label: (
-      <>
-        <SquareFill /> 填充风格
-      </>
-    ),
-  },
-];
-
 interface FilterProps {
-  options?: typeof DefaultConfig;
-  onOptionsChange?: (opts: typeof DefaultConfig) => void;
-  filter?: typeof DefaultFilter;
-  onFilterChange?: (filterValues: typeof DefaultFilter) => void;
+  options: typeof DefaultConfig;
+  onOptionsChange: (opts: typeof DefaultConfig) => void;
+  filter: typeof DefaultFilter;
+  onFilterChange: (filterValues: typeof DefaultFilter) => void;
 }
 
 const Filter: React.FC<FilterProps> = React.memo(
@@ -72,38 +71,33 @@ const Filter: React.FC<FilterProps> = React.memo(
       [],
     );
 
-    const { run } = useDebounceFn((_, values) => {
-      setAllFilterStore(values);
-      onFilterChange?.(values);
-    }, 100);
-
-    const handleOptionsChange = (opts: typeof DefaultConfig) => {
-      const newOpts = { ...opts, isShowFilter };
-      onOptionsChange?.(newOpts);
-      setAllConfigStore(newOpts);
-    };
+    const debounceChangeFilter = useDebounceFn(onFilterChange, 300);
 
     const handleResetFilter = () => {
-      removeFilterStore();
       form.resetFields();
-      onFilterChange?.(DefaultFilter);
+      onFilterChange(DefaultFilter);
     };
 
-    React.useEffect(() => {
+    useMount(() => {
       form.setFieldsValue(filter);
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    });
 
     return (
       <BizForm
         initialValues={DefaultFilter}
-        onValuesChange={run}
+        onValuesChange={(_, values) => {
+          debounceChangeFilter.run(values);
+        }}
         hideLabel
         submitter={false}
         layout="horizontal"
         form={form}
       >
-        <Row gutter={16} justify="space-between" style={!isShowFilter ? { display: 'none' } : {}}>
+        <Row
+          gutter={16}
+          justify="space-between"
+          style={isShowFilter === EBoolType.No ? { display: 'none' } : undefined}
+        >
           <Col style={{ width: 240 }}>
             <BizFormItemSelect
               name="category"
@@ -151,7 +145,7 @@ const Filter: React.FC<FilterProps> = React.memo(
             </Button>
           </Col>
           <Col>
-            <Config value={options} onChange={handleOptionsChange} />
+            <Config value={options} onChange={onOptionsChange} />
           </Col>
         </Row>
       </BizForm>
