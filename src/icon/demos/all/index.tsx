@@ -10,10 +10,17 @@ import { getConfigStore, getFilterStore, setAllConfigStore, setAllFilterStore } 
 import { formatPx, isIE, resetScrollTop } from './utils';
 
 const AllIcons = () => {
-  const [state, setState] = useSetState(() => ({
-    filter: getFilterStore() || DefaultFilter,
-    options: getConfigStore() || DefaultConfig,
-  }));
+  const [state, setState] = useSetState(() => {
+    const options = getConfigStore() || DefaultConfig;
+    const filter = getFilterStore() || DefaultFilter;
+    if (options.pngBackgroundColor === 'transparent') {
+      options.pngBackgroundColor = 'rgba(0,0,0,0)';
+    }
+    return {
+      filter,
+      options,
+    };
+  });
   const result = useMemo(() => filterClassData(state.filter), [state.filter]);
   const timerRef = React.useRef<any>(null);
 

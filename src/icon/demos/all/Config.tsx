@@ -1,12 +1,13 @@
 import React from 'react';
 import { isEqual } from 'ut2';
 import { App, Button, Card, Col, Row } from 'antd';
+import { SingleValueType } from 'antd/es/color-picker/interface';
 import {
   BizForm,
-  BizFormItemColor,
+  BizFormItemColorPicker,
   BizFormItemNumber,
   BizFormItemSelect,
-  DrawerForm,
+  BizDrawerForm,
 } from 'antd-more';
 import { BoolTypeOptions, ClickIconActionOptions } from './constants';
 import { DefaultConfig } from './context';
@@ -26,16 +27,8 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
   const { message } = App.useApp();
   const [form] = BizForm.useForm();
 
-  const handlePngBgColorTransparent = () => {
-    form.setFieldsValue({ pngBackgroundColor: DefaultConfig.pngBackgroundColor });
-  };
-
-  const handlePngReset = () => {
-    form.setFieldsValue(DefaultConfig);
-  };
-
   return (
-    <DrawerForm
+    <BizDrawerForm
       trigger={<Button type="link">设置</Button>}
       title="设置"
       form={form}
@@ -54,6 +47,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
           form.setFieldsValue(value);
         }
       }}
+      initialValues={DefaultConfig}
       drawerProps={{
         className: styles.drawerWrapper,
       }}
@@ -66,16 +60,15 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
             type="inner"
             title="复制/下载 PNG"
             size="small"
-            extra={<a onClick={handlePngReset}>恢复默认</a>}
+            extra={<a onClick={() => form.resetFields()}>恢复默认</a>}
           >
-            <BizFormItemColor
+            <BizFormItemColorPicker
               label="背景颜色"
               name="pngBackgroundColor"
-              colorMode="rgb"
-              contentAfter={
-                <a style={{ fontSize: 12 }} onClick={handlePngBgColorTransparent}>
-                  设为透明
-                </a>
+              normalize={(v: SingleValueType) =>
+                v === 'transparent'
+                  ? DefaultConfig.pngBackgroundColor
+                  : BizFormItemColorPicker.transformColor(v, 'rgb')
               }
             />
             {/* <BizFormItemNumber
@@ -105,7 +98,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
           </Card>
         </Col>
       </Row>
-    </DrawerForm>
+    </BizDrawerForm>
   );
 };
 

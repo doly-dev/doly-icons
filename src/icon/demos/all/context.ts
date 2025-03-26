@@ -13,7 +13,7 @@ export const DefaultFilter = {
 export const DefaultConfig = {
   // 复制/下载 PNG
   // pngEncoderOptions: 1, // 图片质量
-  pngBackgroundColor: 'transparent', // 背景色
+  pngBackgroundColor: 'rgba(0,0,0,0)', // 背景色
   pngSize: 480, // 图片尺寸，2的倍数
 
   // // 复制/下载 SVG

@@ -1,8 +1,10 @@
 import { Button, Col, Input, Row } from 'antd';
+import { useDebounceFn, useMount } from 'rc-hooks';
+import { SingleValueType } from 'antd/es/color-picker/interface';
 import {
   BizForm,
   BizFormItem,
-  BizFormItemColor,
+  BizFormItemColorPicker,
   BizFormItemRadio,
   BizFormItemSelect,
 } from 'antd-more';
@@ -15,7 +17,6 @@ import { EBoolType, ETheme } from './constants';
 import styles from './index.module.less';
 import SizeSlider from './SizeSlider';
 import { resetScrollTop } from './utils';
-import { useDebounceFn, useMount } from 'rc-hooks';
 
 // 图标风格选项
 const ThemeOptions = [
@@ -127,11 +128,33 @@ const Filter: React.FC<FilterProps> = React.memo(
         </Row>
         <Row gutter={[16, 16]} wrap={false}>
           <Col style={{ minWidth: 48 }}>
-            <BizFormItemColor
+            <BizFormItemColorPicker
               name="color"
+              // transform={(v: SingleValueType) => (isObject(v) ? v.toCssString() : v)}
+              normalize={(v: SingleValueType) => BizFormItemColorPicker.transformColor(v, 'rgb')}
               style={{ margin: 0 }}
-              colorProps={{ size: 'middle' }}
-              colorMode="rgb"
+              presets={[
+                {
+                  label: '预设',
+                  colors: [
+                    '#D0021B',
+                    '#F5A623',
+                    '#F8E71C',
+                    '#8B572A',
+                    '#7ED321',
+                    '#417505',
+                    '#BD10E0',
+                    '#9013FE',
+                    '#4A90E2',
+                    '#50E3C2',
+                    '#B8E986',
+                    '#000000',
+                    '#4A4A4A',
+                    '#9B9B9B',
+                    '#FFFFFF',
+                  ],
+                },
+              ]}
             />
           </Col>
           <Col flex={1}>
