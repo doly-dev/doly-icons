@@ -23,21 +23,25 @@ footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [dumi](http
 
 ## Start Using
 
-**Install**
+### Install
 
-```shell
+:::code-group
+
+```shell [npm]
 npm install doly-icons
 ```
 
-```shell
+```shell [yarn]
 yarn add doly-icons
 ```
 
-```shell
+```shell [pnpm]
 pnpm add doly-icons
 ```
 
-**Use**
+:::
+
+### Use
 
 ```typescript
 import { Gear, HeartFill } from 'doly-icons';
@@ -51,5 +55,5 @@ Can [icon library](/en-US/icons) to adjust the color and size, supports preview 
 
 You can install it from the Figma application: [Bootstrap Icons Plugin for Figma](https://www.figma.com/community/plugin/868341386266170307/Bootstrap-Icons)
 
-[bootstrap icons]: https://icons.getbootstrap.com/
-[svg symbol]: https://css-tricks.com/svg-symbol-good-choice-icons/
+<!-- [bootstrap icons]: https://icons.getbootstrap.com/
+[svg symbol]: https://css-tricks.com/svg-symbol-good-choice-icons/ -->

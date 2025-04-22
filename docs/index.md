@@ -22,17 +22,21 @@ features:
 
 ### 安装
 
-```shell
+:::code-group
+
+```shell [npm]
 npm install doly-icons
 ```
 
-```shell
+```shell [yarn]
 yarn add doly-icons
 ```
 
-```shell
+```shell [pnpm]
 pnpm add doly-icons
 ```
+
+:::
 
 ### 使用
 
