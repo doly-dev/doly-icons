@@ -7,7 +7,7 @@ const styleNodeCache: { [key: string]: HTMLStyleElement } = {};
 export type InjectCssOptions = { csp?: { nonce?: string } };
 
 // 插入样式
-export const injectCss = (css: string, key: string, options: { csp?: { nonce?: string } } = {}) => {
+export const injectCss = (css: string, key: string, options: InjectCssOptions = {}) => {
   if (!isBrowser) {
     return null;
   }
