@@ -73,7 +73,7 @@ Component properties have higher priority than context, and class and style will
 
 <code src='../../src/icon/demos/provider.tsx'></code>
 
-<embed src="../../README.en-US.md#L81-L1000"></embed>
+<embed src="../../README.en-US.md#L84-L1000"></embed>
 
 [Bootstrap Icons]: https://icons.getbootstrap.com/
 [iconfont]: https://www.iconfont.cn/
