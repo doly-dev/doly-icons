@@ -3,7 +3,6 @@ const path = require('path');
 const { readFileSync, writeFileSync } = require('fs');
 const fse = require('fs-extra');
 const glob = require('glob');
-const processSvg = require('./processSvg');
 
 const { BootstrapIconsNodeModulePath, OutputSvgAssetsPath } = require('./constants');
 
@@ -15,7 +14,7 @@ const writeSvgIconToFile = (svgPath) => {
   const svgStr = readFileSync(svgPath, { encoding: 'utf8' });
   const fileObj = path.parse(svgPath);
   const svgIconFile = path.join(OutputSvgAssetsPath, `${fileObj.base}`);
-  const svgIconData = processSvg(svgStr);
+  const svgIconData = svgStr.replace(/\sclass=".*?"/, '');
   writeFileSync(svgIconFile, svgIconData);
 };
 

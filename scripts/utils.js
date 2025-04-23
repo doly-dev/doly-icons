@@ -11,11 +11,29 @@ const firstIsEnglish = (str) => regEnglish.test(str.substring(0, 1));
  *
  * 如，fill-rule => fillRule
  *
+ * @see {@link https://zh-hans.react.dev/reference/react-dom/components/common#common-props | react props}
  * @param {string} propName 属性名称
  * @returns
+ * @example
+ * const svgStr = '<svg xlink:actuate="a" xlink:b="x" aria-label='1234'><a x:link='123' data-bool="1" dat-arr="222" /></svg>';
+ * transformPropName(svgStr);
+ * // `<svg xlinkActuate="a" xlinkB="x" aria-label='1234'><a xLink='123' data-bool="1" datArr="222" /></svg>`
  */
-const transformPropName = (propName) => {
-  return camelCase(propName);
+const transformPropName = (elStr) => {
+  return elStr
+    .replace(/<.*?\/?>/g, (match) => {
+      const n = match.replace(/(\s)(\S*?:\S*?)([=>])/g, (match2, p1, p2, p3) => {
+        // console.log('match2:', match2, ' p1:', p1, ' p2:', p2, ' p3:', p3);
+        return p1 + camelCase(p2) + p3;
+      });
+      return n;
+    })
+    .replace(/(\S*-\S*)=/g, (match, p1) => {
+      if (p1.indexOf('aria-') === 0 || p1.indexOf('data-') === 0) {
+        return `${p1}=`;
+      }
+      return `${camelCase(p1)}=`;
+    });
 };
 
 /**

@@ -10,13 +10,12 @@ const { transformComponentName, transformPropName } = require('./utils');
  */
 const svgToIcon = (name, svgStr) => {
   const componentName = transformComponentName(name);
-  const realSvgStr = svgStr
-    .replace('width="16" height="16"', 'width="1em" height="1em"')
-    .replace('viewBox="0 0 16 16"', 'viewBox="0 0 16 16" {...childProps}')
-    .replace(/\sclass=".*?"/, '')
-    .replace(/(\S*-\S*)=/g, (match, p1) => {
-      return `${transformPropName(p1)}=`;
-    });
+  const realSvgStr = transformPropName(
+    svgStr
+      .replace('width="16" height="16"', 'width="1em" height="1em"')
+      .replace('viewBox="0 0 16 16"', 'viewBox="0 0 16 16" {...childProps}')
+      .replace(/\sclass=".*?"/, ''),
+  );
 
   return `import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
