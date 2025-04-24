@@ -15,14 +15,14 @@ const firstIsEnglish = (str) => regEnglish.test(str.substring(0, 1));
  * @param {string} propName 属性名称
  * @returns
  * @example
- * const svgStr = '<svg xlink:actuate="a" xlink:b="x" aria-label='1234'><a x:link='123' data-bool="1" dat-arr="222" /></svg>';
+ * const svgStr = '<svg xlink:actuate="a" xlink:b="x" xlink:c aria-label='1234'><a x:link='123' data-bool="1" dat-arr="222" /></svg>';
  * transformPropName(svgStr);
  * // `<svg xlinkActuate="a" xlinkB="x" aria-label='1234'><a xLink='123' data-bool="1" datArr="222" /></svg>`
  */
 const transformPropName = (elStr) => {
   return elStr
     .replace(/<.*?\/?>/g, (match) => {
-      const n = match.replace(/(\s)(\S*?:\S*?)([=>])/g, (match2, p1, p2, p3) => {
+      const n = match.replace(/(\s)(\S*?:\S*?)([=>\s])/g, (match2, p1, p2, p3) => {
         // console.log('match2:', match2, ' p1:', p1, ' p2:', p2, ' p3:', p3);
         return p1 + camelCase(p2) + p3;
       });
@@ -35,6 +35,12 @@ const transformPropName = (elStr) => {
       return `${camelCase(p1)}=`;
     });
 };
+
+// console.log(
+//   transformPropName(
+//     '<svg xlink:actuate="a" xlink:b="x" xlink:c aria-label=\'1234\'><a x:link=\'123\' data-bool="1" dat-arr="222" /></svg>',
+//   ),
+// );
 
 /**
  * 转换为组件名称，注意额外处理非字母开头的组件
