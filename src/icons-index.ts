@@ -1816,6 +1816,7 @@ export { default as BookHalf } from './icons/BookHalf';
 export { default as BookFill } from './icons/BookFill';
 export { default as BodyText } from './icons/BodyText';
 export { default as Bluetooth } from './icons/Bluetooth';
+export { default as Bluesky } from './icons/Bluesky';
 export { default as BlockquoteRight } from './icons/BlockquoteRight';
 export { default as BlockquoteLeft } from './icons/BlockquoteLeft';
 export { default as Binoculars } from './icons/Binoculars';
