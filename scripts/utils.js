@@ -6,6 +6,12 @@ const regEnglish = /[a-z]/i;
 // 首字母是否为英语
 const firstIsEnglish = (str) => regEnglish.test(str.substring(0, 1));
 
+const transformKey = (str) => {
+  return words(str)
+    .map((item, index) => (index === 0 ? item : upperFirst(item)))
+    .join('');
+};
+
 /**
  * 转换为 react 属性名
  *
@@ -20,20 +26,38 @@ const firstIsEnglish = (str) => regEnglish.test(str.substring(0, 1));
  * // `<svg xlinkActuate="a" xlinkB="x" aria-label='1234'><a xLink='123' data-bool="1" datArr="222" /></svg>`
  */
 const transformPropName = (elStr) => {
-  return elStr
-    .replace(/<.*?\/?>/g, (match) => {
-      const n = match.replace(/(\s)(\S*?:\S*?)([=>\s])/g, (match2, p1, p2, p3) => {
-        // console.log('match2:', match2, ' p1:', p1, ' p2:', p2, ' p3:', p3);
-        return p1 + camelCase(p2) + p3;
-      });
-      return n;
-    })
-    .replace(/(\S*-\S*)=/g, (match, p1) => {
+  return elStr.replace(/<(\S*?\s)(.*?)(\/?>)/g, (match, tag, props, end) => {
+    // console.log('match:', match);
+    // console.log('tag:', tag);
+    // console.log('props:', props);
+    // console.log('end:', end);
+    const innerProps = props.replace(/(\S+?)=(\S+)/g, (m, p1, p2) => {
+      // console.log('m:', m);
+      // console.log('p1:', p1, ' t:', transformKey(p1));
+      // console.log('p2:', p2);
       if (p1.indexOf('aria-') === 0 || p1.indexOf('data-') === 0) {
-        return `${p1}=`;
+        return m;
       }
-      return `${camelCase(p1)}=`;
+      return `${transformKey(p1)}=${p2}`;
     });
+
+    // const innerProps = props
+    //   .split(' ')
+    //   .map((prop) => {
+    //     console.log('prop: ', prop);
+    //     if (prop.indexOf('aria-') === 0 || prop.indexOf('data-') === 0) {
+    //       return prop;
+    //     }
+    //     const equalIndex = prop.indexOf('=');
+    //     const hasEqual = equalIndex > -1;
+    //     const k = hasEqual ? prop.substring(0, equalIndex) : prop;
+    //     const v = hasEqual ? prop.substring(equalIndex + 1) : '';
+    //     return transformKey(k) + (hasEqual ? `=${v}` : '');
+    //   })
+    //   .join(' ');
+
+    return `<${tag}${innerProps}${end}`;
+  });
 };
 
 // console.log(
