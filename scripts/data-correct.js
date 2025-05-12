@@ -57,6 +57,10 @@ const categories = {
   alexa: 'brand',
   pass: 'files and folders',
   'pass-fill': 'files and folders',
+
+  // bootstrap icons v1.13.0
+  'globe-asia-australia-fill': 'geo',
+  'leaf-fill': 'real world',
 };
 
 // 额外备注，为了检索
