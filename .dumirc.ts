@@ -80,5 +80,6 @@ export default defineConfig({
   analytics: {
     ga_v2: 'G-C5R17JSQCN',
   },
+  styleLoader: {},
   // more config: https://d.umijs.org/config
 });
