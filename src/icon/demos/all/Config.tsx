@@ -1,6 +1,7 @@
 import React from 'react';
 import { isEqual } from 'ut2';
-import { App, Button, Card, Col, Row } from 'antd';
+import { useDebounceFn } from 'rc-hooks';
+import { Button, Card, Col, Row } from 'antd';
 import { SingleValueType } from 'antd/es/color-picker/interface';
 import {
   BizForm,
@@ -8,11 +9,11 @@ import {
   BizFormItemNumber,
   BizFormItemSelect,
   BizDrawerForm,
+  BizFormItemSwitch,
 } from 'antd-more';
-import { BoolTypeOptions, ClickIconActionOptions } from './constants';
+import { ClickIconActionOptions, EBoolType } from './constants';
 import { DefaultConfig } from './context';
 import styles from './index.module.less';
-import { resetScrollTop } from './utils';
 
 const colSpan = {
   span: 24,
@@ -24,8 +25,19 @@ interface ConfigProps {
 }
 
 const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
-  const { message } = App.useApp();
   const [form] = BizForm.useForm();
+  const { run: runOnChange } = useDebounceFn((formValues: any) => {
+    // console.log('formValues:', formValues);
+    // console.log('value:', value);
+    const newValues = {
+      ...formValues,
+      isShowFilter: formValues.isShowFilter ? EBoolType.Yes : EBoolType.No,
+    };
+    if (!isEqual(value, newValues)) {
+      // console.log('not equal');
+      onChange(newValues);
+    }
+  }, 300);
 
   return (
     <BizDrawerForm
@@ -36,32 +48,38 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
       requiredMark={false}
       size="middle"
       onOpenChange={(visible) => {
-        if (!visible) {
-          const formValues = form.getFieldsValue();
-          if (!isEqual(value, formValues)) {
-            onChange(formValues);
-            message.success('设置成功');
-          }
-          resetScrollTop();
-        } else {
-          form.setFieldsValue(value);
+        if (visible) {
+          const formValues = {
+            ...value,
+            isShowFilter: value.isShowFilter === EBoolType.Yes,
+          };
+          form.setFieldsValue(formValues);
         }
+      }}
+      onValuesChange={(changedValues, allValues) => {
+        runOnChange(allValues);
       }}
       initialValues={DefaultConfig}
       drawerProps={{
         className: styles.drawerWrapper,
+        extra: (
+          <a
+            onClick={() => {
+              form.resetFields();
+              const formValues = form.getFieldsValue();
+              runOnChange(formValues);
+            }}
+          >
+            恢复默认
+          </a>
+        ),
       }}
       className={styles.configModal}
       labelWidth={98}
     >
       <Row gutter={[0, 16]}>
         <Col {...colSpan}>
-          <Card
-            type="inner"
-            title="复制/下载 PNG"
-            size="small"
-            extra={<a onClick={() => form.resetFields()}>恢复默认</a>}
-          >
+          <Card type="inner" title="复制/下载 PNG" size="small">
             <BizFormItemColorPicker
               label="背景颜色"
               name="pngBackgroundColor"
@@ -94,7 +112,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
               name="clickIconAction"
               options={ClickIconActionOptions}
             />
-            <BizFormItemSelect label="显示筛选表单" name="isShowFilter" options={BoolTypeOptions} />
+            <BizFormItemSwitch label="显示筛选表单" name="isShowFilter" />
           </Card>
         </Col>
       </Row>
