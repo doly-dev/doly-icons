@@ -21,11 +21,11 @@ export default defineConfig({
       'zh-CN': [
         {
           title: '文档',
-          link: '/documents',
+          link: '/documents'
         },
         {
           title: '图标库',
-          link: '/icons',
+          link: '/icons'
         },
         // {
         // title: `v${preMajorVersionNumber}.x`,
@@ -33,21 +33,21 @@ export default defineConfig({
         // },
         {
           title: 'GitHub',
-          link: `https://github.com/doly-dev/${pkg.name}`,
+          link: `https://github.com/doly-dev/${pkg.name}`
         },
         {
           title: '更新日志',
-          link: `https://github.com/doly-dev/${pkg.name}/releases`,
-        },
+          link: `https://github.com/doly-dev/${pkg.name}/releases`
+        }
       ],
       'en-US': [
         {
           title: 'Docs',
-          link: '/en-US/documents',
+          link: '/en-US/documents'
         },
         {
           title: 'Icons',
-          link: '/en-US/icons',
+          link: '/en-US/icons'
         },
         // {
         // title: `v${preMajorVersionNumber}.x`,
@@ -55,15 +55,15 @@ export default defineConfig({
         // },
         {
           title: 'GitHub',
-          link: `https://github.com/doly-dev/${pkg.name}`,
+          link: `https://github.com/doly-dev/${pkg.name}`
         },
         {
           title: 'ChangeLog',
-          link: `https://github.com/doly-dev/${pkg.name}/releases`,
-        },
-      ],
+          link: `https://github.com/doly-dev/${pkg.name}/releases`
+        }
+      ]
     },
-    footer: 'doly-dev | Copyright © 2021-present',
+    footer: 'doly-dev | Copyright © 2021-present'
   },
   favicons: ['https://doly-dev.github.io/favicon.png'],
 
@@ -71,15 +71,15 @@ export default defineConfig({
   publicPath,
   outputPath: 'docs-dist',
   define: {
-    PATH_ROOT: publicPath,
+    PATH_ROOT: publicPath
   },
   locales: [
     { id: 'zh-CN', name: '中文' },
-    { id: 'en-US', name: 'English' },
+    { id: 'en-US', name: 'English' }
   ],
   analytics: {
-    ga_v2: 'G-C5R17JSQCN',
+    ga_v2: 'G-C5R17JSQCN'
   },
-  styleLoader: {},
+  styleLoader: {}
   // more config: https://d.umijs.org/config
 });

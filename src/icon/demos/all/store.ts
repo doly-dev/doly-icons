@@ -2,7 +2,7 @@ import { Cache } from 'cache2';
 import { DefaultConfig, DefaultFilter } from './context';
 
 const local = new Cache('doly_icons', {
-  storage: localStorage,
+  storage: localStorage
 });
 
 const FilterKey = '__icons_filter__';

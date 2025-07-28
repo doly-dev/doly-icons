@@ -3,20 +3,20 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
-    jest: true,
+    jest: true
   },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 13,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['react', '@typescript-eslint', 'react-hooks'],
   rules: {
@@ -25,6 +25,6 @@ module.exports = {
     'react/prop-types': 0,
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/ban-ts-comment': 0,
-    '@typescript-eslint/consistent-type-imports': 0,
-  },
+    '@typescript-eslint/consistent-type-imports': 0
+  }
 };

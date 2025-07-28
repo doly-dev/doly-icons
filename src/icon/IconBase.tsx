@@ -4,7 +4,7 @@ import React, {
   HTMLAttributes,
   SVGProps,
   ReactNode,
-  RefObject,
+  RefObject
 } from 'react';
 import classnames from 'classnames';
 import IconContext from './IconContext';
@@ -14,13 +14,13 @@ const prefixClass = 'doly-icon';
 
 const classes = {
   spin: `${prefixClass}-spin`,
-  spinReverse: `${prefixClass}-spin-reverse`,
+  spinReverse: `${prefixClass}-spin-reverse`
 };
 
 // svg 默认属性
 const defaultSvgProps = {
   'aria-hidden': true,
-  focusable: false,
+  focusable: false
 };
 
 type StyleWithVariable<V extends string = never> = CSSProperties & Partial<Record<V, string>>;
@@ -80,7 +80,7 @@ const IconBase: React.FC<
   const mergeProps = {
     ...defaultSvgProps,
     ...ctxSvgProps,
-    ...svgProps,
+    ...svgProps
   };
 
   return (
@@ -89,10 +89,10 @@ const IconBase: React.FC<
         prefixClass,
         {
           [classes.spin]: realSpin,
-          [classes.spinReverse]: realSpinReverse,
+          [classes.spinReverse]: realSpinReverse
         },
         ctxClassName,
-        className,
+        className
       )}
       role="img"
       style={{ ...ctxStyle, ...style } as CSSProperties}

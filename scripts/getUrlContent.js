@@ -26,8 +26,8 @@ const getUrlContent = (url) => {
             'Content-Type': 'application/x-www-form-urlencoded',
             'User-Agent':
               'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
-            'X-Forwarded-For': getRandomIP(),
-          },
+            'X-Forwarded-For': getRandomIP()
+          }
         },
         (res) => {
           let chunks = [];
@@ -44,7 +44,7 @@ const getUrlContent = (url) => {
             const str = iconv.decode(buf, 'utf8');
             resolve(str);
           });
-        },
+        }
       )
       .on('error', reject);
   });

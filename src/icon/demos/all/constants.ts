@@ -2,23 +2,23 @@
 export enum ETheme {
   All = 'all',
   Outline = 'outline',
-  Fill = 'fill',
+  Fill = 'fill'
 }
 
 // 布尔值枚举
 export enum EBoolType {
   Yes = '1',
-  No = '0',
+  No = '0'
 }
 export const BoolTypeOptions = [
   {
     label: '是',
-    value: EBoolType.Yes,
+    value: EBoolType.Yes
   },
   {
     label: '否',
-    value: EBoolType.No,
-  },
+    value: EBoolType.No
+  }
 ];
 
 // 点击图标操作
@@ -27,27 +27,27 @@ export enum EClickIconAction {
   CopySvg,
   CopyPng,
   CopyComponentName,
-  CopyJSX,
+  CopyJSX
 }
 export const ClickIconActionOptions = [
   {
     label: '复制组件名称',
-    value: EClickIconAction.CopyComponentName,
+    value: EClickIconAction.CopyComponentName
   },
   {
     label: '复制JSX',
-    value: EClickIconAction.CopyJSX,
+    value: EClickIconAction.CopyJSX
   },
   {
     label: '复制SVG',
-    value: EClickIconAction.CopySvg,
+    value: EClickIconAction.CopySvg
   },
   {
     label: '复制PNG',
-    value: EClickIconAction.CopyPng,
+    value: EClickIconAction.CopyPng
   },
   {
     label: '无',
-    value: EClickIconAction.None,
-  },
+    value: EClickIconAction.None
+  }
 ];

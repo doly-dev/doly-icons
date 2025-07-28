@@ -6,7 +6,7 @@ import {
   BizFormItem,
   BizFormItemColorPicker,
   BizFormItemRadio,
-  BizFormItemSelect,
+  BizFormItemSelect
 } from 'antd-more';
 import { Search, Square, SquareFill } from 'doly-icons';
 import React from 'react';
@@ -22,7 +22,7 @@ import { resetScrollTop } from './utils';
 const ThemeOptions = [
   {
     value: ETheme.All,
-    label: '全部风格',
+    label: '全部风格'
   },
   {
     value: ETheme.Outline,
@@ -30,7 +30,7 @@ const ThemeOptions = [
       <>
         <Square /> 线性风格
       </>
-    ),
+    )
   },
   {
     value: ETheme.Fill,
@@ -38,8 +38,8 @@ const ThemeOptions = [
       <>
         <SquareFill /> 填充风格
       </>
-    ),
-  },
+    )
+  }
 ];
 
 // 渲染类别label
@@ -67,9 +67,9 @@ const Filter: React.FC<FilterProps> = React.memo(
       () =>
         CategoriesOptions.map((item) => ({
           ...item,
-          label: renderCategoryLabel(item.label, item.total),
+          label: renderCategoryLabel(item.label, item.total)
         })),
-      [],
+      []
     );
 
     const debounceChangeFilter = useDebounceFn(onFilterChange, 300);
@@ -151,9 +151,9 @@ const Filter: React.FC<FilterProps> = React.memo(
                     '#000000',
                     '#4A4A4A',
                     '#9B9B9B',
-                    '#FFFFFF',
-                  ],
-                },
+                    '#FFFFFF'
+                  ]
+                }
               ]}
             />
           </Col>
@@ -173,7 +173,7 @@ const Filter: React.FC<FilterProps> = React.memo(
         </Row>
       </BizForm>
     );
-  },
+  }
 );
 
 Filter.displayName = 'Filter';

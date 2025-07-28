@@ -7,7 +7,7 @@ import {
   ArrowClockwise,
   ArrowCounterclockwise,
   Search,
-  YinYang,
+  YinYang
 } from 'doly-icons';
 import IconLoading from './components/IconLoading';
 import styles from './demo.module.less';

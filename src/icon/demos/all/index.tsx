@@ -18,7 +18,7 @@ const AllIcons = () => {
     }
     return {
       filter,
-      options,
+      options
     };
   });
   const result = useMemo(() => filterClassData(state.filter), [state.filter]);
@@ -29,13 +29,13 @@ const AllIcons = () => {
       (isIE
         ? {
             fontSize: state.filter.fontSize,
-            color: state.filter.color,
+            color: state.filter.color
           }
         : {
             '--doly-icon-font-size': formatPx(state.filter?.fontSize),
-            '--doly-icon-color': state.filter?.color,
+            '--doly-icon-color': state.filter?.color
           }) as CSSProperties,
-    [state.filter?.color, state.filter?.fontSize],
+    [state.filter?.color, state.filter?.fontSize]
   );
 
   React.useEffect(() => {

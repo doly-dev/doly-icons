@@ -6,8 +6,8 @@ import { ETheme } from './constants';
 let CategoriesOptions: { label: React.ReactNode; value: any; total?: number }[] = [
   {
     label: '所有类别',
-    value: '',
-  },
+    value: ''
+  }
 ];
 
 export type IconClassDataItem = {
@@ -24,11 +24,11 @@ allIcons.forEach((iconItem) => {
   if (!currItem) {
     clsData.push({
       title: iconItem.cnCategories,
-      list: [iconItem],
+      list: [iconItem]
     });
     CategoriesOptions.push({
       label: iconItem.cnCategories,
-      value: iconItem.cnCategories,
+      value: iconItem.cnCategories
     });
   } else {
     currItem.list.push(iconItem);
@@ -44,7 +44,7 @@ CategoriesOptions = CategoriesOptions.map((item) => {
     total += clsLen;
     return {
       ...item,
-      total: clsLen,
+      total: clsLen
     };
   }
   return item;
@@ -90,13 +90,13 @@ const filterClassData = ({ category, theme, keyword }: FilterParam) => {
             }
 
             return false;
-          }),
+          })
         };
       }
 
       return {
         title: '',
-        list: [],
+        list: []
       };
     })
     .filter((clsItem) => clsItem.title && clsItem.list.length > 0);

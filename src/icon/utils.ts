@@ -27,7 +27,7 @@ export const injectCss = (css: string, key: string, options: InjectCssOptions = 
       if (options.csp?.nonce) {
         style.nonce = options.csp.nonce;
       }
-    },
+    }
   });
 
   return styleNodeCache[key];

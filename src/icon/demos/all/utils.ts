@@ -10,7 +10,7 @@ export const processSvg = (svgStr: string, fontSize: number | string, color: str
 export const downloadSvg = (
   url: string,
   fileName: string,
-  { fontSize, color }: { fontSize: number | string; color: string },
+  { fontSize, color }: { fontSize: number | string; color: string }
 ) => {
   download(url, {
     dataType: 'url',
@@ -19,7 +19,7 @@ export const downloadSvg = (
       const text = await fileReader(res, 'text');
       const ret = processSvg(text, fontSize, color);
       return new Blob([ret], { type: res.type });
-    },
+    }
   });
 };
 

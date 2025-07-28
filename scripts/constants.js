@@ -16,5 +16,5 @@ module.exports = {
   BootstrapIconsUrl,
   BootstrapIconsNodeModulePath,
   OutputSvgIconsPath,
-  OutputSvgAssetsPath,
+  OutputSvgAssetsPath
 };

@@ -9,14 +9,14 @@ import {
   BizFormItemNumber,
   BizFormItemSelect,
   BizDrawerForm,
-  BizFormItemSwitch,
+  BizFormItemSwitch
 } from 'antd-more';
 import { ClickIconActionOptions, EBoolType } from './constants';
 import { DefaultConfig } from './context';
 import styles from './index.module.less';
 
 const colSpan = {
-  span: 24,
+  span: 24
 };
 
 interface ConfigProps {
@@ -31,7 +31,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
     // console.log('value:', value);
     const newValues = {
       ...formValues,
-      isShowFilter: formValues.isShowFilter ? EBoolType.Yes : EBoolType.No,
+      isShowFilter: formValues.isShowFilter ? EBoolType.Yes : EBoolType.No
     };
     if (!isEqual(value, newValues)) {
       // console.log('not equal');
@@ -51,7 +51,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
         if (visible) {
           const formValues = {
             ...value,
-            isShowFilter: value.isShowFilter === EBoolType.Yes,
+            isShowFilter: value.isShowFilter === EBoolType.Yes
           };
           form.setFieldsValue(formValues);
         }
@@ -72,7 +72,7 @@ const Config: React.FC<ConfigProps> = ({ value, onChange }) => {
           >
             恢复默认
           </a>
-        ),
+        )
       }}
       className={styles.configModal}
       labelWidth={98}

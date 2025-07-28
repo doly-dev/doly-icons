@@ -7,7 +7,7 @@ export const DefaultFilter = {
   color: '#333',
   keyword: '',
   theme: ETheme.All,
-  category: CategoriesOptions[0].value,
+  category: CategoriesOptions[0].value
 };
 
 export const DefaultConfig = {
@@ -21,10 +21,10 @@ export const DefaultConfig = {
 
   // 其他操作
   clickIconAction: EClickIconAction.CopySvg, // 点击图标操作
-  isShowFilter: EBoolType.Yes, // 是否显示筛选表单
+  isShowFilter: EBoolType.Yes // 是否显示筛选表单
 };
 
 export default createContext<typeof DefaultFilter & typeof DefaultConfig>({
   ...DefaultFilter,
-  ...DefaultConfig,
+  ...DefaultConfig
 });

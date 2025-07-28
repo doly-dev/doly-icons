@@ -100,5 +100,5 @@ const transformFileName = (componentName) => {
 module.exports = {
   transformPropName,
   transformComponentName,
-  transformFileName,
+  transformFileName
 };

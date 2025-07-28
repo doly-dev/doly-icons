@@ -60,7 +60,7 @@ const categories = {
 
   // bootstrap icons v1.13.0
   'globe-asia-australia-fill': 'geo',
-  'leaf-fill': 'real world',
+  'leaf-fill': 'real world'
 };
 
 // 额外备注，为了检索
@@ -69,10 +69,10 @@ const remark = {
   'backspace-fill': 'delete 删除键退格键',
   'backspace-reverse': 'delete 删除键退格键',
   'backspace-reverse-fill': 'delete 删除键退格键',
-  'yin-yang': 'Tai Ji, gossip Kungfu 太极八卦功夫',
+  'yin-yang': 'Tai Ji, gossip Kungfu 太极八卦功夫'
 };
 
 module.exports = {
   categories,
-  remark,
+  remark
 };

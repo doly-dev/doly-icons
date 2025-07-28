@@ -16,7 +16,7 @@ enum Screen {
   LG = 992,
   MD = 768,
   SM = 576,
-  XS = 0,
+  XS = 0
 }
 
 enum ScreenColumns {
@@ -24,7 +24,7 @@ enum ScreenColumns {
   LG = 8,
   MD = 6,
   SM = 4,
-  XS = 3,
+  XS = 3
 }
 
 enum ScreenPadding {
@@ -32,7 +32,7 @@ enum ScreenPadding {
   LG = 58 * 2,
   MD = 58 * 2,
   SM = 16 * 2,
-  XS = 16 * 2,
+  XS = 16 * 2
 }
 
 const colSpan = {
@@ -40,7 +40,7 @@ const colSpan = {
   lg: 3,
   md: 4,
   sm: 6,
-  xs: 8,
+  xs: 8
 };
 
 const getColumnsAndPadding = () => {
@@ -72,7 +72,7 @@ const RowGap = 16;
 const IconName: React.FC<{ children: React.ReactNode; name: string; componentName: string }> = ({
   children,
   name,
-  componentName,
+  componentName
 }) => {
   const { clickIconAction } = React.useContext(Context);
   const { copyPng, copySvg } = useActions(name);
@@ -136,8 +136,8 @@ const IconItem: React.FC<{ data: IconClassDataItem['list'][0] }> = ({ data }) =>
                   title: cnName,
                   getPopupContainer() {
                     return wrapperRef.current!;
-                  },
-                },
+                  }
+                }
               }}
             >
               {cnName}
@@ -150,8 +150,8 @@ const IconItem: React.FC<{ data: IconClassDataItem['list'][0] }> = ({ data }) =>
                   title: name,
                   getPopupContainer() {
                     return wrapperRef.current!;
-                  },
-                },
+                  }
+                }
               }}
             >
               {name}
@@ -189,7 +189,7 @@ const IconList: React.FC<{ data: IconClassDataItem[] }> = ({ data }) => {
       ret.push({
         title,
         len: list.length,
-        height: TitleHeight,
+        height: TitleHeight
       });
 
       const cols = getColumnsAndPadding()?.cols || 3;
@@ -198,7 +198,7 @@ const IconList: React.FC<{ data: IconClassDataItem[] }> = ({ data }) => {
       for (let i = 0; i < rows; i++) {
         ret.push({
           list: list.slice(i * cols, (i + 1) * cols),
-          height: i !== rows - 1 ? ColHeight + RowGap : ColHeight,
+          height: i !== rows - 1 ? ColHeight + RowGap : ColHeight
         });
       }
     });

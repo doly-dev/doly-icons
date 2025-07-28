@@ -19,7 +19,7 @@ function getPngScale(pngSize: number) {
 
 function getSvgToPngOptions({
   pngBackgroundColor,
-  pngSize,
+  pngSize
 }: {
   pngBackgroundColor: string;
   pngSize: number;
@@ -27,13 +27,13 @@ function getSvgToPngOptions({
   return {
     scale: getPngScale(pngSize),
     backgroundColor: pngBackgroundColor,
-    excludeCss: true,
+    excludeCss: true
   };
 }
 
 export const CopyComponent: React.FC<{ text: string; children: React.ReactNode }> = ({
   text,
-  children,
+  children
 }) => {
   const { message } = App.useApp();
   return (
@@ -43,7 +43,7 @@ export const CopyComponent: React.FC<{ text: string; children: React.ReactNode }
         message.success(
           <>
             复制成功！<Typography.Text code>{text}</Typography.Text>
-          </>,
+          </>
         );
       }}
     >
@@ -74,7 +74,7 @@ export function useActions(fileName: string) {
     saveSvgAsPng(
       svgNodeRef.current,
       `${fileName}.png`,
-      getSvgToPngOptions({ pngBackgroundColor, pngSize }),
+      getSvgToPngOptions({ pngBackgroundColor, pngSize })
     );
     svgNodeRef.current = null;
   };
@@ -83,7 +83,7 @@ export function useActions(fileName: string) {
     updateSvgNode();
     const pngUri = await svgAsPngUri(
       svgNodeRef.current,
-      getSvgToPngOptions({ pngBackgroundColor, pngSize }),
+      getSvgToPngOptions({ pngBackgroundColor, pngSize })
     );
     // console.log(pngUri);
     try {
@@ -95,7 +95,7 @@ export function useActions(fileName: string) {
         const canUseClipboardItem = typeof ClipboardItem !== 'undefined';
         if (canUseClipboardItem) {
           await navigator.clipboard.write([
-            new ClipboardItem({ 'image/png': dataURLToBlob(pngUri) }),
+            new ClipboardItem({ 'image/png': dataURLToBlob(pngUri) })
           ]);
           message.success('PNG 复制成功！');
         }
@@ -118,14 +118,14 @@ export function useActions(fileName: string) {
         // @ts-ignore
         div = null;
         svgNodeRef.current = null;
-      },
+      }
     });
   };
 
   return {
     copyPng,
     copySvg,
-    downloadPng,
+    downloadPng
   };
 }
 
@@ -145,7 +145,7 @@ const Actions: React.FC<ActionsProps> = ({ componentName, fileName, open, ...res
 
     downloadSvg(url, fileName, {
       fontSize,
-      color,
+      color
     });
   }, [color, fileName, fontSize]);
 
@@ -156,7 +156,7 @@ const Actions: React.FC<ActionsProps> = ({ componentName, fileName, open, ...res
         <CopyComponent text={componentName}>
           <div>复制组件名称</div>
         </CopyComponent>
-      ),
+      )
     },
     {
       key: 'copy-react-component',
@@ -164,30 +164,30 @@ const Actions: React.FC<ActionsProps> = ({ componentName, fileName, open, ...res
         <CopyComponent text={reactComponentText}>
           <div>复制 JSX</div>
         </CopyComponent>
-      ),
+      )
     },
     {
       key: 'copy-svg',
-      label: <a onClick={copySvg}>复制 SVG</a>,
+      label: <a onClick={copySvg}>复制 SVG</a>
     },
     {
       key: 'copy-png',
-      label: <a onClick={copyPng}>复制 PNG</a>,
+      label: <a onClick={copyPng}>复制 PNG</a>
     },
     {
       key: 'download-svg',
-      label: <a onClick={downloadCustom}>下载 SVG</a>,
+      label: <a onClick={downloadCustom}>下载 SVG</a>
     },
     {
       key: 'download-png',
-      label: <a onClick={downloadPng}>下载 PNG</a>,
-    },
+      label: <a onClick={downloadPng}>下载 PNG</a>
+    }
   ];
 
   return (
     <Dropdown
       menu={{
-        items: menuItems,
+        items: menuItems
       }}
       arrow={{ pointAtCenter: true }}
       destroyPopupOnHide

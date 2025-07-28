@@ -56,7 +56,7 @@ const processHtmlToData = (html) => {
       fileName,
       componentName,
       fill,
-      remark,
+      remark
     });
   });
 };

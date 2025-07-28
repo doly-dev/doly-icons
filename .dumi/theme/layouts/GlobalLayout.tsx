@@ -11,7 +11,7 @@ const GlobalLayout: React.FC = () => {
   return (
     <ConfigProvider
       theme={{
-        algorithm: color === 'dark' ? theme.darkAlgorithm : theme.defaultAlgorithm,
+        algorithm: color === 'dark' ? theme.darkAlgorithm : theme.defaultAlgorithm
       }}
     >
       {outlet}
