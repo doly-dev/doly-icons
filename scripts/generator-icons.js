@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-require-imports */
 
 // feature: 将 bootstrap-icons 的图标处理到 src/icons 目录下
 

@@ -90,6 +90,7 @@ export function useActions(fileName: string) {
       try {
         await copyImageToClipboard(pngUri);
         message.success('PNG 复制成功！');
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (err) {
         // ref: https://github.com/LuanEdCosta/copy-image-clipboard/issues/37
         const canUseClipboardItem = typeof ClipboardItem !== 'undefined';
@@ -100,6 +101,7 @@ export function useActions(fileName: string) {
           message.success('PNG 复制成功！');
         }
       }
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (err) {
       message.error('PNG 复制失败！');
     }

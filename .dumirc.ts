@@ -6,8 +6,8 @@ const isDev = process.env.NODE_ENV === 'development';
 const MajorVersionNumber = Number(pkg.version.split('.')[0]);
 const versionSiteRoot = `refs/heads/v${MajorVersionNumber}`;
 
-const preMajorVersionNumber = MajorVersionNumber - 1;
-const preVersionSiteRoot = `refs/heads/v${preMajorVersionNumber}`;
+// const preMajorVersionNumber = MajorVersionNumber - 1;
+// const preVersionSiteRoot = `refs/heads/v${preMajorVersionNumber}`;
 
 const version = process.env.BUIDL_DOC_VERSION ? versionSiteRoot : 'latest';
 

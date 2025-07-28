@@ -2,7 +2,7 @@ export default {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-css-modules',
-    'stylelint-no-unsupported-browser-features',
+    'stylelint-no-unsupported-browser-features'
   ],
   plugins: ['stylelint-declaration-block-no-ignored-properties'],
   customSyntax: 'postcss-less',
@@ -16,6 +16,7 @@ export default {
     'number-max-precision': 8,
     'alpha-value-notation': 'number',
     'color-function-notation': 'legacy',
+    'color-function-alias-notation': null,
     'selector-class-pattern': null,
     'selector-id-pattern': null,
     'font-family-no-missing-generic-family-keyword': null,
@@ -24,8 +25,8 @@ export default {
     'value-keyword-case': ['lower', { ignoreKeywords: ['optimizeLegibility'] }],
     'selector-no-vendor-prefix': [
       true,
-      { ignoreSelectors: ['::-webkit-input-placeholder', '/-moz-.*/'] },
-    ],
+      { ignoreSelectors: ['::-webkit-input-placeholder', '/-moz-.*/'] }
+    ]
   },
-  ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
+  ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts']
 };

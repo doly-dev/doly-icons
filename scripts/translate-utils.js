@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-require-imports */
 const fse = require('fs-extra');
 const path = require('path');
 const chalk = require('chalk');
@@ -106,7 +106,9 @@ const translate = async (text, cache = true) => {
     console.log(chalk.red('【Translate Error】'), `text: ${text}`);
     value = text;
   } else {
-    cache && setTranslateCache(text, value);
+    if (cache) {
+      setTranslateCache(text, value);
+    }
   }
   return value;
 };

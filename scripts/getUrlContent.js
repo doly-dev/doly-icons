@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-require-imports */
 const http = require('http');
 const https = require('https');
 const iconv = require('iconv-lite');

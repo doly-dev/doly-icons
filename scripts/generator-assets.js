@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-require-imports */
 const path = require('path');
 const { readFileSync, writeFileSync } = require('fs');
 const fse = require('fs-extra');

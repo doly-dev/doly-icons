@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-require-imports */
 const { camelCase, upperFirst, words } = require('ut2');
 
 const regEnglish = /[a-z]/i;
