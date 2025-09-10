@@ -8,7 +8,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { saveSvgAsPng, svgAsPngUri } from 'save-svg-as-png';
 import { dataURLToBlob } from 'util-helpers';
 import styles from './Actions.module.less';
-import Context from './context';
+import Context, { DefaultConfig } from './context';
 import { downloadSvg, formatPx, pixelRatio } from './utils';
 
 const VIEWBOX_SIZE = 16;
@@ -54,8 +54,17 @@ export const CopyComponent: React.FC<{ text: string; children: React.ReactNode }
 
 export function useActions(fileName: string) {
   const { message } = App.useApp();
-  const { fontSize, color, pngBackgroundColor, pngSize } = React.useContext(Context);
+  const {
+    fontSize,
+    color,
+    pngBackgroundColor: basePngBackgroundColor,
+    pngSize
+  } = React.useContext(Context);
   const svgNodeRef = React.useRef<SVGSVGElement | null>();
+  const pngBackgroundColor =
+    basePngBackgroundColor === 'transparent'
+      ? DefaultConfig.pngBackgroundColor
+      : basePngBackgroundColor;
 
   const updateSvgNode = (withStyle = true) => {
     svgNodeRef.current = document
@@ -192,7 +201,7 @@ const Actions: React.FC<ActionsProps> = ({ componentName, fileName, open, ...res
         items: menuItems
       }}
       arrow={{ pointAtCenter: true }}
-      destroyPopupOnHide
+      destroyOnHidden
       open={open}
       {...restProps}
     >

@@ -42,3 +42,5 @@ export const resetScrollTop = () => {
 
 export const isIE: boolean =
   typeof window === 'object' && (!!window.ActiveXObject || 'ActiveXObject' in window);
+
+export const pkgName = 'doly-icons';

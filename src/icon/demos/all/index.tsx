@@ -1,41 +1,35 @@
 import { App, Empty } from 'antd';
-import { useSetState } from 'rc-hooks';
+import { useCacheState } from 'rc-hooks';
 import React, { CSSProperties, useMemo } from 'react';
 import Context, { DefaultConfig, DefaultFilter } from './context';
 import { filterClassData } from './dataMain';
 import Filter from './Filter';
 import styles from './index.module.less';
 import List from './List';
-import { getConfigStore, getFilterStore, setAllConfigStore, setAllFilterStore } from './store';
-import { formatPx, isIE, resetScrollTop } from './utils';
+import { formatPx, isIE, pkgName, resetScrollTop } from './utils';
 
 const AllIcons = () => {
-  const [state, setState] = useSetState(() => {
-    const options = getConfigStore() || DefaultConfig;
-    const filter = getFilterStore() || DefaultFilter;
-    if (options.pngBackgroundColor === 'transparent') {
-      options.pngBackgroundColor = 'rgba(0,0,0,0)';
-    }
-    return {
-      filter,
-      options
-    };
+  const [config, setConfig] = useCacheState(`${pkgName}-config`, DefaultConfig, {
+    storage: localStorage
   });
-  const result = useMemo(() => filterClassData(state.filter), [state.filter]);
+  const [filter, setFilter] = useCacheState(`${pkgName}-filter`, DefaultFilter, {
+    storage: localStorage
+  });
+  const result = useMemo(() => filterClassData(filter), [filter]);
   const timerRef = React.useRef<any>(null);
 
   const iconWrapperStyles = React.useMemo(
     () =>
       (isIE
         ? {
-            fontSize: state.filter.fontSize,
-            color: state.filter.color
+            fontSize: filter.fontSize,
+            color: filter.color
           }
         : {
-            '--doly-icon-font-size': formatPx(state.filter?.fontSize),
-            '--doly-icon-color': state.filter?.color
+            '--doly-icon-font-size': formatPx(filter.fontSize),
+            '--doly-icon-color': filter.color
           }) as CSSProperties,
-    [state.filter?.color, state.filter?.fontSize]
+    [filter.color, filter.fontSize]
   );
 
   React.useEffect(() => {
@@ -62,20 +56,14 @@ const AllIcons = () => {
 
   return (
     <App>
-      <Context.Provider value={{ ...state.filter, ...state.options }}>
+      <Context.Provider value={{ ...filter, ...config }}>
         <div className={styles.demo}>
           <div className={styles.formArea}>
             <Filter
-              options={state.options}
-              onOptionsChange={(value) => {
-                setState({ options: value });
-                setAllConfigStore(value);
-              }}
-              filter={state.filter}
-              onFilterChange={(value) => {
-                setState({ filter: value });
-                setAllFilterStore(value);
-              }}
+              options={config}
+              onOptionsChange={setConfig}
+              filter={filter}
+              onFilterChange={setFilter}
             />
           </div>
           <div style={iconWrapperStyles}>
