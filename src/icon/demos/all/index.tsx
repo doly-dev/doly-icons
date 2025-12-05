@@ -18,20 +18,6 @@ const AllIcons = () => {
   const result = useMemo(() => filterClassData(filter), [filter]);
   const timerRef = React.useRef<any>(null);
 
-  const iconWrapperStyles = React.useMemo(
-    () =>
-      (isIE
-        ? {
-            fontSize: filter.fontSize,
-            color: filter.color
-          }
-        : {
-            '--doly-icon-font-size': formatPx(filter.fontSize),
-            '--doly-icon-color': filter.color
-          }) as CSSProperties,
-    [filter.color, filter.fontSize]
-  );
-
   React.useEffect(() => {
     const footerDom = document.querySelector('.__dumi-default-layout-footer-meta') as HTMLElement;
     clearTimeout(timerRef.current);
@@ -66,7 +52,19 @@ const AllIcons = () => {
               onFilterChange={setFilter}
             />
           </div>
-          <div style={iconWrapperStyles}>
+          <div
+            style={
+              isIE
+                ? {
+                    fontSize: filter.fontSize,
+                    color: filter.color
+                  }
+                : ({
+                    '--doly-icon-font-size': formatPx(filter.fontSize),
+                    '--doly-icon-color': filter.color
+                  } as CSSProperties)
+            }
+          >
             {result.length <= 0 ? <Empty description="暂无数据" /> : <List data={result} />}
           </div>
         </div>

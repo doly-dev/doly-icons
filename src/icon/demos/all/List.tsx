@@ -174,7 +174,7 @@ const IconItem: React.FC<{ data: IconClassDataItem['list'][0] }> = ({ data }) =>
 };
 
 const IconList: React.FC<{ data: IconClassDataItem[] }> = ({ data }) => {
-  const listRef = React.useRef<any>();
+  const listRef = React.useRef<any>(undefined);
   const wrapperRef = React.useRef<HTMLDivElement>(null);
   const { isShowFilter } = React.useContext(Context);
   const [height, setHeight] = React.useState(window.innerHeight);
@@ -251,9 +251,11 @@ const IconList: React.FC<{ data: IconClassDataItem[] }> = ({ data }) => {
     }
   }, [retData]);
 
-  const resizeRef = React.useRef<() => any>();
+  const resizeRef = React.useRef<() => any>(undefined);
 
+  // eslint-disable-next-line react-hooks/refs
   if (!resizeRef.current) {
+    // eslint-disable-next-line react-hooks/refs
     resizeRef.current = debounce(() => {
       const target = wrapperRef.current;
       if (target) {

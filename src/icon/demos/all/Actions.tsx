@@ -60,7 +60,7 @@ export function useActions(fileName: string) {
     pngBackgroundColor: basePngBackgroundColor,
     pngSize
   } = React.useContext(Context);
-  const svgNodeRef = React.useRef<SVGSVGElement | null>();
+  const svgNodeRef = React.useRef<SVGSVGElement>(undefined);
   const pngBackgroundColor =
     basePngBackgroundColor === 'transparent'
       ? DefaultConfig.pngBackgroundColor
@@ -85,7 +85,7 @@ export function useActions(fileName: string) {
       `${fileName}.png`,
       getSvgToPngOptions({ pngBackgroundColor, pngSize })
     );
-    svgNodeRef.current = null;
+    svgNodeRef.current = undefined;
   };
 
   const copyPng = async () => {
@@ -114,7 +114,7 @@ export function useActions(fileName: string) {
     } catch (err) {
       message.error('PNG 复制失败！');
     }
-    svgNodeRef.current = null;
+    svgNodeRef.current = undefined;
   };
 
   const copySvg = () => {
@@ -128,7 +128,7 @@ export function useActions(fileName: string) {
         message.success('SVG 复制成功！');
         // @ts-ignore
         div = null;
-        svgNodeRef.current = null;
+        svgNodeRef.current = undefined;
       }
     });
   };
