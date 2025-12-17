@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrow-left-square-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgMTRhMiAyIDAgMCAxLTIgMkgyYTIgMiAwIDAgMS0yLTJWMmEyIDIgMCAwIDEgMi0yaDEyYTIgMiAwIDAgMSAyIDJ6bS00LjUtNi41SDUuNzA3bDIuMTQ3LTIuMTQ2YS41LjUgMCAxIDAtLjcwOC0uNzA4bC0zIDNhLjUuNSAwIDAgMCAwIC43MDhsMyAzYS41LjUgMCAwIDAgLjcwOC0uNzA4TDUuNzA3IDguNUgxMS41YS41LjUgMCAwIDAgMC0xIi8+Cjwvc3ZnPg==)*/
 const ArrowLeftSquareFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrow-left-square-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![calendar2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDBhLjUuNSAwIDAgMSAuNS41VjFoOFYuNWEuNS41IDAgMCAxIDEgMFYxaDFhMiAyIDAgMCAxIDIgMnYxMWEyIDIgMCAwIDEtMiAySDJhMiAyIDAgMCAxLTItMlYzYTIgMiAwIDAgMSAyLTJoMVYuNWEuNS41IDAgMCAxIC41LS41TTIgMmExIDEgMCAwIDAtMSAxdjExYTEgMSAwIDAgMCAxIDFoMTJhMSAxIDAgMCAwIDEtMVYzYTEgMSAwIDAgMC0xLTF6Ii8+CiAgPHBhdGggZD0iTTIuNSA0YS41LjUgMCAwIDEgLjUtLjVoMTBhLjUuNSAwIDAgMSAuNS41djFhLjUuNSAwIDAgMS0uNS41SDNhLjUuNSAwIDAgMS0uNS0uNXoiLz4KPC9zdmc+)*/
 const Calendar2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="calendar2"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![volume-down-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOSA0YS41LjUgMCAwIDAtLjgxMi0uMzlMNS44MjUgNS41SDMuNUEuNS41IDAgMCAwIDMgNnY0YS41LjUgMCAwIDAgLjUuNWgyLjMyNWwyLjM2MyAxLjg5QS41LjUgMCAwIDAgOSAxMnptMy4wMjUgNGE0LjUgNC41IDAgMCAxLTEuMzE4IDMuMTgyTDEwIDEwLjQ3NUEzLjUgMy41IDAgMCAwIDExLjAyNSA4IDMuNSAzLjUgMCAwIDAgMTAgNS41MjVsLjcwNy0uNzA3QTQuNSA0LjUgMCAwIDEgMTIuMDI1IDgiLz4KPC9zdmc+)*/
 const VolumeDownFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="volume-down-fill"

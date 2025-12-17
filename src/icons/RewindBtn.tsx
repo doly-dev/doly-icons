@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![rewind-btn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy4yMSA1LjA5M0EuNS41IDAgMCAxIDggNS41djEuODg2bDMuMjEtMi4yOTNBLjUuNSAwIDAgMSAxMiA1LjV2NWEuNS41IDAgMCAxLS43OS40MDdMOCA4LjYxNFYxMC41YS41LjUgMCAwIDEtLjc5LjQwN2wtMy41LTIuNWEuNS41IDAgMCAxIDAtLjgxNHoiLz4KICA8cGF0aCBkPSJNMCA0YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yem0xNSAwYTEgMSAwIDAgMC0xLTFIMmExIDEgMCAwIDAtMSAxdjhhMSAxIDAgMCAwIDEgMWgxMmExIDEgMCAwIDAgMS0xeiIvPgo8L3N2Zz4=)*/
 const RewindBtn: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="rewind-btn"

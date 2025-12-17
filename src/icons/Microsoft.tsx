@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![microsoft](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy40NjIgMEgwdjcuMTloNy40NjJ6TTE2IDBIOC41Mzh2Ny4xOUgxNnpNNy40NjIgOC4yMTFIMFYxNmg3LjQ2MnptOC41MzggMEg4LjUzOFYxNkgxNnoiLz4KPC9zdmc+)*/
 const Microsoft: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="microsoft"

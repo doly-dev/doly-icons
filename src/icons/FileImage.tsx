@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4wMDIgNS41YTEuNSAxLjUgMCAxIDEtMyAwIDEuNSAxLjUgMCAwIDEgMyAwIi8+CiAgPHBhdGggZD0iTTEyIDBINGEyIDIgMCAwIDAtMiAydjEyYTIgMiAwIDAgMCAyIDJoOGEyIDIgMCAwIDAgMi0yVjJhMiAyIDAgMCAwLTItMk0zIDJhMSAxIDAgMCAxIDEtMWg4YTEgMSAwIDAgMSAxIDF2OGwtMi4wODMtMi4wODNhLjUuNSAwIDAgMC0uNzYuMDYzTDggMTEgNS44MzUgOS43YS41LjUgMCAwIDAtLjYxMS4wNzZMMyAxMnoiLz4KPC9zdmc+)*/
 const FileImage: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-image"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![layout-three-columns](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxLjVBMS41IDEuNSAwIDAgMSAxLjUgMGgxM0ExLjUgMS41IDAgMCAxIDE2IDEuNXYxM2ExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTEzQTEuNSAxLjUgMCAwIDEgMCAxNC41ek0xLjUgMWEuNS41IDAgMCAwLS41LjV2MTNhLjUuNSAwIDAgMCAuNS41SDVWMXpNMTAgMTVWMUg2djE0em0xIDBoMy41YS41LjUgMCAwIDAgLjUtLjV2LTEzYS41LjUgMCAwIDAtLjUtLjVIMTF6Ii8+Cjwvc3ZnPg==)*/
 const LayoutThreeColumns: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="layout-three-columns"

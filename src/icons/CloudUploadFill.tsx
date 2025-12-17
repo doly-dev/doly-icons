@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![cloud-upload-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDBhNS41MyA1LjUzIDAgMCAwLTMuNTk0IDEuMzQyYy0uNzY2LjY2LTEuMzIxIDEuNTItMS40NjQgMi4zODNDMS4yNjYgNC4wOTUgMCA1LjU1NSAwIDcuMzE4IDAgOS4zNjYgMS43MDggMTEgMy43ODEgMTFINy41VjUuNzA3TDUuMzU0IDcuODU0YS41LjUgMCAxIDEtLjcwOC0uNzA4bDMtM2EuNS41IDAgMCAxIC43MDggMGwzIDNhLjUuNSAwIDAgMS0uNzA4LjcwOEw4LjUgNS43MDdWMTFoNC4xODhDMTQuNTAyIDExIDE2IDkuNTcgMTYgNy43NzNjMC0xLjYzNi0xLjI0Mi0yLjk2OS0yLjgzNC0zLjE5NEMxMi45MjMgMS45OTkgMTAuNjkgMCA4IDBtLS41IDE0LjVWMTFoMXYzLjVhLjUuNSAwIDAgMS0xIDAiLz4KPC9zdmc+)*/
 const CloudUploadFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="cloud-upload-fill"

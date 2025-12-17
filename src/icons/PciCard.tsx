@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pci-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxLjVBLjUuNSAwIDAgMSAuNSAxaDFhLjUuNSAwIDAgMSAuNS41VjRoMTMuNWEuNS41IDAgMCAxIC41LjV2N2EuNS41IDAgMCAxLS41LjVIMnYyLjVhLjUuNSAwIDAgMS0xIDBWMkguNWEuNS41IDAgMCAxLS41LS41Ii8+CiAgPHBhdGggZD0iTTMgMTIuNWgzLjV2MWEuNS41IDAgMCAxLS41LjVIMy41YS41LjUgMCAwIDEtLjUtLjV6bTQgMGg0djFhLjUuNSAwIDAgMS0uNS41aC0zYS41LjUgMCAwIDEtLjUtLjV6Ii8+Cjwvc3ZnPg==)*/
 const PciCard: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pci-card"

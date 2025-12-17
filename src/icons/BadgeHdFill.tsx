@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![badge-hd-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAuNTMgNS45NjhoLS44NDN2NC4wNmguODQzYzEuMTE3IDAgMS42MjItLjY2NyAxLjYyMi0yLjAyIDAtMS4zNTQtLjUxLTIuMDQtMS42MjItMi4wNCIvPgogIDxwYXRoIGQ9Ik0yIDJhMiAyIDAgMCAwLTIgMnY4YTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMlY0YTIgMiAwIDAgMC0yLTJ6bTUuMzk2IDMuMDAxVjExSDYuMjA5VjguNDNIMy42ODdWMTFIMi41VjUuMDAxaDEuMTg3djIuNDRoMi41MjJWNWgxLjE4N3pNOC41IDExVjUuMDAxaDIuMTg4YzEuODI0IDAgMi42ODUgMS4wOSAyLjY4NSAyLjk4NEMxMy4zNzMgOS44OTMgMTIuNSAxMSAxMC42OSAxMXoiLz4KPC9zdmc+)*/
 const BadgeHdFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="badge-hd-fill"

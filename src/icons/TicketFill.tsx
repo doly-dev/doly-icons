@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![ticket-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMS41IDNBMS41IDEuNSAwIDAgMCAwIDQuNVY2YS41LjUgMCAwIDAgLjUuNSAxLjUgMS41IDAgMSAxIDAgMyAuNS41IDAgMCAwLS41LjV2MS41QTEuNSAxLjUgMCAwIDAgMS41IDEzaDEzYTEuNSAxLjUgMCAwIDAgMS41LTEuNVYxMGEuNS41IDAgMCAwLS41LS41IDEuNSAxLjUgMCAwIDEgMC0zQS41LjUgMCAwIDAgMTYgNlY0LjVBMS41IDEuNSAwIDAgMCAxNC41IDN6Ii8+Cjwvc3ZnPg==)*/
 const TicketFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="ticket-fill"

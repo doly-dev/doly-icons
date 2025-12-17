@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![speaker-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOSA0YTEgMSAwIDEgMS0yIDAgMSAxIDAgMCAxIDIgMG0tMi41IDYuNWExLjUgMS41IDAgMSAxIDMgMCAxLjUgMS41IDAgMCAxLTMgMCIvPgogIDxwYXRoIGQ9Ik00IDBhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDhhMiAyIDAgMCAwIDItMlYyYTIgMiAwIDAgMC0yLTJ6bTYgNGEyIDIgMCAxIDEtNCAwIDIgMiAwIDAgMSA0IDBNOCA3YTMuNSAzLjUgMCAxIDEgMCA3IDMuNSAzLjUgMCAwIDEgMC03Ii8+Cjwvc3ZnPg==)*/
 const SpeakerFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="speaker-fill"

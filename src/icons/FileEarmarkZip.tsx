@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-zip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNSA3LjVhMSAxIDAgMCAxIDEtMWgxYTEgMSAwIDAgMSAxIDF2LjkzOGwuNCAxLjU5OWExIDEgMCAwIDEtLjQxNiAxLjA3NGwtLjkzLjYyYTEgMSAwIDAgMS0xLjExIDBsLS45MjktLjYyYTEgMSAwIDAgMS0uNDE1LTEuMDc0TDUgOC40Mzh6bTIgMEg2di45MzhhMSAxIDAgMCAxLS4wMy4yNDNsLS40IDEuNTk4LjkzLjYyLjkyOS0uNjItLjQtMS41OThBMSAxIDAgMCAxIDcgOC40Mzh6Ii8+CiAgPHBhdGggZD0iTTE0IDQuNVYxNGEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlYyYTIgMiAwIDAgMSAyLTJoNS41em0tMyAwQTEuNSAxLjUgMCAwIDEgOS41IDNWMWgtMnYxaC0xdjFoMXYxaC0xdjFoMXYxSDZWNUg1VjRoMVYzSDVWMmgxVjFINGExIDEgMCAwIDAtMSAxdjEyYTEgMSAwIDAgMCAxIDFoOGExIDEgMCAwIDAgMS0xVjQuNXoiLz4KPC9zdmc+)*/
 const FileEarmarkZip: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-zip"

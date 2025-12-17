@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![diamond](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi45NS40MzVjLjU4LS41OCAxLjUyLS41OCAyLjEgMGw2LjUxNSA2LjUxNmMuNTguNTguNTggMS41MTkgMCAyLjA5OEw5LjA1IDE1LjU2NWMtLjU4LjU4LTEuNTE5LjU4LTIuMDk4IDBMLjQzNSA5LjA1YTEuNDggMS40OCAwIDAgMSAwLTIuMDk4em0xLjQuN2EuNDk1LjQ5NSAwIDAgMC0uNyAwTDEuMTM0IDcuNjVhLjQ5NS40OTUgMCAwIDAgMCAuN2w2LjUxNiA2LjUxNmEuNDk1LjQ5NSAwIDAgMCAuNyAwbDYuNTE2LTYuNTE2YS40OTUuNDk1IDAgMCAwIDAtLjdMOC4zNSAxLjEzNHoiLz4KPC9zdmc+)*/
 const Diamond: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="diamond"

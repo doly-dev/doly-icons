@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![save-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41IDEuNUExLjUgMS41IDAgMCAxIDEwIDBoNGEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yVjJhMiAyIDAgMCAxIDItMmg2Yy0uMzE0LjQxOC0uNS45MzctLjUgMS41djcuNzkzTDQuODU0IDYuNjQ2YS41LjUgMCAxIDAtLjcwOC43MDhsMy41IDMuNWEuNS41IDAgMCAwIC43MDggMGwzLjUtMy41YS41LjUgMCAwIDAtLjcwOC0uNzA4TDguNSA5LjI5M3oiLz4KPC9zdmc+)*/
 const SaveFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="save-fill"

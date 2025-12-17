@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![badge-4k-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41NzcgOC45di4wM2gxLjgyOFY1Ljg5OGgtLjA2MmE0NyA0NyAwIDAgMC0xLjc2NiAzLjAwMXoiLz4KICA8cGF0aCBkPSJNMiAyYTIgMiAwIDAgMC0yIDJ2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWNGEyIDIgMCAwIDAtMi0yem0yLjM3MiAzLjcxNS40MzUtLjcxNGgxLjcxdjMuOTNoLjczM3YuOTU3aC0uNzMzVjExSDUuNDA1VjkuODg4SDIuNXYtLjk3MWMuNTc0LTEuMDc3IDEuMjI1LTIuMTQyIDEuODcyLTMuMjAybTcuNzMtLjcxNGgxLjMwNmwtMi4xNCAyLjU4NEwxMy41IDExaC0xLjQyOGwtMS42NzktMi42MjQtLjYxNS43VjExSDguNTlWNS4wMDFoMS4xODd2Mi42ODZoLjA1N0wxMi4xMDIgNXoiLz4KPC9zdmc+)*/
 const Badge4kFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="badge-4k-fill"

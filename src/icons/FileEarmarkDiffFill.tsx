@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-diff-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS4yOTMgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWNC43MDdBMSAxIDAgMCAwIDEzLjcwNyA0TDEwIC4yOTNBMSAxIDAgMCAwIDkuMjkzIDBNOS41IDMuNXYtMmwzIDNoLTJhMSAxIDAgMCAxLTEtMU04IDZhLjUuNSAwIDAgMSAuNS41VjhIMTBhLjUuNSAwIDAgMSAwIDFIOC41djEuNWEuNS41IDAgMCAxLTEgMFY5SDZhLjUuNSAwIDAgMSAwLTFoMS41VjYuNUEuNS41IDAgMCAxIDggNm0tMi41IDYuNUEuNS41IDAgMCAxIDYgMTJoNGEuNS41IDAgMCAxIDAgMUg2YS41LjUgMCAwIDEtLjUtLjUiLz4KPC9zdmc+)*/
 const FileEarmarkDiffFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-diff-fill"

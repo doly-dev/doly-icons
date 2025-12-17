@@ -27,7 +27,7 @@ const writeIconsIndex = () => {
   writeFileSync(IconIndexFile, data);
 };
 
-const writeSvgIconToFile = (svgPath) => {
+const writeSvgIconToFile = (svgPath, callback) => {
   // 使用同步，避免组件顺序错乱（虽然没有什么影响）
   const svgStr = readFileSync(svgPath, { encoding: 'utf8' });
 
@@ -38,8 +38,7 @@ const writeSvgIconToFile = (svgPath) => {
   const svgIconData = svgToIcon(fileObj.name, svgStr);
   writeFileSync(svgIconFile, svgIconData);
 
-  // 文件名和组件名可能不一样
-  IconsIndex.push([fileName, componentName]);
+  callback(fileName, componentName);
 };
 
 const generatorIcons = async () => {
@@ -48,7 +47,12 @@ const generatorIcons = async () => {
   fse.removeSync(OutputSvgIconsPath);
   fse.mkdirSync(OutputSvgIconsPath);
 
-  allSvgPath.forEach((svgPath) => writeSvgIconToFile(svgPath));
+  allSvgPath.forEach((svgPath) =>
+    writeSvgIconToFile(svgPath, (fileName, componentName) => {
+      // 文件名和组件名可能不一样
+      IconsIndex.push([fileName, componentName]);
+    })
+  );
 
   writeIconsIndex();
 

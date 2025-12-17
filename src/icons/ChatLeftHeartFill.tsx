@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chat-left-heart-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAwYTIgMiAwIDAgMC0yIDJ2MTIuNzkzYS41LjUgMCAwIDAgLjg1NC4zNTNsMi44NTMtMi44NTNBMSAxIDAgMCAxIDQuNDE0IDEySDE0YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yem02IDMuOTkzYzEuNjY0LTEuNzExIDUuODI1IDEuMjgzIDAgNS4xMzItNS44MjUtMy44NS0xLjY2NC02Ljg0MyAwLTUuMTMyIi8+Cjwvc3ZnPg==)*/
 const ChatLeftHeartFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chat-left-heart-fill"

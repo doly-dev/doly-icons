@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![save](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAxYTEgMSAwIDAgMC0xIDF2MTJhMSAxIDAgMCAwIDEgMWgxMmExIDEgMCAwIDAgMS0xVjJhMSAxIDAgMCAwLTEtMUg5LjVhMSAxIDAgMCAwLTEgMXY3LjI5M2wyLjY0Ni0yLjY0N2EuNS41IDAgMCAxIC43MDguNzA4bC0zLjUgMy41YS41LjUgMCAwIDEtLjcwOCAwbC0zLjUtMy41YS41LjUgMCAxIDEgLjcwOC0uNzA4TDcuNSA5LjI5M1YyYTIgMiAwIDAgMSAyLTJIMTRhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDJhMiAyIDAgMCAxLTItMlYyYTIgMiAwIDAgMSAyLTJoMi41YS41LjUgMCAwIDEgMCAxeiIvPgo8L3N2Zz4=)*/
 const Save: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="save"

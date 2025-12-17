@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![cloud-slash-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zLjExMiA1LjExMmEzIDMgMCAwIDAtLjE3LjYxM0MxLjI2NiA2LjA5NSAwIDcuNTU1IDAgOS4zMTggMCAxMS4zNjYgMS43MDggMTMgMy43ODEgMTNIMTF6bTExLjM3MiA3LjM3Mkw0LjkzNyAyLjkzN0E1LjUgNS41IDAgMCAxIDggMmMyLjY5IDAgNC45MjMgMiA1LjE2NiA0LjU3OUMxNC43NTggNi44MDQgMTYgOC4xMzcgMTYgOS43NzNhMy4yIDMuMiAwIDAgMS0xLjUxNiAyLjcxMW0tLjgzOCAxLjg3LTEyLTEyIC43MDgtLjcwOCAxMiAxMnoiLz4KPC9zdmc+)*/
 const CloudSlashFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="cloud-slash-fill"

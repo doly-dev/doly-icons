@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![eraser](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4wODYgMi4yMDdhMiAyIDAgMCAxIDIuODI4IDBsMy44NzkgMy44NzlhMiAyIDAgMCAxIDAgMi44MjhsLTUuNSA1LjVBMiAyIDAgMCAxIDcuODc5IDE1SDUuMTJhMiAyIDAgMCAxLTEuNDE0LS41ODZsLTIuNS0yLjVhMiAyIDAgMCAxIDAtMi44Mjh6bTIuMTIxLjcwN2ExIDEgMCAwIDAtMS40MTQgMEw0LjE2IDcuNTQ3bDUuMjkzIDUuMjkzIDQuNjMzLTQuNjMzYTEgMSAwIDAgMCAwLTEuNDE0ek04Ljc0NiAxMy41NDcgMy40NTMgOC4yNTQgMS45MTQgOS43OTNhMSAxIDAgMCAwIDAgMS40MTRsMi41IDIuNWExIDEgMCAwIDAgLjcwNy4yOTNINy44OGExIDEgMCAwIDAgLjcwNy0uMjkzeiIvPgo8L3N2Zz4=)*/
 const Eraser: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="eraser"

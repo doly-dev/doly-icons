@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![table](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAyYTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDJhMiAyIDAgMCAxLTItMnptMTUgMmgtNHYzaDR6bTAgNGgtNHYzaDR6bTAgNGgtNHYzaDNhMSAxIDAgMCAwIDEtMXptLTUgM3YtM0g2djN6bS01IDB2LTNIMXYyYTEgMSAwIDAgMCAxIDF6bS00LTRoNFY4SDF6bTAtNGg0VjRIMXptNS0zdjNoNFY0em00IDRINnYzaDR6Ii8+Cjwvc3ZnPg==)*/
 const Table: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="table"

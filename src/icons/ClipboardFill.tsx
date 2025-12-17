@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![clipboard-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCAxLjVhLjUuNSAwIDAgMC0uNS0uNWgtM2EuNS41IDAgMCAwLS41LjV2MWEuNS41IDAgMCAwIC41LjVoM2EuNS41IDAgMCAwIC41LS41em0tNSAwQTEuNSAxLjUgMCAwIDEgNi41IDBoM0ExLjUgMS41IDAgMCAxIDExIDEuNXYxQTEuNSAxLjUgMCAwIDEgOS41IDRoLTNBMS41IDEuNSAwIDAgMSA1IDIuNXptLTIgMGgxdjFBMi41IDIuNSAwIDAgMCA2LjUgNWgzQTIuNSAyLjUgMCAwIDAgMTIgMi41di0xaDFhMiAyIDAgMCAxIDIgMlYxNGEyIDIgMCAwIDEtMiAySDNhMiAyIDAgMCAxLTItMlYzLjVhMiAyIDAgMCAxIDItMiIvPgo8L3N2Zz4=)*/
 const ClipboardFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="clipboard-fill"

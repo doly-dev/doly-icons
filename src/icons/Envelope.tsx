@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![envelope](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCA0YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yem0yLTFhMSAxIDAgMCAwLTEgMXYuMjE3bDcgNC4yIDctNC4yVjRhMSAxIDAgMCAwLTEtMXptMTMgMi4zODMtNC43MDggMi44MjVMMTUgMTEuMTA1em0tLjAzNCA2Ljg3Ni01LjY0LTMuNDcxTDggOS41ODNsLTEuMzI2LS43OTUtNS42NCAzLjQ3QTEgMSAwIDAgMCAyIDEzaDEyYTEgMSAwIDAgMCAuOTY2LS43NDFNMSAxMS4xMDVsNC43MDgtMi44OTdMMSA1LjM4M3oiLz4KPC9zdmc+)*/
 const Envelope: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="envelope"

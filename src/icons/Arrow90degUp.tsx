@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrow-90deg-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00Ljg1NCAxLjE0NmEuNS41IDAgMCAwLS43MDggMGwtNCA0YS41LjUgMCAxIDAgLjcwOC43MDhMNCAyLjcwN1YxMi41QTIuNSAyLjUgMCAwIDAgNi41IDE1aDhhLjUuNSAwIDAgMCAwLTFoLThBMS41IDEuNSAwIDAgMSA1IDEyLjVWMi43MDdsMy4xNDYgMy4xNDdhLjUuNSAwIDEgMCAuNzA4LS43MDh6Ii8+Cjwvc3ZnPg==)*/
 const Arrow90degUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrow-90deg-up"

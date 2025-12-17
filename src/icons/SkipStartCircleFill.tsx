@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![skip-start-circle-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwTTkuNzEgNS4wOTMgNyA3LjAyOFY1LjVhLjUuNSAwIDAgMC0xIDB2NWEuNS41IDAgMCAwIDEgMFY4Ljk3MmwyLjcxIDEuOTM1YS41LjUgMCAwIDAgLjc5LS40MDd2LTVhLjUuNSAwIDAgMC0uNzktLjQwNyIvPgo8L3N2Zz4=)*/
 const SkipStartCircleFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="skip-start-circle-fill"

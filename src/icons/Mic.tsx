@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![mic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDYuNUEuNS41IDAgMCAxIDQgN3YxYTQgNCAwIDAgMCA4IDBWN2EuNS41IDAgMCAxIDEgMHYxYTUgNSAwIDAgMS00LjUgNC45NzVWMTVoM2EuNS41IDAgMCAxIDAgMWgtN2EuNS41IDAgMCAxIDAtMWgzdi0yLjAyNUE1IDUgMCAwIDEgMyA4VjdhLjUuNSAwIDAgMSAuNS0uNSIvPgogIDxwYXRoIGQ9Ik0xMCA4YTIgMiAwIDEgMS00IDBWM2EyIDIgMCAxIDEgNCAwek04IDBhMyAzIDAgMCAwLTMgM3Y1YTMgMyAwIDAgMCA2IDBWM2EzIDMgMCAwIDAtMy0zIi8+Cjwvc3ZnPg==)*/
 const Mic: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="mic"

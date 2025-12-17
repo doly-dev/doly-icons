@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![hdmi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMi41IDdhLjUuNSAwIDAgMCAwIDFoMTFhLjUuNSAwIDAgMCAwLTF6Ii8+CiAgPHBhdGggZD0iTTEgNWExIDEgMCAwIDAtMSAxdjNhMSAxIDAgMCAwIDEgMWguMjkzbC43MDcuNzA3YTEgMSAwIDAgMCAuNzA3LjI5M2gxMC41ODZhMSAxIDAgMCAwIC43MDctLjI5M2wuNzA3LS43MDdIMTVhMSAxIDAgMCAwIDEtMVY2YTEgMSAwIDAgMC0xLTF6bTAgMWgxNHYzaC0uMjkzYTEgMSAwIDAgMC0uNzA3LjI5M2wtLjcwNy43MDdIMi43MDdMMiA5LjI5M0ExIDEgMCAwIDAgMS4yOTMgOUgxeiIvPgo8L3N2Zz4=)*/
 const Hdmi: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="hdmi"

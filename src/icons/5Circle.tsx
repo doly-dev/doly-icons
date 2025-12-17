@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![5-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSA4YTcgNyAwIDEgMSAxNCAwQTcgNyAwIDAgMSAxIDhtMTUgMEE4IDggMCAxIDAgMCA4YTggOCAwIDAgMCAxNiAwbS04LjAwNiA0LjE1OGMtMS41NyAwLTIuNjU0LS45MDItMi43MTktMi4xMTVoMS4yMzdjLjE0LjcyLjgzMiAxLjAzMSAxLjUyOSAxLjAzMS43OTEgMCAxLjU3LS41OTcgMS41Ny0xLjY4MSAwLS45NjctLjczMi0xLjU3LTEuNTgyLTEuNTctLjc2NyAwLTEuMjQyLjQ1LTEuNDM1LjgwOEg1LjQ0NUw1Ljc5MSA0aDQuNzA1djEuMTAzSDYuODc1bC0uMTkzIDIuMzQzaC4wNjRjLjE3LS4yNTguNzE1LS42OCAxLjYxMS0uNjggMS4zODMgMCAyLjU2MS45NDQgMi41NjEgMi41ODUgMCAxLjY4Ny0xLjE4NCAyLjgwNi0yLjkyNCAyLjgwNloiLz4KPC9zdmc+)*/
 const Icon5Circle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="5-circle"

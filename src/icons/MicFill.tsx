@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![mic-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNSAzYTMgMyAwIDAgMSA2IDB2NWEzIDMgMCAwIDEtNiAweiIvPgogIDxwYXRoIGQ9Ik0zLjUgNi41QS41LjUgMCAwIDEgNCA3djFhNCA0IDAgMCAwIDggMFY3YS41LjUgMCAwIDEgMSAwdjFhNSA1IDAgMCAxLTQuNSA0Ljk3NVYxNWgzYS41LjUgMCAwIDEgMCAxaC03YS41LjUgMCAwIDEgMC0xaDN2LTIuMDI1QTUgNSAwIDAgMSAzIDhWN2EuNS41IDAgMCAxIC41LS41Ii8+Cjwvc3ZnPg==)*/
 const MicFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="mic-fill"

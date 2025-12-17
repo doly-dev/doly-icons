@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![x-diamond-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS4wNS40MzVjLS41OC0uNTgtMS41Mi0uNTgtMi4xIDBMNC4wNDcgMy4zMzkgOCA3LjI5M2wzLjk1NC0zLjk1NEw5LjA0OS40MzV6bTMuNjEgMy42MTFMOC43MDggOGwzLjk1NCAzLjk1NCAyLjkwNC0yLjkwNWMuNTgtLjU4LjU4LTEuNTE5IDAtMi4wOThsLTIuOTA0LTIuOTA1em0tLjcwNiA4LjYxNEw4IDguNzA4bC0zLjk1NCAzLjk1NCAyLjkwNSAyLjkwNGMuNTguNTggMS41MTkuNTggMi4wOTggMGwyLjkwNS0yLjkwNHptLTguNjE0LS43MDZMNy4yOTIgOCAzLjMzOSA0LjA0Ni40MzUgNi45NTFjLS41OC41OC0uNTggMS41MTkgMCAyLjA5OHoiLz4KPC9zdmc+)*/
 const XDiamondFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="x-diamond-fill"

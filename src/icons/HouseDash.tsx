@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![house-dash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuNSAxNmEzLjUgMy41IDAgMSAwIDAtNyAzLjUgMy41IDAgMCAwIDAgN00xMSAxMmgzYS41LjUgMCAwIDEgMCAxaC0zYS41LjUgMCAxIDEgMC0xIi8+CiAgPHBhdGggZD0iTTcuMjkzIDEuNWExIDEgMCAwIDEgMS40MTQgMEwxMSAzLjc5M1YyLjVhLjUuNSAwIDAgMSAuNS0uNWgxYS41LjUgMCAwIDEgLjUuNXYzLjI5M2wyLjM1NCAyLjM1M2EuNS41IDAgMCAxLS43MDguNzA4TDggMi4yMDdsLTUgNVYxMy41YS41LjUgMCAwIDAgLjUuNWg0YS41LjUgMCAwIDEgMCAxaC00QTEuNSAxLjUgMCAwIDEgMiAxMy41VjguMjA3bC0uNjQ2LjY0N2EuNS41IDAgMSAxLS43MDgtLjcwOHoiLz4KPC9zdmc+)*/
 const HouseDash: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="house-dash"

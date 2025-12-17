@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![skip-forward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTUuNSAzLjVhLjUuNSAwIDAgMSAuNS41djhhLjUuNSAwIDAgMS0xIDBWOC43NTJsLTYuMjY3IDMuNjM2Yy0uNTIuMzAyLTEuMjMzLS4wNDMtMS4yMzMtLjY5NnYtMi45NGwtNi4yNjcgMy42MzZDLjcxMyAxMi42OSAwIDEyLjM0NSAwIDExLjY5MlY0LjMwOGMwLS42NTMuNzEzLS45OTggMS4yMzMtLjY5Nkw3LjUgNy4yNDh2LTIuOTRjMC0uNjUzLjcxMy0uOTk4IDEuMjMzLS42OTZMMTUgNy4yNDhWNGEuNS41IDAgMCAxIC41LS41TTEgNC42MzN2Ni43MzRMNi44MDQgOHptNy41IDB2Ni43MzRMMTQuMzA0IDh6Ii8+Cjwvc3ZnPg==)*/
 const SkipForward: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="skip-forward"

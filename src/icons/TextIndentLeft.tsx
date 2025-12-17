@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![text-indent-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAzLjVhLjUuNSAwIDAgMSAuNS0uNWgxMWEuNS41IDAgMCAxIDAgMWgtMTFhLjUuNSAwIDAgMS0uNS0uNW0uNjQ2IDIuMTQ2YS41LjUgMCAwIDEgLjcwOCAwbDIgMmEuNS41IDAgMCAxIDAgLjcwOGwtMiAyYS41LjUgMCAwIDEtLjcwOC0uNzA4TDQuMjkzIDggMi42NDYgNi4zNTRhLjUuNSAwIDAgMSAwLS43MDhNNyA2LjVhLjUuNSAwIDAgMSAuNS0uNWg2YS41LjUgMCAwIDEgMCAxaC02YS41LjUgMCAwIDEtLjUtLjVtMCAzYS41LjUgMCAwIDEgLjUtLjVoNmEuNS41IDAgMCAxIDAgMWgtNmEuNS41IDAgMCAxLS41LS41bS01IDNhLjUuNSAwIDAgMSAuNS0uNWgxMWEuNS41IDAgMCAxIDAgMWgtMTFhLjUuNSAwIDAgMS0uNS0uNSIvPgo8L3N2Zz4=)*/
 const TextIndentLeft: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="text-indent-left"

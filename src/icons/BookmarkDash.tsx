@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bookmark-dash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01LjUgNi41QS41LjUgMCAwIDEgNiA2aDRhLjUuNSAwIDAgMSAwIDFINmEuNS41IDAgMCAxLS41LS41Ii8+CiAgPHBhdGggZD0iTTIgMmEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnYxMy41YS41LjUgMCAwIDEtLjc3Ny40MTZMOCAxMy4xMDFsLTUuMjIzIDIuODE1QS41LjUgMCAwIDEgMiAxNS41em0yLTFhMSAxIDAgMCAwLTEgMXYxMi41NjZsNC43MjMtMi40ODJhLjUuNSAwIDAgMSAuNTU0IDBMMTMgMTQuNTY2VjJhMSAxIDAgMCAwLTEtMXoiLz4KPC9zdmc+)*/
 const BookmarkDash: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bookmark-dash"

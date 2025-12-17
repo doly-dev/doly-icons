@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![battery-full](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiA2aDEwdjRIMnoiLz4KICA8cGF0aCBkPSJNMiA0YTIgMiAwIDAgMC0yIDJ2NGEyIDIgMCAwIDAgMiAyaDEwYTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0xMCAxYTEgMSAwIDAgMSAxIDF2NGExIDEgMCAwIDEtMSAxSDJhMSAxIDAgMCAxLTEtMVY2YTEgMSAwIDAgMSAxLTF6bTQgM2ExLjUgMS41IDAgMCAxLTEuNSAxLjV2LTNBMS41IDEuNSAwIDAgMSAxNiA4Ii8+Cjwvc3ZnPg==)*/
 const BatteryFull: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="battery-full"

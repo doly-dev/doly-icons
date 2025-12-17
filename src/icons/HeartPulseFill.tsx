@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![heart-pulse-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMS40NzUgOUMyLjcwMiAxMC44NCA0Ljc3OSAxMi44NzEgOCAxNWMzLjIyMS0yLjEyOSA1LjI5OC00LjE2IDYuNTI1LTZIMTJhLjUuNSAwIDAgMS0uNDY0LS4zMTRsLTEuNDU3LTMuNjQyLTEuNTk4IDUuNTkzYS41LjUgMCAwIDEtLjk0NS4wNDlMNS44ODkgNi41NjhsLTEuNDczIDIuMjFBLjUuNSAwIDAgMSA0IDl6Ii8+CiAgPHBhdGggZD0iTS44OCA4Qy0yLjQyNyAxLjY4IDQuNDEtMiA3LjgyMyAxLjE0M3EuMDkuMDgzLjE3Ni4xNzFhMyAzIDAgMCAxIC4xNzYtLjE3QzExLjU5LTIgMTguNDI2IDEuNjggMTUuMTIgOGgtMi43ODNsLTEuODc0LTQuNjg2YS41LjUgMCAwIDAtLjk0NS4wNDlMNy45MjEgOC45NTYgNi40NjQgNS4zMTRhLjUuNSAwIDAgMC0uODgtLjA5MUwzLjczMiA4eiIvPgo8L3N2Zz4=)*/
 const HeartPulseFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="heart-pulse-fill"

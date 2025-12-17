@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![option](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSAyLjVhLjUuNSAwIDAgMSAuNS0uNWgzLjc5N2EuNS41IDAgMCAxIC40MzkuMjZMMTEgMTNoMy41YS41LjUgMCAwIDEgMCAxaC0zLjc5N2EuNS41IDAgMCAxLS40MzktLjI2TDUgM0gxLjVhLjUuNSAwIDAgMS0uNS0uNW0xMCAwYS41LjUgMCAwIDEgLjUtLjVoM2EuNS41IDAgMCAxIDAgMWgtM2EuNS41IDAgMCAxLS41LS41Ii8+Cjwvc3ZnPg==)*/
 const Option: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="option"

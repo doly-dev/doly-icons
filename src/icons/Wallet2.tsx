@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![wallet2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuMTM2LjMyNkExLjUgMS41IDAgMCAxIDE0IDEuNzhWM2guNUExLjUgMS41IDAgMCAxIDE2IDQuNXY5YTEuNSAxLjUgMCAwIDEtMS41IDEuNWgtMTNBMS41IDEuNSAwIDAgMSAwIDEzLjV2LTlhMS41IDEuNSAwIDAgMSAxLjQzMi0xLjQ5OXpNNS41NjIgM0gxM1YxLjc4YS41LjUgMCAwIDAtLjYyMS0uNDg0ek0xLjUgNGEuNS41IDAgMCAwLS41LjV2OWEuNS41IDAgMCAwIC41LjVoMTNhLjUuNSAwIDAgMCAuNS0uNXYtOWEuNS41IDAgMCAwLS41LS41eiIvPgo8L3N2Zz4=)*/
 const Wallet2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="wallet2"

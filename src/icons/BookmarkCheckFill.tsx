@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bookmark-check-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yIDE1LjVWMmEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnYxMy41YS41LjUgMCAwIDEtLjc0LjQzOUw4IDEzLjA2OWwtNS4yNiAyLjg3QS41LjUgMCAwIDEgMiAxNS41bTguODU0LTkuNjQ2YS41LjUgMCAwIDAtLjcwOC0uNzA4TDcuNSA3Ljc5MyA2LjM1NCA2LjY0NmEuNS41IDAgMSAwLS43MDguNzA4bDEuNSAxLjVhLjUuNSAwIDAgMCAuNzA4IDB6Ii8+Cjwvc3ZnPg==)*/
 const BookmarkCheckFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bookmark-check-fill"

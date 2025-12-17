@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![unindent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMyA4YS41LjUgMCAwIDAtLjUtLjVINS43MDdsMi4xNDctMi4xNDZhLjUuNSAwIDEgMC0uNzA4LS43MDhsLTMgM2EuNS41IDAgMCAwIDAgLjcwOGwzIDNhLjUuNSAwIDAgMCAuNzA4LS43MDhMNS43MDcgOC41SDEyLjVBLjUuNSAwIDAgMCAxMyA4Ii8+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMy41IDRhLjUuNSAwIDAgMC0uNS41djdhLjUuNSAwIDAgMCAxIDB2LTdhLjUuNSAwIDAgMC0uNS0uNSIvPgo8L3N2Zz4=)*/
 const Unindent: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="unindent"

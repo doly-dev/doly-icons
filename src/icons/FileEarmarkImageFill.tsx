@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-image-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCAwaDUuMjkzQTEgMSAwIDAgMSAxMCAuMjkzTDEzLjcwNyA0YTEgMSAwIDAgMSAuMjkzLjcwN3Y1LjU4NmwtMi43My0yLjczYTEgMSAwIDAgMC0xLjUyLjEyN2wtMS44ODkgMi42NDQtMS43NjktMS4wNjJhMSAxIDAgMCAwLTEuMjIyLjE1TDIgMTIuMjkyVjJhMiAyIDAgMCAxIDItMm01LjUgMS41djJhMSAxIDAgMCAwIDEgMWgyem0tMS40OTggNGExLjUgMS41IDAgMSAwLTMgMCAxLjUgMS41IDAgMCAwIDMgMCIvPgogIDxwYXRoIGQ9Ik0xMC41NjQgOC4yNyAxNCAxMS43MDhWMTRhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJ2LS4yOTNsMy41NzgtMy41NzcgMi41NiAxLjUzNiAyLjQyNi0zLjM5NXoiLz4KPC9zdmc+)*/
 const FileEarmarkImageFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-image-fill"

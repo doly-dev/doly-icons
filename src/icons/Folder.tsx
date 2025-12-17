@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![folder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNLjU0IDMuODcuNSAzYTIgMiAwIDAgMSAyLTJoMy42NzJhMiAyIDAgMCAxIDEuNDE0LjU4NmwuODI4LjgyOEEyIDIgMCAwIDAgOS44MjggM2gzLjk4MmEyIDIgMCAwIDEgMS45OTIgMi4xODFsLS42MzcgN0EyIDIgMCAwIDEgMTMuMTc0IDE0SDIuODI2YTIgMiAwIDAgMS0xLjk5MS0xLjgxOWwtLjYzNy03YTIgMiAwIDAgMSAuMzQyLTEuMzF6TTIuMTkgNGExIDEgMCAwIDAtLjk5NiAxLjA5bC42MzcgN2ExIDEgMCAwIDAgLjk5NS45MWgxMC4zNDhhMSAxIDAgMCAwIC45OTUtLjkxbC42MzctN0ExIDEgMCAwIDAgMTMuODEgNHptNC42OS0xLjcwN0ExIDEgMCAwIDAgNi4xNzIgMkgyLjVhMSAxIDAgMCAwLTEgLjk4MWwuMDA2LjEzOXEuMzIzLS4xMTkuNjg0LS4xMmg1LjM5NnoiLz4KPC9zdmc+)*/
 const Folder: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="folder"

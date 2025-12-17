@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![headset](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxYTUgNSAwIDAgMC01IDV2MWgxYTEgMSAwIDAgMSAxIDF2M2ExIDEgMCAwIDEtMSAxSDNhMSAxIDAgMCAxLTEtMVY2YTYgNiAwIDEgMSAxMiAwdjZhMi41IDIuNSAwIDAgMS0yLjUgMi41SDkuMzY2YTEgMSAwIDAgMS0uODY2LjVoLTFhMSAxIDAgMSAxIDAtMmgxYTEgMSAwIDAgMSAuODY2LjVIMTEuNUExLjUgMS41IDAgMCAwIDEzIDEyaC0xYTEgMSAwIDAgMS0xLTFWOGExIDEgMCAwIDEgMS0xaDFWNmE1IDUgMCAwIDAtNS01Ii8+Cjwvc3ZnPg==)*/
 const Headset: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="headset"

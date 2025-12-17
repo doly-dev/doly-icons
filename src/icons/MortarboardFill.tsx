@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![mortarboard-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4yMTEgMi4wNDdhLjUuNSAwIDAgMC0uNDIyIDBsLTcuNSAzLjVhLjUuNSAwIDAgMCAuMDI1LjkxN2w3LjUgM2EuNS41IDAgMCAwIC4zNzIgMEwxNCA3LjE0VjEzYTEgMSAwIDAgMC0xIDF2Mmgzdi0yYTEgMSAwIDAgMC0xLTFWNi43MzlsLjY4Ni0uMjc1YS41LjUgMCAwIDAgLjAyNS0uOTE3eiIvPgogIDxwYXRoIGQ9Ik00LjE3NiA5LjAzMmEuNS41IDAgMCAwLS42NTYuMzI3bC0uNSAxLjdhLjUuNSAwIDAgMCAuMjk0LjYwNWw0LjUgMS44YS41LjUgMCAwIDAgLjM3MiAwbDQuNS0xLjhhLjUuNSAwIDAgMCAuMjk0LS42MDVsLS41LTEuN2EuNS41IDAgMCAwLS42NTYtLjMyN0w4IDEwLjQ2NnoiLz4KPC9zdmc+)*/
 const MortarboardFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="mortarboard-fill"

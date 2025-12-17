@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![envelope-paper-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02LjUgOS41IDMgNy41di02QTEuNSAxLjUgMCAwIDEgNC41IDBoN0ExLjUgMS41IDAgMCAxIDEzIDEuNXY2bC0zLjUgMkw4IDguNzV6TTEuMDU5IDMuNjM1IDIgMy4xMzN2My43NTNMMCA1LjcxM1Y1LjRhMiAyIDAgMCAxIDEuMDU5LTEuNzY1TTE2IDUuNzEzbC0yIDEuMTczVjMuMTMzbC45NDEuNTAyQTIgMiAwIDAgMSAxNiA1LjR6bTAgMS4xNi01LjY5MyAzLjMzN0wxNiAxMy4zNzJ2LTYuNVptLTggMy4xOTkgNy45NDEgNC40MTJBMiAyIDAgMCAxIDE0IDE2SDJhMiAyIDAgMCAxLTEuOTQxLTEuNTE2em0tOCAzLjMgNS42OTMtMy4xNjJMMCA2Ljg3M3Y2LjVaIi8+Cjwvc3ZnPg==)*/
 const EnvelopePaperFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="envelope-paper-fill"

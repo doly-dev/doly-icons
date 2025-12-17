@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![peace-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgMTMuMjkyQTggOCAwIDAgMCA4LjUuMDE1djcuNzc4em0tLjcwOC43MDhMOC41IDkuMjA2djYuNzc4YTcuOTcgNy45NyAwIDAgMCA0Ljc5Mi0xLjk4NnpNNy41IDE1Ljk4NVY5LjIwN0wyLjcwOCAxNEE3Ljk3IDcuOTcgMCAwIDAgNy41IDE1Ljk4NU0yIDEzLjI5MkE4IDggMCAwIDEgNy41LjAxNXY3Ljc3OHoiLz4KPC9zdmc+)*/
 const PeaceFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="peace-fill"

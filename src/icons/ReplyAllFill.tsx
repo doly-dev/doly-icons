@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![reply-all-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4wMjEgMTEuOSAzLjQ1MyA4LjYyYS43Mi43MiAwIDAgMSAwLTEuMjM4TDguMDIxIDQuMWEuNzE2LjcxNiAwIDAgMSAxLjA3OS42MTlWNmMxLjUgMCA2IDAgNyA4LTIuNS00LjUtNy00LTctNHYxLjI4MWMwIC41Ni0uNjA2Ljg5OC0xLjA3OS42MnoiLz4KICA8cGF0aCBkPSJNNS4yMzIgNC4yOTNhLjUuNSAwIDAgMS0uMTA2LjdMMS4xMTQgNy45NDVsLS4wNDIuMDI4YS4xNDcuMTQ3IDAgMCAwIDAgLjI1MmwuMDQyLjAyOCA0LjAxMiAyLjk1NGEuNS41IDAgMSAxLS41OTMuODA1TC41MzkgOS4wNzNhMS4xNDcgMS4xNDcgMCAwIDEgMC0xLjk0NmwzLjk5NC0yLjk0YS41LjUgMCAwIDEgLjY5OS4xMDYiLz4KPC9zdmc+)*/
 const ReplyAllFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="reply-all-fill"

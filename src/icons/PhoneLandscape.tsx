@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![phone-landscape](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSA0LjVhMSAxIDAgMCAxIDEtMWgxMmExIDEgMCAwIDEgMSAxdjZhMSAxIDAgMCAxLTEgMUgyYTEgMSAwIDAgMS0xLTF6bS0xIDZhMiAyIDAgMCAwIDIgMmgxMmEyIDIgMCAwIDAgMi0ydi02YTIgMiAwIDAgMC0yLTJIMmEyIDIgMCAwIDAtMiAyeiIvPgogIDxwYXRoIGQ9Ik0xNCA3LjVhMSAxIDAgMSAwLTIgMCAxIDEgMCAwIDAgMiAwIi8+Cjwvc3ZnPg==)*/
 const PhoneLandscape: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="phone-landscape"

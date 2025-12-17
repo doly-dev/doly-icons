@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![align-middle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNiAxM2ExIDEgMCAwIDAgMSAxaDJhMSAxIDAgMCAwIDEtMVYzYTEgMSAwIDAgMC0xLTFIN2ExIDEgMCAwIDAtMSAxek0xIDhhLjUuNSAwIDAgMCAuNS41SDZ2LTFIMS41QS41LjUgMCAwIDAgMSA4bTE0IDBhLjUuNSAwIDAgMS0uNS41SDEwdi0xaDQuNWEuNS41IDAgMCAxIC41LjUiLz4KPC9zdmc+)*/
 const AlignMiddle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="align-middle"

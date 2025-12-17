@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![minecart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCAxNWExIDEgMCAxIDEgMC0yIDEgMSAwIDAgMSAwIDJtMCAxYTIgMiAwIDEgMCAwLTQgMiAyIDAgMCAwIDAgNG04LTFhMSAxIDAgMSAxIDAtMiAxIDEgMCAwIDEgMCAybTAgMWEyIDIgMCAxIDAgMC00IDIgMiAwIDAgMCAwIDRNLjExNSAzLjE4QS41LjUgMCAwIDEgLjUgM2gxNWEuNS41IDAgMCAxIC40OTEuNTkybC0xLjUgOEEuNS41IDAgMCAxIDE0IDEySDJhLjUuNSAwIDAgMS0uNDkxLS40MDhsLTEuNS04YS41LjUgMCAwIDEgLjEwNi0uNDExem0uOTg3LjgyIDEuMzEzIDdoMTEuMTdsMS4zMTMtN3oiLz4KPC9zdmc+)*/
 const Minecart: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="minecart"

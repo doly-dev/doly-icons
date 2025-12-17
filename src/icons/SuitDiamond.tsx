@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![suit-diamond](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4zODQgMS4yMjZhLjQ2My40NjMgMCAwIDAtLjc2OCAwbC00LjU2IDYuNDY4YS41NC41NCAwIDAgMCAwIC42MTJsNC41NiA2LjQ2OWEuNDYzLjQ2MyAwIDAgMCAuNzY4IDBsNC41Ni02LjQ2OWEuNTQuNTQgMCAwIDAgMC0uNjEyek02Ljg0OC42MTNhMS4zOSAxLjM5IDAgMCAxIDIuMzA0IDBsNC41NiA2LjQ2OGExLjYxIDEuNjEgMCAwIDEgMCAxLjgzOGwtNC41NiA2LjQ2OGExLjM5IDEuMzkgMCAwIDEtMi4zMDQgMEwyLjI4OCA4LjkyYTEuNjEgMS42MSAwIDAgMSAwLTEuODM4eiIvPgo8L3N2Zz4=)*/
 const SuitDiamond: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="suit-diamond"

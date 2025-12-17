@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrows-expand-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNWEuNS41IDAgMCAxLS41LS41di0xM2EuNS41IDAgMCAxIDEgMHYxM2EuNS41IDAgMCAxLS41LjVNLjE0NiA4LjM1NGEuNS41IDAgMCAxIDAtLjcwOGwyLTJhLjUuNSAwIDEgMSAuNzA4LjcwOEwxLjcwNyA3LjVINS41YS41LjUgMCAwIDEgMCAxSDEuNzA3bDEuMTQ3IDEuMTQ2YS41LjUgMCAwIDEtLjcwOC43MDh6TTEwIDhhLjUuNSAwIDAgMSAuNS0uNWgzLjc5M2wtMS4xNDctMS4xNDZhLjUuNSAwIDAgMSAuNzA4LS43MDhsMiAyYS41LjUgMCAwIDEgMCAuNzA4bC0yIDJhLjUuNSAwIDAgMS0uNzA4LS43MDhMMTQuMjkzIDguNUgxMC41QS41LjUgMCAwIDEgMTAgOCIvPgo8L3N2Zz4=)*/
 const ArrowsExpandVertical: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrows-expand-vertical"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![align-bottom](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSIxMiIgeD0iNiIgeT0iMSIgcng9IjEiLz4KICA8cGF0aCBkPSJNMS41IDE0YS41LjUgMCAwIDAgMCAxem0xMyAxYS41LjUgMCAwIDAgMC0xem0tMTMgMGgxM3YtMWgtMTN6Ii8+Cjwvc3ZnPg==)*/
 const AlignBottom: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="align-bottom"

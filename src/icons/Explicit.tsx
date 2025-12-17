@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![explicit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi44MjYgMTAuODhIMTAuNVYxMmgtNVY0LjAwMmg1djEuMTJINi44MjZWNy40aDMuNDU3djEuMDczSDYuODI2eiIvPgogIDxwYXRoIGQ9Ik0yLjUgMEEyLjUgMi41IDAgMCAwIDAgMi41djExQTIuNSAyLjUgMCAwIDAgMi41IDE2aDExYTIuNSAyLjUgMCAwIDAgMi41LTIuNXYtMTFBMi41IDIuNSAwIDAgMCAxMy41IDB6TTEgMi41QTEuNSAxLjUgMCAwIDEgMi41IDFoMTFBMS41IDEuNSAwIDAgMSAxNSAyLjV2MTFhMS41IDEuNSAwIDAgMS0xLjUgMS41aC0xMUExLjUgMS41IDAgMCAxIDEgMTMuNXoiLz4KPC9zdmc+)*/
 const Explicit: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="explicit"

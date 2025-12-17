@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![suit-club-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEuNSAxMi41YTMuNSAzLjUgMCAwIDEtMi42ODQtMS4yNTQgMjAgMjAgMCAwIDAgMS41ODIgMi45MDdjLjIzMS4zNS0uMDIuODQ3LS40MzguODQ3SDYuMDRjLS40MTkgMC0uNjctLjQ5Ny0uNDM4LS44NDdhMjAgMjAgMCAwIDAgMS41ODItMi45MDcgMy41IDMuNSAwIDEgMS0yLjUzOC01Ljc0MyAzLjUgMy41IDAgMSAxIDYuNzA4IDBBMy41IDMuNSAwIDEgMSAxMS41IDEyLjUiLz4KPC9zdmc+)*/
 const SuitClubFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="suit-club-fill"

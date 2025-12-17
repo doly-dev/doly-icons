@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![toggles2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS40NjUgMTBIMTJhMiAyIDAgMSAxIDAgNEg5LjQ2NWMuMzQtLjU4OC41MzUtMS4yNzEuNTM1LTJzLS4xOTUtMS40MTItLjUzNS0yIi8+CiAgPHBhdGggZD0iTTYgMTVhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2bTAgMWE0IDQgMCAxIDEgMC04IDQgNCAwIDAgMSAwIDhtLjUzNS0xMGE0IDQgMCAwIDEtLjQwOS0xSDRhMSAxIDAgMCAxIDAtMmgyLjEyNnEuMTM4LS41MzQuNDEtMUg0YTIgMiAwIDEgMCAwIDR6Ii8+CiAgPHBhdGggZD0iTTE0IDRhNCA0IDAgMSAxLTggMCA0IDQgMCAwIDEgOCAwIi8+Cjwvc3ZnPg==)*/
 const Toggles2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="toggles2"

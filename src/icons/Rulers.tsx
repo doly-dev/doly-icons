@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![rulers](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSAwYTEgMSAwIDAgMC0xIDF2MTRhMSAxIDAgMCAwIDEgMWg1di0xSDJ2LTFoNHYtMUg0di0xaDJ2LTFIMnYtMWg0VjlINFY4aDJWN0gyVjZoNFYyaDF2NGgxVjRoMXYyaDFWMmgxdjRoMVY0aDF2MmgxVjJoMXY0aDFWMWExIDEgMCAwIDAtMS0xeiIvPgo8L3N2Zz4=)*/
 const Rulers: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="rulers"

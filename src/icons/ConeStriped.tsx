@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![cone-striped](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtOS45NyA0Ljg4Ljk1MyAzLjgxMUMxMC4xNTkgOC44NzggOS4xNCA5IDggOXMtMi4xNTgtLjEyMi0yLjkyMy0uMzA5TDYuMDMgNC44OEM2LjYzNSA0Ljk1NyA3LjMgNSA4IDVzMS4zNjUtLjA0MyAxLjk3LS4xMm0tLjI0NS0uOTc4TDguOTcuODhDOC43MTgtLjEzIDcuMjgyLS4xMyA3LjAzLjg4TDYuMjc1IDMuOUM2LjggMy45NjUgNy4zODIgNCA4IDRzMS4yLS4wMzYgMS43MjUtLjA5OG00LjM5NiA4LjYxM2EuNS41IDAgMCAxIC4wMzcuOTZsLTYgMmEuNS41IDAgMCAxLS4zMTYgMGwtNi0yYS41LjUgMCAwIDEgLjAzNy0uOTZsMi4zOTEtLjU5OC41NjUtMi4yNTdjLjg2Mi4yMTIgMS45NjQuMzM5IDMuMTY1LjMzOXMyLjMwMy0uMTI3IDMuMTY1LS4zMzlsLjU2NSAyLjI1N3oiLz4KPC9zdmc+)*/
 const ConeStriped: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="cone-striped"

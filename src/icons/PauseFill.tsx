@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pause-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNS41IDMuNUExLjUgMS41IDAgMCAxIDcgNXY2YTEuNSAxLjUgMCAwIDEtMyAwVjVhMS41IDEuNSAwIDAgMSAxLjUtMS41bTUgMEExLjUgMS41IDAgMCAxIDEyIDV2NmExLjUgMS41IDAgMCAxLTMgMFY1YTEuNSAxLjUgMCAwIDEgMS41LTEuNSIvPgo8L3N2Zz4=)*/
 const PauseFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pause-fill"

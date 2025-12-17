@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![funnel-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMS41IDEuNUEuNS41IDAgMCAxIDIgMWgxMmEuNS41IDAgMCAxIC41LjV2MmEuNS41IDAgMCAxLS4xMjguMzM0TDEwIDguNjkyVjEzLjVhLjUuNSAwIDAgMS0uMzQyLjQ3NGwtMyAxQS41LjUgMCAwIDEgNiAxNC41VjguNjkyTDEuNjI4IDMuODM0QS41LjUgMCAwIDEgMS41IDMuNXoiLz4KPC9zdmc+)*/
 const FunnelFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="funnel-fill"

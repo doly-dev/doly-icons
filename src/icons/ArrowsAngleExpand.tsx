@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrows-angle-expand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01LjgyOCAxMC4xNzJhLjUuNSAwIDAgMC0uNzA3IDBsLTQuMDk2IDQuMDk2VjExLjVhLjUuNSAwIDAgMC0xIDB2My45NzVhLjUuNSAwIDAgMCAuNS41SDQuNWEuNS41IDAgMCAwIDAtMUgxLjczMmw0LjA5Ni00LjA5NmEuNS41IDAgMCAwIDAtLjcwN200LjM0NC00LjM0NGEuNS41IDAgMCAwIC43MDcgMGw0LjA5Ni00LjA5NlY0LjVhLjUuNSAwIDEgMCAxIDBWLjUyNWEuNS41IDAgMCAwLS41LS41SDExLjVhLjUuNSAwIDAgMCAwIDFoMi43NjhsLTQuMDk2IDQuMDk2YS41LjUgMCAwIDAgMCAuNzA3Ii8+Cjwvc3ZnPg==)*/
 const ArrowsAngleExpand: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrows-angle-expand"

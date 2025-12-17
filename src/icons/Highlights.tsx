@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![highlights](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOEE4IDggMCAxIDAgMCA4YTggOCAwIDAgMCAxNiAwbS04IDV2MUg0LjVhLjUuNSAwIDAgMC0uMDkzLjAwOUE3IDcgMCAwIDEgMy4xIDEzem0wLTFIMi4yNTVhNyA3IDAgMCAxLS41ODEtMUg4em0tNi43MS0yYTcgNyAwIDAgMS0uMjItMUg4djF6TTEgOHEwLS41MS4wNy0xSDh2MXptLjI5LTJxLjE1NS0uNTE5LjM4NC0xSDh2MXptLjk2NS0ycS4zNzctLjU0Ljg0Ni0xSDh2MXptMi4xMzctMkE2Ljk3IDYuOTcgMCAwIDEgOCAxdjF6Ii8+Cjwvc3ZnPg==)*/
 const Highlights: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="highlights"

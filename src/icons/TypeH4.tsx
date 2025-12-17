@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![type-h4](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTMuMDA3IDNIMTV2MTBoLTEuMjl2LTIuMDUxSDguODU0di0xLjE4QzEwLjEgNy41MTMgMTEuNTg2IDUuMjU2IDEzLjAwNyAzbS0yLjgyIDYuNzc3aDMuNTI0di01LjYyaC0uMDc0YTk1IDk1IDAgMCAwLTMuNDUgNS41NTR6TTcuNDk1IDEzVjMuMjAxSDYuMTc0djQuMTVIMS4zMlYzLjJIMFYxM2gxLjMyVjguNTEzaDQuODU0VjEzeiIvPgo8L3N2Zz4=)*/
 const TypeH4: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="type-h4"

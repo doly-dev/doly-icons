@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 const { transformComponentName, transformPropName } = require('./utils');
+const svg64 = require('svg64').default;
 
 /**
  * svg 转为 icon组件
@@ -17,9 +18,17 @@ const svgToIcon = (name, svgStr) => {
       .replace(/\sclass=".*?"/, '')
   );
 
+  const base64fromSVG = svg64(
+    svgStr
+      .replace('width="16" height="16"', 'width="32" height="32"')
+      .replace(/\sclass=".*?"/, '')
+      .replace('fill="currentColor"', 'fill="#ccc"')
+  );
+
   return `import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![${name}](${base64fromSVG})*/
 const ${componentName}: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="${name}"

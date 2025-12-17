@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![segmented-nav](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCA2YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnYyYTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yem02IDNoNFY1SDZ6bTktMVY2YTEgMSAwIDAgMC0xLTFoLTN2NGgzYTEgMSAwIDAgMCAxLTEiLz4KPC9zdmc+)*/
 const SegmentedNav: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="segmented-nav"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![shadows](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwbS04IDdhLjUuNSAwIDAgMSAwLTFoMy41cS4wNDggMCAuMDkzLjAwOUE3IDcgMCAwIDAgMTIuOSAxM0g4YS41LjUgMCAwIDEgMC0xaDUuNzQ1cS4zMzEtLjQ3NC41ODEtMUg4YS41LjUgMCAwIDEgMC0xaDYuNzFhNyA3IDAgMCAwIC4yMi0xSDhhLjUuNSAwIDAgMSAwLTFoN3EwLS41MS0uMDctMUg4YS41LjUgMCAwIDEgMC0xaDYuNzFhNyA3IDAgMCAwLS4zODQtMUg4YS41LjUgMCAwIDEgMC0xaDUuNzQ1YTcgNyAwIDAgMC0uODQ2LTFIOGEuNS41IDAgMCAxIDAtMWgzLjYwOEE3IDcgMCAxIDAgOCAxNSIvPgo8L3N2Zz4=)*/
 const Shadows: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="shadows"

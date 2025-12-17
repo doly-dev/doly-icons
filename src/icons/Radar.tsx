@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![radar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi42MzQgMS4xMzVBNyA3IDAgMCAxIDE1IDhhLjUuNSAwIDAgMS0xIDAgNiA2IDAgMSAwLTYuNSA1Ljk4di0xLjAwNUE1IDUgMCAxIDEgMTMgOGEuNS41IDAgMCAxLTEgMCA0IDQgMCAxIDAtNC41IDMuOTY5di0xLjAxMUEyLjk5OSAyLjk5OSAwIDEgMSAxMSA4YS41LjUgMCAwIDEtMSAwIDIgMiAwIDEgMC0yLjUgMS45MzZ2LTEuMDdhMSAxIDAgMSAxIDEgMFYxNS41YS41LjUgMCAwIDEtMSAwdi0uNTE4YTcgNyAwIDAgMS0uODY2LTEzLjg0NyIvPgo8L3N2Zz4=)*/
 const Radar: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="radar"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![7-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSA4YTcgNyAwIDEgMCAxNCAwQTcgNyAwIDAgMCAxIDhtMTUgMEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwTTUuMzcgNS4xMVY0LjAwMWg1LjMwOFY1LjE1TDcuNDIgMTJINi4wMjVsMy4zMTctNi44MnYtLjA3SDUuMzY5WiIvPgo8L3N2Zz4=)*/
 const Icon7Circle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="7-circle"

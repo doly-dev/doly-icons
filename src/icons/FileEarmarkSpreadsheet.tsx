@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-spreadsheet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgMTRWNC41TDkuNSAwSDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDhhMiAyIDAgMCAwIDItMk05LjUgM0ExLjUgMS41IDAgMCAwIDExIDQuNWgyVjlIM1YyYTEgMSAwIDAgMSAxLTFoNS41ek0zIDEydi0yaDJ2MnptMCAxaDJ2Mkg0YTEgMSAwIDAgMS0xLTF6bTMgMnYtMmgzdjJ6bTQgMHYtMmgzdjFhMSAxIDAgMCAxLTEgMXptMy0zaC0zdi0yaDN6bS03IDB2LTJoM3YyeiIvPgo8L3N2Zz4=)*/
 const FileEarmarkSpreadsheet: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-spreadsheet"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![house-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy4yOTMgMS41YTEgMSAwIDAgMSAxLjQxNCAwTDExIDMuNzkzVjIuNWEuNS41IDAgMCAxIC41LS41aDFhLjUuNSAwIDAgMSAuNS41djMuMjkzbDIuMzU0IDIuMzUzYS41LjUgMCAwIDEtLjcwOC43MDhMOCAyLjIwN2wtNSA1VjEzLjVhLjUuNSAwIDAgMCAuNS41aDRhLjUuNSAwIDAgMSAwIDFoLTRBMS41IDEuNSAwIDAgMSAyIDEzLjVWOC4yMDdsLS42NDYuNjQ3YS41LjUgMCAxIDEtLjcwOC0uNzA4eiIvPgogIDxwYXRoIGQ9Ik0xNiAxMi41YTMuNSAzLjUgMCAxIDEtNyAwIDMuNSAzLjUgMCAwIDEgNyAwbS0zLjUtMmEuNS41IDAgMCAwLS41LjV2MS41YS41LjUgMCAxIDAgMSAwVjExYS41LjUgMCAwIDAtLjUtLjVtMCA0YS41LjUgMCAxIDAgMC0xIC41LjUgMCAwIDAgMCAxIi8+Cjwvc3ZnPg==)*/
 const HouseExclamation: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="house-exclamation"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![currency-yen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC43NSAxNHYtMi42MjloMi40NDZ2LS45NjdIOC43NXYtMS4zMWgyLjQ0NXYtLjk2N0g5LjEyOEwxMi41IDJoLTEuNjk5TDguMDQ3IDcuMzI3aC0uMDg2TDUuMjA3IDJIMy41bDMuMzYzIDYuMTI3SDQuNzc4di45NjhINy4yNXYxLjMxSDQuNzh2Ljk2NmgyLjQ3VjE0aDEuNTAyeiIvPgo8L3N2Zz4=)*/
 const CurrencyYen: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="currency-yen"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![filetype-xml](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNCA0LjVWMTRhMiAyIDAgMCAxLTIgMnYtMWExIDEgMCAwIDAgMS0xVjQuNWgtMkExLjUgMS41IDAgMCAxIDkuNSAzVjFINGExIDEgMCAwIDAtMSAxdjlIMlYyYTIgMiAwIDAgMSAyLTJoNS41ek0zLjUyNyAxMS44NWgtLjg5M2wtLjgyMyAxLjQzOWgtLjAzNkwuOTQzIDExLjg1SC4wMTJsMS4yMjcgMS45ODNMMCAxNS44NWguODYxbC44NTMtMS40MTVoLjAzNWwuODUgMS40MTVoLjkwOGwtMS4yNTQtMS45OTJ6bS45NTQgMy45OTl2LTIuNjZoLjAzOGwuOTUyIDIuMTU5aC41MTZsLjk0Ni0yLjE2aC4wMzh2Mi42NjFoLjcxNVYxMS44NWgtLjhsLTEuMTQgMi41OTZoLS4wMjVMNC41OCAxMS44NWgtLjgwNnYzLjk5OXptNC43MS0uNjc0aDEuNjk2di42NzRIOC40VjExLjg1aC43OTF6Ii8+Cjwvc3ZnPg==)*/
 const FiletypeXml: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="filetype-xml"

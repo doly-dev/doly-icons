@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![voicemail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNyA4LjVBMy41IDMuNSAwIDAgMSA1Ljk1IDExaDQuMWEzLjUgMy41IDAgMSAxIDIuNDUgMWgtOUEzLjUgMy41IDAgMSAxIDcgOC41bS02IDBhMi41IDIuNSAwIDEgMCA1IDAgMi41IDIuNSAwIDAgMC01IDBtMTQgMGEyLjUgMi41IDAgMSAwLTUgMCAyLjUgMi41IDAgMCAwIDUgMCIvPgo8L3N2Zz4=)*/
 const Voicemail: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="voicemail"

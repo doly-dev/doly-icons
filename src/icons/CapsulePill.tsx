@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![capsule-pill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEuMDIgNS4zNjRhMyAzIDAgMCAwLTQuMjQyLTQuMjQzTDEuMTIxIDYuNzc4YTMgMyAwIDEgMCA0LjI0MyA0LjI0M2w1LjY1Ny01LjY1N1ptLTYuNDEzLS42NTcgMi44NzgtMi44NzlhMiAyIDAgMSAxIDIuODI5IDIuODI5TDcuNDM1IDcuNTM2ek0xMiA4YTQgNCAwIDEgMSAwIDggNCA0IDAgMCAxIDAtOG0tLjUgMS4wNDJhMyAzIDAgMCAwIDAgNS45MTd6bTEgNS45MTdhMyAzIDAgMCAwIDAtNS45MTd6Ii8+Cjwvc3ZnPg==)*/
 const CapsulePill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="capsule-pill"

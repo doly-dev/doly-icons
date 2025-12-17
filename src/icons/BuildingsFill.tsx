@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![buildings-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTUgLjVhLjUuNSAwIDAgMC0uNzI0LS40NDdsLTggNEEuNS41IDAgMCAwIDYgNC41djMuMTRMLjM0MiA5LjUyNkEuNS41IDAgMCAwIDAgMTB2NS41YS41LjUgMCAwIDAgLjUuNWg5YS41LjUgMCAwIDAgLjUtLjVWMTRoMXYxLjVhLjUuNSAwIDAgMCAuNS41aDNhLjUuNSAwIDAgMCAuNS0uNXpNMiAxMWgxdjFIMnptMiAwaDF2MUg0em0tMSAydjFIMnYtMXptMSAwaDF2MUg0em05LTEwdjFoLTFWM3pNOCA1aDF2MUg4em0xIDJ2MUg4Vjd6TTggOWgxdjFIOHptMiAwaDF2MWgtMXptLTEgMnYxSDh2LTF6bTEgMGgxdjFoLTF6bTMtMnYxaC0xVjl6bS0xIDJoMXYxaC0xem0tMi00aDF2MWgtMXptMyAwdjFoLTFWN3ptLTItMnYxaC0xVjV6bTEgMGgxdjFoLTF6Ii8+Cjwvc3ZnPg==)*/
 const BuildingsFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="buildings-fill"

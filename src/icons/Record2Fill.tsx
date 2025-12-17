@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![record2-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAgOGEyIDIgMCAxIDEtNCAwIDIgMiAwIDAgMSA0IDAiLz4KICA8cGF0aCBkPSJNOCAxM0E1IDUgMCAxIDAgOCAzYTUgNSAwIDAgMCAwIDEwbTAtMmEzIDMgMCAxIDEgMC02IDMgMyAwIDAgMSAwIDYiLz4KPC9zdmc+)*/
 const Record2Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="record2-fill"

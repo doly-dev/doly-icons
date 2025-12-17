@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![camera-video-off-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMC45NjEgMTIuMzY1YTIgMiAwIDAgMCAuNTIyLTEuMTAzbDMuMTEgMS4zODJBMSAxIDAgMCAwIDE2IDExLjczMVY0LjI2OWExIDEgMCAwIDAtMS40MDYtLjkxM2wtMy4xMTEgMS4zODJBMiAyIDAgMCAwIDkuNSAzSDQuMjcyem0tMTAuMTE0LTlBMiAyIDAgMCAwIDAgNXY2YTIgMiAwIDAgMCAyIDJoNS43Mjh6bTkuNzQ2IDExLjkyNS0xMC0xNCAuODE0LS41OCAxMCAxNHoiLz4KPC9zdmc+)*/
 const CameraVideoOffFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="camera-video-off-fill"

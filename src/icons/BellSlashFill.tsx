@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bell-slash-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNS4xNjQgMTRIMTVjLTEuNS0xLTItNS45MDItMi03cTAtLjM5Ni0uMDYtLjc3NnptNi4yODgtMTAuNjE3QTUgNSAwIDAgMCA4Ljk5NSAyLjFhMSAxIDAgMSAwLTEuOTkgMEE1IDUgMCAwIDAgMyA3YzAgLjg5OC0uMzM1IDQuMzQyLTEuMjc4IDYuMTEzek0xMCAxNWEyIDIgMCAxIDEtNCAwem0tOS4zNzUuNjI1YS41My41MyAwIDAgMCAuNzUuNzVsMTQuNzUtMTQuNzVhLjUzLjUzIDAgMCAwLS43NS0uNzV6Ii8+Cjwvc3ZnPg==)*/
 const BellSlashFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bell-slash-fill"

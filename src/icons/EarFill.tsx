@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![ear-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41IDBBNS41IDUuNSAwIDAgMCAzIDUuNXY3LjA0N2EzLjQ1MyAzLjQ1MyAwIDAgMCA2LjY4NyAxLjIxMmwuNTEtMS4zNjNhNC42IDQuNiAwIDAgMSAuNjctMS4xOTdsMi4wMDgtMi41ODFBNS4zNCA1LjM0IDAgMCAwIDguNjYgMHpNNyA1LjV2Mi42OTVxLjE2OC0uMDkuMzMyLS4xOTJjLjMyNy0uMjA4LjU3Ny0uNDQuNzItLjcyN2EuNS41IDAgMSAxIC44OTUuNDQ4Yy0uMjU2LjUxMy0uNjczLjg2NS0xLjA3OSAxLjEyM0E5IDkgMCAwIDEgNyA5LjMxM1YxMS41YS41LjUgMCAwIDEtMSAwdi02YTIuNSAyLjUgMCAwIDEgNSAwVjZhLjUuNSAwIDAgMS0xIDB2LS41YTEuNSAxLjUgMCAxIDAtMyAwIi8+Cjwvc3ZnPg==)*/
 const EarFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="ear-fill"

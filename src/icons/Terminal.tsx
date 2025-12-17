@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![terminal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNiA5YS41LjUgMCAwIDEgLjUtLjVoM2EuNS41IDAgMCAxIDAgMWgtM0EuNS41IDAgMCAxIDYgOU0zLjg1NCA0LjE0NmEuNS41IDAgMSAwLS43MDguNzA4TDQuNzkzIDYuNSAzLjE0NiA4LjE0NmEuNS41IDAgMSAwIC43MDguNzA4bDItMmEuNS41IDAgMCAwIDAtLjcwOHoiLz4KICA8cGF0aCBkPSJNMiAxYTIgMiAwIDAgMC0yIDJ2MTBhMiAyIDAgMCAwIDIgMmgxMmEyIDIgMCAwIDAgMi0yVjNhMiAyIDAgMCAwLTItMnptMTIgMWExIDEgMCAwIDEgMSAxdjEwYTEgMSAwIDAgMS0xIDFIMmExIDEgMCAwIDEtMS0xVjNhMSAxIDAgMCAxIDEtMXoiLz4KPC9zdmc+)*/
 const Terminal: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="terminal"

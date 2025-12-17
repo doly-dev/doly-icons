@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![currency-euro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCA5LjQyaDEuMDYzQzUuNCAxMi4zMjMgNy4zMTcgMTQgMTAuMzQgMTRjLjYyMiAwIDEuMTY3LS4wNjggMS42NTktLjE4NXYtMS4zYy0uNDg0LjExOS0xLjA0NS4xNy0xLjY1OS4xNy0yLjEgMC0zLjQ1NS0xLjE5OC0zLjc3NS0zLjI2NGg0LjAxN3YtLjkyOEg2LjQ5N3YtLjkzNnEtLjAwMi0uMTY1LjAwOC0uMzI5aDQuMDc4di0uOTI3SDYuNjE4Yy4zODgtMS44OTggMS43MTktMi45ODUgMy43MjMtMi45ODUuNjE0IDAgMS4xNzUuMDUgMS42NTkuMTc3VjIuMTk0QTYuNiA2LjYgMCAwIDAgMTAuMzQxIDJjLTIuOTI4IDAtNC44MiAxLjU2OS01LjI0NCA0LjNINHYuOTI4aDEuMDF2MS4yNjVINHYuOTI4eiIvPgo8L3N2Zz4=)*/
 const CurrencyEuro: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="currency-euro"

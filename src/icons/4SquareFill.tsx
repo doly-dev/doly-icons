@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![4-square-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi4yMjUgOS4yODF2LjA1M0g4Ljg1VjUuMDYzaC0uMDY1Yy0uODY3IDEuMzMtMS43ODcgMi44MDYtMi41NiA0LjIxOCIvPgogIDxwYXRoIGQ9Ik0yIDBhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yem01LjUxOSA1LjA1N3EuMzMtLjUyNy42NTctMS4wNTVoMS45MzN2NS4zMzJoMS4wMDh2MS4xMDdIMTAuMTFWMTJIOC44NXYtMS41NTlINC45NzhWOS4zMjJjLjc3LTEuNDI3IDEuNjU2LTIuODQ3IDIuNTQyLTQuMjY1WiIvPgo8L3N2Zz4=)*/
 const Icon4SquareFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="4-square-fill"

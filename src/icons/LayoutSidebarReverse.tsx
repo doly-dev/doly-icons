@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![layout-sidebar-reverse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgM2EyIDIgMCAwIDAtMi0ySDJhMiAyIDAgMCAwLTIgMnYxMGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJ6bS01LTF2MTJIMmExIDEgMCAwIDEtMS0xVjNhMSAxIDAgMCAxIDEtMXptMSAwaDJhMSAxIDAgMCAxIDEgMXYxMGExIDEgMCAwIDEtMSAxaC0yeiIvPgo8L3N2Zz4=)*/
 const LayoutSidebarReverse: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="layout-sidebar-reverse"

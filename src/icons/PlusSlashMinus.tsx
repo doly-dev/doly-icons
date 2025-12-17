@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![plus-slash-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtMS44NTQgMTQuODU0IDEzLTEzYS41LjUgMCAwIDAtLjcwOC0uNzA4bC0xMyAxM2EuNS41IDAgMCAwIC43MDguNzA4TTQgMWEuNS41IDAgMCAxIC41LjV2MmgyYS41LjUgMCAwIDEgMCAxaC0ydjJhLjUuNSAwIDAgMS0xIDB2LTJoLTJhLjUuNSAwIDAgMSAwLTFoMnYtMkEuNS41IDAgMCAxIDQgMW01IDExYS41LjUgMCAwIDEgLjUtLjVoNWEuNS41IDAgMCAxIDAgMWgtNUEuNS41IDAgMCAxIDkgMTIiLz4KPC9zdmc+)*/
 const PlusSlashMinus: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="plus-slash-minus"

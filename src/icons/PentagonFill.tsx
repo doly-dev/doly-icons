@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pentagon-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy42ODUuMjU2YS41LjUgMCAwIDEgLjYzIDBsNy40MjEgNi4wM2EuNS41IDAgMCAxIC4xNjIuNTM4bC0yLjc4OCA4LjgyN2EuNS41IDAgMCAxLS40NzYuMzQ5SDMuMzY2YS41LjUgMCAwIDEtLjQ3Ni0uMzVMLjEwMiA2LjgyNWEuNS41IDAgMCAxIC4xNjItLjUzOGw3LjQyLTYuMDNaIi8+Cjwvc3ZnPg==)*/
 const PentagonFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pentagon-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![reception-0](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxMy41YS41LjUgMCAwIDEgLjUtLjVoMmEuNS41IDAgMCAxIDAgMWgtMmEuNS41IDAgMCAxLS41LS41bTQgMGEuNS41IDAgMCAxIC41LS41aDJhLjUuNSAwIDAgMSAwIDFoLTJhLjUuNSAwIDAgMS0uNS0uNW00IDBhLjUuNSAwIDAgMSAuNS0uNWgyYS41LjUgMCAwIDEgMCAxaC0yYS41LjUgMCAwIDEtLjUtLjVtNCAwYS41LjUgMCAwIDEgLjUtLjVoMmEuNS41IDAgMCAxIDAgMWgtMmEuNS41IDAgMCAxLS41LS41Ii8+Cjwvc3ZnPg==)*/
 const Reception0: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="reception-0"

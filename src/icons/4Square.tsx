@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![4-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy41MTkgNS4wNTdxLjMzLS41MjcuNjU3LTEuMDU1aDEuOTMzdjUuMzMyaDEuMDA4djEuMTA3SDEwLjExVjEySDguODV2LTEuNTU5SDQuOTc4VjkuMzIyYy43Ny0xLjQyNyAxLjY1Ni0yLjg0NyAyLjU0Mi00LjI2NVpNNi4yMjUgOS4yODF2LjA1M0g4Ljg1VjUuMDYzaC0uMDY1Yy0uODY3IDEuMzMtMS43ODcgMi44MDYtMi41NiA0LjIxOCIvPgogIDxwYXRoIGQ9Ik0wIDJhMiAyIDAgMCAxIDItMmgxMmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yem0xNSAwYTEgMSAwIDAgMC0xLTFIMmExIDEgMCAwIDAtMSAxdjEyYTEgMSAwIDAgMCAxIDFoMTJhMSAxIDAgMCAwIDEtMXoiLz4KPC9zdmc+)*/
 const Icon4Square: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="4-square"

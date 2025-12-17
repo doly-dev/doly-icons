@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![exclamation-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNUE3IDcgMCAxIDEgOCAxYTcgNyAwIDAgMSAwIDE0bTAgMUE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2Ii8+CiAgPHBhdGggZD0iTTcuMDAyIDExYTEgMSAwIDEgMSAyIDAgMSAxIDAgMCAxLTIgME03LjEgNC45OTVhLjkwNS45MDUgMCAxIDEgMS44IDBsLS4zNSAzLjUwN2EuNTUyLjU1MiAwIDAgMS0xLjEgMHoiLz4KPC9zdmc+)*/
 const ExclamationCircle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="exclamation-circle"

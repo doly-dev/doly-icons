@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![twitter-x](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuNi43NWgyLjQ1NGwtNS4zNiA2LjE0MkwxNiAxNS4yNWgtNC45MzdsLTMuODY3LTUuMDctNC40MjUgNS4wN0guMzE2bDUuNzMzLTYuNTdMMCAuNzVoNS4wNjNsMy40OTUgNC42MzNMMTIuNjAxLjc1Wm0tLjg2IDEzLjAyOGgxLjM2TDQuMzIzIDIuMTQ1SDIuODY1eiIvPgo8L3N2Zz4=)*/
 const TwitterX: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="twitter-x"

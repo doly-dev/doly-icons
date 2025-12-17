@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![music-player-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxMmExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDIiLz4KICA8cGF0aCBkPSJNNCAwYTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yem0xIDJoNmExIDEgMCAwIDEgMSAxdjIuNWExIDEgMCAwIDEtMSAxSDVhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTFtMyAxMmEzIDMgMCAxIDEgMC02IDMgMyAwIDAgMSAwIDYiLz4KPC9zdmc+)*/
 const MusicPlayerFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="music-player-fill"

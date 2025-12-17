@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![graph-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDBoMXYxNWgxNXYxSDB6bTE0LjgxNyAzLjExM2EuNS41IDAgMCAxIC4wNy43MDRsLTQuNSA1LjVhLjUuNSAwIDAgMS0uNzQuMDM3TDcuMDYgNi43NjdsLTMuNjU2IDUuMDI3YS41LjUgMCAwIDEtLjgwOC0uNTg4bDQtNS41YS41LjUgMCAwIDEgLjc1OC0uMDZsMi42MDkgMi42MSA0LjE1LTUuMDczYS41LjUgMCAwIDEgLjcwNC0uMDciLz4KPC9zdmc+)*/
 const GraphUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="graph-up"

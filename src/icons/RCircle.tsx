@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![r-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSA4YTcgNyAwIDEgMCAxNCAwQTcgNyAwIDAgMCAxIDhtMTUgMEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwTTUuNSA0LjAwMmgzLjExYzEuNzEgMCAyLjc0MS45NzMgMi43NDEgMi40NiAwIDEuMTM4LS42NjcgMS45NC0xLjQ5NSAyLjI0TDExLjUgMTJIOS45OEw4LjUyIDguOTI0SDYuODM2VjEySDUuNXptMS4zMzUgMS4wOXYyLjc3N2gxLjU0OWMuOTk1IDAgMS41NzMtLjQ2MyAxLjU3My0xLjM2IDAtLjkxMy0uNTk2LTEuNDE3LTEuNTM3LTEuNDE3eiIvPgo8L3N2Zz4=)*/
 const RCircle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="r-circle"

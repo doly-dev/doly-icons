@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrows-angle-contract](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0uMTcyIDE1LjgyOGEuNS41IDAgMCAwIC43MDcgMGw0LjA5Ni00LjA5NlYxNC41YS41LjUgMCAxIDAgMSAwdi0zLjk3NWEuNS41IDAgMCAwLS41LS41SDEuNWEuNS41IDAgMCAwIDAgMWgyLjc2OEwuMTcyIDE1LjEyMWEuNS41IDAgMCAwIDAgLjcwN00xNS44MjguMTcyYS41LjUgMCAwIDAtLjcwNyAwbC00LjA5NiA0LjA5NlYxLjVhLjUuNSAwIDEgMC0xIDB2My45NzVhLjUuNSAwIDAgMCAuNS41SDE0LjVhLjUuNSAwIDAgMCAwLTFoLTIuNzY4TDE1LjgyOC44NzlhLjUuNSAwIDAgMCAwLS43MDciLz4KPC9zdmc+)*/
 const ArrowsAngleContract: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrows-angle-contract"

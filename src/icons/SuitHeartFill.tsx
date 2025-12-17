@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![suit-heart-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCAxYzIuMjEgMCA0IDEuNzU1IDQgMy45MkM4IDIuNzU1IDkuNzkgMSAxMiAxczQgMS43NTUgNCAzLjkyYzAgMy4yNjMtMy4yMzQgNC40MTQtNy42MDggOS42MDhhLjUxMy41MTMgMCAwIDEtLjc4NCAwQzMuMjM0IDkuMzM0IDAgOC4xODMgMCA0LjkyIDAgMi43NTUgMS43OSAxIDQgMSIvPgo8L3N2Zz4=)*/
 const SuitHeartFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="suit-heart-fill"

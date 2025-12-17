@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxYTIuNSAyLjUgMCAwIDEgMi41IDIuNVY0aC01di0uNUEyLjUgMi41IDAgMCAxIDggMW0zLjUgM3YtLjVhMy41IDMuNSAwIDEgMC03IDBWNEgxdjEwYTIgMiAwIDAgMCAyIDJoMTBhMiAyIDAgMCAwIDItMlY0ek0yIDVoMTJ2OWExIDEgMCAwIDEtMSAxSDNhMSAxIDAgMCAxLTEtMXoiLz4KPC9zdmc+)*/
 const Bag: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bag"

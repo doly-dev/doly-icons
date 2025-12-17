@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![gem](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy4xLjdhLjUuNSAwIDAgMSAuNC0uMmg5YS41LjUgMCAwIDEgLjQuMmwyLjk3NiAzLjk3NGMuMTQ5LjE4NS4xNTYuNDUuMDEuNjQ0TDguNCAxNS4zYS41LjUgMCAwIDEtLjggMEwuMSA1LjNhLjUuNSAwIDAgMSAwLS42em0xMS4zODYgMy43ODUtMS44MDYtMi40MS0uNzc2IDIuNDEzem0tMy42MzMuMDA0Ljk2MS0yLjk4OUg0LjE4NmwuOTYzIDIuOTk1ek01LjQ3IDUuNDk1IDggMTMuMzY2bDIuNTMyLTcuODc2em0tMS4zNzEtLjk5OS0uNzgtMi40MjItMS44MTggMi40MjV6TTEuNDk5IDUuNWw1LjExMyA2LjgxNy0yLjE5Mi02Ljgyem03Ljg4OSA2LjgxNyA1LjEyMy02LjgzLTIuOTI4LjAwMnoiLz4KPC9zdmc+)*/
 const Gem: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="gem"

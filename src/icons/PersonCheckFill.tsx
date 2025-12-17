@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-check-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNS44NTQgNS4xNDZhLjUuNSAwIDAgMSAwIC43MDhsLTMgM2EuNS41IDAgMCAxLS43MDggMGwtMS41LTEuNWEuNS41IDAgMCAxIC43MDgtLjcwOEwxMi41IDcuNzkzbDIuNjQ2LTIuNjQ3YS41LjUgMCAwIDEgLjcwOCAwIi8+CiAgPHBhdGggZD0iTTEgMTRzLTEgMC0xLTEgMS00IDYtNCA2IDMgNiA0LTEgMS0xIDF6bTUtNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDYiLz4KPC9zdmc+)*/
 const PersonCheckFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-check-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![skip-backward-btn-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxMlY0YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0ybTExLjIxLTYuOTA3TDguNSA3LjAyOFY1LjVhLjUuNSAwIDAgMC0uNzktLjQwN0w1IDcuMDI4VjUuNWEuNS41IDAgMCAwLTEgMHY1YS41LjUgMCAwIDAgMSAwVjguOTcybDIuNzEgMS45MzVhLjUuNSAwIDAgMCAuNzktLjQwN1Y4Ljk3MmwyLjcxIDEuOTM1QS41LjUgMCAwIDAgMTIgMTAuNXYtNWEuNS41IDAgMCAwLS43OS0uNDA3Ii8+Cjwvc3ZnPg==)*/
 const SkipBackwardBtnFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="skip-backward-btn-fill"

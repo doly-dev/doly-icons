@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chevron-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjY0NiA0LjY0NmEuNS41IDAgMCAxIC43MDggMGw2IDZhLjUuNSAwIDAgMS0uNzA4LjcwOEw4IDUuNzA3bC01LjY0NiA1LjY0N2EuNS41IDAgMCAxLS43MDgtLjcwOHoiLz4KPC9zdmc+)*/
 const ChevronUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chevron-up"

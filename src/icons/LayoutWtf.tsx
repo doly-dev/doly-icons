@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![layout-wtf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNSAxdjhIMVYxek0xIDBhMSAxIDAgMCAwLTEgMXY4YTEgMSAwIDAgMCAxIDFoNGExIDEgMCAwIDAgMS0xVjFhMSAxIDAgMCAwLTEtMXptMTMgMnY1SDlWMnpNOSAxYTEgMSAwIDAgMC0xIDF2NWExIDEgMCAwIDAgMSAxaDVhMSAxIDAgMCAwIDEtMVYyYTEgMSAwIDAgMC0xLTF6TTUgMTN2Mkgzdi0yem0tMi0xYTEgMSAwIDAgMC0xIDF2MmExIDEgMCAwIDAgMSAxaDJhMSAxIDAgMCAwIDEtMXYtMmExIDEgMCAwIDAtMS0xem0xMi0xdjJIOXYtMnptLTYtMWExIDEgMCAwIDAtMSAxdjJhMSAxIDAgMCAwIDEgMWg2YTEgMSAwIDAgMCAxLTF2LTJhMSAxIDAgMCAwLTEtMXoiLz4KPC9zdmc+)*/
 const LayoutWtf: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="layout-wtf"

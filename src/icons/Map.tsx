@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![map](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNS44MTcuMTEzQS41LjUgMCAwIDEgMTYgLjV2MTRhLjUuNSAwIDAgMS0uNDAyLjQ5bC01IDFhLjUuNSAwIDAgMS0uMTk2IDBMNS41IDE1LjAxbC00LjkwMi45OEEuNS41IDAgMCAxIDAgMTUuNXYtMTRhLjUuNSAwIDAgMSAuNDAyLS40OWw1LTFhLjUuNSAwIDAgMSAuMTk2IDBMMTAuNS45OWw0LjkwMi0uOThhLjUuNSAwIDAgMSAuNDE1LjEwM00xMCAxLjkxbC00LS44djEyLjk4bDQgLjh6bTEgMTIuOTggNC0uOFYxLjExbC00IC44em0tNi0uOFYxLjExbC00IC44djEyLjk4eiIvPgo8L3N2Zz4=)*/
 const Map: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="map"

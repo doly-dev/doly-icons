@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![emoji-surprise](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNUE3IDcgMCAxIDEgOCAxYTcgNyAwIDAgMSAwIDE0bTAgMUE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2Ii8+CiAgPHBhdGggZD0iTTcgNS41QzcgNi4zMjggNi41NTIgNyA2IDdzLTEtLjY3Mi0xLTEuNVM1LjQ0OCA0IDYgNHMxIC42NzIgMSAxLjVtNCAwYzAgLjgyOC0uNDQ4IDEuNS0xIDEuNXMtMS0uNjcyLTEtMS41UzkuNDQ4IDQgMTAgNHMxIC42NzIgMSAxLjVNMTAgMTFhMiAyIDAgMSAxLTQgMCAyIDIgMCAwIDEgNCAwIi8+Cjwvc3ZnPg==)*/
 const EmojiSurprise: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="emoji-surprise"

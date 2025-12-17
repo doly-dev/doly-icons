@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-fill-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEgNWEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDBtLTkgOGMwIDEgMSAxIDEgMWg1di0xYTIgMiAwIDAgMSAuMDEtLjIgNC40OSA0LjQ5IDAgMCAxIDEuNTM0LTMuNjkzUTguODQ0IDkuMDAyIDggOWMtNSAwLTYgMy02IDRtNyAwYTEgMSAwIDAgMSAxLTF2LTFhMiAyIDAgMSAxIDQgMHYxYTEgMSAwIDAgMSAxIDF2MmExIDEgMCAwIDEtMSAxaC00YTEgMSAwIDAgMS0xLTF6bTMtM2ExIDEgMCAwIDAtMSAxdjFoMnYtMWExIDEgMCAwIDAtMS0xIi8+Cjwvc3ZnPg==)*/
 const PersonFillLock: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-fill-lock"

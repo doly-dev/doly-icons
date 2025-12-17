@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![gender-ambiguous](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS41IDFhLjUuNSAwIDAgMSAwLTFoNGEuNS41IDAgMCAxIC41LjV2NGEuNS41IDAgMCAxLTEgMFYxLjcwN2wtMy40NSAzLjQ1QTQgNCAwIDAgMSA4LjUgMTAuOTdWMTNIMTBhLjUuNSAwIDAgMSAwIDFIOC41djEuNWEuNS41IDAgMCAxLTEgMFYxNEg2YS41LjUgMCAwIDEgMC0xaDEuNXYtMi4wM2E0IDQgMCAxIDEgMy40NzEtNi42NDhMMTQuMjkzIDF6bS0uOTk3IDQuMzQ2YTMgMyAwIDEgMC01LjAwNiAzLjMwOSAzIDMgMCAwIDAgNS4wMDYtMy4zMXoiLz4KPC9zdmc+)*/
 const GenderAmbiguous: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="gender-ambiguous"

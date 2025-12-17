@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![marker-tip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwbS00LjUgNi4wNjQtMS4yODEtNC42OTZBLjUuNSAwIDAgMCA5LjczNiA5SDYuMjY0YS41LjUgMCAwIDAtLjQ4My4zNjhsLTEuMjggNC42OTZBNi45NyA2Ljk3IDAgMCAwIDggMTVjMS4yNzUgMCAyLjQ3LS4zNCAzLjUtLjkzNm0uODczLS41OThhNyA3IDAgMSAwLTguNzQ2IDBsMS4xOS00LjM2YTEuNSAxLjUgMCAwIDEgMS4zMS0xLjFsMS4xNTUtMy44NTFjLjIxMy0uNzEzIDEuMjIzLS43MTMgMS40MzYgMGwxLjE1NiAzLjg1MWExLjUgMS41IDAgMCAxIDEuMzEgMS4xeiIvPgo8L3N2Zz4=)*/
 const MarkerTip: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="marker-tip"

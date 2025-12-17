@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chevron-contract](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zLjY0NiAxMy44NTRhLjUuNSAwIDAgMCAuNzA4IDBMOCAxMC4yMDdsMy42NDYgMy42NDdhLjUuNSAwIDAgMCAuNzA4LS43MDhsLTQtNGEuNS41IDAgMCAwLS43MDggMGwtNCA0YS41LjUgMCAwIDAgMCAuNzA4bTAtMTEuNzA4YS41LjUgMCAwIDEgLjcwOCAwTDggNS43OTNsMy42NDYtMy42NDdhLjUuNSAwIDAgMSAuNzA4LjcwOGwtNCA0YS41LjUgMCAwIDEtLjcwOCAwbC00LTRhLjUuNSAwIDAgMSAwLS43MDgiLz4KPC9zdmc+)*/
 const ChevronContract: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chevron-contract"

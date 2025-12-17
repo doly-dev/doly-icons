@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-standing-dress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAzYTEuNSAxLjUgMCAxIDAgMC0zIDEuNSAxLjUgMCAwIDAgMCAzbS0uNSAxMi4yNVYxMmgxdjMuMjVhLjc1Ljc1IDAgMCAwIDEuNSAwVjEyaDFsLTEtNXYtLjIxNWEuMjg1LjI4NSAwIDAgMSAuNTYtLjA3OGwuNzkzIDIuNzc3YS43MTEuNzExIDAgMSAwIDEuMzY0LS40MDVsLTEuMDY1LTMuNDYxQTMgMyAwIDAgMCA4Ljc4NCAzLjVINy4yMTZhMyAzIDAgMCAwLTIuODY4IDIuMTE4TDMuMjgzIDkuMDc5YS43MTEuNzExIDAgMSAwIDEuMzY1LjQwNWwuNzkzLTIuNzc3YS4yODUuMjg1IDAgMCAxIC41Ni4wNzhWN2wtMSA1aDF2My4yNWEuNzUuNzUgMCAwIDAgMS41IDBaIi8+Cjwvc3ZnPg==)*/
 const PersonStandingDress: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-standing-dress"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![node-minus-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNiA4YTUgNSAwIDAgMS05Ljk3NS41SDRBMS41IDEuNSAwIDAgMSAyLjUgMTBoLTFBMS41IDEuNSAwIDAgMSAwIDguNXYtMUExLjUgMS41IDAgMCAxIDEuNSA2aDFBMS41IDEuNSAwIDAgMSA0IDcuNWgyLjAyNUE1IDUgMCAwIDEgMTYgOG0tMiAwYS41LjUgMCAwIDAtLjUtLjVoLTVhLjUuNSAwIDAgMCAwIDFoNUEuNS41IDAgMCAwIDE0IDgiLz4KPC9zdmc+)*/
 const NodeMinusFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="node-minus-fill"

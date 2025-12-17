@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-hearts](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS41IDEuMjQ2Yy44MzItLjg1NSAyLjkxMy42NDIgMCAyLjU2Ni0yLjkxMy0xLjkyNC0uODMyLTMuNDIxIDAtMi41NjZNOSA1YTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMG0tOSA4YzAgMSAxIDEgMSAxaDEwczEgMCAxLTEtMS00LTYtNC02IDMtNiA0bTEzLjUtOC4wOWMxLjM4Ny0xLjQyNSA0Ljg1NSAxLjA3IDAgNC4yNzctNC44NTQtMy4yMDctMS4zODctNS43MDIgMC00LjI3NlpNMTUgMi4xNjVjLjU1NS0uNTcgMS45NDIuNDI4IDAgMS43MTEtMS45NDItMS4yODMtLjU1NS0yLjI4MSAwLTEuNzFaIi8+Cjwvc3ZnPg==)*/
 const PersonHearts: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-hearts"

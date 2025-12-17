@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![subscript](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtMy4yNjYgMTIuNDk2Ljk2LTIuODUzSDcuNzZsLjk2IDIuODUzSDEwTDYuNjIgM0g1LjM4TDIgMTIuNDk2em0yLjc0OC04LjA2MyAxLjQxOSA0LjIzaC0yLjg4bDEuNDI2LTQuMjN6bTYuMTMyIDcuMjAzdi0uMDc1YzAtLjMzMi4yMzQtLjYxOC42MTktLjYxOC4zNTQgMCAuNjE4LjI1Ni42MTguNTggMCAuMzYyLS4yNzEuNjQ5LS41Mi44OThsLTEuNzg4IDEuODMyVjE1aDMuNTl2LS45NThoLTEuOTIzdi0uMDQ1bC45NzMtMS4wNGMuNDE1LS40MzguODY3LS44NDUuODY3LTEuNTQ3IDAtLjgtLjcwMS0xLjQxLTEuNzg3LTEuNDEtMS4yMyAwLTEuNzk1LjgtMS43OTUgMS41NzZ2LjA2eiIvPgo8L3N2Zz4=)*/
 const Subscript: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="subscript"

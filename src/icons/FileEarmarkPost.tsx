@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-post](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgNC41VjE0YTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjJhMiAyIDAgMCAxIDItMmg1LjV6bS0zIDBBMS41IDEuNSAwIDAgMSA5LjUgM1YxSDRhMSAxIDAgMCAwLTEgMXYxMmExIDEgMCAwIDAgMSAxaDhhMSAxIDAgMCAwIDEtMVY0LjV6Ii8+CiAgPHBhdGggZD0iTTQgNi41YS41LjUgMCAwIDEgLjUtLjVoN2EuNS41IDAgMCAxIC41LjV2N2EuNS41IDAgMCAxLS41LjVoLTdhLjUuNSAwIDAgMS0uNS0uNXptMC0zYS41LjUgMCAwIDEgLjUtLjVIN2EuNS41IDAgMCAxIDAgMUg0LjVhLjUuNSAwIDAgMS0uNS0uNSIvPgo8L3N2Zz4=)*/
 const FileEarmarkPost: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-post"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![cloud-lightning-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy4wNTMgMTEuMjc2QS41LjUgMCAwIDEgNy41IDExaDFhLjUuNSAwIDAgMSAuNDc0LjY1OGwtLjI4Ljg0Mkg5LjVhLjUuNSAwIDAgMSAuMzkuODEybC0yIDIuNWEuNS41IDAgMCAxLS44NzUtLjQzM0w3LjM2IDE0SDYuNWEuNS41IDAgMCAxLS40NDctLjcyNHptNi4zNTItNy4yNDlhNS4wMDEgNS4wMDEgMCAwIDAtOS40OTktMS4wMDRBMy41IDMuNSAwIDEgMCAzLjUgMTBIMTNhMyAzIDAgMCAwIC40MDUtNS45NzMiLz4KPC9zdmc+)*/
 const CloudLightningFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="cloud-lightning-fill"

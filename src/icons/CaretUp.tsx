@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![caret-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy4yMDQgMTFoOS41OTJMOCA1LjUxOXptLS43NTMtLjY1OSA0Ljc5Ni01LjQ4YTEgMSAwIDAgMSAxLjUwNiAwbDQuNzk2IDUuNDhjLjU2Ni42NDcuMTA2IDEuNjU5LS43NTMgMS42NTlIMy4yMDRhMSAxIDAgMCAxLS43NTMtMS42NTkiLz4KPC9zdmc+)*/
 const CaretUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="caret-up"

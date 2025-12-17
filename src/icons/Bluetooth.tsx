@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Im04LjU0MyAzLjk0OCAxLjMxNiAxLjMxNkw4LjU0MyA2LjU4em0wIDguMTA0IDEuMzE2LTEuMzE2TDguNTQzIDkuNDJ6bS0xLjQxLTQuMDQzTDQuMjc1IDUuMTMzbC44MjctLjgyN0w3LjM3NyA2LjU4VjEuMTI4bDQuMTM3IDQuMTM2TDguNzg3IDguMDFsMi43NDUgMi43NDUtNC4xMzYgNC4xMzdWOS40MmwtMi4yOTQgMi4yNzQtLjgyNy0uODI3ek03LjkwMyAxNmMzLjQ5OCAwIDUuOTA0LTEuNjU1IDUuOTA0LTguMDEgMC02LjMzNS0yLjQwNi03Ljk5LTUuOTAzLTcuOTlTMiAxLjY1NSAyIDguMDFDMiAxNC4zNDQgNC40MDcgMTYgNy45MDQgMTZaIi8+Cjwvc3ZnPg==)*/
 const Bluetooth: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bluetooth"

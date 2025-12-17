@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![crop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41LjVBLjUuNSAwIDAgMSA0IDF2MTNoMTNhLjUuNSAwIDAgMSAwIDFoLTJ2MmEuNS41IDAgMCAxLTEgMHYtMkgzLjVhLjUuNSAwIDAgMS0uNS0uNVY0SDFhLjUuNSAwIDAgMSAwLTFoMlYxYS41LjUgMCAwIDEgLjUtLjVtMi41IDNhLjUuNSAwIDAgMSAuNS0uNWg4YS41LjUgMCAwIDEgLjUuNXY4YS41LjUgMCAwIDEtMSAwVjRINi41YS41LjUgMCAwIDEtLjUtLjUiLz4KPC9zdmc+)*/
 const Crop: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="crop"

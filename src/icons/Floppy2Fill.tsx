@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![floppy2-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMmgtMnYzaDJ6Ii8+CiAgPHBhdGggZD0iTTEuNSAwQTEuNSAxLjUgMCAwIDAgMCAxLjV2MTNBMS41IDEuNSAwIDAgMCAxLjUgMTZoMTNhMS41IDEuNSAwIDAgMCAxLjUtMS41VjIuOTE0YTEuNSAxLjUgMCAwIDAtLjQ0LTEuMDZMMTQuMTQ3LjQzOUExLjUgMS41IDAgMCAwIDEzLjA4NiAwek00IDZhMSAxIDAgMCAxLTEtMVYxaDEwdjRhMSAxIDAgMCAxLTEgMXpNMyA5aDEwYTEgMSAwIDAgMSAxIDF2NUgydi01YTEgMSAwIDAgMSAxLTEiLz4KPC9zdmc+)*/
 const Floppy2Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="floppy2-fill"

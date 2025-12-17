@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![volume-off-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAuNzE3IDMuNTVBLjUuNSAwIDAgMSAxMSA0djhhLjUuNSAwIDAgMS0uODEyLjM5TDcuODI1IDEwLjVINS41QS41LjUgMCAwIDEgNSAxMFY2YS41LjUgMCAwIDEgLjUtLjVoMi4zMjVsMi4zNjMtMS44OWEuNS41IDAgMCAxIC41MjktLjA2Ii8+Cjwvc3ZnPg==)*/
 const VolumeOffFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="volume-off-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-turn-slight-right-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi45NS40MzVjLjU4LS41OCAxLjUyLS41OCAyLjEgMGw2LjUxNSA2LjUxNmMuNTguNTguNTggMS41MTkgMCAyLjA5OEw5LjA1IDE1LjU2NWMtLjU4LjU4LTEuNTE5LjU4LTIuMDk4IDBMLjQzNSA5LjA1YTEuNDggMS40OCAwIDAgMSAwLTIuMDk4em0xLjM4NSA2LjU0Ny44IDEuMzg2YS4yNS4yNSAwIDAgMCAuNDUxLS4wMzlsMS4wNi0yLjg4MmEuMjUuMjUgMCAwIDAtLjE5Mi0uMzMzbC0zLjAyNi0uNTIzYS4yNS4yNSAwIDAgMC0uMjYuMzcxbC42NjcgMS4xNTQtLjYyMS4zNzNBMi41IDIuNSAwIDAgMCA2IDguNjMyVjExaDFWOC42MzJhMS41IDEuNSAwIDAgMSAuNzI4LTEuMjg2eiIvPgo8L3N2Zz4=)*/
 const SignTurnSlightRightFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-turn-slight-right-fill"

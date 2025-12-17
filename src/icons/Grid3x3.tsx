@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![grid-3x3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxLjVBMS41IDEuNSAwIDAgMSAxLjUgMGgxM0ExLjUgMS41IDAgMCAxIDE2IDEuNXYxM2ExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTEzQTEuNSAxLjUgMCAwIDEgMCAxNC41ek0xLjUgMWEuNS41IDAgMCAwLS41LjVWNWg0VjF6TTUgNkgxdjRoNHptMSA0aDRWNkg2em0tMSAxSDF2My41YS41LjUgMCAwIDAgLjUuNUg1em0xIDB2NGg0di00em01IDB2NGgzLjVhLjUuNSAwIDAgMCAuNS0uNVYxMXptMC0xaDRWNmgtNHptMC01aDRWMS41YS41LjUgMCAwIDAtLjUtLjVIMTF6bS0xIDBWMUg2djR6Ii8+Cjwvc3ZnPg==)*/
 const Grid3x3: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="grid-3x3"

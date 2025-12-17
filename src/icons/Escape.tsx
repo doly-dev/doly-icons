@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![escape](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41MzggMS4wMmEuNS41IDAgMSAwLS4wNzYuOTk4IDYgNiAwIDEgMS02LjQ0NSA2LjQ0NC41LjUgMCAwIDAtLjk5Ny4wNzZBNyA3IDAgMSAwIDguNTM4IDEuMDIiLz4KICA8cGF0aCBkPSJNNy4wOTYgNy44MjhhLjUuNSAwIDAgMCAuNzA3LS43MDdMMi43MDcgMi4wMjVoMi43NjhhLjUuNSAwIDEgMCAwLTFIMS41YS41LjUgMCAwIDAtLjUuNVY1LjVhLjUuNSAwIDAgMCAxIDBWMi43MzJ6Ii8+Cjwvc3ZnPg==)*/
 const Escape: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="escape"

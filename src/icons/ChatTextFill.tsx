@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chat-text-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOGMwIDMuODY2LTMuNTgyIDctOCA3YTkgOSAwIDAgMS0yLjM0Ny0uMzA2Yy0uNTg0LjI5Ni0xLjkyNS44NjQtNC4xODEgMS4yMzQtLjIuMDMyLS4zNTItLjE3Ni0uMjczLS4zNjIuMzU0LS44MzYuNjc0LTEuOTUuNzctMi45NjZDLjc0NCAxMS4zNyAwIDkuNzYgMCA4YzAtMy44NjYgMy41ODItNyA4LTdzOCAzLjEzNCA4IDdNNC41IDVhLjUuNSAwIDAgMCAwIDFoN2EuNS41IDAgMCAwIDAtMXptMCAyLjVhLjUuNSAwIDAgMCAwIDFoN2EuNS41IDAgMCAwIDAtMXptMCAyLjVhLjUuNSAwIDAgMCAwIDFoNGEuNS41IDAgMCAwIDAtMXoiLz4KPC9zdmc+)*/
 const ChatTextFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chat-text-fill"

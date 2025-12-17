@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-word](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNS40ODUgNi44NzlhLjUuNSAwIDEgMC0uOTcuMjQybDEuNSA2YS41LjUgMCAwIDAgLjk2Ny4wMUw4IDkuNDAybDEuMDE4IDMuNzNhLjUuNSAwIDAgMCAuOTY3LS4wMWwxLjUtNmEuNS41IDAgMCAwLS45Ny0uMjQybC0xLjAzNiA0LjE0NC0uOTk3LTMuNjU1YS41LjUgMCAwIDAtLjk2NCAwbC0uOTk3IDMuNjU1TDUuNDg1IDYuODh6Ii8+CiAgPHBhdGggZD0iTTE0IDE0VjQuNUw5LjUgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJNOS41IDNBMS41IDEuNSAwIDAgMCAxMSA0LjVoMlYxNGExIDEgMCAwIDEtMSAxSDRhMSAxIDAgMCAxLTEtMVYyYTEgMSAwIDAgMSAxLTFoNS41eiIvPgo8L3N2Zz4=)*/
 const FileEarmarkWord: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-word"

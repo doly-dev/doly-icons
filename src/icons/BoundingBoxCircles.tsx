@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bounding-box-circles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAxYTEgMSAwIDEgMCAwIDIgMSAxIDAgMCAwIDAtMk0wIDJhMiAyIDAgMCAxIDMuOTM3LS41aDguMTI2QTIgMiAwIDEgMSAxNC41IDMuOTM3djguMTI2YTIgMiAwIDEgMS0yLjQzNyAyLjQzN0gzLjkzN0EyIDIgMCAxIDEgMS41IDEyLjA2M1YzLjkzN0EyIDIgMCAwIDEgMCAybTIuNSAxLjkzN3Y4LjEyNmMuNzAzLjE4IDEuMjU2LjczNCAxLjQzNyAxLjQzN2g4LjEyNmEyIDIgMCAwIDEgMS40MzctMS40MzdWMy45MzdBMiAyIDAgMCAxIDEyLjA2MyAyLjVIMy45MzdBMiAyIDAgMCAxIDIuNSAzLjkzN00xNCAxYTEgMSAwIDEgMCAwIDIgMSAxIDAgMCAwIDAtMk0yIDEzYTEgMSAwIDEgMCAwIDIgMSAxIDAgMCAwIDAtMm0xMiAwYTEgMSAwIDEgMCAwIDIgMSAxIDAgMCAwIDAtMiIvPgo8L3N2Zz4=)*/
 const BoundingBoxCircles: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bounding-box-circles"

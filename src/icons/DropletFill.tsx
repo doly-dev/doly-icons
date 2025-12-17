@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![droplet-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNmE2IDYgMCAwIDAgNi02YzAtMS42NTUtMS4xMjItMi45MDQtMi40MzItNC4zNjJDMTAuMjU0IDQuMTc2IDguNzUgMi41MDMgOCAwYzAgMC02IDUuNjg2LTYgMTBhNiA2IDAgMCAwIDYgNk02LjY0NiA0LjY0NmwuNzA4LjcwOGMtLjI5LjI5LTEuMTI4IDEuMzExLTEuOTA3IDIuODdsLS44OTQtLjQ0OGMuODItMS42NDEgMS43MTctMi43NTMgMi4wOTMtMy4xMyIvPgo8L3N2Zz4=)*/
 const DropletFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="droplet-fill"

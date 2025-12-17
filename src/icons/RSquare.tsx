@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![r-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNS41IDQuMDAyaDMuMTFjMS43MSAwIDIuNzQxLjk3MyAyLjc0MSAyLjQ2IDAgMS4xMzgtLjY2NyAxLjk0LTEuNDk1IDIuMjRMMTEuNSAxMkg5Ljk4TDguNTIgOC45MjRINi44MzZWMTJINS41em0xLjMzNSAxLjA5djIuNzc3aDEuNTQ5Yy45OTUgMCAxLjU3My0uNDYzIDEuNTczLTEuMzYgMC0uOTEzLS41OTYtMS40MTctMS41MzctMS40MTd6Ii8+CiAgPHBhdGggZD0iTTAgMmEyIDIgMCAwIDEgMi0yaDEyYTIgMiAwIDAgMSAyIDJ2MTJhMiAyIDAgMCAxLTIgMkgyYTIgMiAwIDAgMS0yLTJ6bTE1IDBhMSAxIDAgMCAwLTEtMUgyYTEgMSAwIDAgMC0xIDF2MTJhMSAxIDAgMCAwIDEgMWgxMmExIDEgMCAwIDAgMS0xeiIvPgo8L3N2Zz4=)*/
 const RSquare: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="r-square"

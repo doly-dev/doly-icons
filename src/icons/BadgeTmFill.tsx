@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![badge-tm-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAyYTIgMiAwIDAgMC0yIDJ2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWNGEyIDIgMCAwIDAtMi0yem0zLjI5NSAzLjk5NVYxMUg0LjEwNFY1Ljk5NWgtMS43VjVIN3YuOTk0SDUuMjk1ek04LjY5MiA3LjAxVjExSDcuNjMzVjUuMDAxaDEuMjA5bDEuNzEgMy44OTRoLjAzOWwxLjcxLTMuODk0SDEzLjVWMTFoLTEuMDcyVjcuMDFoLS4wNTdsLTEuNDIgMy4yMzloLS43NzNMOC43NSA3LjAwOGgtLjA1OHoiLz4KPC9zdmc+)*/
 const BadgeTmFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="badge-tm-fill"

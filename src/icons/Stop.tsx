@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![stop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDVBMS41IDEuNSAwIDAgMSA1IDMuNWg2QTEuNSAxLjUgMCAwIDEgMTIuNSA1djZhMS41IDEuNSAwIDAgMS0xLjUgMS41SDVBMS41IDEuNSAwIDAgMSAzLjUgMTF6TTUgNC41YS41LjUgMCAwIDAtLjUuNXY2YS41LjUgMCAwIDAgLjUuNWg2YS41LjUgMCAwIDAgLjUtLjVWNWEuNS41IDAgMCAwLS41LS41eiIvPgo8L3N2Zz4=)*/
 const Stop: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="stop"

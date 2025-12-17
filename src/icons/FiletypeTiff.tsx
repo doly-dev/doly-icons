@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![filetype-tiff](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNCA0LjVWMTRhMiAyIDAgMCAxLTIgMmgtMXYtMWgxYTEgMSAwIDAgMCAxLTFWNC41aC0yQTEuNSAxLjUgMCAwIDEgOS41IDNWMUg0YTEgMSAwIDAgMC0xIDF2OUgyVjJhMiAyIDAgMCAxIDItMmg1LjV6TTEuOTI4IDEyLjUxMnYzLjMzN2gtLjc5NHYtMy4zMzdIMHYtLjY2MmgzLjA2NHYuNjYyem0yLjEzMS0uNjYydjMuOTk5aC0uNzlWMTEuODV6bTEuMzczIDMuOTk5di0xLjU5aDEuNjA2di0uNjRINS40MzJ2LTEuMTE2SDcuMTl2LS42NTNINC42NDF2My45OTl6bTIuODY4LTEuNTl2MS41OWgtLjc5MVYxMS44NWgyLjU0OHYuNjUzSDguM3YxLjExN2gxLjYwNXYuNjM4eiIvPgo8L3N2Zz4=)*/
 const FiletypeTiff: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="filetype-tiff"

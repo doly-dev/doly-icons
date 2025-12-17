@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![filetype-ai](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNCA0LjVWMTRhMiAyIDAgMCAxLTIgMkg2di0xaDZhMSAxIDAgMCAwIDEtMVY0LjVoLTJBMS41IDEuNSAwIDAgMSA5LjUgM1YxSDRhMSAxIDAgMCAwLTEgMXY5SDJWMmEyIDIgMCAwIDEgMi0yaDUuNXpNMS4xMTMgMTQuODIuOCAxNS44NUgwbDEuMzQyLTMuOTk5aC45MjZsMS4zMzYgMy45OTloLS44NDFsLS4zMTQtMS4wMjhIMS4xMTNabTEuMTc4LS41ODgtLjQ5LTEuNjE3aC0uMDM0bC0uNDkgMS42MTd6bTIuNDI1LTIuMzgydjMuOTk5aC0uNzkxVjExLjg1aC43OVoiLz4KPC9zdmc+)*/
 const FiletypeAi: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="filetype-ai"

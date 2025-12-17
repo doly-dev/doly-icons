@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-ruled-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMEg0YTIgMiAwIDAgMC0yIDJ2NGgxMlYyYTIgMiAwIDAgMC0yLTJtMiA3SDZ2Mmg4em0wIDNINnYyaDh6bTAgM0g2djNoNmEyIDIgMCAwIDAgMi0yem0tOSAzdi0zSDJ2MWEyIDIgMCAwIDAgMiAyem0tMy00aDN2LTJIMnptMC0zaDNWN0gyeiIvPgo8L3N2Zz4=)*/
 const FileRuledFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-ruled-fill"

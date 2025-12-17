@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![download](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNLjUgOS45YS41LjUgMCAwIDEgLjUuNXYyLjVhMSAxIDAgMCAwIDEgMWgxMmExIDEgMCAwIDAgMS0xdi0yLjVhLjUuNSAwIDAgMSAxIDB2Mi41YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0ydi0yLjVhLjUuNSAwIDAgMSAuNS0uNSIvPgogIDxwYXRoIGQ9Ik03LjY0NiAxMS44NTRhLjUuNSAwIDAgMCAuNzA4IDBsMy0zYS41LjUgMCAwIDAtLjcwOC0uNzA4TDguNSAxMC4yOTNWMS41YS41LjUgMCAwIDAtMSAwdjguNzkzTDUuMzU0IDguMTQ2YS41LjUgMCAxIDAtLjcwOC43MDh6Ii8+Cjwvc3ZnPg==)*/
 const Download: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="download"

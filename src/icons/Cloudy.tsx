@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![cloudy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTMuNDA1IDguNTI3YTUuMDAxIDUuMDAxIDAgMCAwLTkuNDk5LTEuMDA0QTMuNSAzLjUgMCAxIDAgMy41IDE0LjVIMTNhMyAzIDAgMCAwIC40MDUtNS45NzNNOC41IDUuNWE0IDQgMCAwIDEgMy45NzYgMy41NTUuNS41IDAgMCAwIC41LjQ0NUgxM2EyIDIgMCAwIDEtLjAwMSA0SDMuNWEyLjUgMi41IDAgMSAxIC42MDUtNC45MjYuNS41IDAgMCAwIC41OTYtLjMyOUE0IDQgMCAwIDEgOC41IDUuNSIvPgo8L3N2Zz4=)*/
 const Cloudy: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="cloudy"

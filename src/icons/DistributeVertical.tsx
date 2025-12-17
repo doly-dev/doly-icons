@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![distribute-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xIDEuNWEuNS41IDAgMCAwIC41LjVoMTNhLjUuNSAwIDAgMCAwLTFoLTEzYS41LjUgMCAwIDAtLjUuNW0wIDEzYS41LjUgMCAwIDAgLjUuNWgxM2EuNS41IDAgMCAwIDAtMWgtMTNhLjUuNSAwIDAgMC0uNS41Ii8+CiAgPHBhdGggZD0iTTIgN2ExIDEgMCAwIDEgMS0xaDEwYTEgMSAwIDAgMSAxIDF2MmExIDEgMCAwIDEtMSAxSDNhMSAxIDAgMCAxLTEtMXoiLz4KPC9zdmc+)*/
 const DistributeVertical: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="distribute-vertical"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-lines-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNiA4YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNm0tNSA2cy0xIDAtMS0xIDEtNCA2LTQgNiAzIDYgNC0xIDEtMSAxek0xMSAzLjVhLjUuNSAwIDAgMSAuNS0uNWg0YS41LjUgMCAwIDEgMCAxaC00YS41LjUgMCAwIDEtLjUtLjVtLjUgMi41YS41LjUgMCAwIDAgMCAxaDRhLjUuNSAwIDAgMCAwLTF6bTIgM2EuNS41IDAgMCAwIDAgMWgyYS41LjUgMCAwIDAgMC0xem0wIDNhLjUuNSAwIDAgMCAwIDFoMmEuNS41IDAgMCAwIDAtMXoiLz4KPC9zdmc+)*/
 const PersonLinesFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-lines-fill"

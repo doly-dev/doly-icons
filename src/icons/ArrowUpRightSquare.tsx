@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrow-up-right-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNSAyYTEgMSAwIDAgMC0xLTFIMmExIDEgMCAwIDAtMSAxdjEyYTEgMSAwIDAgMCAxIDFoMTJhMSAxIDAgMCAwIDEtMXpNMCAyYTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDJhMiAyIDAgMCAxLTItMnptNS44NTQgOC44MDNhLjUuNSAwIDEgMS0uNzA4LS43MDdMOS4yNDMgNkg2LjQ3NWEuNS41IDAgMSAxIDAtMWgzLjk3NWEuNS41IDAgMCAxIC41LjV2My45NzVhLjUuNSAwIDEgMS0xIDBWNi43MDd6Ii8+Cjwvc3ZnPg==)*/
 const ArrowUpRightSquare: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrow-up-right-square"

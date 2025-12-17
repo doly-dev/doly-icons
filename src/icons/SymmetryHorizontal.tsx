@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![symmetry-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTMuNSA3YS41LjUgMCAwIDAgLjI0LS45MzlsLTExLTZBLjUuNSAwIDAgMCAyIC41djZhLjUuNSAwIDAgMCAuNS41em0uNDg1IDIuMzc2YS41LjUgMCAwIDEtLjI0Ni41NjNsLTExIDZBLjUuNSAwIDAgMSAyIDE1LjV2LTZhLjUuNSAwIDAgMSAuNS0uNWgxMWEuNS41IDAgMCAxIC40ODUuMzc2TTExLjUzOSAxMEgzdjQuNjU4eiIvPgo8L3N2Zz4=)*/
 const SymmetryHorizontal: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="symmetry-horizontal"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![nut-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNC41OCAxYTEgMSAwIDAgMC0uODY4LjUwNGwtMy40MjggNmExIDEgMCAwIDAgMCAuOTkybDMuNDI4IDZBMSAxIDAgMCAwIDQuNTggMTVoNi44NGExIDEgMCAwIDAgLjg2OC0uNTA0bDMuNDI5LTZhMSAxIDAgMCAwIDAtLjk5MmwtMy40MjktNkExIDEgMCAwIDAgMTEuNDIgMXptNS4wMTggOS42OTZhMyAzIDAgMSAxLTMtNS4xOTYgMyAzIDAgMCAxIDMgNS4xOTYiLz4KPC9zdmc+)*/
 const NutFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="nut-fill"

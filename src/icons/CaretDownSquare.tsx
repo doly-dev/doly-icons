@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![caret-down-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy42MjYgNi44MzJBLjUuNSAwIDAgMSA0IDZoOGEuNS41IDAgMCAxIC4zNzQuODMybC00IDQuNWEuNS41IDAgMCAxLS43NDggMHoiLz4KICA8cGF0aCBkPSJNMCAyYTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDJhMiAyIDAgMCAxLTItMnptMTUgMGExIDEgMCAwIDAtMS0xSDJhMSAxIDAgMCAwLTEgMXYxMmExIDEgMCAwIDAgMSAxaDEyYTEgMSAwIDAgMCAxLTF6Ii8+Cjwvc3ZnPg==)*/
 const CaretDownSquare: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="caret-down-square"

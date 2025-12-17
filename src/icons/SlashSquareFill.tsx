@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![slash-square-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAwYTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmgxMmEyIDIgMCAwIDAgMi0yVjJhMiAyIDAgMCAwLTItMnptOS4zNTQgNS4zNTQtNiA2YS41LjUgMCAwIDEtLjcwOC0uNzA4bDYtNmEuNS41IDAgMCAxIC43MDguNzA4Ii8+Cjwvc3ZnPg==)*/
 const SlashSquareFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="slash-square-fill"

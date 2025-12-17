@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![music-note-beamed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNiAxM2MwIDEuMTA1LTEuMTIgMi0yLjUgMlMxIDE0LjEwNSAxIDEzczEuMTItMiAyLjUtMiAyLjUuODk2IDIuNSAybTktMmMwIDEuMTA1LTEuMTIgMi0yLjUgMnMtMi41LS44OTUtMi41LTIgMS4xMi0yIDIuNS0yIDIuNS44OTUgMi41IDIiLz4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNCAxMVYyaDF2OXpNNiAzdjEwSDVWM3oiLz4KICA8cGF0aCBkPSJNNSAyLjkwNWExIDEgMCAwIDEgLjktLjk5NWw4LS44YTEgMSAwIDAgMSAxLjEuOTk1VjNMNSA0eiIvPgo8L3N2Zz4=)*/
 const MusicNoteBeamed: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="music-note-beamed"

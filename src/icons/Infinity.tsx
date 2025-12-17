@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![infinity](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNS42OCA1Ljc5MiA3LjM0NSA3Ljc1IDUuNjgxIDkuNzA4YTIuNzUgMi43NSAwIDEgMSAwLTMuOTE2Wk04IDYuOTc4IDYuNDE2IDUuMTEzbC0uMDE0LS4wMTVhMy43NSAzLjc1IDAgMSAwIDAgNS4zMDRsLjAxNC0uMDE1TDggOC41MjJsMS41ODQgMS44NjUuMDE0LjAxNWEzLjc1IDMuNzUgMCAxIDAgMC01LjMwNGwtLjAxNC4wMTV6bS42NTYuNzcyIDEuNjYzLTEuOTU4YTIuNzUgMi43NSAwIDEgMSAwIDMuOTE2eiIvPgo8L3N2Zz4=)*/
 const Infinity: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="infinity"

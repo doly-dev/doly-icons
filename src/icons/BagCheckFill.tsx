@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bag-check-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMC41IDMuNWEyLjUgMi41IDAgMCAwLTUgMFY0aDV6bTEgMFY0SDE1djEwYTIgMiAwIDAgMS0yIDJIM2EyIDIgMCAwIDEtMi0yVjRoMy41di0uNWEzLjUgMy41IDAgMSAxIDcgMG0tLjY0NiA1LjM1NGEuNS41IDAgMCAwLS43MDgtLjcwOEw3LjUgMTAuNzkzIDYuMzU0IDkuNjQ2YS41LjUgMCAxIDAtLjcwOC43MDhsMS41IDEuNWEuNS41IDAgMCAwIC43MDggMHoiLz4KPC9zdmc+)*/
 const BagCheckFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bag-check-fill"

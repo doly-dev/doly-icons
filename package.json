@@ -15,9 +15,10 @@
     "start": "dumi dev",
     "docs:build": "dumi build",
     "docs-version:build": "cross-env BUIDL_DOC_VERSION=version npm run docs:build",
-    "build": "npm run build:cjs && npm run build:es",
-    "build:cjs": "rm -rf lib && tsc -p tsconfig.build.json --outDir lib -t ES5 -m commonjs",
-    "build:es": "rm -rf es && tsc -p tsconfig.build.json --outDir es -t ES5 -m ES2015",
+    "build": "npm run build:cjs && npm run build:es && npm run build:types",
+    "build:cjs": "rm -rf lib && tsc -p tsconfig.build.json --outDir lib -t ES5 -m commonjs --removeComments",
+    "build:es": "rm -rf es && tsc -p tsconfig.build.json --outDir es -t ES5 -m ES2015 --removeComments",
+    "build:types": "rm -rf types && tsc -p tsconfig.build.json --outDir types -d --emitDeclarationOnly",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "jest",
     "test:coverage": "jest --coverage",
@@ -38,11 +39,12 @@
   },
   "main": "lib/index.js",
   "module": "es/index.js",
-  "typings": "es/index.d.ts",
+  "typings": "types/index.d.ts",
   "sideEffects": false,
   "files": [
     "es",
-    "lib"
+    "lib",
+    "types"
   ],
   "config": {
     "commitizen": {
@@ -89,7 +91,7 @@
     "bootstrap-icons": "1.13.1",
     "cache2": "^3.1.2",
     "chalk": "^4.1.2",
-    "cheerio": "^1.1.2",
+    "cheerio": "~1.0.0",
     "commitizen": "^4.3.1",
     "copy-image-clipboard": "^2.1.2",
     "copy-to-clipboard": "^3.3.3",
@@ -122,6 +124,7 @@
     "stylelint-config-standard": "^38.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
     "stylelint-no-unsupported-browser-features": "^8.0.5",
+    "svg64": "^2.0.0",
     "ts-jest": "^29.4.6",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.48.1"

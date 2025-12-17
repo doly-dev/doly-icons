@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![screwdriver](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAuOTk1Ljk5NSAwbDMuMDY0IDIuMTlhMSAxIDAgMCAxIC40MTcuODA5di4wN2MwIC4yNjQuMTA1LjUxNy4yOTEuNzA0bDUuNjc3IDUuNjc2LjkwOS0uMzAzYTEgMSAwIDAgMSAxLjAxOC4yNGwzLjMzOCAzLjMzOWEuOTk1Ljk5NSAwIDAgMSAwIDEuNDA2TDE0LjEzIDE1LjcxYS45OTUuOTk1IDAgMCAxLTEuNDA2IDBsLTMuMzM3LTMuMzRhMSAxIDAgMCAxLS4yNC0xLjAxOGwuMzAyLS45MDktNS42NzYtNS42NzdhMSAxIDAgMCAwLS43MDQtLjI5MUgzYTEgMSAwIDAgMS0uODEtLjQxN3ptMTEuMjkzIDkuNTk1YS40OTcuNDk3IDAgMSAwLS43MDMuNzAzbDIuOTg0IDIuOTg0YS40OTcuNDk3IDAgMCAwIC43MDMtLjcwM3oiLz4KPC9zdmc+)*/
 const Screwdriver: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="screwdriver"

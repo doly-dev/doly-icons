@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![paragraph](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAuNSAxNWEuNS41IDAgMCAxLS41LS41VjJIOXYxMi41YS41LjUgMCAwIDEtMSAwVjlIN2E0IDQgMCAxIDEgMC04aDUuNWEuNS41IDAgMCAxIDAgMUgxMXYxMi41YS41LjUgMCAwIDEtLjUuNSIvPgo8L3N2Zz4=)*/
 const Paragraph: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="paragraph"

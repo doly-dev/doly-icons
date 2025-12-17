@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![type-bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4yMSAxM2MyLjEwNiAwIDMuNDEyLTEuMDg3IDMuNDEyLTIuODIzIDAtMS4zMDYtLjk4NC0yLjI4My0yLjMyNC0yLjM4NnYtLjA1NWEyLjE3NiAyLjE3NiAwIDAgMCAxLjg1Mi0yLjE0YzAtMS41MS0xLjE2Mi0yLjQ2LTMuMDE0LTIuNDZIMy44NDNWMTN6TTUuOTA4IDQuNjc0aDEuNjk2Yy45NjMgMCAxLjUxNy40NTEgMS41MTcgMS4yNDQgMCAuODM0LS42MjkgMS4zMi0xLjczIDEuMzJINS45MDhWNC42NzN6bTAgNi43ODhWOC41OThoMS43M2MxLjIxNyAwIDEuODguNDkyIDEuODggMS40MTUgMCAuOTQzLS42NDMgMS40NDktMS44MzIgMS40NDlINS45MDd6Ii8+Cjwvc3ZnPg==)*/
 const TypeBold: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="type-bold"

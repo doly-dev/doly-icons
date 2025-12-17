@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![window-fullscreen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMyAzLjVhLjUuNSAwIDEgMS0xIDAgLjUuNSAwIDAgMSAxIDBtMS41IDBhLjUuNSAwIDEgMS0xIDAgLjUuNSAwIDAgMSAxIDBtMSAuNWEuNS41IDAgMSAwIDAtMSAuNS41IDAgMCAwIDAgMSIvPgogIDxwYXRoIGQ9Ik0uNSAxYS41LjUgMCAwIDAtLjUuNXYxM2EuNS41IDAgMCAwIC41LjVoMTVhLjUuNSAwIDAgMCAuNS0uNXYtMTNhLjUuNSAwIDAgMC0uNS0uNXpNMSA1VjJoMTR2M3ptMCAxaDE0djhIMXoiLz4KPC9zdmc+)*/
 const WindowFullscreen: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="window-fullscreen"

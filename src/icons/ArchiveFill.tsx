@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![archive-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuNjQzIDE1QzEzLjk3OSAxNSAxNSAxMy44NDUgMTUgMTIuNVY1SDF2Ny41QzEgMTMuODQ1IDIuMDIxIDE1IDMuMzU3IDE1ek01LjUgN2g1YS41LjUgMCAwIDEgMCAxaC01YS41LjUgMCAwIDEgMC0xTS44IDFhLjguOCAwIDAgMC0uOC44VjNhLjguOCAwIDAgMCAuOC44aDE0LjRBLjguOCAwIDAgMCAxNiAzVjEuOGEuOC44IDAgMCAwLS44LS44eiIvPgo8L3N2Zz4=)*/
 const ArchiveFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="archive-fill"

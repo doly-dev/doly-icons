@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![grip-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiA4YTEgMSAwIDEgMSAwIDIgMSAxIDAgMCAxIDAtMm0wLTNhMSAxIDAgMSAxIDAgMiAxIDEgMCAwIDEgMC0ybTMgM2ExIDEgMCAxIDEgMCAyIDEgMSAwIDAgMSAwLTJtMC0zYTEgMSAwIDEgMSAwIDIgMSAxIDAgMCAxIDAtMm0zIDNhMSAxIDAgMSAxIDAgMiAxIDEgMCAwIDEgMC0ybTAtM2ExIDEgMCAxIDEgMCAyIDEgMSAwIDAgMSAwLTJtMyAzYTEgMSAwIDEgMSAwIDIgMSAxIDAgMCAxIDAtMm0wLTNhMSAxIDAgMSAxIDAgMiAxIDEgMCAwIDEgMC0ybTMgM2ExIDEgMCAxIDEgMCAyIDEgMSAwIDAgMSAwLTJtMC0zYTEgMSAwIDEgMSAwIDIgMSAxIDAgMCAxIDAtMiIvPgo8L3N2Zz4=)*/
 const GripHorizontal: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="grip-horizontal"

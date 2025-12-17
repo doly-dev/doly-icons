@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![people-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNyAxNHMtMSAwLTEtMSAxLTQgNS00IDUgMyA1IDQtMSAxLTEgMXptNC02YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNm0tNS43ODQgNkEyLjI0IDIuMjQgMCAwIDEgNSAxM2MwLTEuMzU1LjY4LTIuNzUgMS45MzYtMy43MkE2LjMgNi4zIDAgMCAwIDUgOWMtNCAwLTUgMy01IDRzMSAxIDEgMXpNNC41IDhhMi41IDIuNSAwIDEgMCAwLTUgMi41IDIuNSAwIDAgMCAwIDUiLz4KPC9zdmc+)*/
 const PeopleFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="people-fill"

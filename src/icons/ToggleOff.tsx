@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![toggle-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEgNGE0IDQgMCAwIDEgMCA4SDhhNSA1IDAgMCAwIDItNCA1IDUgMCAwIDAtMi00em0tNiA4YTQgNCAwIDEgMSAwLTggNCA0IDAgMCAxIDAgOE0wIDhhNSA1IDAgMCAwIDUgNWg2YTUgNSAwIDAgMCAwLTEwSDVhNSA1IDAgMCAwLTUgNSIvPgo8L3N2Zz4=)*/
 const ToggleOff: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="toggle-off"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![folder-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS44MjggM2gzLjk4MmEyIDIgMCAwIDEgMS45OTIgMi4xODFsLS42MzcgN0EyIDIgMCAwIDEgMTMuMTc0IDE0SDIuODI1YTIgMiAwIDAgMS0xLjk5MS0xLjgxOWwtLjYzNy03YTIgMiAwIDAgMSAuMzQyLTEuMzFMLjUgM2EyIDIgMCAwIDEgMi0yaDMuNjcyYTIgMiAwIDAgMSAxLjQxNC41ODZsLjgyOC44MjhBMiAyIDAgMCAwIDkuODI4IDNtLTguMzIyLjEycS4zMjItLjExOS42ODQtLjEyaDUuMzk2bC0uNzA3LS43MDdBMSAxIDAgMCAwIDYuMTcyIDJIMi41YTEgMSAwIDAgMC0xIC45ODF6Ii8+Cjwvc3ZnPg==)*/
 const FolderFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="folder-fill"

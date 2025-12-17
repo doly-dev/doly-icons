@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![usb-plug-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNiAuNWEuNS41IDAgMCAxIC41LS41aDRhLjUuNSAwIDAgMSAuNS41djRINnpNNyAxdjFoMVYxem0yIDB2MWgxVjF6TTUuNSA1YS41LjUgMCAwIDAtLjUuNXY0Ljg5NGEyIDIgMCAwIDAgLjMzNiAxLjExbC44MyAxLjI0NWMuNTQ0LjgxNi44MzQgMS43NzQuODM0IDIuNzU0IDAgLjI3NS4yMjIuNDk3LjQ5Ny40OTdoMi4wMDZhLjQ5Ny40OTcgMCAwIDAgLjQ5Ny0uNDk3YzAtLjk4LjI5LTEuOTM4LjgzNC0yLjc1NGwuODMtMS4yNDVhMiAyIDAgMCAwIC4zMzYtMS4xMVY1LjVhLjUuNSAwIDAgMC0uNS0uNXoiLz4KPC9zdmc+)*/
 const UsbPlugFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="usb-plug-fill"

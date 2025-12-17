@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![h-square-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAwYTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmgxMmEyIDIgMCAwIDAgMi0yVjJhMiAyIDAgMCAwLTItMnptOSA0LjAwMlYxMkg5LjY3VjguNDU1SDYuMzNWMTJINVY0LjAwMmgxLjMzdjMuMzIyaDMuMzRWNC4wMDJ6Ii8+Cjwvc3ZnPg==)*/
 const HSquareFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="h-square-fill"

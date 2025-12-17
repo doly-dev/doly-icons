@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![eye-slash-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtMTAuNzkgMTIuOTEyLTEuNjE0LTEuNjE1YTMuNSAzLjUgMCAwIDEtNC40NzQtNC40NzRsLTIuMDYtMi4wNkMuOTM4IDYuMjc4IDAgOCAwIDhzMyA1LjUgOCA1LjVhNyA3IDAgMCAwIDIuNzktLjU4OE01LjIxIDMuMDg4QTcgNyAwIDAgMSA4IDIuNWM1IDAgOCA1LjUgOCA1LjVzLS45MzkgMS43MjEtMi42NDEgMy4yMzhsLTIuMDYyLTIuMDYyYTMuNSAzLjUgMCAwIDAtNC40NzQtNC40NzR6Ii8+CiAgPHBhdGggZD0iTTUuNTI1IDcuNjQ2YTIuNSAyLjUgMCAwIDAgMi44MjkgMi44Mjl6bTQuOTUuNzA4LTIuODI5LTIuODNhMi41IDIuNSAwIDAgMSAyLjgyOSAyLjgyOXptMy4xNzEgNi0xMi0xMiAuNzA4LS43MDggMTIgMTJ6Ii8+Cjwvc3ZnPg==)*/
 const EyeSlashFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="eye-slash-fill"

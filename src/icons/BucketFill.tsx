@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bucket-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMi41MjIgNUgyYS41LjUgMCAwIDAtLjQ5NC41NzRsMS4zNzIgOS4xNDlBMS41IDEuNSAwIDAgMCA0LjM2IDE2aDcuMjc4YTEuNSAxLjUgMCAwIDAgMS40ODMtMS4yNzdsMS4zNzMtOS4xNDlBLjUuNSAwIDAgMCAxNCA1aC0uNTIyQTUuNSA1LjUgMCAwIDAgMi41MjIgNW0xLjAwNSAwYTQuNSA0LjUgMCAwIDEgOC45NDUgMHoiLz4KPC9zdmc+)*/
 const BucketFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bucket-fill"

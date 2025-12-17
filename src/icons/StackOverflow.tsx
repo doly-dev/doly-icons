@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![stack-overflow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuNDEyIDE0LjU3MlYxMC4yOWgxLjQyOFYxNkgxdi01LjcxaDEuNDI4djQuMjgyeiIvPgogIDxwYXRoIGQ9Ik0zLjg1NyAxMy4xNDVoNy4xMzd2LTEuNDI4SDMuODU3ek0xMC4yNTQgMCA5LjEwOC44NTJsNC4yNiA1LjcyNyAxLjE0Ni0uODUyem0tMy41NCAzLjM3NyA1LjQ4NCA0LjU2Ny45MTMtMS4wOTdMNy42MjcgMi4yOGwtLjkxNCAxLjA5N3pNNC45MjIgNi41NWw2LjQ3IDMuMDEzLjYwMy0xLjI5NC02LjQ3LTMuMDEzem0tLjkyNSAzLjM0NCA2Ljk4NSAxLjQ2OS4yOTQtMS4zOTgtNi45ODUtMS40Njh6Ii8+Cjwvc3ZnPg==)*/
 const StackOverflow: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="stack-overflow"

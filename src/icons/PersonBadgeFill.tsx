@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-badge-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAyYTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yem00LjUgMGEuNS41IDAgMCAwIDAgMWgzYS41LjUgMCAwIDAgMC0xek04IDExYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNm01IDIuNzU1QzEyLjE0NiAxMi44MjUgMTAuNjIzIDEyIDggMTJzLTQuMTQ2LjgyNi01IDEuNzU1VjE0YTEgMSAwIDAgMCAxIDFoOGExIDEgMCAwIDAgMS0xeiIvPgo8L3N2Zz4=)*/
 const PersonBadgeFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-badge-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![universal-access](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS41IDEuNWExLjUgMS41IDAgMSAxLTMgMCAxLjUgMS41IDAgMCAxIDMgME02IDUuNWwtNC41MzUtLjQ0MkEuNTMxLjUzMSAwIDAgMSAxLjUzMSA0SDE0LjQ3YS41MzEuNTMxIDAgMCAxIC4wNjYgMS4wNThMMTAgNS41VjlsLjQ1MiA2LjQyYS41MzUuNTM1IDAgMCAxLTEuMDUzLjE3NEw4LjI0MyA5Ljk3Yy0uMDY0LS4yNTItLjQyMi0uMjUyLS40ODYgMGwtMS4xNTYgNS42MjRhLjUzNS41MzUgMCAwIDEtMS4wNTMtLjE3NEw2IDl6Ii8+Cjwvc3ZnPg==)*/
 const UniversalAccess: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="universal-access"

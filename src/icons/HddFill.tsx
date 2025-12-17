@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![hdd-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxMGEyIDIgMCAwIDEgMi0yaDEyYTIgMiAwIDAgMSAyIDJ2MWEyIDIgMCAwIDEtMiAySDJhMiAyIDAgMCAxLTItMnptMi41IDFhLjUuNSAwIDEgMCAwLTEgLjUuNSAwIDAgMCAwIDFtMiAwYS41LjUgMCAxIDAgMC0xIC41LjUgMCAwIDAgMCAxTS45MSA3LjIwNEEzIDMgMCAwIDEgMiA3aDEyYy4zODQgMCAuNzUyLjA3MiAxLjA5LjIwNGwtMS44NjctMy40MjJBMS41IDEuNSAwIDAgMCAxMS45MDYgM0g0LjA5NGExLjUgMS41IDAgMCAwLTEuMzE3Ljc4MnoiLz4KPC9zdmc+)*/
 const HddFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="hdd-fill"

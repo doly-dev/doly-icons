@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAzLjVhLjUuNSAwIDAgMC0xIDBWOWEuNS41IDAgMCAwIC4yNTIuNDM0bDMuNSAyYS41LjUgMCAwIDAgLjQ5Ni0uODY4TDggOC43MXoiLz4KICA8cGF0aCBkPSJNOCAxNkE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2bTctOEE3IDcgMCAxIDEgMSA4YTcgNyAwIDAgMSAxNCAwIi8+Cjwvc3ZnPg==)*/
 const Clock: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="clock"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-fill-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEgNWEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDBtLTkgOGMwIDEgMSAxIDEgMWg1LjI1NkE0LjUgNC41IDAgMCAxIDggMTIuNWE0LjUgNC41IDAgMCAxIDEuNTQ0LTMuMzkzUTguODQ0IDkuMDAyIDggOWMtNSAwLTYgMy02IDQiLz4KICA8cGF0aCBkPSJNMTYgMTIuNWEzLjUgMy41IDAgMSAxLTcgMCAzLjUgMy41IDAgMCAxIDcgMG0tMy41LTJhLjUuNSAwIDAgMC0uNS41djEuNWEuNS41IDAgMCAwIDEgMFYxMWEuNS41IDAgMCAwLS41LS41bTAgNGEuNS41IDAgMSAwIDAtMSAuNS41IDAgMCAwIDAgMSIvPgo8L3N2Zz4=)*/
 const PersonFillExclamation: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-fill-exclamation"

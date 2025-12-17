@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![backspace-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTUuNjgzIDNhMiAyIDAgMCAwLTItMmgtNy4wOGEyIDIgMCAwIDAtMS41MTkuNjk4TC4yNDEgNy4zNWExIDEgMCAwIDAgMCAxLjMwMmw0Ljg0MyA1LjY1QTIgMiAwIDAgMCA2LjYwMyAxNWg3LjA4YTIgMiAwIDAgMCAyLTJ6TTUuODI5IDUuODU0YS41LjUgMCAxIDEgLjcwNy0uNzA4bDIuMTQ3IDIuMTQ3IDIuMTQ2LTIuMTQ3YS41LjUgMCAxIDEgLjcwNy43MDhMOS4zOSA4bDIuMTQ2IDIuMTQ2YS41LjUgMCAwIDEtLjcwNy43MDhMOC42ODMgOC43MDdsLTIuMTQ3IDIuMTQ3YS41LjUgMCAwIDEtLjcwNy0uNzA4TDcuOTc2IDh6Ii8+Cjwvc3ZnPg==)*/
 const BackspaceFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="backspace-fill"

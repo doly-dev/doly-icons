@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![command](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDJBMS41IDEuNSAwIDAgMSA1IDMuNVY1SDMuNWExLjUgMS41IDAgMSAxIDAtM002IDVWMy41QTIuNSAyLjUgMCAxIDAgMy41IDZINXY0SDMuNUEyLjUgMi41IDAgMSAwIDYgMTIuNVYxMWg0djEuNWEyLjUgMi41IDAgMSAwIDIuNS0yLjVIMTFWNmgxLjVBMi41IDIuNSAwIDEgMCAxMCAzLjVWNXptNCAxdjRINlY2em0xLTFWMy41QTEuNSAxLjUgMCAxIDEgMTIuNSA1em0wIDZoMS41YTEuNSAxLjUgMCAxIDEtMS41IDEuNXptLTYgMHYxLjVBMS41IDEuNSAwIDEgMSAzLjUgMTF6Ii8+Cjwvc3ZnPg==)*/
 const Command: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="command"

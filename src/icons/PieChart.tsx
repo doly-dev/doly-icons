@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pie-chart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy41IDEuMDE4YTcgNyAwIDAgMC00Ljc5IDExLjU2Nkw3LjUgNy43OTN6bTEgMFY3LjVoNi40ODJBNyA3IDAgMCAwIDguNSAxLjAxOE0xNC45ODIgOC41SDguMjA3bC00Ljc5IDQuNzlBNyA3IDAgMCAwIDE0Ljk4MiA4LjVNMCA4YTggOCAwIDEgMSAxNiAwQTggOCAwIDAgMSAwIDgiLz4KPC9zdmc+)*/
 const PieChart: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pie-chart"

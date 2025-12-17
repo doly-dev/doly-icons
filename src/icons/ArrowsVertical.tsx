@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrows-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4zNTQgMTQuODU0YS41LjUgMCAwIDEtLjcwOCAwbC0yLTJhLjUuNSAwIDAgMSAuNzA4LS43MDhMNy41IDEzLjI5M1YyLjcwN0w2LjM1NCAzLjg1NGEuNS41IDAgMSAxLS43MDgtLjcwOGwyLTJhLjUuNSAwIDAgMSAuNzA4IDBsMiAyYS41LjUgMCAwIDEtLjcwOC43MDhMOC41IDIuNzA3djEwLjU4NmwxLjE0Ni0xLjE0N2EuNS41IDAgMCAxIC43MDguNzA4eiIvPgo8L3N2Zz4=)*/
 const ArrowsVertical: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrows-vertical"

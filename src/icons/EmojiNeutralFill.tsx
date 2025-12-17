@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![emoji-neutral-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNkE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2TTcgNi41QzcgNy4zMjggNi41NTIgOCA2IDhzLTEtLjY3Mi0xLTEuNVM1LjQ0OCA1IDYgNXMxIC42NzIgMSAxLjVtLTMgNGEuNS41IDAgMCAxIC41LS41aDdhLjUuNSAwIDAgMSAwIDFoLTdhLjUuNSAwIDAgMS0uNS0uNU0xMCA4Yy0uNTUyIDAtMS0uNjcyLTEtMS41UzkuNDQ4IDUgMTAgNXMxIC42NzIgMSAxLjVTMTAuNTUyIDggMTAgOCIvPgo8L3N2Zz4=)*/
 const EmojiNeutralFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="emoji-neutral-fill"

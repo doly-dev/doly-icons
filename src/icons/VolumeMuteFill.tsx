@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![volume-mute-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi43MTcgMy41NUEuNS41IDAgMCAxIDcgNHY4YS41LjUgMCAwIDEtLjgxMi4zOUwzLjgyNSAxMC41SDEuNUEuNS41IDAgMCAxIDEgMTBWNmEuNS41IDAgMCAxIC41LS41aDIuMzI1bDIuMzYzLTEuODlhLjUuNSAwIDAgMSAuNTI5LS4wNm03LjEzNyAyLjA5NmEuNS41IDAgMCAxIDAgLjcwOEwxMi4yMDcgOGwxLjY0NyAxLjY0NmEuNS41IDAgMCAxLS43MDguNzA4TDExLjUgOC43MDdsLTEuNjQ2IDEuNjQ3YS41LjUgMCAwIDEtLjcwOC0uNzA4TDEwLjc5MyA4IDkuMTQ2IDYuMzU0YS41LjUgMCAxIDEgLjcwOC0uNzA4TDExLjUgNy4yOTNsMS42NDYtMS42NDdhLjUuNSAwIDAgMSAuNzA4IDAiLz4KPC9zdmc+)*/
 const VolumeMuteFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="volume-mute-fill"

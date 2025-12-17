@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![key-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDExLjVhMy41IDMuNSAwIDEgMSAzLjE2My01SDE0TDE1LjUgOCAxNCA5LjVsLTEtMS0xIDEtMS0xLTEgMS0xLTEtMSAxSDYuNjYzYTMuNSAzLjUgMCAwIDEtMy4xNjMgMk0yLjUgOWExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDIiLz4KPC9zdmc+)*/
 const KeyFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="key-fill"

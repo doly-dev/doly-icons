@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-bar-graph-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS4yOTMgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWNC43MDdBMSAxIDAgMCAwIDEzLjcwNyA0TDEwIC4yOTNBMSAxIDAgMCAwIDkuMjkzIDBNOS41IDMuNXYtMmwzIDNoLTJhMSAxIDAgMCAxLTEtMW0uNSAxMHYtNmEuNS41IDAgMCAxIC41LS41aDFhLjUuNSAwIDAgMSAuNS41djZhLjUuNSAwIDAgMS0uNS41aC0xYS41LjUgMCAwIDEtLjUtLjVtLTIuNS41YS41LjUgMCAwIDEtLjUtLjV2LTRhLjUuNSAwIDAgMSAuNS0uNWgxYS41LjUgMCAwIDEgLjUuNXY0YS41LjUgMCAwIDEtLjUuNXptLTMgMGEuNS41IDAgMCAxLS41LS41di0yYS41LjUgMCAwIDEgLjUtLjVoMWEuNS41IDAgMCAxIC41LjV2MmEuNS41IDAgMCAxLS41LjV6Ii8+Cjwvc3ZnPg==)*/
 const FileEarmarkBarGraphFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-bar-graph-fill"

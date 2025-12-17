@@ -9,7 +9,6 @@
     "types": ["jest"],
     "strict": true,
     "skipLibCheck": true,
-    "declaration": true,
     "downlevelIteration": true,
     "importHelpers": true,
     "baseUrl": ".",

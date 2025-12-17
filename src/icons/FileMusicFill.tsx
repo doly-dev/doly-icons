@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-music-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0ybS0uNSA0LjExdjEuOGwtMi41LjV2NS4wOWMwIC40OTUtLjMwMS44ODMtLjY2MiAxLjEyM0M3Ljk3NCAxMi44NjYgNy40OTkgMTMgNyAxM3MtLjk3NC0uMTM0LTEuMzM4LS4zNzdDNS4zMDIgMTIuMzgzIDUgMTEuOTk1IDUgMTEuNXMuMzAxLS44ODMuNjYyLTEuMTIzQzYuMDI2IDEwLjEzNCA2LjUwMSAxMCA3IDEwYy4zNTYgMCAuNy4wNjggMSAuMTk2VjQuNDFhMSAxIDAgMCAxIC44MDQtLjk4bDEuNS0uM2ExIDEgMCAwIDEgMS4xOTYuOTgiLz4KPC9zdmc+)*/
 const FileMusicFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-music-fill"

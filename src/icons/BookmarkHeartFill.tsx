@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bookmark-heart-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAxNS41YS41LjUgMCAwIDAgLjc0LjQzOUw4IDEzLjA2OWw1LjI2IDIuODdBLjUuNSAwIDAgMCAxNCAxNS41VjJhMiAyIDAgMCAwLTItMkg0YTIgMiAwIDAgMC0yIDJ6TTggNC40MWMxLjM4Ny0xLjQyNSA0Ljg1NCAxLjA3IDAgNC4yNzdDMy4xNDYgNS40OCA2LjYxMyAyLjk4NiA4IDQuNDEyeiIvPgo8L3N2Zz4=)*/
 const BookmarkHeartFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bookmark-heart-fill"

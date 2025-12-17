@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![graph-down-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDBoMXYxNWgxNXYxSDB6bTEwIDExLjVhLjUuNSAwIDAgMCAuNS41aDRhLjUuNSAwIDAgMCAuNS0uNXYtNGEuNS41IDAgMCAwLTEgMHYyLjZsLTMuNjEzLTQuNDE3YS41LjUgMCAwIDAtLjc0LS4wMzdMNy4wNiA4LjIzMyAzLjQwNCAzLjIwNmEuNS41IDAgMCAwLS44MDguNTg4bDQgNS41YS41LjUgMCAwIDAgLjc1OC4wNmwyLjYwOS0yLjYxTDEzLjQ0NSAxMUgxMC41YS41LjUgMCAwIDAtLjUuNSIvPgo8L3N2Zz4=)*/
 const GraphDownArrow: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="graph-down-arrow"

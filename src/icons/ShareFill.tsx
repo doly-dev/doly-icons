@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![share-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEgMi41YTIuNSAyLjUgMCAxIDEgLjYwMyAxLjYyOGwtNi43MTggMy4xMmEyLjUgMi41IDAgMCAxIDAgMS41MDRsNi43MTggMy4xMmEyLjUgMi41IDAgMSAxLS40ODguODc2bC02LjcxOC0zLjEyYTIuNSAyLjUgMCAxIDEgMC0zLjI1Nmw2LjcxOC0zLjEyQTIuNSAyLjUgMCAwIDEgMTEgMi41Ii8+Cjwvc3ZnPg==)*/
 const ShareFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="share-fill"

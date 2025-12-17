@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![upload](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNLjUgOS45YS41LjUgMCAwIDEgLjUuNXYyLjVhMSAxIDAgMCAwIDEgMWgxMmExIDEgMCAwIDAgMS0xdi0yLjVhLjUuNSAwIDAgMSAxIDB2Mi41YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0ydi0yLjVhLjUuNSAwIDAgMSAuNS0uNSIvPgogIDxwYXRoIGQ9Ik03LjY0NiAxLjE0NmEuNS41IDAgMCAxIC43MDggMGwzIDNhLjUuNSAwIDAgMS0uNzA4LjcwOEw4LjUgMi43MDdWMTEuNWEuNS41IDAgMCAxLTEgMFYyLjcwN0w1LjM1NCA0Ljg1NGEuNS41IDAgMSAxLS43MDgtLjcwOHoiLz4KPC9zdmc+)*/
 const Upload: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="upload"

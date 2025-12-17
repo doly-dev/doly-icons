@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![triangle-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjAyMiAxLjU2NmExLjEzIDEuMTMgMCAwIDEgMS45NiAwbDYuODU3IDExLjY2N2MuNDU3Ljc3OC0uMDkyIDEuNzY3LS45OCAxLjc2N0gxLjE0NGMtLjg4OSAwLTEuNDM3LS45OS0uOTgtMS43Njd6Ii8+Cjwvc3ZnPg==)*/
 const TriangleFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="triangle-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![asterisk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAwYTEgMSAwIDAgMSAxIDF2NS4yNjhsNC41NjItMi42MzRhMSAxIDAgMSAxIDEgMS43MzJMMTAgOGw0LjU2MiAyLjYzNGExIDEgMCAxIDEtMSAxLjczMkw5IDkuNzMyVjE1YTEgMSAwIDEgMS0yIDBWOS43MzJsLTQuNTYyIDIuNjM0YTEgMSAwIDEgMS0xLTEuNzMyTDYgOCAxLjQzOCA1LjM2NmExIDEgMCAwIDEgMS0xLjczMkw3IDYuMjY4VjFhMSAxIDAgMCAxIDEtMSIvPgo8L3N2Zz4=)*/
 const Asterisk: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="asterisk"

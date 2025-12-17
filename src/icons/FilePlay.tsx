@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-play](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNiAxMC4xMTdWNS44ODNhLjUuNSAwIDAgMSAuNzU3LS40MjlsMy41MjggMi4xMTdhLjUuNSAwIDAgMSAwIC44NThsLTMuNTI4IDIuMTE3YS41LjUgMCAwIDEtLjc1Ny0uNDN6Ii8+CiAgPHBhdGggZD0iTTQgMGEyIDIgMCAwIDAtMiAydjEyYTIgMiAwIDAgMCAyIDJoOGEyIDIgMCAwIDAgMi0yVjJhMiAyIDAgMCAwLTItMnptMCAxaDhhMSAxIDAgMCAxIDEgMXYxMmExIDEgMCAwIDEtMSAxSDRhMSAxIDAgMCAxLTEtMVYyYTEgMSAwIDAgMSAxLTEiLz4KPC9zdmc+)*/
 const FilePlay: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-play"

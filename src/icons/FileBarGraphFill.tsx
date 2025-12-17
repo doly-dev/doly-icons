@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-bar-graph-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0ybS0yIDExLjV2LTZhLjUuNSAwIDAgMSAuNS0uNWgxYS41LjUgMCAwIDEgLjUuNXY2YS41LjUgMCAwIDEtLjUuNWgtMWEuNS41IDAgMCAxLS41LS41bS0yLjUuNWEuNS41IDAgMCAxLS41LS41di00YS41LjUgMCAwIDEgLjUtLjVoMWEuNS41IDAgMCAxIC41LjV2NGEuNS41IDAgMCAxLS41LjV6bS0zIDBhLjUuNSAwIDAgMS0uNS0uNXYtMmEuNS41IDAgMCAxIC41LS41aDFhLjUuNSAwIDAgMSAuNS41djJhLjUuNSAwIDAgMS0uNS41eiIvPgo8L3N2Zz4=)*/
 const FileBarGraphFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-bar-graph-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![graph-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDBoMXYxNWgxNXYxSDB6bTE0LjgxNyAxMS44ODdhLjUuNSAwIDAgMCAuMDctLjcwNGwtNC41LTUuNWEuNS41IDAgMCAwLS43NC0uMDM3TDcuMDYgOC4yMzMgMy40MDQgMy4yMDZhLjUuNSAwIDAgMC0uODA4LjU4OGw0IDUuNWEuNS41IDAgMCAwIC43NTguMDZsMi42MDktMi42MSA0LjE1IDUuMDczYS41LjUgMCAwIDAgLjcwNC4wNyIvPgo8L3N2Zz4=)*/
 const GraphDown: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="graph-down"

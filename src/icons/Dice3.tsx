@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![dice-3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTMgMWEyIDIgMCAwIDEgMiAydjEwYTIgMiAwIDAgMS0yIDJIM2EyIDIgMCAwIDEtMi0yVjNhMiAyIDAgMCAxIDItMnpNMyAwYTMgMyAwIDAgMC0zIDN2MTBhMyAzIDAgMCAwIDMgM2gxMGEzIDMgMCAwIDAgMy0zVjNhMyAzIDAgMCAwLTMtM3oiLz4KICA8cGF0aCBkPSJNNS41IDRhMS41IDEuNSAwIDEgMS0zIDAgMS41IDEuNSAwIDAgMSAzIDBtOCA4YTEuNSAxLjUgMCAxIDEtMyAwIDEuNSAxLjUgMCAwIDEgMyAwbS00LTRhMS41IDEuNSAwIDEgMS0zIDAgMS41IDEuNSAwIDAgMSAzIDAiLz4KPC9zdmc+)*/
 const Dice3: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="dice-3"

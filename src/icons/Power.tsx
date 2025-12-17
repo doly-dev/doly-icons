@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![power](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy41IDF2N2gxVjF6Ii8+CiAgPHBhdGggZD0iTTMgOC44MTJhNSA1IDAgMCAxIDIuNTc4LTQuMzc1bC0uNDg1LS44NzRBNiA2IDAgMSAwIDExIDMuNjE2bC0uNTAxLjg2NUE1IDUgMCAxIDEgMyA4LjgxMiIvPgo8L3N2Zz4=)*/
 const Power: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="power"

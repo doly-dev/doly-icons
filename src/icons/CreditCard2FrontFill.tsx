@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![credit-card-2-front-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCA0YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yem0yLjUgMWEuNS41IDAgMCAwLS41LjV2MWEuNS41IDAgMCAwIC41LjVoMmEuNS41IDAgMCAwIC41LS41di0xYS41LjUgMCAwIDAtLjUtLjV6bTAgM2EuNS41IDAgMCAwIDAgMWg1YS41LjUgMCAwIDAgMC0xem0wIDJhLjUuNSAwIDAgMCAwIDFoMWEuNS41IDAgMCAwIDAtMXptMyAwYS41LjUgMCAwIDAgMCAxaDFhLjUuNSAwIDAgMCAwLTF6bTMgMGEuNS41IDAgMCAwIDAgMWgxYS41LjUgMCAwIDAgMC0xem0zIDBhLjUuNSAwIDAgMCAwIDFoMWEuNS41IDAgMCAwIDAtMXoiLz4KPC9zdmc+)*/
 const CreditCard2FrontFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="credit-card-2-front-fill"

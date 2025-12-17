@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![basket3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNS43NTcgMS4wNzFhLjUuNSAwIDAgMSAuMTcyLjY4NkwzLjM4MyA2aDkuMjM0TDEwLjA3IDEuNzU3YS41LjUgMCAxIDEgLjg1OC0uNTE0TDEzLjc4MyA2SDE1LjVhLjUuNSAwIDAgMSAuNS41djFhLjUuNSAwIDAgMS0uNS41SC41YS41LjUgMCAwIDEtLjUtLjV2LTFBLjUuNSAwIDAgMSAuNSA2aDEuNzE3TDUuMDcgMS4yNDNhLjUuNSAwIDAgMSAuNjg2LS4xNzJ6TTMuMzk0IDE1bC0xLjQ4LTZoLS45N2wxLjUyNSA2LjQyNmEuNzUuNzUgMCAwIDAgLjcyOS41NzRoOS42MDZhLjc1Ljc1IDAgMCAwIC43My0uNTc0TDE1LjA1NiA5aC0uOTcybC0xLjQ3OSA2eiIvPgo8L3N2Zz4=)*/
 const Basket3: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="basket3"

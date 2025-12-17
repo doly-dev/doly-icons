@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![calendar-x-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCAuNWEuNS41IDAgMCAwLTEgMFYxSDJhMiAyIDAgMCAwLTIgMnYxaDE2VjNhMiAyIDAgMCAwLTItMmgtMVYuNWEuNS41IDAgMCAwLTEgMFYxSDR6TTE2IDE0VjVIMHY5YTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMk02Ljg1NCA4LjE0NiA4IDkuMjkzbDEuMTQ2LTEuMTQ3YS41LjUgMCAxIDEgLjcwOC43MDhMOC43MDcgMTBsMS4xNDcgMS4xNDZhLjUuNSAwIDAgMS0uNzA4LjcwOEw4IDEwLjcwN2wtMS4xNDYgMS4xNDdhLjUuNSAwIDAgMS0uNzA4LS43MDhMNy4yOTMgMTAgNi4xNDYgOC44NTRhLjUuNSAwIDEgMSAuNzA4LS43MDgiLz4KPC9zdmc+)*/
 const CalendarXFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="calendar-x-fill"

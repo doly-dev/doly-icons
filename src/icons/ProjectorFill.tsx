@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![projector-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiA0YTIgMiAwIDAgMC0yIDJ2M2EyIDIgMCAwIDAgMiAyIDEgMSAwIDAgMCAxIDFoMWExIDEgMCAwIDAgMS0xaDZhMSAxIDAgMCAwIDEgMWgxYTEgMSAwIDAgMCAxLTEgMiAyIDAgMCAwIDItMlY2YTIgMiAwIDAgMC0yLTJ6bS41IDJoNGEuNS41IDAgMCAxIDAgMWgtNGEuNS41IDAgMCAxIDAtMU0xNCA3LjVhMS41IDEuNSAwIDEgMS0zIDAgMS41IDEuNSAwIDAgMSAzIDBtLTEyIDFhLjUuNSAwIDAgMSAuNS0uNWg0YS41LjUgMCAwIDEgMCAxaC00YS41LjUgMCAwIDEtLjUtLjUiLz4KPC9zdmc+)*/
 const ProjectorFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="projector-fill"

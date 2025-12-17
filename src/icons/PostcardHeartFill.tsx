@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![postcard-heart-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAyYTIgMiAwIDAgMC0yIDJ2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWNGEyIDIgMCAwIDAtMi0yem02IDIuNXY3YS41LjUgMCAwIDEtMSAwdi03YS41LjUgMCAwIDEgMSAwbTMuNS44NzhjMS40ODItMS40MiA0Ljc5NSAxLjM5MiAwIDQuNjIyLTQuNzk1LTMuMjMtMS40ODItNi4wNDMgMC00LjYyMk0yIDUuNWEuNS41IDAgMCAxIC41LS41aDNhLjUuNSAwIDAgMSAwIDFoLTNhLjUuNSAwIDAgMS0uNS0uNW0wIDJhLjUuNSAwIDAgMSAuNS0uNWgzYS41LjUgMCAwIDEgMCAxaC0zYS41LjUgMCAwIDEtLjUtLjVtMCAyYS41LjUgMCAwIDEgLjUtLjVoM2EuNS41IDAgMCAxIDAgMWgtM2EuNS41IDAgMCAxLS41LS41Ii8+Cjwvc3ZnPg==)*/
 const PostcardHeartFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="postcard-heart-fill"

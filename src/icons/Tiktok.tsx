@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![tiktok](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOSAwaDEuOThjLjE0NC43MTUuNTQgMS42MTcgMS4yMzUgMi41MTJDMTIuODk1IDMuMzg5IDEzLjc5NyA0IDE1IDR2MmMtMS43NTMgMC0zLjA3LS44MTQtNC0xLjgyOVYxMWE1IDUgMCAxIDEtNS01djJhMyAzIDAgMSAwIDMgM3oiLz4KPC9zdmc+)*/
 const Tiktok: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="tiktok"

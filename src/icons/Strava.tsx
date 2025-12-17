@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![strava](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi43MzEgMCAyIDkuMTI1aDIuNzg4TDYuNzMgNS40OTdsMS45MyAzLjYyOGgyLjc2NnptNC42OTQgOS4xMjUtMS4zNzIgMi43NTZMOC42NiA5LjEyNUg2LjU0N0wxMC4wNTMgMTZsMy40ODQtNi44NzV6Ii8+Cjwvc3ZnPg==)*/
 const Strava: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="strava"

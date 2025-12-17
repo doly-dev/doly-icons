@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pause-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNUE3IDcgMCAxIDEgOCAxYTcgNyAwIDAgMSAwIDE0bTAgMUE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2Ii8+CiAgPHBhdGggZD0iTTUgNi4yNWExLjI1IDEuMjUgMCAxIDEgMi41IDB2My41YTEuMjUgMS4yNSAwIDEgMS0yLjUgMHptMy41IDBhMS4yNSAxLjI1IDAgMSAxIDIuNSAwdjMuNWExLjI1IDEuMjUgMCAxIDEtMi41IDB6Ii8+Cjwvc3ZnPg==)*/
 const PauseCircle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pause-circle"

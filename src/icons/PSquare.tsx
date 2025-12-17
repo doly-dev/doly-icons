@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![p-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNS41IDQuMDAyaDIuOTYyQzEwLjA0NSA0LjAwMiAxMSA1LjEwNCAxMSA2LjU4NmMwIDEuNDk0LS45NjcgMi41NzgtMi41NSAyLjU3OEg2Ljc4NFYxMkg1LjV6bTIuNzcgNC4wNzJjLjg5MyAwIDEuNDE5LS41NDUgMS40MTktMS40ODhzLS41MjYtMS40ODItMS40Mi0xLjQ4Mkg2Ljc3OHYyLjk3eiIvPgogIDxwYXRoIGQ9Ik0wIDJhMiAyIDAgMCAxIDItMmgxMmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yem0xNSAwYTEgMSAwIDAgMC0xLTFIMmExIDEgMCAwIDAtMSAxdjEyYTEgMSAwIDAgMCAxIDFoMTJhMSAxIDAgMCAwIDEtMXoiLz4KPC9zdmc+)*/
 const PSquare: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="p-square"

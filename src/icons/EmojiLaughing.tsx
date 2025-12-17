@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![emoji-laughing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNUE3IDcgMCAxIDEgOCAxYTcgNyAwIDAgMSAwIDE0bTAgMUE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2Ii8+CiAgPHBhdGggZD0iTTEyLjMzMSA5LjVhMSAxIDAgMCAxIDAgMUE1IDUgMCAwIDEgOCAxM2E1IDUgMCAwIDEtNC4zMy0yLjVBMSAxIDAgMCAxIDQuNTM1IDloNi45M2ExIDEgMCAwIDEgLjg2Ni41TTcgNi41YzAgLjgyOC0uNDQ4IDAtMSAwcy0xIC44MjgtMSAwUzUuNDQ4IDUgNiA1czEgLjY3MiAxIDEuNW00IDBjMCAuODI4LS40NDggMC0xIDBzLTEgLjgyOC0xIDBTOS40NDggNSAxMCA1czEgLjY3MiAxIDEuNSIvPgo8L3N2Zz4=)*/
 const EmojiLaughing: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="emoji-laughing"

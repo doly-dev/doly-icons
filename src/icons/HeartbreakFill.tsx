@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![heartbreak-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC45MzEuNTg2IDcgM2wxLjUgNC0yIDNMOCAxNUMyMi41MzQgNS4zOTYgMTMuNzU3LTIuMjEgOC45MzEuNTg2TTcuMzU4Ljc3IDUuNSAzIDcgN2wtMS41IDMgMS44MTUgNC41MzdDLTYuNTMzIDQuOTYgMi42ODUtMi40NjcgNy4zNTguNzciLz4KPC9zdmc+)*/
 const HeartbreakFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="heartbreak-fill"

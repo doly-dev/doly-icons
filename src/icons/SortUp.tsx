@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sort-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDEyLjVhLjUuNSAwIDAgMS0xIDBWMy43MDdMMS4zNTQgNC44NTRhLjUuNSAwIDEgMS0uNzA4LS43MDhsMi0xLjk5OS4wMDctLjAwN2EuNS41IDAgMCAxIC43LjAwNmwyIDJhLjUuNSAwIDEgMS0uNzA3LjcwOEwzLjUgMy43MDd6bTMuNS05YS41LjUgMCAwIDEgLjUtLjVoN2EuNS41IDAgMCAxIDAgMWgtN2EuNS41IDAgMCAxLS41LS41TTcuNSA2YS41LjUgMCAwIDAgMCAxaDVhLjUuNSAwIDAgMCAwLTF6bTAgM2EuNS41IDAgMCAwIDAgMWgzYS41LjUgMCAwIDAgMC0xem0wIDNhLjUuNSAwIDAgMCAwIDFoMWEuNS41IDAgMCAwIDAtMXoiLz4KPC9zdmc+)*/
 const SortUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sort-up"

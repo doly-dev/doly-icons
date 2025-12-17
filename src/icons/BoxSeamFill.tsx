@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![box-seam-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNS41MjggMi45NzNhLjc1Ljc1IDAgMCAxIC40NzIuNjk2djguNjYyYS43NS43NSAwIDAgMS0uNDcyLjY5NmwtNy4yNSAyLjlhLjc1Ljc1IDAgMCAxLS41NTcgMGwtNy4yNS0yLjlBLjc1Ljc1IDAgMCAxIDAgMTIuMzMxVjMuNjY5YS43NS43NSAwIDAgMSAuNDcxLS42OTZMNy40NDMuMTg0bC4wMS0uMDAzLjI2OC0uMTA4YS43NS43NSAwIDAgMSAuNTU4IDBsLjI2OS4xMDguMDEuMDAzek0xMC40MDQgMiA0LjI1IDQuNDYxIDEuODQ2IDMuNSAxIDMuODM5di40bDYuNSAyLjZ2Ny45MjJsLjUuMi41LS4yVjYuODRsNi41LTIuNnYtLjRsLS44NDYtLjMzOUw4IDUuOTYxIDUuNTk2IDVsNi4xNTQtMi40NjF6Ii8+Cjwvc3ZnPg==)*/
 const BoxSeamFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="box-seam-fill"

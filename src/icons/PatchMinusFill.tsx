@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![patch-minus-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAuMDY3Ljg3YTIuODkgMi44OSAwIDAgMC00LjEzNCAwbC0uNjIyLjYzOC0uODktLjAxMWEyLjg5IDIuODkgMCAwIDAtMi45MjQgMi45MjRsLjAxLjg5LS42MzYuNjIyYTIuODkgMi44OSAwIDAgMCAwIDQuMTM0bC42MzcuNjIyLS4wMTEuODlhMi44OSAyLjg5IDAgMCAwIDIuOTI0IDIuOTI0bC44OS0uMDEuNjIyLjYzNmEyLjg5IDIuODkgMCAwIDAgNC4xMzQgMGwuNjIyLS42MzcuODkuMDExYTIuODkgMi44OSAwIDAgMCAyLjkyNC0yLjkyNGwtLjAxLS44OS42MzYtLjYyMmEyLjg5IDIuODkgMCAwIDAgMC00LjEzNGwtLjYzNy0uNjIyLjAxMS0uODlhMi44OSAyLjg5IDAgMCAwLTIuOTI0LTIuOTI0bC0uODkuMDF6TTYgNy41aDRhLjUuNSAwIDAgMSAwIDFINmEuNS41IDAgMCAxIDAtMSIvPgo8L3N2Zz4=)*/
 const PatchMinusFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="patch-minus-fill"

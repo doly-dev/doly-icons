@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgNC41VjE0YTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjJhMiAyIDAgMCAxIDItMmg1LjV6bS0zIDBBMS41IDEuNSAwIDAgMSA5LjUgM1YxSDRhMSAxIDAgMCAwLTEgMXYxMmExIDEgMCAwIDAgMSAxaDhhMSAxIDAgMCAwIDEtMVY0LjV6Ii8+CiAgPHBhdGggZD0iTTguNjQ2IDYuNjQ2YS41LjUgMCAwIDEgLjcwOCAwbDIgMmEuNS41IDAgMCAxIDAgLjcwOGwtMiAyYS41LjUgMCAwIDEtLjcwOC0uNzA4TDEwLjI5MyA5IDguNjQ2IDcuMzU0YS41LjUgMCAwIDEgMC0uNzA4bS0xLjI5MiAwYS41LjUgMCAwIDAtLjcwOCAwbC0yIDJhLjUuNSAwIDAgMCAwIC43MDhsMiAyYS41LjUgMCAwIDAgLjcwOC0uNzA4TDUuNzA3IDlsMS42NDctMS42NDZhLjUuNSAwIDAgMCAwLS43MDgiLz4KPC9zdmc+)*/
 const FileEarmarkCode: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-code"

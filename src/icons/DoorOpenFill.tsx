@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![door-open-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMS41IDE1YS41LjUgMCAwIDAgMCAxaDEzYS41LjUgMCAwIDAgMC0xSDEzVjIuNUExLjUgMS41IDAgMCAwIDExLjUgMUgxMVYuNWEuNS41IDAgMCAwLS41Ny0uNDk1bC03IDFBLjUuNSAwIDAgMCAzIDEuNVYxNXpNMTEgMmguNWEuNS41IDAgMCAxIC41LjVWMTVoLTF6bS0yLjUgOGMtLjI3NiAwLS41LS40NDgtLjUtMXMuMjI0LTEgLjUtMSAuNS40NDguNSAxLS4yMjQgMS0uNSAxIi8+Cjwvc3ZnPg==)*/
 const DoorOpenFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="door-open-fill"

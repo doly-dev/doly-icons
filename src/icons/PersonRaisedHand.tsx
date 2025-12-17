@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-raised-hand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNiA2LjIwN3Y5LjA0M2EuNzUuNzUgMCAwIDAgMS41IDBWMTAuNWEuNS41IDAgMCAxIDEgMHY0Ljc1YS43NS43NSAwIDAgMCAxLjUgMHYtOC41YS4yNS4yNSAwIDEgMSAuNSAwdjIuNWEuNzUuNzUgMCAwIDAgMS41IDBWNi41YTMgMyAwIDAgMC0zLTNINi4yMzZhMSAxIDAgMCAxLS40NDctLjEwNmwtLjMzLS4xNjVBLjgzLjgzIDAgMCAxIDUgMi40ODhWLjc1YS43NS43NSAwIDAgMC0xLjUgMHYyLjA4M2MwIC43MTUuNDA0IDEuMzcgMS4wNDQgMS42ODlMNS41IDVjLjMyLjMyLjUuNzU0LjUgMS4yMDciLz4KICA8cGF0aCBkPSJNOCAzYTEuNSAxLjUgMCAxIDAgMC0zIDEuNSAxLjUgMCAwIDAgMCAzIi8+Cjwvc3ZnPg==)*/
 const PersonRaisedHand: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-raised-hand"

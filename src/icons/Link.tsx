@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![link](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi4zNTQgNS41SDRhMyAzIDAgMCAwIDAgNmgzYTMgMyAwIDAgMCAyLjgzLTRIOXEtLjEzIDAtLjI1LjAzMUEyIDIgMCAwIDEgNyAxMC41SDRhMiAyIDAgMSAxIDAtNGgxLjUzNWMuMjE4LS4zNzYuNDk1LS43MTQuODItMXoiLz4KICA8cGF0aCBkPSJNOSA1LjVhMyAzIDAgMCAwLTIuODMgNGgxLjA5OEEyIDIgMCAwIDEgOSA2LjVoM2EyIDIgMCAxIDEgMCA0aC0xLjUzNWE0IDQgMCAwIDEtLjgyIDFIMTJhMyAzIDAgMSAwIDAtNnoiLz4KPC9zdmc+)*/
 const Link: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="link"

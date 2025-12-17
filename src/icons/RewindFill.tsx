@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![rewind-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC40MDQgNy4zMDRhLjgwMi44MDIgMCAwIDAgMCAxLjM5Mmw2LjM2MyAzLjY5MmMuNTIuMzAyIDEuMjMzLS4wNDMgMS4yMzMtLjY5NlY0LjMwOGMwLS42NTMtLjcxMy0uOTk4LTEuMjMzLS42OTZ6Ii8+CiAgPHBhdGggZD0iTS40MDQgNy4zMDRhLjgwMi44MDIgMCAwIDAgMCAxLjM5Mmw2LjM2MyAzLjY5MmMuNTIuMzAyIDEuMjMzLS4wNDMgMS4yMzMtLjY5NlY0LjMwOGMwLS42NTMtLjcxMy0uOTk4LTEuMjMzLS42OTZ6Ii8+Cjwvc3ZnPg==)*/
 const RewindFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="rewind-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![layout-text-window](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMyA2LjVhLjUuNSAwIDAgMSAuNS0uNWg1YS41LjUgMCAwIDEgMCAxaC01YS41LjUgMCAwIDEtLjUtLjVtMCAzYS41LjUgMCAwIDEgLjUtLjVoNWEuNS41IDAgMCAxIDAgMWgtNWEuNS41IDAgMCAxLS41LS41bS41IDIuNWEuNS41IDAgMCAwIDAgMWg1YS41LjUgMCAwIDAgMC0xeiIvPgogIDxwYXRoIGQ9Ik0yIDBhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yem0xMiAxYTEgMSAwIDAgMSAxIDF2MUgxVjJhMSAxIDAgMCAxIDEtMXptMSAzdjEwYTEgMSAwIDAgMS0xIDFoLTJWNHptLTQgMHYxMUgyYTEgMSAwIDAgMS0xLTFWNHoiLz4KPC9zdmc+)*/
 const LayoutTextWindow: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="layout-text-window"

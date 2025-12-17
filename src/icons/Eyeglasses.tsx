@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![eyeglasses](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCA2YTIgMiAwIDEgMSAwIDQgMiAyIDAgMCAxIDAtNG0yLjYyNS41NDdhMyAzIDAgMCAwLTUuNTg0Ljk1M0guNWEuNS41IDAgMCAwIDAgMWguNTQxQTMgMyAwIDAgMCA3IDhhMSAxIDAgMCAxIDIgMCAzIDMgMCAwIDAgNS45NTkuNWguNTQxYS41LjUgMCAwIDAgMC0xaC0uNTQxYTMgMyAwIDAgMC01LjU4NC0uOTUzQTIgMiAwIDAgMCA4IDZjLS41MzIgMC0xLjAxNi4yMDgtMS4zNzUuNTQ3TTE0IDhhMiAyIDAgMSAxLTQgMCAyIDIgMCAwIDEgNCAwIi8+Cjwvc3ZnPg==)*/
 const Eyeglasses: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="eyeglasses"

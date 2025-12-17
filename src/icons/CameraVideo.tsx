@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![camera-video](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDVhMiAyIDAgMCAxIDItMmg3LjVhMiAyIDAgMCAxIDEuOTgzIDEuNzM4bDMuMTEtMS4zODJBMSAxIDAgMCAxIDE2IDQuMjY5djcuNDYyYTEgMSAwIDAgMS0xLjQwNi45MTNsLTMuMTExLTEuMzgyQTIgMiAwIDAgMSA5LjUgMTNIMmEyIDIgMCAwIDEtMi0yem0xMS41IDUuMTc1IDMuNSAxLjU1NlY0LjI2OWwtMy41IDEuNTU2ek0yIDRhMSAxIDAgMCAwLTEgMXY2YTEgMSAwIDAgMCAxIDFoNy41YTEgMSAwIDAgMCAxLTFWNWExIDEgMCAwIDAtMS0xeiIvPgo8L3N2Zz4=)*/
 const CameraVideo: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="camera-video"

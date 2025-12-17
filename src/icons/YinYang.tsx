@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![yin-yang](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS4xNjcgNC41YTEuMTY3IDEuMTY3IDAgMSAxLTIuMzM0IDAgMS4xNjcgMS4xNjcgMCAwIDEgMi4zMzQgMCIvPgogIDxwYXRoIGQ9Ik04IDBhOCA4IDAgMSAwIDAgMTZBOCA4IDAgMCAwIDggME0xIDhhNyA3IDAgMCAxIDctNyAzLjUgMy41IDAgMSAxIDAgNyAzLjUgMy41IDAgMSAwIDAgNyA3IDcgMCAwIDEtNy03bTcgNC42NjdhMS4xNjcgMS4xNjcgMCAxIDEgMC0yLjMzNCAxLjE2NyAxLjE2NyAwIDAgMSAwIDIuMzM0Ii8+Cjwvc3ZnPg==)*/
 const YinYang: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="yin-yang"

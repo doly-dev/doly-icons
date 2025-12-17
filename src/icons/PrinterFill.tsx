@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![printer-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNSAxYTIgMiAwIDAgMC0yIDJ2MWgxMFYzYTIgMiAwIDAgMC0yLTJ6bTYgOEg1YTEgMSAwIDAgMC0xIDF2M2ExIDEgMCAwIDAgMSAxaDZhMSAxIDAgMCAwIDEtMXYtM2ExIDEgMCAwIDAtMS0xIi8+CiAgPHBhdGggZD0iTTAgN2EyIDIgMCAwIDEgMi0yaDEyYTIgMiAwIDAgMSAyIDJ2M2EyIDIgMCAwIDEtMiAyaC0xdi0yYTIgMiAwIDAgMC0yLTJINWEyIDIgMCAwIDAtMiAydjJIMmEyIDIgMCAwIDEtMi0yem0yLjUgMWEuNS41IDAgMSAwIDAtMSAuNS41IDAgMCAwIDAgMSIvPgo8L3N2Zz4=)*/
 const PrinterFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="printer-fill"

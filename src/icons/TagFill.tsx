@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![tag-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAxYTEgMSAwIDAgMC0xIDF2NC41ODZhMSAxIDAgMCAwIC4yOTMuNzA3bDcgN2ExIDEgMCAwIDAgMS40MTQgMGw0LjU4Ni00LjU4NmExIDEgMCAwIDAgMC0xLjQxNGwtNy03QTEgMSAwIDAgMCA2LjU4NiAxem00IDMuNWExLjUgMS41IDAgMSAxLTMgMCAxLjUgMS41IDAgMCAxIDMgMCIvPgo8L3N2Zz4=)*/
 const TagFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="tag-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![markdown-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCA0YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yem0xMS41IDFhLjUuNSAwIDAgMC0uNS41djMuNzkzTDkuODU0IDguMTQ2YS41LjUgMCAxIDAtLjcwOC43MDhsMiAyYS41LjUgMCAwIDAgLjcwOCAwbDItMmEuNS41IDAgMCAwLS43MDgtLjcwOEwxMiA5LjI5M1Y1LjVhLjUuNSAwIDAgMC0uNS0uNU0zLjU2IDcuMDFoLjA1NmwxLjQyOCAzLjIzOWguNzc0bDEuNDItMy4yNGguMDU2VjExaDEuMDczVjUuMDAxaC0xLjJsLTEuNzEgMy44OTRoLS4wMzlsLTEuNzEtMy44OTRIMi41VjExaDEuMDZ6Ii8+Cjwvc3ZnPg==)*/
 const MarkdownFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="markdown-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bar-chart-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEgMmExIDEgMCAwIDEgMS0xaDJhMSAxIDAgMCAxIDEgMXYxMmguNWEuNS41IDAgMCAxIDAgMUguNWEuNS41IDAgMCAxIDAtMUgxdi0zYTEgMSAwIDAgMSAxLTFoMmExIDEgMCAwIDEgMSAxdjNoMVY3YTEgMSAwIDAgMSAxLTFoMmExIDEgMCAwIDEgMSAxdjdoMXptMSAxMmgyVjJoLTJ6bS0zIDBWN0g3djd6bS01IDB2LTNIMnYzeiIvPgo8L3N2Zz4=)*/
 const BarChartLine: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bar-chart-line"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![optical-audio-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCA2YTMgMyAwIDEgMSAwIDYgMyAzIDAgMCAxIDAtNm0xIDNhMSAxIDAgMSAwLTIgMCAxIDEgMCAwIDAgMiAwIi8+CiAgPHBhdGggZD0iTTIuNSAxNWEuNS41IDAgMCAxLS41LS41di0zLjA1YTIuNSAyLjUgMCAwIDEgMC00LjlWNC41YS41LjUgMCAwIDEgLjE0Ni0uMzU0bDItMkEuNS41IDAgMCAxIDQuNSAyaDdhLjUuNSAwIDAgMSAuMzU0LjE0NmwyIDJBLjUuNSAwIDAgMSAxNCA0LjV2Mi4wNWEyLjUgMi41IDAgMCAxIDAgNC45djMuMDVhLjUuNSAwIDAgMS0uNS41ek04IDVhNCA0IDAgMSAwIDAgOCA0IDQgMCAwIDAgMC04Ii8+Cjwvc3ZnPg==)*/
 const OpticalAudioFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="optical-audio-fill"

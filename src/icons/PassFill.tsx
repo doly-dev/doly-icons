@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pass-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAgMGEyIDIgMCAxIDEtNCAwSDMuNUExLjUgMS41IDAgMCAwIDIgMS41djEzQTEuNSAxLjUgMCAwIDAgMy41IDE2aDlhMS41IDEuNSAwIDAgMCAxLjUtMS41di0xM0ExLjUgMS41IDAgMCAwIDEyLjUgMHpNNC41IDVoN2EuNS41IDAgMCAxIDAgMWgtN2EuNS41IDAgMCAxIDAtMW0wIDJoNGEuNS41IDAgMCAxIDAgMWgtNGEuNS41IDAgMCAxIDAtMSIvPgo8L3N2Zz4=)*/
 const PassFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pass-fill"

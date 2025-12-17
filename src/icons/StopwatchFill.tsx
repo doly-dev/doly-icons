@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![stopwatch-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi41IDBhLjUuNSAwIDAgMCAwIDFIN3YxLjA3QTcuMDAxIDcuMDAxIDAgMCAwIDggMTZhNyA3IDAgMCAwIDUuMjktMTEuNTg0bC4wMTMtLjAxMi4zNTQtLjM1NC4zNTMuMzU0YS41LjUgMCAxIDAgLjcwNy0uNzA3bC0xLjQxNC0xLjQxNWEuNS41IDAgMSAwLS43MDcuNzA3bC4zNTQuMzU0LS4zNTQuMzU0LS4wMTIuMDEyQTYuOTcgNi45NyAwIDAgMCA5IDIuMDcxVjFoLjVhLjUuNSAwIDAgMCAwLTF6bTIgNS42VjlhLjUuNSAwIDAgMS0uNS41SDQuNWEuNS41IDAgMCAxIDAtMWgzVjUuNmEuNS41IDAgMSAxIDEgMCIvPgo8L3N2Zz4=)*/
 const StopwatchFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="stopwatch-fill"

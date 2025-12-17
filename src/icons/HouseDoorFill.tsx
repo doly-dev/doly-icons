@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![house-door-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi41IDE0LjV2LTMuNTA1YzAtLjI0NS4yNS0uNDk1LjUtLjQ5NWgyYy4yNSAwIC41LjI1LjUuNXYzLjVhLjUuNSAwIDAgMCAuNS41aDRhLjUuNSAwIDAgMCAuNS0uNXYtN2EuNS41IDAgMCAwLS4xNDYtLjM1NEwxMyA1Ljc5M1YyLjVhLjUuNSAwIDAgMC0uNS0uNWgtMWEuNS41IDAgMCAwLS41LjV2MS4yOTNMOC4zNTQgMS4xNDZhLjUuNSAwIDAgMC0uNzA4IDBsLTYgNkEuNS41IDAgMCAwIDEuNSA3LjV2N2EuNS41IDAgMCAwIC41LjVoNGEuNS41IDAgMCAwIC41LS41Ii8+Cjwvc3ZnPg==)*/
 const HouseDoorFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="house-door-fill"

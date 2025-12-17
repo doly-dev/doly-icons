@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![house-heart-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy4yOTMgMS41YTEgMSAwIDAgMSAxLjQxNCAwTDExIDMuNzkzVjIuNWEuNS41IDAgMCAxIC41LS41aDFhLjUuNSAwIDAgMSAuNS41djMuMjkzbDIuMzU0IDIuMzUzYS41LjUgMCAwIDEtLjcwOC43MDdMOCAyLjIwNyAxLjM1NCA4Ljg1M2EuNS41IDAgMSAxLS43MDgtLjcwN3oiLz4KICA8cGF0aCBkPSJtMTQgOS4yOTMtNi02LTYgNlYxMy41QTEuNSAxLjUgMCAwIDAgMy41IDE1aDlhMS41IDEuNSAwIDAgMCAxLjUtMS41em0tNi0uODExYzEuNjY0LTEuNjczIDUuODI1IDEuMjU0IDAgNS4wMTgtNS44MjUtMy43NjQtMS42NjQtNi42OTEgMC01LjAxOCIvPgo8L3N2Zz4=)*/
 const HouseHeartFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="house-heart-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![toggle2-on](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNyA1SDNhMyAzIDAgMCAwIDAgNmg0YTUgNSAwIDAgMS0uNTg0LTFIM2EyIDIgMCAxIDEgMC00aDMuNDE2cS4yMzUtLjUzNy41ODQtMSIvPgogIDxwYXRoIGQ9Ik0xNiA4QTUgNSAwIDEgMSA2IDhhNSA1IDAgMCAxIDEwIDAiLz4KPC9zdmc+)*/
 const Toggle2On: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="toggle2-on"

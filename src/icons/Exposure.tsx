@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![exposure](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41IDRhLjUuNSAwIDAgMC0xIDB2MmgtMmEuNS41IDAgMCAwIDAgMWgydjJhLjUuNSAwIDAgMCAxIDBWN2gyYS41LjUgMCAwIDAgMC0xaC0yem0tMyA3YS41LjUgMCAwIDAgMCAxaDVhLjUuNSAwIDAgMCAwLTF6Ii8+CiAgPHBhdGggZD0iTTggMGE4IDggMCAxIDAgMCAxNkE4IDggMCAwIDAgOCAwTTEgOGE3IDcgMCAxIDEgMTQgMEE3IDcgMCAwIDEgMSA4Ii8+Cjwvc3ZnPg==)*/
 const Exposure: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="exposure"

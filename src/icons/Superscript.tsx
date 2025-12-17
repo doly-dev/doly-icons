@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![superscript](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtNC4yNjYgMTIuNDk2Ljk2LTIuODUzSDguNzZsLjk2IDIuODUzSDExTDcuNjIgM0g2LjM4TDMgMTIuNDk2em0yLjc0OC04LjA2MyAxLjQxOSA0LjIzaC0yLjg4bDEuNDI2LTQuMjN6bTUuMTMyLTEuNzk3di0uMDc1YzAtLjMzMi4yMzQtLjYxOC42MTktLjYxOC4zNTQgMCAuNjE4LjI1Ni42MTguNTggMCAuMzYyLS4yNzEuNjQ5LS41Mi44OThsLTEuNzg4IDEuODMyVjZoMy41OXYtLjk1OGgtMS45MjN2LS4wNDVsLjk3My0xLjA0Yy40MTUtLjQzOC44NjctLjg0NS44NjctMS41NDcgMC0uOC0uNzAxLTEuNDEtMS43ODctMS40MUMxMS41NjUgMSAxMSAxLjggMTEgMi41NzZ2LjA2eiIvPgo8L3N2Zz4=)*/
 const Superscript: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="superscript"

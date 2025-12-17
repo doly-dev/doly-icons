@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![filetype-ttf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNCA0LjVWMTRhMiAyIDAgMCAxLTIgMmgtMnYtMWgyYTEgMSAwIDAgMCAxLTFWNC41aC0yQTEuNSAxLjUgMCAwIDEgOS41IDNWMUg0YTEgMSAwIDAgMC0xIDF2OUgyVjJhMiAyIDAgMCAxIDItMmg1LjV6TTEuOTI4IDE1Ljg0OXYtMy4zMzdoMi4yNjl2My4zMzdoLjc5NHYtMy4zMzdoMS4xMzd2LS42NjJIMHYuNjYyaDEuMTM0djMuMzM3em01LjMxNS0xLjU5djEuNTloLS43OTFWMTEuODVIOXYuNjUzSDcuMjQzdjEuMTE3aDEuNjA1di42Mzh6Ii8+Cjwvc3ZnPg==)*/
 const FiletypeTtf: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="filetype-ttf"

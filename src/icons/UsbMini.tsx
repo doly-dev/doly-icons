@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![usb-mini](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDhhLjUuNSAwIDAgMC0uNS41djFhLjUuNSAwIDAgMCAuNS41aDlhLjUuNSAwIDAgMCAuNS0uNXYtMWEuNS41IDAgMCAwLS41LS41eiIvPgogIDxwYXRoIGQ9Ik0zIDNhMSAxIDAgMCAwLTEgMXYxLjI5M0wuMjkzIDdBMSAxIDAgMCAwIDAgNy43MDdWMTJhMSAxIDAgMCAwIDEgMWgxNGExIDEgMCAwIDAgMS0xVjcuNzA3QTEgMSAwIDAgMCAxNS43MDcgN0wxNCA1LjI5M1Y0YTEgMSAwIDAgMC0xLTF6bTAgMWgxMHYxLjI5M2ExIDEgMCAwIDAgLjI5My43MDdMMTUgNy43MDdWMTJIMVY3LjcwN0wyLjcwNyA2QTEgMSAwIDAgMCAzIDUuMjkzeiIvPgo8L3N2Zz4=)*/
 const UsbMini: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="usb-mini"

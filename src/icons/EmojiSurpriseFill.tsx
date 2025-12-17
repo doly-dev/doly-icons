@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![emoji-surprise-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwTTcgNS41QzcgNC42NzIgNi41NTIgNCA2IDRzLTEgLjY3Mi0xIDEuNVM1LjQ0OCA3IDYgN3MxLS42NzIgMS0xLjVtNCAwYzAtLjgyOC0uNDQ4LTEuNS0xLTEuNXMtMSAuNjcyLTEgMS41UzkuNDQ4IDcgMTAgN3MxLS42NzIgMS0xLjVNOCAxM2EyIDIgMCAxIDAgMC00IDIgMiAwIDAgMCAwIDQiLz4KPC9zdmc+)*/
 const EmojiSurpriseFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="emoji-surprise-fill"

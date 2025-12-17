@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![feather2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy41IDEuMDYzdjkuNTU2TDYgOC44MTlWM2EyIDIgMCAwIDEgMS41LTEuOTM3TTggMGEzIDMgMCAwIDAtMyAzdjZhLjUuNSAwIDAgMCAuMTE2LjMyTDcuNSAxMi4xODFWMTUuNWEuNS41IDAgMCAwIDEgMHYtMy4zMTlsMi4zODQtMi44NkEuNS41IDAgMCAwIDExIDlWM2EzIDMgMCAwIDAtMy0zbS41IDEuMDYzQTIgMiAwIDAgMSAxMCAzdi4yOTNsLTEuNSAxLjV6TTEwIDQuNzA3VjguODJsLTEuNSAxLjhWNi4yMDd6Ii8+Cjwvc3ZnPg==)*/
 const Feather2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="feather2"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![measuring-cup-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgMGEyIDIgMCAwIDEgMiAydjUuOTU5YTEuMDQxIDEuMDQxIDAgMCAxLTIuMDQ5LjI2NGwtLjAyLS4wOTMtLjg0OS01LjA5NmEuMDQxLjA0MSAwIDAgMC0uMDgyLjAwN1YxNGEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlYzLjc0MmEyLjUgMi41IDAgMCAwLS43MzItMS43NjdMLjE0Ni44NTRBLjUuNSAwIDAgMSAuNSAwek00IDEzdjFoMS41YS41LjUgMCAwIDAgMC0xem0wLTJ2MWgzLjVhLjUuNSAwIDAgMCAwLTF6bTAtMnYxaDEuNWEuNS41IDAgMCAwIDAtMXptMC0ydjFoMy41YS41LjUgMCAwIDAgMC0xem0wLTJ2MWgxLjVhLjUuNSAwIDAgMCAwLTF6bTAtMnYxaDMuNWEuNS41IDAgMCAwIDAtMXoiLz4KPC9zdmc+)*/
 const MeasuringCupFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="measuring-cup-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![trello](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQuMSAwSDEuOTAzQy44NTIgMCAuMDAyLjg1IDAgMS45djEyLjE5QTEuOSAxLjkgMCAwIDAgMS45MDIgMTZoMTIuMTk5QTEuOSAxLjkgMCAwIDAgMTYgMTQuMDlWMS45QTEuOSAxLjkgMCAwIDAgMTQuMSAwTTcgMTEuMzY3YS42MzYuNjM2IDAgMCAxLS42NC42MzNIMy41OTNhLjYzMy42MzMgMCAwIDEtLjYzLS42MzNWMy41ODNjMC0uMzQ4LjI4MS0uNjMxLjYzLS42MzNoMi43NjVjLjM1LjAwMi42MzIuMjg0LjYzMy42MzN6bTYuMDUyLTMuNWEuNjMzLjYzMyAwIDAgMS0uNjQuNjMzaC0yLjc4QS42MzYuNjM2IDAgMCAxIDkgNy44NjdWMy41ODNhLjYzNi42MzYgMCAwIDEgLjYzMy0uNjMzaDIuNzc4Yy4zNS4wMDIuNjMxLjI4NS42MzEuNjMzeiIvPgo8L3N2Zz4=)*/
 const Trello: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="trello"

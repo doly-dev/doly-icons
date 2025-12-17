@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![facebook](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOC4wNDljMC00LjQ0Ni0zLjU4Mi04LjA1LTgtOC4wNUMzLjU4IDAtLjAwMiAzLjYwMy0uMDAyIDguMDVjMCA0LjAxNyAyLjkyNiA3LjM0NyA2Ljc1IDcuOTUxdi01LjYyNWgtMi4wM1Y4LjA1SDYuNzVWNi4yNzVjMC0yLjAxNyAxLjE5NS0zLjEzMSAzLjAyMi0zLjEzMS44NzYgMCAxLjc5MS4xNTcgMS43OTEuMTU3djEuOThoLTEuMDA5Yy0uOTkzIDAtMS4zMDMuNjIxLTEuMzAzIDEuMjU4djEuNTFoMi4yMThsLS4zNTQgMi4zMjZIOS4yNVYxNmMzLjgyNC0uNjA0IDYuNzUtMy45MzQgNi43NS03Ljk1MSIvPgo8L3N2Zz4=)*/
 const Facebook: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="facebook"

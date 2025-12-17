@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![displayport-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSA1YTEgMSAwIDAgMC0xIDF2My4xOTFhMSAxIDAgMCAwIC41NTMuODk0bDEuNjE4LjgxYTEgMSAwIDAgMCAuNDQ3LjEwNUgxNWExIDEgMCAwIDAgMS0xVjZhMSAxIDAgMCAwLTEtMXptMS41IDJoMTFhLjUuNSAwIDAgMSAuNS41djFhLjUuNSAwIDAgMS0xIDBWOEgzdi41YS41LjUgMCAwIDEtMSAwdi0xYS41LjUgMCAwIDEgLjUtLjUiLz4KPC9zdmc+)*/
 const DisplayportFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="displayport-fill"

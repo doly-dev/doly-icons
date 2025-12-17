@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![airplane-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi40MjggMS4xNTFDNi43MDguNTkxIDcuMjEzIDAgOCAwczEuMjkyLjU5MiAxLjU3MiAxLjE1MUM5Ljg2MSAxLjczIDEwIDIuNDMxIDEwIDN2My42OTFsNS4xNyAyLjU4NWExLjUgMS41IDAgMCAxIC44MyAxLjM0MlYxMmEuNS41IDAgMCAxLS41ODIuNDkzbC01LjUwNy0uOTE4LS4zNzUgMi4yNTMgMS4zMTggMS4zMThBLjUuNSAwIDAgMSAxMC41IDE2aC01YS41LjUgMCAwIDEtLjM1NC0uODU0bDEuMzE5LTEuMzE4LS4zNzYtMi4yNTMtNS41MDcuOTE4QS41LjUgMCAwIDEgMCAxMnYtMS4zODJhMS41IDEuNSAwIDAgMSAuODMtMS4zNDJMNiA2LjY5MVYzYzAtLjU2OC4xNC0xLjI3MS40MjgtMS44NDkiLz4KPC9zdmc+)*/
 const AirplaneFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="airplane-fill"

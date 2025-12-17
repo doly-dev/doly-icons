@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pause-btn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi4yNSA1QzUuNTYgNSA1IDUuNTYgNSA2LjI1djMuNWExLjI1IDEuMjUgMCAxIDAgMi41IDB2LTMuNUM3LjUgNS41NiA2Ljk0IDUgNi4yNSA1bTMuNSAwYy0uNjkgMC0xLjI1LjU2LTEuMjUgMS4yNXYzLjVhMS4yNSAxLjI1IDAgMSAwIDIuNSAwdi0zLjVDMTEgNS41NiAxMC40NCA1IDkuNzUgNSIvPgogIDxwYXRoIGQ9Ik0wIDRhMiAyIDAgMCAxIDItMmgxMmEyIDIgMCAwIDEgMiAydjhhMiAyIDAgMCAxLTIgMkgyYTIgMiAwIDAgMS0yLTJ6bTE1IDBhMSAxIDAgMCAwLTEtMUgyYTEgMSAwIDAgMC0xIDF2OGExIDEgMCAwIDAgMSAxaDEyYTEgMSAwIDAgMCAxLTF6Ii8+Cjwvc3ZnPg==)*/
 const PauseBtn: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pause-btn"

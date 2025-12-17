@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrow-down-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS41IDE1YS41LjUgMCAwIDAgLjUtLjVWMi43MDdsMy4xNDYgMy4xNDdhLjUuNSAwIDAgMCAuNzA4LS43MDhsLTQtNGEuNS41IDAgMCAwLS43MDggMGwtNCA0YS41LjUgMCAxIDAgLjcwOC43MDhMMTEgMi43MDdWMTQuNWEuNS41IDAgMCAwIC41LjVtLTctMTRhLjUuNSAwIDAgMSAuNS41djExLjc5M2wzLjE0Ni0zLjE0N2EuNS41IDAgMCAxIC43MDguNzA4bC00IDRhLjUuNSAwIDAgMS0uNzA4IDBsLTQtNGEuNS41IDAgMCAxIC43MDgtLjcwOEw0IDEzLjI5M1YxLjVhLjUuNSAwIDAgMSAuNS0uNSIvPgo8L3N2Zz4=)*/
 const ArrowDownUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrow-down-up"

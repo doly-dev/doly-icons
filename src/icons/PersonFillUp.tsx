@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-fill-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuNSAxNmEzLjUgMy41IDAgMSAwIDAtNyAzLjUgMy41IDAgMCAwIDAgN20uMzU0LTUuODU0IDEuNSAxLjVhLjUuNSAwIDAgMS0uNzA4LjcwOEwxMyAxMS43MDdWMTQuNWEuNS41IDAgMCAxLTEgMHYtMi43OTNsLS42NDYuNjQ3YS41LjUgMCAwIDEtLjcwOC0uNzA4bDEuNS0xLjVhLjUuNSAwIDAgMSAuNzA4IDBNMTEgNWEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDAiLz4KICA8cGF0aCBkPSJNMiAxM2MwIDEgMSAxIDEgMWg1LjI1NkE0LjUgNC41IDAgMCAxIDggMTIuNWE0LjUgNC41IDAgMCAxIDEuNTQ0LTMuMzkzUTguODQ0IDkuMDAyIDggOWMtNSAwLTYgMy02IDQiLz4KPC9zdmc+)*/
 const PersonFillUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-fill-up"

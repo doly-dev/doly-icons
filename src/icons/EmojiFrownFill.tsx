@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![emoji-frown-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNkE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2TTcgNi41QzcgNy4zMjggNi41NTIgOCA2IDhzLTEtLjY3Mi0xLTEuNVM1LjQ0OCA1IDYgNXMxIC42NzIgMSAxLjVtLTIuNzE1IDUuOTMzYS41LjUgMCAwIDEtLjE4My0uNjgzQTQuNSA0LjUgMCAwIDEgOCA5LjVhNC41IDQuNSAwIDAgMSAzLjg5OCAyLjI1LjUuNSAwIDAgMS0uODY2LjVBMy41IDMuNSAwIDAgMCA4IDEwLjVhMy41IDMuNSAwIDAgMC0zLjAzMiAxLjc1LjUuNSAwIDAgMS0uNjgzLjE4M00xMCA4Yy0uNTUyIDAtMS0uNjcyLTEtMS41UzkuNDQ4IDUgMTAgNXMxIC42NzIgMSAxLjVTMTAuNTUyIDggMTAgOCIvPgo8L3N2Zz4=)*/
 const EmojiFrownFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="emoji-frown-fill"

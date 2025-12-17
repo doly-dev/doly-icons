@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![play-btn-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxMlY0YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0ybTYuNzktNi45MDdBLjUuNSAwIDAgMCA2IDUuNXY1YS41LjUgMCAwIDAgLjc5LjQwN2wzLjUtMi41YS41LjUgMCAwIDAgMC0uODE0eiIvPgo8L3N2Zz4=)*/
 const PlayBtnFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="play-btn-fill"

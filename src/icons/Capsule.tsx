@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![capsule](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMS44MjggOC45IDguOSAxLjgyN2E0IDQgMCAxIDEgNS42NTcgNS42NTdsLTcuMDcgNy4wNzFBNCA0IDAgMSAxIDEuODI3IDguOVptOS4xMjguNzcxIDIuODkzLTIuODkzYTMgMyAwIDEgMC00LjI0My00LjI0Mkw2LjcxMyA1LjQyOXoiLz4KPC9zdmc+)*/
 const Capsule: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="capsule"

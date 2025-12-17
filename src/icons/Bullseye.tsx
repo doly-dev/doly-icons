@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bullseye](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNUE3IDcgMCAxIDEgOCAxYTcgNyAwIDAgMSAwIDE0bTAgMUE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2Ii8+CiAgPHBhdGggZD0iTTggMTNBNSA1IDAgMSAxIDggM2E1IDUgMCAwIDEgMCAxMG0wIDFBNiA2IDAgMSAwIDggMmE2IDYgMCAwIDAgMCAxMiIvPgogIDxwYXRoIGQ9Ik04IDExYTMgMyAwIDEgMSAwLTYgMyAzIDAgMCAxIDAgNm0wIDFhNCA0IDAgMSAwIDAtOCA0IDQgMCAwIDAgMCA4Ii8+CiAgPHBhdGggZD0iTTkuNSA4YTEuNSAxLjUgMCAxIDEtMyAwIDEuNSAxLjUgMCAwIDEgMyAwIi8+Cjwvc3ZnPg==)*/
 const Bullseye: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bullseye"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![house](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC43MDcgMS41YTEgMSAwIDAgMC0xLjQxNCAwTC42NDYgOC4xNDZhLjUuNSAwIDAgMCAuNzA4LjcwOEwyIDguMjA3VjEzLjVBMS41IDEuNSAwIDAgMCAzLjUgMTVoOWExLjUgMS41IDAgMCAwIDEuNS0xLjVWOC4yMDdsLjY0Ni42NDdhLjUuNSAwIDAgMCAuNzA4LS43MDhMMTMgNS43OTNWMi41YS41LjUgMCAwIDAtLjUtLjVoLTFhLjUuNSAwIDAgMC0uNS41djEuMjkzek0xMyA3LjIwN1YxMy41YS41LjUgMCAwIDEtLjUuNWgtOWEuNS41IDAgMCAxLS41LS41VjcuMjA3bDUtNXoiLz4KPC9zdmc+)*/
 const House: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="house"

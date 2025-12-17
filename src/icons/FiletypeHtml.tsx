@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![filetype-html](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNCA0LjVWMTFoLTFWNC41aC0yQTEuNSAxLjUgMCAwIDEgOS41IDNWMUg0YTEgMSAwIDAgMC0xIDF2OUgyVjJhMiAyIDAgMCAxIDItMmg1LjV6bS05LjczNiA3LjM1djMuOTk5aC0uNzkxdi0xLjcxNEgxLjc5djEuNzE0SDFWMTEuODVoLjc5MXYxLjYyNmgxLjY4MlYxMS44NWguNzlabTIuMjUxLjY2MnYzLjMzN2gtLjc5NHYtMy4zMzdINC41ODh2LS42NjJoMy4wNjR2LjY2MnptMi4xNzYgMy4zMzd2LTIuNjZoLjAzOGwuOTUyIDIuMTU5aC41MTZsLjk0Ni0yLjE2aC4wMzh2Mi42NjFoLjcxNVYxMS44NWgtLjhsLTEuMTQgMi41OTZIOS45M0w4Ljc5IDExLjg1aC0uODA1djMuOTk5em00LjcxLS42NzRoMS42OTZ2LjY3NEgxMi42MVYxMS44NWguNzl2My4zMjVaIi8+Cjwvc3ZnPg==)*/
 const FiletypeHtml: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="filetype-html"

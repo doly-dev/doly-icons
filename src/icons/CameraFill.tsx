@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![camera-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAuNSA4LjVhMi41IDIuNSAwIDEgMS01IDAgMi41IDIuNSAwIDAgMSA1IDAiLz4KICA8cGF0aCBkPSJNMiA0YTIgMiAwIDAgMC0yIDJ2NmEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yaC0xLjE3MmEyIDIgMCAwIDEtMS40MTQtLjU4NmwtLjgyOC0uODI4QTIgMiAwIDAgMCA5LjE3MiAySDYuODI4YTIgMiAwIDAgMC0xLjQxNC41ODZsLS44MjguODI4QTIgMiAwIDAgMSAzLjE3MiA0em0uNSAyYS41LjUgMCAxIDEgMC0xIC41LjUgMCAwIDEgMCAxbTkgMi41YTMuNSAzLjUgMCAxIDEtNyAwIDMuNSAzLjUgMCAwIDEgNyAwIi8+Cjwvc3ZnPg==)*/
 const CameraFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="camera-fill"

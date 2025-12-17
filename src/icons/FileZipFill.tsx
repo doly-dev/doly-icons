@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-zip-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41IDkuNDM4VjguNWgtMXYuOTM4YTEgMSAwIDAgMS0uMDMuMjQzbC0uNCAxLjU5OC45My42Mi45My0uNjItLjQtMS41OThhMSAxIDAgMCAxLS4wMy0uMjQzIi8+CiAgPHBhdGggZD0iTTQgMGg4YTIgMiAwIDAgMSAyIDJ2MTJhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJWMmEyIDIgMCAwIDEgMi0ybTIuNSA4LjV2LjkzOGwtLjQgMS41OTlhMSAxIDAgMCAwIC40MTYgMS4wNzRsLjkzLjYyYTEgMSAwIDAgMCAxLjEwOSAwbC45My0uNjJhMSAxIDAgMCAwIC40MTUtMS4wNzRsLS40LTEuNTk5VjguNWExIDEgMCAwIDAtMS0xaC0xYTEgMSAwIDAgMC0xIDFtMS01LjVoLTF2MWgxdjFoLTF2MWgxdjFIOVY2SDhWNWgxVjRIOFYzaDFWMkg4VjFINi41djFoMXoiLz4KPC9zdmc+)*/
 const FileZipFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-zip-fill"

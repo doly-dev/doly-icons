@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![thunderbolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDdhLjUuNSAwIDAgMC0uNS41djFhLjUuNSAwIDAgMCAuNS41aDlhLjUuNSAwIDAgMCAuNS0uNXYtMWEuNS41IDAgMCAwLS41LS41eiIvPgogIDxwYXRoIGQ9Ik0xIDNhMSAxIDAgMCAwLTEgMXY3LjI5M0ExIDEgMCAwIDAgLjI5MyAxMkwyIDEzLjcwN2ExIDEgMCAwIDAgLjcwNy4yOTNoMTAuNTg2YTEgMSAwIDAgMCAuNzA3LS4yOTNMMTUuNzA3IDEyYTEgMSAwIDAgMCAuMjkzLS43MDdWNGExIDEgMCAwIDAtMS0xem0wIDFoMTR2Ny4yOTNMMTMuMjkzIDEzSDIuNzA3TDEgMTEuMjkzeiIvPgo8L3N2Zz4=)*/
 const Thunderbolt: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="thunderbolt"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![c-square-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAwYTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmgxMmEyIDIgMCAwIDAgMi0yVjJhMiAyIDAgMCAwLTItMnptNi4xNDYgNC45OTJjLTEuMjEyIDAtMS45MjcuOTItMS45MjcgMi41MDJ2MS4wNmMwIDEuNTcxLjcwMyAyLjQ2MiAxLjkyNyAyLjQ2Mi45NzkgMCAxLjY0MS0uNTg2IDEuNzI5LTEuNDE4aDEuMjk1di4wOTNjLS4xIDEuNDQ4LTEuMzU0IDIuNDY3LTMuMDMgMi40NjctMi4wOTEgMC0zLjI2OS0xLjMzNi0zLjI2OS0zLjYwM1Y3LjQ4MmMwLTIuMjYxIDEuMjAxLTMuNjM4IDMuMjctMy42MzggMS42ODEgMCAyLjkzNSAxLjA1NCAzLjAyOSAyLjU3MnYuMDg4SDkuODc1Yy0uMDg4LS44NzktLjc2OC0xLjUxMi0xLjcyOS0xLjUxMiIvPgo8L3N2Zz4=)*/
 const CSquareFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="c-square-fill"

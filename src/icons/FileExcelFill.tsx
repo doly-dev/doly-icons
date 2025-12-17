@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-excel-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yTTUuODg0IDQuNjggOCA3LjIxOWwyLjExNi0yLjU0YS41LjUgMCAxIDEgLjc2OC42NDFMOC42NTEgOGwyLjIzMyAyLjY4YS41LjUgMCAwIDEtLjc2OC42NEw4IDguNzgxbC0yLjExNiAyLjU0YS41LjUgMCAwIDEtLjc2OC0uNjQxTDcuMzQ5IDggNS4xMTYgNS4zMmEuNS41IDAgMSAxIC43NjgtLjY0Ii8+Cjwvc3ZnPg==)*/
 const FileExcelFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-excel-fill"

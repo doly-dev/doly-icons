@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![qr-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAyaDJ2MkgyeiIvPgogIDxwYXRoIGQ9Ik02IDB2NkgwVjB6TTUgMUgxdjRoNHpNNCAxMkgydjJoMnoiLz4KICA8cGF0aCBkPSJNNiAxMHY2SDB2LTZ6bS01IDF2NGg0di00em0xMS05aDJ2MmgtMnoiLz4KICA8cGF0aCBkPSJNMTAgMHY2aDZWMHptNSAxdjRoLTRWMXpNOCAxVjBoMXYySDh2Mkg3VjF6bTAgNVY0aDF2MnpNNiA4VjdoMVY2aDF2MmgxVjdoNXYxaC00djFIN1Y4em0wIDB2MUgyVjhIMXYxSDBWN2gzdjF6bTEwIDFoLTFWN2gxem0tMSAwaC0xdjJoMnYtMWgtMXptLTQgMGgydjFoLTF2MWgtMXptMiAzdi0xaC0xdjFoLTF2MUg5djFoM3YtMnptMCAwaDN2MWgtMnYxaC0xem0tNC0xdjFoMXYtMkg3djF6Ii8+CiAgPHBhdGggZD0iTTcgMTJoMXYzaDR2MUg3em05IDJ2MmgtM3YtMWgydi0xeiIvPgo8L3N2Zz4=)*/
 const QrCode: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="qr-code"

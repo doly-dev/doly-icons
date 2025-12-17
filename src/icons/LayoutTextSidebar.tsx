@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![layout-text-sidebar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDNhLjUuNSAwIDAgMCAwIDFoNWEuNS41IDAgMCAwIDAtMXptMCAzYS41LjUgMCAwIDAgMCAxaDVhLjUuNSAwIDAgMCAwLTF6TTMgOS41YS41LjUgMCAwIDEgLjUtLjVoNWEuNS41IDAgMCAxIDAgMWgtNWEuNS41IDAgMCAxLS41LS41bS41IDIuNWEuNS41IDAgMCAwIDAgMWg1YS41LjUgMCAwIDAgMC0xeiIvPgogIDxwYXRoIGQ9Ik0wIDJhMiAyIDAgMCAxIDItMmgxMmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yem0xMi0xdjE0aDJhMSAxIDAgMCAwIDEtMVYyYTEgMSAwIDAgMC0xLTF6bS0xIDBIMmExIDEgMCAwIDAtMSAxdjEyYTEgMSAwIDAgMCAxIDFoOXoiLz4KPC9zdmc+)*/
 const LayoutTextSidebar: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="layout-text-sidebar"

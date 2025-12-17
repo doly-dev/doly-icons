@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sunglasses](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMyA1YTIgMiAwIDAgMC0yIDJ2LjVILjVhLjUuNSAwIDAgMCAwIDFIMVY5YTIgMiAwIDAgMCAyIDJoMWEzIDMgMCAwIDAgMy0zIDEgMSAwIDEgMSAyIDAgMyAzIDAgMCAwIDMgM2gxYTIgMiAwIDAgMCAyLTJ2LS41aC41YS41LjUgMCAwIDAgMC0xSDE1VjdhMiAyIDAgMCAwLTItMmgtMmEyIDIgMCAwIDAtMS44ODggMS4zMzhBMiAyIDAgMCAwIDggNmEyIDIgMCAwIDAtMS4xMTIuMzM4QTIgMiAwIDAgMCA1IDV6bTAgMWguOTQxYy4yNjQgMCAuMzQ4LjM1Ni4xMTIuNDc0bC0uNDU3LjIyOGEyIDIgMCAwIDAtLjg5NC44OTRsLS4yMjguNDU3QzIuMzU2IDguMjg5IDIgOC4yMDUgMiA3Ljk0VjdhMSAxIDAgMCAxIDEtMSIvPgo8L3N2Zz4=)*/
 const Sunglasses: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sunglasses"

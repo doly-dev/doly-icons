@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![universal-access-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCA0LjE0M0ExLjA3MSAxLjA3MSAwIDEgMCA4IDJhMS4wNzEgMS4wNzEgMCAwIDAgMCAyLjE0M20tNC42NjggMS40NyAzLjI0LjMxNnYyLjVsLS4zMjMgNC41ODVBLjM4My4zODMgMCAwIDAgNyAxMy4xNGwuODI2LTQuMDE3Yy4wNDUtLjE4LjMwMS0uMTguMzQ2IDBMOSAxMy4xMzlhLjM4My4zODMgMCAwIDAgLjc1Mi0uMTI1TDkuNDMgOC40M3YtMi41bDMuMjM5LS4zMTZhLjM4LjM4IDAgMCAwLS4wNDctLjc1NkgzLjM3OWEuMzguMzggMCAwIDAtLjA0Ny43NTZaIi8+CiAgPHBhdGggZD0iTTggMGE4IDggMCAxIDAgMCAxNkE4IDggMCAwIDAgOCAwTTEgOGE3IDcgMCAxIDEgMTQgMEE3IDcgMCAwIDEgMSA4Ii8+Cjwvc3ZnPg==)*/
 const UniversalAccessCircle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="universal-access-circle"

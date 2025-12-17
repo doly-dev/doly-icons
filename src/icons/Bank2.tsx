@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bank2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4yNzcuMDg0YS41LjUgMCAwIDAtLjU1NCAwbC03LjUgNUEuNS41IDAgMCAwIC41IDZoMS44NzV2N0gxLjVhLjUuNSAwIDAgMCAwIDFoMTNhLjUuNSAwIDEgMCAwLTFoLS44NzVWNkgxNS41YS41LjUgMCAwIDAgLjI3Ny0uOTE2ek0xMi4zNzUgNnY3aC0xLjI1VjZ6bS0yLjUgMHY3aC0xLjI1VjZ6bS0yLjUgMHY3aC0xLjI1VjZ6bS0yLjUgMHY3aC0xLjI1VjZ6TTggNGExIDEgMCAxIDEgMC0yIDEgMSAwIDAgMSAwIDJNLjUgMTVhLjUuNSAwIDAgMCAwIDFoMTVhLjUuNSAwIDEgMCAwLTF6Ii8+Cjwvc3ZnPg==)*/
 const Bank2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bank2"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![badge-ar-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtNi4wMzEgOC41NzQtLjczNC0yLjQyNmgtLjA1Mkw0LjUxIDguNTc0aDEuNTJ6bTMuNjQyLTIuNjQxdjEuOTM4aDEuMDMzYy42NiAwIDEuMDY4LS4zMTYgMS4wNjgtLjk1IDAtLjY0LS40MjItLjk4OC0xLjA1LS45ODh6Ii8+CiAgPHBhdGggZD0iTTAgNGEyIDIgMCAwIDEgMi0yaDEyYTIgMiAwIDAgMSAyIDJ2OGEyIDIgMCAwIDEtMiAySDJhMiAyIDAgMCAxLTItMnptNC4yNjUgNS40NThoMi4wMDRMNi43MzkgMTFIOEw1Ljk5NiA1LjAwMUg0LjYwN0wyLjU5NSAxMWgxLjJ6TTguNSA1djZoMS4xNzNWOC43NjNoMS4wNjRMMTEuNzg3IDExaDEuMzI3TDExLjkxIDguNTgzQzEyLjQ1NSA4LjM3MyAxMyA3Ljc3OSAxMyA2LjljMC0xLjE0Ny0uNzczLTEuOS0yLjEwNS0xLjl6Ii8+Cjwvc3ZnPg==)*/
 const BadgeArFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="badge-ar-fill"

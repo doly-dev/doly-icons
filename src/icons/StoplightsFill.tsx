@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![stoplights-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02IDBhMiAyIDAgMCAwLTIgMkgyYy4xNjcuNS44IDEuNiAyIDJ2MkgyYy4xNjcuNS44IDEuNiAyIDJ2MkgyYy4xNjcuNS44IDEuNiAyIDJ2MWEyIDIgMCAwIDAgMiAyaDRhMiAyIDAgMCAwIDItMnYtMWMxLjItLjQgMS44MzMtMS41IDItMmgtMlY4YzEuMi0uNCAxLjgzMy0xLjUgMi0yaC0yVjRjMS4yLS40IDEuODMzLTEuNSAyLTJoLTJhMiAyIDAgMCAwLTItMnptMy41IDMuNWExLjUgMS41IDAgMSAxLTMgMCAxLjUgMS41IDAgMCAxIDMgMG0wIDRhMS41IDEuNSAwIDEgMS0zIDAgMS41IDEuNSAwIDAgMSAzIDBNOCAxM2ExLjUgMS41IDAgMSAxIDAtMyAxLjUgMS41IDAgMCAxIDAgMyIvPgo8L3N2Zz4=)*/
 const StoplightsFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="stoplights-fill"

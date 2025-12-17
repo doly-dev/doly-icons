@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrow-counterclockwise](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDNhNSA1IDAgMSAxLTQuNTQ2IDIuOTE0LjUuNSAwIDAgMC0uOTA4LS40MTdBNiA2IDAgMSAwIDggMnoiLz4KICA8cGF0aCBkPSJNOCA0LjQ2NlYuNTM0YS4yNS4yNSAwIDAgMC0uNDEtLjE5Mkw1LjIzIDIuMzA4YS4yNS4yNSAwIDAgMCAwIC4zODRsMi4zNiAxLjk2NkEuMjUuMjUgMCAwIDAgOCA0LjQ2NiIvPgo8L3N2Zz4=)*/
 const ArrowCounterclockwise: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrow-counterclockwise"

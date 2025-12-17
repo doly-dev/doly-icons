@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41IDExLjVhLjUuNSAwIDAgMS0xIDBWNy43MDdMNi4zNTQgOC44NTRhLjUuNSAwIDEgMS0uNzA4LS43MDhsMi0yYS41LjUgMCAwIDEgLjcwOCAwbDIgMmEuNS41IDAgMCAxLS43MDguNzA4TDguNSA3LjcwN3oiLz4KICA8cGF0aCBkPSJNMTQgMTRWNC41TDkuNSAwSDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDhhMiAyIDAgMCAwIDItMk05LjUgM0ExLjUgMS41IDAgMCAwIDExIDQuNWgyVjE0YTEgMSAwIDAgMS0xIDFINGExIDEgMCAwIDEtMS0xVjJhMSAxIDAgMCAxIDEtMWg1LjV6Ii8+Cjwvc3ZnPg==)*/
 const FileEarmarkArrowUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-arrow-up"

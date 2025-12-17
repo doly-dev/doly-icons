@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![envelope-paper-heart-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0zIDcuNSAzLjUgMkw4IDguNzVsMS41Ljc1IDMuNS0ydi02QTEuNSAxLjUgMCAwIDAgMTEuNSAwaC03QTEuNSAxLjUgMCAwIDAgMyAxLjV6TTIgMy4xMzNsLS45NDEuNTAyQTIgMiAwIDAgMCAwIDUuNHYuMzEzbDIgMS4xNzN6bTEyIDMuNzUzIDItMS4xNzNWNS40YTIgMiAwIDAgMC0xLjA1OS0xLjc2NUwxNCAzLjEzM3ptLTMuNjkzIDMuMzI0TDE2IDYuODczdjYuNXptNS42MzQgNC4yNzRMOCAxMC4wNzIuMDU5IDE0LjQ4NEEyIDIgMCAwIDAgMiAxNmgxMmEyIDIgMCAwIDAgMS45NDEtMS41MTZNNS42OTMgMTAuMjEgMCAxMy4zNzJ2LTYuNXpNOCAxLjk4MkM5LjY2NC4zMDkgMTMuODI1IDMuMjM2IDggNyAyLjE3NSAzLjIzNiA2LjMzNi4zMSA4IDEuOTgyIi8+Cjwvc3ZnPg==)*/
 const EnvelopePaperHeartFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="envelope-paper-heart-fill"

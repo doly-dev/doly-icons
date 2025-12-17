@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![octagon-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNC41NC4xNDZBLjUuNSAwIDAgMSA0Ljg5MyAwaDYuMjE0YS41LjUgMCAwIDEgLjM1My4xNDZsNC4zOTQgNC4zOTRhLjUuNSAwIDAgMSAuMTQ2LjM1M3Y2LjIxNGEuNS41IDAgMCAxLS4xNDYuMzUzbC00LjM5NCA0LjM5NGEuNS41IDAgMCAxLS4zNTMuMTQ2SDQuODkzYS41LjUgMCAwIDEtLjM1My0uMTQ2TC4xNDYgMTEuNDZBLjUuNSAwIDAgMSAwIDExLjEwN1Y0Ljg5M2EuNS41IDAgMCAxIC4xNDYtLjM1M3pNOCAxNWgyLjlsNC4xLTQuMVY1LjFMMTAuOSAxSDh6Ii8+Cjwvc3ZnPg==)*/
 const OctagonHalf: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="octagon-half"

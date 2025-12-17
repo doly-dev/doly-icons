@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrow-right-circle-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAwYTggOCAwIDEgMSAwIDE2QTggOCAwIDAgMSA4IDBNNC41IDcuNWEuNS41IDAgMCAwIDAgMWg1Ljc5M2wtMi4xNDcgMi4xNDZhLjUuNSAwIDAgMCAuNzA4LjcwOGwzLTNhLjUuNSAwIDAgMCAwLS43MDhsLTMtM2EuNS41IDAgMSAwLS43MDguNzA4TDEwLjI5MyA3LjV6Ii8+Cjwvc3ZnPg==)*/
 const ArrowRightCircleFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrow-right-circle-fill"

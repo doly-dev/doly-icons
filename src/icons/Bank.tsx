@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtOCAwIDYuNjEgM2guODlhLjUuNSAwIDAgMSAuNS41djJhLjUuNSAwIDAgMS0uNS41SDE1djdhLjUuNSAwIDAgMSAuNDg1LjM4bC41IDJhLjQ5OC40OTggMCAwIDEtLjQ4NS42MkguNWEuNDk4LjQ5OCAwIDAgMS0uNDg1LS42MmwuNS0yQS41LjUgMCAwIDEgMSAxM1Y2SC41YS41LjUgMCAwIDEtLjUtLjV2LTJBLjUuNSAwIDAgMSAuNSAzaC44OXpNMy43NzcgM2g4LjQ0N0w4IDF6TTIgNnY3aDFWNnptMiAwdjdoMi41VjZ6bTMuNSAwdjdoMVY2em0yIDB2N0gxMlY2ek0xMyA2djdoMVY2em0yLTFWNEgxdjF6bS0uMzkgOUgxLjM5bC0uMjUgMWgxMy43MnoiLz4KPC9zdmc+)*/
 const Bank: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bank"

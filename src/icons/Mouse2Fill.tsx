@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![mouse2-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy41LjAyNkM0Ljk1OC4yODYgMyAyLjUxNSAzIDUuMTg4VjUuNWg0LjV6bTEgMFY1LjVIMTN2LS4zMTJDMTMgMi41MTUgMTEuMDQyLjI4NiA4LjUuMDI2TTEzIDYuNUgzdjQuMzEzQzMgMTMuNjU4IDUuMjIgMTYgOCAxNnM1LTIuMzQyIDUtNS4xODh6Ii8+Cjwvc3ZnPg==)*/
 const Mouse2Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="mouse2-fill"

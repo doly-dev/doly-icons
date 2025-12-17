@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-no-right-turn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwbS0zLjQxNiA1LjI5TDYuNTk2IDcuMzA0QTEuNSAxLjUgMCAwIDAgNiA4LjVWMTFINVY4LjVjMC0uNzY1LjM0NC0xLjQ1Ljg4NS0xLjkwOEwyLjcwOSAzLjQxNmE3IDcgMCAwIDAgOS44NzQgOS44NzRabS43MDctLjcwNkE3IDcgMCAwIDAgMy40MTcgMi43MWwzLjM4OCAzLjM4OFE3LjEzNyA2LjAwMSA3LjUgNkg5VjQuNTM0YS4yNS4yNSAwIDAgMSAuNDEtLjE5MmwyLjM2IDEuOTY2Yy4xMi4xLjEyLjI4NCAwIC4zODRMOS40MSA4LjY1OGwtLjAyNi4wMnpNNy43MDcgNyA5IDguMjkzVjd6Ii8+Cjwvc3ZnPg==)*/
 const SignNoRightTurn: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-no-right-turn"

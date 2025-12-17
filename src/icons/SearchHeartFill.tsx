@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![search-heart-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi41IDEzYTYuNDcgNi40NyAwIDAgMCAzLjg0NS0xLjI1OGgtLjAwMXEuMDQ0LjA2LjA5OC4xMTVsMy44NSAzLjg1YTEgMSAwIDAgMCAxLjQxNS0xLjQxNGwtMy44NS0zLjg1YTEgMSAwIDAgMC0uMTE1LS4xQTYuNDcgNi40NyAwIDAgMCAxMyA2LjUgNi41IDYuNSAwIDAgMCA2LjUgMGE2LjUgNi41IDAgMSAwIDAgMTNtMC04LjUxOGMxLjY2NC0xLjY3MyA1LjgyNSAxLjI1NCAwIDUuMDE4LTUuODI1LTMuNzY0LTEuNjY0LTYuNjkgMC01LjAxOCIvPgo8L3N2Zz4=)*/
 const SearchHeartFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="search-heart-fill"

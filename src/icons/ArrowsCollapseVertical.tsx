@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrows-collapse-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNWEuNS41IDAgMCAxLS41LS41di0xM2EuNS41IDAgMCAxIDEgMHYxM2EuNS41IDAgMCAxLS41LjVNMCA4YS41LjUgMCAwIDEgLjUtLjVoMy43OTNMMy4xNDYgNi4zNTRhLjUuNSAwIDEgMSAuNzA4LS43MDhsMiAyYS41LjUgMCAwIDEgMCAuNzA4bC0yIDJhLjUuNSAwIDAgMS0uNzA4LS43MDhMNC4yOTMgOC41SC41QS41LjUgMCAwIDEgMCA4bTExLjcwNy41IDEuMTQ3IDEuMTQ2YS41LjUgMCAwIDEtLjcwOC43MDhsLTItMmEuNS41IDAgMCAxIDAtLjcwOGwyLTJhLjUuNSAwIDAgMSAuNzA4LjcwOEwxMS43MDcgNy41SDE1LjVhLjUuNSAwIDAgMSAwIDF6Ii8+Cjwvc3ZnPg==)*/
 const ArrowsCollapseVertical: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrows-collapse-vertical"

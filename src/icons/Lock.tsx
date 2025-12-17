@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDBhNCA0IDAgMCAxIDQgNHYyLjA1YTIuNSAyLjUgMCAwIDEgMiAyLjQ1djVhMi41IDIuNSAwIDAgMS0yLjUgMi41aC03QTIuNSAyLjUgMCAwIDEgMiAxMy41di01YTIuNSAyLjUgMCAwIDEgMi0yLjQ1VjRhNCA0IDAgMCAxIDQtNE00LjUgN0ExLjUgMS41IDAgMCAwIDMgOC41djVBMS41IDEuNSAwIDAgMCA0LjUgMTVoN2ExLjUgMS41IDAgMCAwIDEuNS0xLjV2LTVBMS41IDEuNSAwIDAgMCAxMS41IDd6TTggMWEzIDMgMCAwIDAtMyAzdjJoNlY0YTMgMyAwIDAgMC0zLTMiLz4KPC9zdmc+)*/
 const Lock: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="lock"

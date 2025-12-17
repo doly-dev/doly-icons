@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxMWEuNS41IDAgMCAwIC41LS41VjYuNzA3bDEuMTQ2IDEuMTQ3YS41LjUgMCAwIDAgLjcwOC0uNzA4bC0yLTJhLjUuNSAwIDAgMC0uNzA4IDBsLTIgMmEuNS41IDAgMSAwIC43MDguNzA4TDcuNSA2LjcwN1YxMC41YS41LjUgMCAwIDAgLjUuNSIvPgogIDxwYXRoIGQ9Ik00IDBhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDhhMiAyIDAgMCAwIDItMlYyYTIgMiAwIDAgMC0yLTJ6bTAgMWg4YTEgMSAwIDAgMSAxIDF2MTJhMSAxIDAgMCAxLTEgMUg0YTEgMSAwIDAgMS0xLTFWMmExIDEgMCAwIDEgMS0xIi8+Cjwvc3ZnPg==)*/
 const FileArrowUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-arrow-up"

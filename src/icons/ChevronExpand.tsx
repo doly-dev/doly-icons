@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chevron-expand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zLjY0NiA5LjE0NmEuNS41IDAgMCAxIC43MDggMEw4IDEyLjc5M2wzLjY0Ni0zLjY0N2EuNS41IDAgMCAxIC43MDguNzA4bC00IDRhLjUuNSAwIDAgMS0uNzA4IDBsLTQtNGEuNS41IDAgMCAxIDAtLjcwOG0wLTIuMjkyYS41LjUgMCAwIDAgLjcwOCAwTDggMy4yMDdsMy42NDYgMy42NDdhLjUuNSAwIDAgMCAuNzA4LS43MDhsLTQtNGEuNS41IDAgMCAwLS43MDggMGwtNCA0YS41LjUgMCAwIDAgMCAuNzA4Ii8+Cjwvc3ZnPg==)*/
 const ChevronExpand: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chevron-expand"

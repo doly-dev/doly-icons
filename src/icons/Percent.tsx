@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![percent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTMuNDQyIDIuNTU4YS42MjUuNjI1IDAgMCAxIDAgLjg4NGwtMTAgMTBhLjYyNS42MjUgMCAxIDEtLjg4NC0uODg0bDEwLTEwYS42MjUuNjI1IDAgMCAxIC44ODQgME00LjUgNmExLjUgMS41IDAgMSAxIDAtMyAxLjUgMS41IDAgMCAxIDAgM20wIDFhMi41IDIuNSAwIDEgMCAwLTUgMi41IDIuNSAwIDAgMCAwIDVtNyA2YTEuNSAxLjUgMCAxIDEgMC0zIDEuNSAxLjUgMCAwIDEgMCAzbTAgMWEyLjUgMi41IDAgMSAwIDAtNSAyLjUgMi41IDAgMCAwIDAgNSIvPgo8L3N2Zz4=)*/
 const Percent: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="percent"

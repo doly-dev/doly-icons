@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![compass-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTUuNSA4LjUxNmE3LjUgNy41IDAgMSAxLTkuNDYyLTcuMjRBMSAxIDAgMCAxIDcgMGgyYTEgMSAwIDAgMSAuOTYyIDEuMjc2IDcuNSA3LjUgMCAwIDEgNS41MzggNy4yNG0tMy42MS0zLjkwNUw2Ljk0IDcuNDM5IDQuMTEgMTIuMzlsNC45NS0yLjgyOCAyLjgyOC00Ljk1eiIvPgo8L3N2Zz4=)*/
 const CompassFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="compass-fill"

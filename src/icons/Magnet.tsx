@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![magnet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxYTcgNyAwIDAgMC03IDd2M2g0VjhhMyAzIDAgMCAxIDYgMHYzaDRWOGE3IDcgMCAwIDAtNy03bTcgMTFoLTR2M2g0ek01IDEySDF2M2g0ek0wIDhhOCA4IDAgMSAxIDE2IDB2OGgtNlY4YTIgMiAwIDEgMC00IDB2OEgweiIvPgo8L3N2Zz4=)*/
 const Magnet: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="magnet"

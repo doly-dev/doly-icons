@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bookshelf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMi41IDBhLjUuNSAwIDAgMSAuNS41VjJoMTBWLjVhLjUuNSAwIDAgMSAxIDB2MTVhLjUuNSAwIDAgMS0xIDBWMTVIM3YuNWEuNS41IDAgMCAxLTEgMFYuNWEuNS41IDAgMCAxIC41LS41TTMgMTRoMTB2LTNIM3ptMC00aDEwVjdIM3ptMC00aDEwVjNIM3oiLz4KPC9zdmc+)*/
 const Bookshelf: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bookshelf"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![check-lg](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuNzM2IDMuOTdhLjczMy43MzMgMCAwIDEgMS4wNDcgMGMuMjg2LjI4OS4yOS43NTYuMDEgMS4wNUw3Ljg4IDEyLjAxYS43MzMuNzMzIDAgMCAxLTEuMDY1LjAyTDMuMjE3IDguMzg0YS43NTcuNzU3IDAgMCAxIDAtMS4wNi43MzMuNzMzIDAgMCAxIDEuMDQ3IDBsMy4wNTIgMy4wOTMgNS40LTYuNDI1eiIvPgo8L3N2Zz4=)*/
 const CheckLg: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="check-lg"

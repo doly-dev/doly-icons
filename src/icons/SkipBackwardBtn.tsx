@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![skip-backward-btn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEuMjEgNS4wOTNBLjUuNSAwIDAgMSAxMiA1LjV2NWEuNS41IDAgMCAxLS43OS40MDdMOC41IDguOTcyVjEwLjVhLjUuNSAwIDAgMS0uNzkuNDA3TDUgOC45NzJWMTAuNWEuNS41IDAgMCAxLTEgMHYtNWEuNS41IDAgMCAxIDEgMHYxLjUyOGwyLjcxLTEuOTM1YS41LjUgMCAwIDEgLjc5LjQwN3YxLjUyOHoiLz4KICA8cGF0aCBkPSJNMCA0YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0yem0xNSAwYTEgMSAwIDAgMC0xLTFIMmExIDEgMCAwIDAtMSAxdjhhMSAxIDAgMCAwIDEgMWgxMmExIDEgMCAwIDAgMS0xeiIvPgo8L3N2Zz4=)*/
 const SkipBackwardBtn: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="skip-backward-btn"

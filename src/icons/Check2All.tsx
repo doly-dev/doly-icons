@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![check2-all](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuMzU0IDQuMzU0YS41LjUgMCAwIDAtLjcwOC0uNzA4TDUgMTAuMjkzIDEuODU0IDcuMTQ2YS41LjUgMCAxIDAtLjcwOC43MDhsMy41IDMuNWEuNS41IDAgMCAwIC43MDggMHptLTQuMjA4IDctLjg5Ni0uODk3LjcwNy0uNzA3LjU0My41NDMgNi42NDYtNi42NDdhLjUuNSAwIDAgMSAuNzA4LjcwOGwtNyA3YS41LjUgMCAwIDEtLjcwOCAwIi8+CiAgPHBhdGggZD0ibTUuMzU0IDcuMTQ2Ljg5Ni44OTctLjcwNy43MDctLjg5Ny0uODk2YS41LjUgMCAxIDEgLjcwOC0uNzA4Ii8+Cjwvc3ZnPg==)*/
 const Check2All: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="check2-all"

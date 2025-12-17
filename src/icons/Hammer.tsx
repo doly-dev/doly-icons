@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![hammer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS45NzIgMi41MDhhLjUuNSAwIDAgMC0uMTYtLjU1NmwtLjE3OC0uMTI5YTUgNSAwIDAgMC0yLjA3Ni0uNzgzQzYuMjE1Ljg2MiA0LjUwNCAxLjIyOSAyLjg0IDMuMTMzSDEuNzg2YS41LjUgMCAwIDAtLjM1NC4xNDdMLjE0NiA0LjU2N2EuNS41IDAgMCAwIDAgLjcwNmwyLjU3MSAyLjU3OWEuNS41IDAgMCAwIC43MDggMGwxLjI4Ni0xLjI5YS41LjUgMCAwIDAgLjE0Ni0uMzUzVjUuNTdsOC4zODcgOC44NzNBLjUuNSAwIDAgMCAxNCAxNC41bDEuNS0xLjVhLjUuNSAwIDAgMCAuMDE3LS42ODlsLTkuMTI5LTguNjNjLjc0Ny0uNDU2IDEuNzcyLS44MzkgMy4xMTItLjgzOWEuNS41IDAgMCAwIC40NzItLjMzNCIvPgo8L3N2Zz4=)*/
 const Hammer: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="hammer"

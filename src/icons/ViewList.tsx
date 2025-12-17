@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![view-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMyA0LjVoMTBhMiAyIDAgMCAxIDIgMnYzYTIgMiAwIDAgMS0yIDJIM2EyIDIgMCAwIDEtMi0ydi0zYTIgMiAwIDAgMSAyLTJtMCAxYTEgMSAwIDAgMC0xIDF2M2ExIDEgMCAwIDAgMSAxaDEwYTEgMSAwIDAgMCAxLTF2LTNhMSAxIDAgMCAwLTEtMXpNMSAyYS41LjUgMCAwIDEgLjUtLjVoMTNhLjUuNSAwIDAgMSAwIDFoLTEzQS41LjUgMCAwIDEgMSAybTAgMTJhLjUuNSAwIDAgMSAuNS0uNWgxM2EuNS41IDAgMCAxIDAgMWgtMTNBLjUuNSAwIDAgMSAxIDE0Ii8+Cjwvc3ZnPg==)*/
 const ViewList: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="view-list"

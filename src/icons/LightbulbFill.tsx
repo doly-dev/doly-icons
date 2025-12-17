@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![lightbulb-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiA2YTYgNiAwIDEgMSAxMC4xNzQgNC4zMWMtLjIwMy4xOTYtLjM1OS40LS40NTMuNjE5bC0uNzYyIDEuNzY5QS41LjUgMCAwIDEgMTAuNSAxM2gtNWEuNS41IDAgMCAxLS40Ni0uMzAybC0uNzYxLTEuNzdhMiAyIDAgMCAwLS40NTMtLjYxOEE1Ljk4IDUuOTggMCAwIDEgMiA2bTMgOC41YS41LjUgMCAwIDEgLjUtLjVoNWEuNS41IDAgMCAxIDAgMWwtLjIyNC40NDdhMSAxIDAgMCAxLS44OTQuNTUzSDYuNjE4YTEgMSAwIDAgMS0uODk0LS41NTNMNS41IDE1YS41LjUgMCAwIDEtLjUtLjUiLz4KPC9zdmc+)*/
 const LightbulbFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="lightbulb-fill"

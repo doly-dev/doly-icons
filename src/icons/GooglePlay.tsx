@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![google-play](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQuMjIyIDkuMzc0YzEuMDM3LS42MSAxLjAzNy0yLjEzNyAwLTIuNzQ4TDExLjUyOCA1LjA0IDguMzIgOGwzLjIwNyAyLjk2em0tMy41OTUgMi4xMTZMNy41ODMgOC42OCAxLjAzIDE0LjczYy4yMDEgMS4wMjkgMS4zNiAxLjYxIDIuMzAzIDEuMDU1ek0xIDEzLjM5NlYyLjYwM0w2Ljg0NiA4ek0xLjAzIDEuMjdsNi41NTMgNi4wNSAzLjA0NC0yLjgxTDMuMzMzLjIxNUMyLjM5LS4zNDEgMS4yMzEuMjQgMS4wMyAxLjI3Ii8+Cjwvc3ZnPg==)*/
 const GooglePlay: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="google-play"

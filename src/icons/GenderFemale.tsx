@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![gender-female](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDFhNCA0IDAgMSAwIDAgOCA0IDQgMCAwIDAgMC04TTMgNWE1IDUgMCAxIDEgNS41IDQuOTc1VjEyaDJhLjUuNSAwIDAgMSAwIDFoLTJ2Mi41YS41LjUgMCAwIDEtMSAwVjEzaC0yYS41LjUgMCAwIDEgMC0xaDJWOS45NzVBNSA1IDAgMCAxIDMgNSIvPgo8L3N2Zz4=)*/
 const GenderFemale: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="gender-female"

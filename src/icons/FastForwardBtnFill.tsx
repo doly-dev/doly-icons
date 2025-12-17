@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![fast-forward-btn-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCA0djhhMiAyIDAgMCAwIDIgMmgxMmEyIDIgMCAwIDAgMi0yVjRhMiAyIDAgMCAwLTItMkgyYTIgMiAwIDAgMC0yIDJtNC4yNzEgMS4wNTVhLjUuNSAwIDAgMSAuNTIuMDM4TDggNy4zODZWNS41YS41LjUgMCAwIDEgLjc5LS40MDdsMy41IDIuNWEuNS41IDAgMCAxIDAgLjgxNGwtMy41IDIuNUEuNS41IDAgMCAxIDggMTAuNVY4LjYxNGwtMy4yMSAyLjI5M0EuNS41IDAgMCAxIDQgMTAuNXYtNWEuNS41IDAgMCAxIC4yNzEtLjQ0NSIvPgo8L3N2Zz4=)*/
 const FastForwardBtnFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="fast-forward-btn-fill"

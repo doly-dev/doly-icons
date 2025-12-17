@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![usb-drive-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNiAuNWEuNS41IDAgMCAxIC41LS41aDRhLjUuNSAwIDAgMSAuNS41djRINnpNNyAxdjFoMVYxem0yIDB2MWgxVjF6TTUuNSA1YS41LjUgMCAwIDAtLjUuNVYxNWExIDEgMCAwIDAgMSAxaDVhMSAxIDAgMCAwIDEtMVY1LjVhLjUuNSAwIDAgMC0uNS0uNXoiLz4KPC9zdmc+)*/
 const UsbDriveFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="usb-drive-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![list-nested](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00LjUgMTEuNUEuNS41IDAgMCAxIDUgMTFoMTBhLjUuNSAwIDAgMSAwIDFINWEuNS41IDAgMCAxLS41LS41bS0yLTRBLjUuNSAwIDAgMSAzIDdoMTBhLjUuNSAwIDAgMSAwIDFIM2EuNS41IDAgMCAxLS41LS41bS0yLTRBLjUuNSAwIDAgMSAxIDNoMTBhLjUuNSAwIDAgMSAwIDFIMWEuNS41IDAgMCAxLS41LS41Ii8+Cjwvc3ZnPg==)*/
 const ListNested: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="list-nested"

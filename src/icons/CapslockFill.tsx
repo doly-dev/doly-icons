@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![capslock-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy4yNyAxLjA0N2ExIDEgMCAwIDEgMS40NiAwbDYuMzQ1IDYuNzdjLjYuNjM4LjE0NiAxLjY4My0uNzMgMS42ODNIMTEuNXYxYTEgMSAwIDAgMS0xIDFoLTVhMSAxIDAgMCAxLTEtMXYtMUgxLjY1NEMuNzggOS41LjMyNiA4LjQ1NS45MjQgNy44MTZ6TTQuNSAxMy41YTEgMSAwIDAgMSAxLTFoNWExIDEgMCAwIDEgMSAxdjFhMSAxIDAgMCAxLTEgMWgtNWExIDEgMCAwIDEtMS0xeiIvPgo8L3N2Zz4=)*/
 const CapslockFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="capslock-fill"

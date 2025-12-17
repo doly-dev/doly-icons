@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![currency-rupee](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCAzLjA2aDIuNzI2YzEuMjIgMCAyLjEyLjU3NSAyLjMyNSAxLjcyNEg0djEuMDUxaDUuMDUxQzguODU1IDcuMDAxIDggNy41NTggNi43ODggNy41NThINHYxLjMxN0w4LjQzNyAxNGgyLjExTDYuMDk1IDguODg0aC44NTVjMi4zMTYtLjAxOCAzLjQ2NS0xLjQ3NiAzLjY4OC0zLjA0OUgxMlY0Ljc4NGgtMS4zNDVjLS4wOC0uNzc4LS4zNTctMS4zMzUtLjc5My0xLjczMkgxMlYySDR6Ii8+Cjwvc3ZnPg==)*/
 const CurrencyRupee: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="currency-rupee"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![geo-alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuMTY2IDguOTRjLS41MjQgMS4wNjItMS4yMzQgMi4xMi0xLjk2IDMuMDdBMzIgMzIgMCAwIDEgOCAxNC41OGEzMiAzMiAwIDAgMS0yLjIwNi0yLjU3Yy0uNzI2LS45NS0xLjQzNi0yLjAwOC0xLjk2LTMuMDdDMy4zMDQgNy44NjcgMyA2Ljg2MiAzIDZhNSA1IDAgMCAxIDEwIDBjMCAuODYyLS4zMDUgMS44NjctLjgzNCAyLjk0TTggMTZzNi01LjY4NiA2LTEwQTYgNiAwIDAgMCAyIDZjMCA0LjMxNCA2IDEwIDYgMTAiLz4KICA8cGF0aCBkPSJNOCA4YTIgMiAwIDEgMSAwLTQgMiAyIDAgMCAxIDAgNG0wIDFhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2Ii8+Cjwvc3ZnPg==)*/
 const GeoAlt: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="geo-alt"

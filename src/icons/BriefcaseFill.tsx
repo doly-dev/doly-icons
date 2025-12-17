@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![briefcase-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi41IDFBMS41IDEuNSAwIDAgMCA1IDIuNVYzSDEuNUExLjUgMS41IDAgMCAwIDAgNC41djEuMzg0bDcuNjE0IDIuMDNhMS41IDEuNSAwIDAgMCAuNzcyIDBMMTYgNS44ODRWNC41QTEuNSAxLjUgMCAwIDAgMTQuNSAzSDExdi0uNUExLjUgMS41IDAgMCAwIDkuNSAxem0wIDFoM2EuNS41IDAgMCAxIC41LjVWM0g2di0uNWEuNS41IDAgMCAxIC41LS41Ii8+CiAgPHBhdGggZD0iTTAgMTIuNUExLjUgMS41IDAgMCAwIDEuNSAxNGgxM2ExLjUgMS41IDAgMCAwIDEuNS0xLjVWNi44NUw4LjEyOSA4Ljk0N2EuNS41IDAgMCAxLS4yNTggMEwwIDYuODV6Ii8+Cjwvc3ZnPg==)*/
 const BriefcaseFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="briefcase-fill"

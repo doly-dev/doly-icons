@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![cloud-check-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAyYTUuNTMgNS41MyAwIDAgMC0zLjU5NCAxLjM0MmMtLjc2Ni42Ni0xLjMyMSAxLjUyLTEuNDY0IDIuMzgzQzEuMjY2IDYuMDk1IDAgNy41NTUgMCA5LjMxOCAwIDExLjM2NiAxLjcwOCAxMyAzLjc4MSAxM2g4LjkwNkMxNC41MDIgMTMgMTYgMTEuNTcgMTYgOS43NzNjMC0xLjYzNi0xLjI0Mi0yLjk2OS0yLjgzNC0zLjE5NEMxMi45MjMgMy45OTkgMTAuNjkgMiA4IDJtMi4zNTQgNC44NTQtMyAzYS41LjUgMCAwIDEtLjcwOCAwbC0xLjUtMS41YS41LjUgMCAxIDEgLjcwOC0uNzA4TDcgOC43OTNsMi42NDYtMi42NDdhLjUuNSAwIDAgMSAuNzA4LjcwOCIvPgo8L3N2Zz4=)*/
 const CloudCheckFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="cloud-check-fill"

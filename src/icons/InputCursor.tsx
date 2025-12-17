@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![input-cursor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAgNWg0YTEgMSAwIDAgMSAxIDF2NGExIDEgMCAwIDEtMSAxaC00djFoNGEyIDIgMCAwIDAgMi0yVjZhMiAyIDAgMCAwLTItMmgtNHpNNiA1VjRIMmEyIDIgMCAwIDAtMiAydjRhMiAyIDAgMCAwIDIgMmg0di0xSDJhMSAxIDAgMCAxLTEtMVY2YTEgMSAwIDAgMSAxLTF6Ii8+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCAxYS41LjUgMCAwIDEgLjUuNXYxM2EuNS41IDAgMCAxLTEgMHYtMTNBLjUuNSAwIDAgMSA4IDEiLz4KPC9zdmc+)*/
 const InputCursor: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="input-cursor"

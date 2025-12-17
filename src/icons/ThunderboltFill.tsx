@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![thunderbolt-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSAzYTEgMSAwIDAgMC0xIDF2Ny4yOTNBMSAxIDAgMCAwIC4yOTMgMTJMMiAxMy43MDdhMSAxIDAgMCAwIC43MDcuMjkzaDEwLjU4NmExIDEgMCAwIDAgLjcwNy0uMjkzTDE1LjcwNyAxMmExIDEgMCAwIDAgLjI5My0uNzA3VjRhMSAxIDAgMCAwLTEtMXptMi41IDNoOWEuNS41IDAgMCAxIC41LjV2MWEuNS41IDAgMCAxLS41LjVoLTlhLjUuNSAwIDAgMS0uNS0uNXYtMWEuNS41IDAgMCAxIC41LS41Ii8+Cjwvc3ZnPg==)*/
 const ThunderboltFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="thunderbolt-fill"

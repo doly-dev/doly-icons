@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-stop-lights-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCA2YTEgMSAwIDEgMCAwLTIgMSAxIDAgMCAwIDAgMm0wIDNhMSAxIDAgMSAwIDAtMiAxIDEgMCAwIDAgMCAybTEgMmExIDEgMCAxIDEtMiAwIDEgMSAwIDAgMSAyIDAiLz4KICA8cGF0aCBkPSJNOS4wNS40MzVjLS41OC0uNTgtMS41Mi0uNTgtMi4xIDBMLjQzNiA2Ljk1Yy0uNTguNTgtLjU4IDEuNTE5IDAgMi4wOThsNi41MTYgNi41MTZjLjU4LjU4IDEuNTE5LjU4IDIuMDk4IDBsNi41MTYtNi41MTZjLjU4LS41OC41OC0xLjUxOSAwLTIuMDk4ek02IDRhMSAxIDAgMCAxIDEtMWgyYTEgMSAwIDAgMSAxIDF2OGExIDEgMCAwIDEtMSAxSDdhMSAxIDAgMCAxLTEtMXoiLz4KPC9zdmc+)*/
 const SignStopLightsFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-stop-lights-fill"

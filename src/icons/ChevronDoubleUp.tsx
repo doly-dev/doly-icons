@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chevron-double-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjY0NiAyLjY0NmEuNS41IDAgMCAxIC43MDggMGw2IDZhLjUuNSAwIDAgMS0uNzA4LjcwOEw4IDMuNzA3IDIuMzU0IDkuMzU0YS41LjUgMCAxIDEtLjcwOC0uNzA4eiIvPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuNjQ2IDYuNjQ2YS41LjUgMCAwIDEgLjcwOCAwbDYgNmEuNS41IDAgMCAxLS43MDguNzA4TDggNy43MDdsLTUuNjQ2IDUuNjQ3YS41LjUgMCAwIDEtLjcwOC0uNzA4eiIvPgo8L3N2Zz4=)*/
 const ChevronDoubleUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chevron-double-up"

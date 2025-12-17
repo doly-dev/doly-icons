@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-richtext-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS4yOTMgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWNC43MDdBMSAxIDAgMCAwIDEzLjcwNyA0TDEwIC4yOTNBMSAxIDAgMCAwIDkuMjkzIDBNOS41IDMuNXYtMmwzIDNoLTJhMSAxIDAgMCAxLTEtMU03IDYuMjVhLjc1Ljc1IDAgMSAxLTEuNSAwIC43NS43NSAwIDAgMSAxLjUgMG0tLjg2MSAxLjU0MiAxLjMzLjg4NiAxLjg1NC0xLjg1NWEuMjUuMjUgMCAwIDEgLjI4OS0uMDQ3bDEuODg4Ljk3NFY5LjVhLjUuNSAwIDAgMS0uNS41SDVhLjUuNSAwIDAgMS0uNS0uNVY5czEuNTQtMS4yNzQgMS42MzktMS4yMDhNNSAxMWg2YS41LjUgMCAwIDEgMCAxSDVhLjUuNSAwIDAgMSAwLTFtMCAyaDNhLjUuNSAwIDAgMSAwIDFINWEuNS41IDAgMCAxIDAtMSIvPgo8L3N2Zz4=)*/
 const FileEarmarkRichtextFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-richtext-fill"

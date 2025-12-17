@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pause-btn-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxMlY0YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJIMmEyIDIgMCAwIDEtMi0ybTYuMjUtN0M1LjU2IDUgNSA1LjU2IDUgNi4yNXYzLjVhMS4yNSAxLjI1IDAgMSAwIDIuNSAwdi0zLjVDNy41IDUuNTYgNi45NCA1IDYuMjUgNW0zLjUgMGMtLjY5IDAtMS4yNS41Ni0xLjI1IDEuMjV2My41YTEuMjUgMS4yNSAwIDEgMCAyLjUgMHYtMy41QzExIDUuNTYgMTAuNDQgNSA5Ljc1IDUiLz4KPC9zdmc+)*/
 const PauseBtnFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pause-btn-fill"

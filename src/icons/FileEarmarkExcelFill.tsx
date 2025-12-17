@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-excel-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS4yOTMgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWNC43MDdBMSAxIDAgMCAwIDEzLjcwNyA0TDEwIC4yOTNBMSAxIDAgMCAwIDkuMjkzIDBNOS41IDMuNXYtMmwzIDNoLTJhMSAxIDAgMCAxLTEtMU01Ljg4NCA2LjY4IDggOS4yMTlsMi4xMTYtMi41NGEuNS41IDAgMSAxIC43NjguNjQxTDguNjUxIDEwbDIuMjMzIDIuNjhhLjUuNSAwIDAgMS0uNzY4LjY0TDggMTAuNzgxbC0yLjExNiAyLjU0YS41LjUgMCAwIDEtLjc2OC0uNjQxTDcuMzQ5IDEwIDUuMTE2IDcuMzJhLjUuNSAwIDEgMSAuNzY4LS42NCIvPgo8L3N2Zz4=)*/
 const FileEarmarkExcelFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-excel-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![handbag-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxYTIgMiAwIDAgMC0yIDJ2Mkg1VjNhMyAzIDAgMSAxIDYgMHYyaC0xVjNhMiAyIDAgMCAwLTItMk01IDVIMy4zNmExLjUgMS41IDAgMCAwLTEuNDgzIDEuMjc3TC44NSAxMy4xM0EyLjUgMi41IDAgMCAwIDMuMzIyIDE2aDkuMzU1YTIuNSAyLjUgMCAwIDAgMi40NzMtMi44N2wtMS4wMjgtNi44NTNBMS41IDEuNSAwIDAgMCAxMi42NCA1SDExdjEuNWEuNS41IDAgMCAxLTEgMFY1SDZ2MS41YS41LjUgMCAwIDEtMSAweiIvPgo8L3N2Zz4=)*/
 const HandbagFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="handbag-fill"

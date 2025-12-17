@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![mouse2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMyA1LjE4OEMzIDIuMzQxIDUuMjIgMCA4IDBzNSAyLjM0MiA1IDUuMTg4djUuNjI1QzEzIDEzLjY1OCAxMC43OCAxNiA4IDE2cy01LTIuMzQyLTUtNS4xODhWNS4xODl6bTQuNS00LjE1NUM1LjU0MSAxLjI4OSA0IDMuMDM1IDQgNS4xODhWNS41aDMuNXptMSAwVjUuNUgxMnYtLjMxM2MwLTIuMTUyLTEuNTQxLTMuODk4LTMuNS00LjE1NE0xMiA2LjVINHY0LjMxM0M0IDEzLjE0NSA1LjgxIDE1IDggMTVzNC0xLjg1NSA0LTQuMTg4eiIvPgo8L3N2Zz4=)*/
 const Mouse2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="mouse2"

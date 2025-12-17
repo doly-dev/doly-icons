@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sort-down-alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDMuNWEuNS41IDAgMCAwLTEgMHY4Ljc5M2wtMS4xNDYtMS4xNDdhLjUuNSAwIDAgMC0uNzA4LjcwOGwyIDEuOTk5LjAwNy4wMDdhLjQ5Ny40OTcgMCAwIDAgLjctLjAwNmwyLTJhLjUuNSAwIDAgMC0uNzA3LS43MDhMMy41IDEyLjI5M3ptNCAuNWEuNS41IDAgMCAxIDAtMWgxYS41LjUgMCAwIDEgMCAxem0wIDNhLjUuNSAwIDAgMSAwLTFoM2EuNS41IDAgMCAxIDAgMXptMCAzYS41LjUgMCAwIDEgMC0xaDVhLjUuNSAwIDAgMSAwIDF6TTcgMTIuNWEuNS41IDAgMCAwIC41LjVoN2EuNS41IDAgMCAwIDAtMWgtN2EuNS41IDAgMCAwLS41LjUiLz4KPC9zdmc+)*/
 const SortDownAlt: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sort-down-alt"

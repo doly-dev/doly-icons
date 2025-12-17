@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![cursor-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQuMDgyIDIuMTgyYS41LjUgMCAwIDEgLjEwMy41NTdMOC41MjggMTUuNDY3YS41LjUgMCAwIDEtLjkxNy0uMDA3TDUuNTcgMTAuNjk0LjgwMyA4LjY1MmEuNS41IDAgMCAxLS4wMDYtLjkxNmwxMi43MjgtNS42NTdhLjUuNSAwIDAgMSAuNTU2LjEwM3oiLz4KPC9zdmc+)*/
 const CursorFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="cursor-fill"

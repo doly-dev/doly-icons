@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bounding-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNSAyVjBIMHY1aDJ2NkgwdjVoNXYtMmg2djJoNXYtNWgtMlY1aDJWMGgtNXYyem02IDF2MmgydjZoLTJ2Mkg1di0ySDNWNWgyVjN6bTEtMmgzdjNoLTN6bTMgMTF2M2gtM3YtM3pNNCAxNUgxdi0zaDN6TTEgNFYxaDN2M3oiLz4KPC9zdmc+)*/
 const BoundingBox: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bounding-box"

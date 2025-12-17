@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![layout-text-sidebar-reverse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuNSAzYS41LjUgMCAwIDEgMCAxaC01YS41LjUgMCAwIDEgMC0xem0wIDNhLjUuNSAwIDAgMSAwIDFoLTVhLjUuNSAwIDAgMSAwLTF6bS41IDMuNWEuNS41IDAgMCAwLS41LS41aC01YS41LjUgMCAwIDAgMCAxaDVhLjUuNSAwIDAgMCAuNS0uNW0tLjUgMi41YS41LjUgMCAwIDEgMCAxaC01YS41LjUgMCAwIDEgMC0xeiIvPgogIDxwYXRoIGQ9Ik0xNiAyYTIgMiAwIDAgMC0yLTJIMmEyIDIgMCAwIDAtMiAydjEyYTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMnpNNCAxdjE0SDJhMSAxIDAgMCAxLTEtMVYyYTEgMSAwIDAgMSAxLTF6bTEgMGg5YTEgMSAwIDAgMSAxIDF2MTJhMSAxIDAgMCAxLTEgMUg1eiIvPgo8L3N2Zz4=)*/
 const LayoutTextSidebarReverse: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="layout-text-sidebar-reverse"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![moon-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNiAuMjc4YS43Ny43NyAwIDAgMSAuMDguODU4IDcuMiA3LjIgMCAwIDAtLjg3OCAzLjQ2YzAgNC4wMjEgMy4yNzggNy4yNzcgNy4zMTggNy4yNzdxLjc5Mi0uMDAxIDEuNTMzLS4xNmEuNzkuNzkgMCAwIDEgLjgxLjMxNi43My43MyAwIDAgMS0uMDMxLjg5M0E4LjM1IDguMzUgMCAwIDEgOC4zNDQgMTZDMy43MzQgMTYgMCAxMi4yODYgMCA3LjcxIDAgNC4yNjYgMi4xMTQgMS4zMTIgNS4xMjQuMDZBLjc1Ljc1IDAgMCAxIDYgLjI3OCIvPgo8L3N2Zz4=)*/
 const MoonFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="moon-fill"

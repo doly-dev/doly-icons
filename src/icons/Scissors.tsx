@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![scissors](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDMuNWMtLjYxNC0uODg0LS4wNzQtMS45NjIuODU4LTIuNUw4IDcuMjI2IDExLjY0MiAxYy45MzIuNTM4IDEuNDcyIDEuNjE2Ljg1OCAyLjVMOC44MSA4LjYxbDEuNTU2IDIuNjYxYTIuNSAyLjUgMCAxIDEtLjc5NC42MzdMOCA5LjczbC0xLjU3MiAyLjE3N2EyLjUgMi41IDAgMSAxLS43OTQtLjYzN0w3LjE5IDguNjF6bTIuNSAxMGExLjUgMS41IDAgMSAwLTMgMCAxLjUgMS41IDAgMCAwIDMgMG03IDBhMS41IDEuNSAwIDEgMC0zIDAgMS41IDEuNSAwIDAgMCAzIDAiLz4KPC9zdmc+)*/
 const Scissors: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="scissors"

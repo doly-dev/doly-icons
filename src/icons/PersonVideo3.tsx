@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-video3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgOS41YTIgMiAwIDEgMS00IDAgMiAyIDAgMCAxIDQgMG0tNiA1LjdjMCAuOC44LjguOC44aDYuNHMuOCAwIC44LS44LS44LTMuMi00LTMuMi00IDIuNC00IDMuMiIvPgogIDxwYXRoIGQ9Ik0yIDJhMiAyIDAgMCAwLTIgMnY4YTIgMiAwIDAgMCAyIDJoNS4yNDNjLjEyMi0uMzI2LjI5NS0uNjY4LjUyNi0xSDJhMSAxIDAgMCAxLTEtMVY0YTEgMSAwIDAgMSAxLTFoMTJhMSAxIDAgMCAxIDEgMXY3LjgxYy4zNTMuMjMuNjU2LjQ5Ni45MS43ODNRMTYgMTIuMzEyIDE2IDEyVjRhMiAyIDAgMCAwLTItMnoiLz4KPC9zdmc+)*/
 const PersonVideo3: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-video3"

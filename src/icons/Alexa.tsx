@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![alexa](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy45OTYgMEE4IDggMCAwIDAgMCA4YTggOCAwIDAgMCA2LjkzIDcuOTN2LTEuNjEzYTEuMDYgMS4wNiAwIDAgMC0uNzE3LTEuMDA4QTUuNiA1LjYgMCAwIDEgMi40IDcuODY1IDUuNTggNS41OCAwIDAgMSA4LjA1NCAyLjRhNS42IDUuNiAwIDAgMSA1LjUzNSA1LjgxbC0uMDAyLjA0Ni0uMDEyLjE5Mi0uMDA1LjA2MWE1IDUgMCAwIDEtLjAzMy4yODRsLS4wMS4wNjhjLS42ODUgNC41MTYtNi41NjQgNy4wNTQtNi41OTYgNy4wNjhBNy45OTggNy45OTggMCAwIDAgMTUuOTkyIDggOCA4IDAgMCAwIDcuOTk2LjAwMVoiLz4KPC9zdmc+)*/
 const Alexa: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="alexa"

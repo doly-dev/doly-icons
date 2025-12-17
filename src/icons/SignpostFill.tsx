@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![signpost-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy4yOTMuNzA3QTEgMSAwIDAgMCA3IDEuNDE0VjRIMmExIDEgMCAwIDAtMSAxdjRhMSAxIDAgMCAwIDEgMWg1djZoMnYtNmgzLjUzMmExIDEgMCAwIDAgLjc2OC0uMzZsMS45MzMtMi4zMmEuNS41IDAgMCAwIDAtLjY0TDEzLjMgNC4zNmExIDEgMCAwIDAtLjc2OC0uMzZIOVYxLjQxNEExIDEgMCAwIDAgNy4yOTMuNzA3Ii8+Cjwvc3ZnPg==)*/
 const SignpostFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="signpost-fill"

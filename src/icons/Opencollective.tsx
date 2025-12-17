@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![opencollective](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLW9wYWNpdHk9Ii40IiBkPSJNMTIuOTk1IDguMTk1YzAgLjkzNy0uMzEyIDEuOTEyLS43OCAyLjY5M2wxLjk5IDEuOTljLjk3Ni0xLjMyNyAxLjYtMi45NjYgMS42LTQuNjgzIDAtMS43OTUtLjYyNC0zLjQzNC0xLjU2MS00Ljc2bC0yLjA2OCAyLjAyOGMuNDY4Ljc4MS43OCAxLjY3OS43OCAyLjczMnoiLz4KICA8cGF0aCBkPSJNOCAxMy4xNTFhNC45OTUgNC45OTUgMCAxIDEgMC05Ljk5YzEuMDE1IDAgMS45NTEuMjczIDIuNzMyLjgybDEuOTUtMi4wM2E3LjgwNSA3LjgwNSAwIDEgMCAuMDQgMTIuNDQ5bC0xLjk1MS0yLjAzYTUuMDcgNS4wNyAwIDAgMS0yLjczMi43ODF6Ii8+Cjwvc3ZnPg==)*/
 const Opencollective: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="opencollective"

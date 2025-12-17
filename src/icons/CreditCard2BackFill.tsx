@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![credit-card-2-back-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCA0YTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY1SDB6bTExLjUgMWEuNS41IDAgMCAwLS41LjV2MWEuNS41IDAgMCAwIC41LjVoMmEuNS41IDAgMCAwIC41LS41di0xYS41LjUgMCAwIDAtLjUtLjV6TTAgMTF2MWEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJ2LTF6Ii8+Cjwvc3ZnPg==)*/
 const CreditCard2BackFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="credit-card-2-back-fill"

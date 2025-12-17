@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bookmarks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiA0YTIgMiAwIDAgMSAyLTJoNmEyIDIgMCAwIDEgMiAydjExLjVhLjUuNSAwIDAgMS0uNzc3LjQxNkw3IDEzLjEwMWwtNC4yMjMgMi44MTVBLjUuNSAwIDAgMSAyIDE1LjV6bTItMWExIDEgMCAwIDAtMSAxdjEwLjU2NmwzLjcyMy0yLjQ4MmEuNS41IDAgMCAxIC41NTQgMEwxMSAxNC41NjZWNGExIDEgMCAwIDAtMS0xeiIvPgogIDxwYXRoIGQ9Ik00LjI2OCAxSDEyYTEgMSAwIDAgMSAxIDF2MTEuNzY4bC4yMjMuMTQ4QS41LjUgMCAwIDAgMTQgMTMuNVYyYTIgMiAwIDAgMC0yLTJINmEyIDIgMCAwIDAtMS43MzIgMSIvPgo8L3N2Zz4=)*/
 const Bookmarks: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bookmarks"

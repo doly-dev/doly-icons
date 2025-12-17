@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![rewind-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy43MjkgNS4wNTVhLjUuNSAwIDAgMC0uNTIuMDM4bC0zLjUgMi41YS41LjUgMCAwIDAgMCAuODE0bDMuNSAyLjVBLjUuNSAwIDAgMCA4IDEwLjVWOC42MTRsMy4yMSAyLjI5M0EuNS41IDAgMCAwIDEyIDEwLjV2LTVhLjUuNSAwIDAgMC0uNzktLjQwN0w4IDcuMzg2VjUuNWEuNS41IDAgMCAwLS4yNzEtLjQ0NSIvPgogIDxwYXRoIGQ9Ik0xNiA4QTggOCAwIDEgMSAwIDhhOCA4IDAgMCAxIDE2IDBNMSA4YTcgNyAwIDEgMCAxNCAwQTcgNyAwIDAgMCAxIDgiLz4KPC9zdmc+)*/
 const RewindCircle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="rewind-circle"

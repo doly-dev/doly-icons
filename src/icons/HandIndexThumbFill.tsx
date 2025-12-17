@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![hand-index-thumb-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41IDEuNzV2Mi43MTZsLjA0Ny0uMDAyYy4zMTItLjAxMi43NDItLjAxNiAxLjA1MS4wNDYuMjguMDU2LjU0My4xOC43MzguMjg4LjI3My4xNTIuNDU2LjM4NS41Ni42NDJsLjEzMi0uMDEyYy4zMTItLjAyNC43OTQtLjAzOCAxLjE1OC4xMDguMzcuMTQ4LjY4OS40ODcuODguNzE2cS4xMTMuMTM3LjE5NS4yNDhoLjU4MmEyIDIgMCAwIDEgMS45OSAyLjE5OWwtLjI3MiAyLjcxNWEzLjUgMy41IDAgMCAxLS40NDQgMS4zODlsLTEuMzk1IDIuNDQxQTEuNSAxLjUgMCAwIDEgMTIuNDIgMTZINi4xMThhMS41IDEuNSAwIDAgMS0xLjM0Mi0uODNsLTEuMjE1LTIuNDNMMS4wNyA4LjU4OWExLjUxNyAxLjUxNyAwIDAgMSAyLjM3My0xLjg1Mkw1IDguMjkzVjEuNzVhMS43NSAxLjc1IDAgMCAxIDMuNSAwIi8+Cjwvc3ZnPg==)*/
 const HandIndexThumbFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="hand-index-thumb-fill"

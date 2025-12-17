@@ -11,6 +11,7 @@ pnpm-lock.yaml
 # production
 /es
 /lib
+/types
 /dist
 /docs-dist
 /public

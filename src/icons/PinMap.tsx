@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pin-map](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zLjEgMTEuMmEuNS41IDAgMCAxIC40LS4ySDZhLjUuNSAwIDAgMSAwIDFIMy43NUwxLjUgMTVoMTNsLTIuMjUtM0gxMGEuNS41IDAgMCAxIDAtMWgyLjVhLjUuNSAwIDAgMSAuNC4ybDMgNGEuNS41IDAgMCAxLS40LjhILjVhLjUuNSAwIDAgMS0uNC0uOHoiLz4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDFhMyAzIDAgMSAwIDAgNiAzIDMgMCAwIDAgMC02TTQgNGE0IDQgMCAxIDEgNC41IDMuOTY5VjEzLjVhLjUuNSAwIDAgMS0xIDBWNy45N0E0IDQgMCAwIDEgNCAzLjk5OXoiLz4KPC9zdmc+)*/
 const PinMap: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pin-map"

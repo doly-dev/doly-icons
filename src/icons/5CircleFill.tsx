@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![5-circle-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwbS04LjAwNiA0LjE1OGMxLjc0IDAgMi45MjQtMS4xMTkgMi45MjQtMi44MDYgMC0xLjY0MS0xLjE3OC0yLjU4NC0yLjU2LTIuNTg0LS44OTcgMC0xLjQ0Mi40MjEtMS42MTIuNjhoLS4wNjRsLjE5My0yLjM0NGgzLjYyMVY0LjAwMkg1Ljc5MUw1LjQ0NSA4LjYzaDEuMTQ5Yy4xOTMtLjM1OC42NjgtLjgwOSAxLjQzNS0uODA5Ljg1IDAgMS41ODIuNjA0IDEuNTgyIDEuNTcgMCAxLjA4NS0uNzc5IDEuNjgyLTEuNTcgMS42ODItLjY5NyAwLTEuMzg5LS4zMS0xLjUzLTEuMDMxSDUuMjc2Yy4wNjUgMS4yMTMgMS4xNDkgMi4xMTUgMi43MiAyLjExNVoiLz4KPC9zdmc+)*/
 const Icon5CircleFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="5-circle-fill"

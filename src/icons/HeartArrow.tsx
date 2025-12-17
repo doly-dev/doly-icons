@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![heart-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi43MDcgOWg0LjM2NGMtLjUzNiAxLjU3MyAyLjAyOCAzLjgwNiA0LjkyOS0uNS0yLjktNC4zMDYtNS40NjUtMi4wNzMtNC45MjktLjVINi43MDdMNC44NTQgNi4xNDZhLjUuNSAwIDEgMC0uNzA4LjcwOEw1LjI5MyA4aC0uNTg2TDIuODU0IDYuMTQ2YS41LjUgMCAxIDAtLjcwOC43MDhMMy4yOTMgOGgtLjU4NkwuODU0IDYuMTQ2YS41LjUgMCAxIDAtLjcwOC43MDhMMS43OTMgOC41LjE0NiAxMC4xNDZhLjUuNSAwIDAgMCAuNzA4LjcwOEwyLjcwNyA5aC41ODZsLTEuMTQ3IDEuMTQ2YS41LjUgMCAwIDAgLjcwOC43MDhMNC43MDcgOWguNTg2bC0xLjE0NyAxLjE0NmEuNS41IDAgMCAwIC43MDguNzA4eiIvPgo8L3N2Zz4=)*/
 const HeartArrow: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="heart-arrow"

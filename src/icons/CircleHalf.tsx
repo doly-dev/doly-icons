@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![circle-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNUE3IDcgMCAxIDAgOCAxem0wIDFBOCA4IDAgMSAxIDggMGE4IDggMCAwIDEgMCAxNiIvPgo8L3N2Zz4=)*/
 const CircleHalf: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="circle-half"

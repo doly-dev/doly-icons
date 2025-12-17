@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![calendar3-week-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgMTRhMiAyIDAgMCAxLTIgMkgyYTIgMiAwIDAgMS0yLTJWM2gxNnpNMyA4YTEgMSAwIDEgMCAwIDIgMSAxIDAgMCAwIDAtMm0zIDBhMSAxIDAgMSAwIDAgMiAxIDEgMCAwIDAgMC0ybTQtM2ExIDEgMCAxIDAgMCAyIDEgMSAwIDAgMCAwLTJtMyAwYTEgMSAwIDEgMCAwIDIgMSAxIDAgMCAwIDAtMm0xLTVhMiAyIDAgMCAxIDIgMkgwYTIgMiAwIDAgMSAyLTJ6Ii8+Cjwvc3ZnPg==)*/
 const Calendar3WeekFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="calendar3-week-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![check2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTMuODU0IDMuNjQ2YS41LjUgMCAwIDEgMCAuNzA4bC03IDdhLjUuNSAwIDAgMS0uNzA4IDBsLTMuNS0zLjVhLjUuNSAwIDEgMSAuNzA4LS43MDhMNi41IDEwLjI5M2w2LjY0Ni02LjY0N2EuNS41IDAgMCAxIC43MDggMCIvPgo8L3N2Zz4=)*/
 const Check2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="check2"

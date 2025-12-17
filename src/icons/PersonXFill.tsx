@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-x-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xIDE0cy0xIDAtMS0xIDEtNCA2LTQgNiAzIDYgNC0xIDEtMSAxem01LTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2bTYuMTQ2LTIuODU0YS41LjUgMCAwIDEgLjcwOCAwTDE0IDYuMjkzbDEuMTQ2LTEuMTQ3YS41LjUgMCAwIDEgLjcwOC43MDhMMTQuNzA3IDdsMS4xNDcgMS4xNDZhLjUuNSAwIDAgMS0uNzA4LjcwOEwxNCA3LjcwN2wtMS4xNDYgMS4xNDdhLjUuNSAwIDAgMS0uNzA4LS43MDhMMTMuMjkzIDdsLTEuMTQ3LTEuMTQ2YS41LjUgMCAwIDEgMC0uNzA4Ii8+Cjwvc3ZnPg==)*/
 const PersonXFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-x-fill"

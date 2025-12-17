@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![ban](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTUgOGE2Ljk3IDYuOTcgMCAwIDAtMS43MS00LjU4NGwtOS44NzQgOS44NzVBNyA3IDAgMCAwIDE1IDhNMi43MSAxMi41ODRsOS44NzQtOS44NzVhNyA3IDAgMCAwLTkuODc0IDkuODc0Wk0xNiA4QTggOCAwIDEgMSAwIDhhOCA4IDAgMCAxIDE2IDAiLz4KPC9zdmc+)*/
 const Ban: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="ban"

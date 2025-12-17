@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![slash-lg](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy44NTQgMi4xNDZhLjUuNSAwIDAgMSAwIC43MDhsLTExIDExYS41LjUgMCAwIDEtLjcwOC0uNzA4bDExLTExYS41LjUgMCAwIDEgLjcwOCAwIi8+Cjwvc3ZnPg==)*/
 const SlashLg: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="slash-lg"

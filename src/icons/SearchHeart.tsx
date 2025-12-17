@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![search-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi41IDQuNDgyYzEuNjY0LTEuNjczIDUuODI1IDEuMjU0IDAgNS4wMTgtNS44MjUtMy43NjQtMS42NjQtNi42OSAwLTUuMDE4Ii8+CiAgPHBhdGggZD0iTTEzIDYuNWE2LjQ3IDYuNDcgMCAwIDEtMS4yNTggMy44NDRxLjA2LjA0NC4xMTUuMDk4bDMuODUgMy44NWExIDEgMCAwIDEtMS40MTQgMS40MTVsLTMuODUtMy44NWExIDEgMCAwIDEtLjEtLjExNWguMDAyQTYuNSA2LjUgMCAxIDEgMTMgNi41TTYuNSAxMmE1LjUgNS41IDAgMSAwIDAtMTEgNS41IDUuNSAwIDAgMCAwIDExIi8+Cjwvc3ZnPg==)*/
 const SearchHeart: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="search-heart"

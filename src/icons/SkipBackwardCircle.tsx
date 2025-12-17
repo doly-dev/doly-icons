@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![skip-backward-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNUE3IDcgMCAxIDEgOCAxYTcgNyAwIDAgMSAwIDE0bTAgMUE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2Ii8+CiAgPHBhdGggZD0iTTExLjcyOSA1LjA1NWEuNS41IDAgMCAwLS41Mi4wMzhMOC41IDcuMDI4VjUuNWEuNS41IDAgMCAwLS43OS0uNDA3TDUgNy4wMjhWNS41YS41LjUgMCAwIDAtMSAwdjVhLjUuNSAwIDAgMCAxIDBWOC45NzJsMi43MSAxLjkzNWEuNS41IDAgMCAwIC43OS0uNDA3VjguOTcybDIuNzEgMS45MzVBLjUuNSAwIDAgMCAxMiAxMC41di01YS41LjUgMCAwIDAtLjI3MS0uNDQ1Ii8+Cjwvc3ZnPg==)*/
 const SkipBackwardCircle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="skip-backward-circle"

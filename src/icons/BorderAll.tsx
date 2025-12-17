@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![border-all](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAwaDE2djE2SDB6bTEgMXY2LjVoNi41VjF6bTcuNSAwdjYuNUgxNVYxek0xNSA4LjVIOC41VjE1SDE1ek03LjUgMTVWOC41SDFWMTV6Ii8+Cjwvc3ZnPg==)*/
 const BorderAll: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="border-all"

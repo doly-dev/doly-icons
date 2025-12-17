@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![files-alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEgMEgzYTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTIgMiAyIDAgMCAwIDItMlY0YTIgMiAwIDAgMC0yLTIgMiAyIDAgMCAwLTItMm0yIDNhMSAxIDAgMCAxIDEgMXY4YTEgMSAwIDAgMS0xIDF6TTIgMmExIDEgMCAwIDEgMS0xaDhhMSAxIDAgMCAxIDEgMXYxMmExIDEgMCAwIDEtMSAxSDNhMSAxIDAgMCAxLTEtMXoiLz4KPC9zdmc+)*/
 const FilesAlt: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="files-alt"

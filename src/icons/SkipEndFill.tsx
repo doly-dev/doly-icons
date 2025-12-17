@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![skip-end-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuNSA0YS41LjUgMCAwIDAtMSAwdjMuMjQ4TDUuMjMzIDMuNjEyQzQuNjkzIDMuMyA0IDMuNjc4IDQgNC4zMDh2Ny4zODRjMCAuNjMuNjkyIDEuMDEgMS4yMzMuNjk3TDExLjUgOC43NTNWMTJhLjUuNSAwIDAgMCAxIDB6Ii8+Cjwvc3ZnPg==)*/
 const SkipEndFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="skip-end-fill"

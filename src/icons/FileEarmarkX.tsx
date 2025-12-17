@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-x](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi44NTQgNy4xNDZhLjUuNSAwIDEgMC0uNzA4LjcwOEw3LjI5MyA5bC0xLjE0NyAxLjE0NmEuNS41IDAgMCAwIC43MDguNzA4TDggOS43MDdsMS4xNDYgMS4xNDdhLjUuNSAwIDAgMCAuNzA4LS43MDhMOC43MDcgOWwxLjE0Ny0xLjE0NmEuNS41IDAgMCAwLS43MDgtLjcwOEw4IDguMjkzeiIvPgogIDxwYXRoIGQ9Ik0xNCAxNFY0LjVMOS41IDBINGEyIDIgMCAwIDAtMiAydjEyYTIgMiAwIDAgMCAyIDJoOGEyIDIgMCAwIDAgMi0yTTkuNSAzQTEuNSAxLjUgMCAwIDAgMTEgNC41aDJWMTRhMSAxIDAgMCAxLTEgMUg0YTEgMSAwIDAgMS0xLTFWMmExIDEgMCAwIDEgMS0xaDUuNXoiLz4KPC9zdmc+)*/
 const FileEarmarkX: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-x"

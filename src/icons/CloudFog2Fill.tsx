@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![cloud-fog2-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41IDNhNSA1IDAgMCAxIDQuOTA1IDQuMDI3QTMgMyAwIDAgMSAxMyAxM2gtMS41YS41LjUgMCAwIDAgMC0xSDEuMDVhMy41IDMuNSAwIDAgMS0uNzEzLTFIOS41YS41LjUgMCAwIDAgMC0xSC4wMzVhMy41IDMuNSAwIDAgMSAwLTFINy41YS41LjUgMCAwIDAgMC0xSC4zMzdhMy41IDMuNSAwIDAgMSAzLjU3LTEuOTc3QTUgNSAwIDAgMSA4LjUgMyIvPgo8L3N2Zz4=)*/
 const CloudFog2Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="cloud-fog2-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![emoji-smile-upside-down-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAwYTggOCAwIDEgMSAwIDE2QTggOCAwIDAgMSA4IDBNNyA5LjVDNyA4LjY3MiA2LjU1MiA4IDYgOHMtMSAuNjcyLTEgMS41LjQ0OCAxLjUgMSAxLjUgMS0uNjcyIDEtMS41TTQuMjg1IDYuNDMzYS41LjUgMCAwIDAgLjY4My0uMTgzQTMuNSAzLjUgMCAwIDEgOCA0LjVjMS4yOTUgMCAyLjQyNi43MDMgMy4wMzIgMS43NWEuNS41IDAgMCAwIC44NjYtLjVBNC41IDQuNSAwIDAgMCA4IDMuNWE0LjUgNC41IDAgMCAwLTMuODk4IDIuMjUuNS41IDAgMCAwIC4xODMuNjgzTTEwIDhjLS41NTIgMC0xIC42NzItMSAxLjVzLjQ0OCAxLjUgMSAxLjUgMS0uNjcyIDEtMS41UzEwLjU1MiA4IDEwIDgiLz4KPC9zdmc+)*/
 const EmojiSmileUpsideDownFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="emoji-smile-upside-down-fill"

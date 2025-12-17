@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![thermometer-low](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS41IDEyLjVhMS41IDEuNSAwIDEgMS0yLTEuNDE1VjkuNWEuNS41IDAgMCAxIDEgMHYxLjU4NWExLjUgMS41IDAgMCAxIDEgMS40MTUiLz4KICA8cGF0aCBkPSJNNS41IDIuNWEyLjUgMi41IDAgMCAxIDUgMHY3LjU1YTMuNSAzLjUgMCAxIDEtNSAwek04IDFhMS41IDEuNSAwIDAgMC0xLjUgMS41djcuOTg3bC0uMTY3LjE1YTIuNSAyLjUgMCAxIDAgMy4zMzMgMGwtLjE2Ni0uMTVWMi41QTEuNSAxLjUgMCAwIDAgOCAxIi8+Cjwvc3ZnPg==)*/
 const ThermometerLow: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="thermometer-low"

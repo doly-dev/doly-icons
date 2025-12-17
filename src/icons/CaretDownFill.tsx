@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![caret-down-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy4yNDcgMTEuMTQgMi40NTEgNS42NThDMS44ODUgNS4wMTMgMi4zNDUgNCAzLjIwNCA0aDkuNTkyYTEgMSAwIDAgMSAuNzUzIDEuNjU5bC00Ljc5NiA1LjQ4YTEgMSAwIDAgMS0xLjUwNiAweiIvPgo8L3N2Zz4=)*/
 const CaretDownFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="caret-down-fill"

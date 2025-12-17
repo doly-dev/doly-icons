@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![dropbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4wMSA0LjU1NSA0LjAwNSA3LjExIDguMDEgOS42NjUgNC4wMDUgMTIuMjIgMCA5LjY1MWw0LjAwNS0yLjU1NUwwIDQuNTU1IDQuMDA1IDJ6bS00LjAyNiA4LjQ4NyA0LjAwNi0yLjU1NSA0LjAwNSAyLjU1NS00LjAwNSAyLjU1NXptNC4wMjYtMy4zOSA0LjAwNS0yLjU1Nkw4LjAxIDQuNTU1IDExLjk5NSAyIDE2IDQuNTU1IDExLjk5NSA3LjExIDE2IDkuNjY1bC00LjAwNSAyLjU1NXoiLz4KPC9zdmc+)*/
 const Dropbox: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="dropbox"

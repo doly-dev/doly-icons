@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![aspect-ratio-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxMi41di05QTEuNSAxLjUgMCAwIDEgMS41IDJoMTNBMS41IDEuNSAwIDAgMSAxNiAzLjV2OWExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTEzQTEuNSAxLjUgMCAwIDEgMCAxMi41TTIuNSA0YS41LjUgMCAwIDAtLjUuNXYzYS41LjUgMCAwIDAgMSAwVjVoMi41YS41LjUgMCAwIDAgMC0xem0xMSA4YS41LjUgMCAwIDAgLjUtLjV2LTNhLjUuNSAwIDAgMC0xIDBWMTFoLTIuNWEuNS41IDAgMCAwIDAgMXoiLz4KPC9zdmc+)*/
 const AspectRatioFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="aspect-ratio-fill"

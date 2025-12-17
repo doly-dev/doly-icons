@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![border-outer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy41IDEuOTA2di45MzhoMXYtLjkzOHptMCAxLjg3NXYuOTM4aDFWMy43OGgtMXptMCAxLjg3NXYuOTM4aDF2LS45Mzh6TTEuOTA2IDguNWguOTM4di0xaC0uOTM4em0xLjg3NSAwaC45Mzh2LTFIMy43OHYxem0xLjg3NSAwaC45Mzh2LTFoLS45Mzh6bTIuODEzIDB2LS4wMzFIOC41VjcuNTNoLS4wMzFWNy41SDcuNTN2LjAzMUg3LjV2LjkzOGguMDMxVjguNXptLjkzNyAwaC45Mzh2LTFoLS45Mzh6bTEuODc1IDBoLjkzOHYtMWgtLjkzOHptMS44NzUgMGguOTM4di0xaC0uOTM4ek03LjUgOS40MDZ2LjkzOGgxdi0uOTM4em0wIDEuODc1di45MzhoMXYtLjkzOHptMCAxLjg3NXYuOTM4aDF2LS45Mzh6Ii8+CiAgPHBhdGggZD0iTTAgMHYxNmgxNlYwem0xIDFoMTR2MTRIMXoiLz4KPC9zdmc+)*/
 const BorderOuter: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="border-outer"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![easel2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDBhLjUuNSAwIDAgMSAuNDQ3LjI3Nkw4LjgxIDFoNC42OUExLjUgMS41IDAgMCAxIDE1IDIuNVYxMWguNWEuNS41IDAgMCAxIDAgMWgtMi44NmwuODQ1IDMuMzc5YS41LjUgMCAwIDEtLjk3LjI0MkwxMi4xMSAxNEgzLjg5bC0uNDA1IDEuNjIxYS41LjUgMCAwIDEtLjk3LS4yNDJMMy4zNiAxMkguNWEuNS41IDAgMCAxIDAtMUgxVjIuNUExLjUgMS41IDAgMCAxIDIuNSAxaDQuNjkxbC4zNjItLjcyNEEuNS41IDAgMCAxIDggME0yIDExaDEyVjIuNWEuNS41IDAgMCAwLS41LS41aC0xMWEuNS41IDAgMCAwLS41LjV6bTkuNjEgMUg0LjM5bC0uMjUgMWg3LjcyeiIvPgo8L3N2Zz4=)*/
 const Easel2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="easel2"

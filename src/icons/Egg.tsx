@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![egg](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNWE1IDUgMCAwIDEtNS01YzAtMS45NTYuNjktNC4yODYgMS43NDItNi4xMi41MjQtLjkxMyAxLjExMi0xLjY1OCAxLjcwNC0yLjE2NEM3LjA0NCAxLjIwNiA3LjU3MiAxIDggMXMuOTU2LjIwNiAxLjU1NC43MTZjLjU5Mi41MDYgMS4xOCAxLjI1MSAxLjcwNCAyLjE2NEMxMi4zMSA1LjcxNCAxMyA4LjA0NCAxMyAxMGE1IDUgMCAwIDEtNSA1bTAgMWE2IDYgMCAwIDAgNi02YzAtNC4zMTQtMy0xMC02LTEwUzIgNS42ODYgMiAxMGE2IDYgMCAwIDAgNiA2Ii8+Cjwvc3ZnPg==)*/
 const Egg: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="egg"

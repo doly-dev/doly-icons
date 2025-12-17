@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![lightning-charge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEuMjUxLjA2OGEuNS41IDAgMCAxIC4yMjcuNThMOS42NzcgNi41SDEzYS41LjUgMCAwIDEgLjM2NC44NDNsLTggOC41YS41LjUgMCAwIDEtLjg0Mi0uNDlMNi4zMjMgOS41SDNhLjUuNSAwIDAgMS0uMzY0LS44NDNsOC04LjVhLjUuNSAwIDAgMSAuNjE1LS4wOXpNNC4xNTcgOC41SDdhLjUuNSAwIDAgMSAuNDc4LjY0N0w2LjExIDEzLjU5bDUuNzMyLTYuMDlIOWEuNS41IDAgMCAxLS40NzgtLjY0N0w5Ljg5IDIuNDF6Ii8+Cjwvc3ZnPg==)*/
 const LightningCharge: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="lightning-charge"

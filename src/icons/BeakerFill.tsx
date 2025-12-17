@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![beaker-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTUuNTc1LjAwNmEuNS41IDAgMCAxIC4zMjcuNzlsLS4wNDguMDU4LS4xMjIuMTJBMi41IDIuNSAwIDAgMCAxNSAyLjc0M1YxNGEyIDIgMCAwIDEtMiAySDNhMiAyIDAgMCAxLTItMlYyLjc0MmEyLjUgMi41IDAgMCAwLS41NjYtMS41ODRMLjI2OC45NzUuMTQ2Ljg1NEEuNS41IDAgMCAxIC41IDBoMTV6TTExLjUgMTNhLjUuNSAwIDEgMCAwIDFIMTN2LTF6bS0yLTJhLjUuNSAwIDAgMCAwIDFIMTN2LTF6bTItMmEuNS41IDAgMSAwIDAgMUgxM1Y5em0tMi0yYS41LjUgMCAxIDAgMCAxSDEzVjd6bTItMmEuNS41IDAgMSAwIDAgMUgxM1Y1em0tMi0yYS41LjUgMCAxIDAgMCAxSDEzVjN6Ii8+Cjwvc3ZnPg==)*/
 const BeakerFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="beaker-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-music-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS4yOTMgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWNC43MDdBMSAxIDAgMCAwIDEzLjcwNyA0TDEwIC4yOTNBMSAxIDAgMCAwIDkuMjkzIDBNOS41IDMuNXYtMmwzIDNoLTJhMSAxIDAgMCAxLTEtMU0xMSA2LjY0djEuNzVsLTIgLjV2My42MWMwIC40OTUtLjMwMS44ODMtLjY2MiAxLjEyM0M3Ljk3NCAxMy44NjYgNy40OTkgMTQgNyAxNHMtLjk3NC0uMTM0LTEuMzM4LS4zNzdDNS4zMDIgMTMuMzgzIDUgMTIuOTk1IDUgMTIuNXMuMzAxLS44ODMuNjYyLTEuMTIzQzYuMDI2IDExLjEzNCA2LjUwMSAxMSA3IDExYy4zNTYgMCAuNy4wNjggMSAuMTk2VjYuODlhMSAxIDAgMCAxIC43NTctLjk3bDEtLjI1QTEgMSAwIDAgMSAxMSA2LjY0Ii8+Cjwvc3ZnPg==)*/
 const FileEarmarkMusicFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-music-fill"

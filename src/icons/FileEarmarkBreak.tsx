@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-break](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgNC41VjloLTFWNC41aC0yQTEuNSAxLjUgMCAwIDEgOS41IDNWMUg0YTEgMSAwIDAgMC0xIDF2N0gyVjJhMiAyIDAgMCAxIDItMmg1LjV6TTEzIDEyaDF2MmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMnYtMmgxdjJhMSAxIDAgMCAwIDEgMWg4YTEgMSAwIDAgMCAxLTF6TS41IDEwYS41LjUgMCAwIDAgMCAxaDE1YS41LjUgMCAwIDAgMC0xeiIvPgo8L3N2Zz4=)*/
 const FileEarmarkBreak: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-break"

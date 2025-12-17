@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![box-arrow-in-up-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02LjM2NCAxMy41YS41LjUgMCAwIDAgLjUuNUgxMy41YTEuNSAxLjUgMCAwIDAgMS41LTEuNXYtMTBBMS41IDEuNSAwIDAgMCAxMy41IDFoLTEwQTEuNSAxLjUgMCAwIDAgMiAyLjV2Ni42MzZhLjUuNSAwIDEgMCAxIDBWMi41YS41LjUgMCAwIDEgLjUtLjVoMTBhLjUuNSAwIDAgMSAuNS41djEwYS41LjUgMCAwIDEtLjUuNUg2Ljg2NGEuNS41IDAgMCAwLS41LjUiLz4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSA1LjVhLjUuNSAwIDAgMC0uNS0uNWgtNWEuNS41IDAgMCAwIDAgMWgzLjc5M2wtOC4xNDcgOC4xNDZhLjUuNSAwIDAgMCAuNzA4LjcwOEwxMCA2LjcwN1YxMC41YS41LjUgMCAwIDAgMSAweiIvPgo8L3N2Zz4=)*/
 const BoxArrowInUpRight: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="box-arrow-in-up-right"

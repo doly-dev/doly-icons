@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-medical-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yTTguNSA0LjV2LjYzNGwuNTQ5LS4zMTdhLjUuNSAwIDEgMSAuNS44NjZMOSA2bC41NDkuMzE3YS41LjUgMCAxIDEtLjUuODY2TDguNSA2Ljg2NlY3LjVhLjUuNSAwIDAgMS0xIDB2LS42MzRsLS41NDkuMzE3YS41LjUgMCAxIDEtLjUtLjg2Nkw3IDZsLS41NDktLjMxN2EuNS41IDAgMCAxIC41LS44NjZsLjU0OS4zMTdWNC41YS41LjUgMCAxIDEgMSAwTTUuNSA5aDVhLjUuNSAwIDAgMSAwIDFoLTVhLjUuNSAwIDAgMSAwLTFtMCAyaDVhLjUuNSAwIDAgMSAwIDFoLTVhLjUuNSAwIDAgMSAwLTEiLz4KPC9zdmc+)*/
 const FileMedicalFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-medical-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chat-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgMWExIDEgMCAwIDEgMSAxdjhhMSAxIDAgMCAxLTEgMWgtMi41YTIgMiAwIDAgMC0xLjYuOEw4IDE0LjMzMyA2LjEgMTEuOGEyIDIgMCAwIDAtMS42LS44SDJhMSAxIDAgMCAxLTEtMVYyYTEgMSAwIDAgMSAxLTF6TTIgMGEyIDIgMCAwIDAtMiAydjhhMiAyIDAgMCAwIDIgMmgyLjVhMSAxIDAgMCAxIC44LjRsMS45IDIuNTMzYTEgMSAwIDAgMCAxLjYgMGwxLjktMi41MzNhMSAxIDAgMCAxIC44LS40SDE0YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yeiIvPgo8L3N2Zz4=)*/
 const ChatSquare: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chat-square"

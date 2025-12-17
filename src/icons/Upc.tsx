@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![upc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMyA0LjVhLjUuNSAwIDAgMSAxIDB2N2EuNS41IDAgMCAxLTEgMHptMiAwYS41LjUgMCAwIDEgMSAwdjdhLjUuNSAwIDAgMS0xIDB6bTIgMGEuNS41IDAgMCAxIDEgMHY3YS41LjUgMCAwIDEtMSAwem0yIDBhLjUuNSAwIDAgMSAuNS0uNWgxYS41LjUgMCAwIDEgLjUuNXY3YS41LjUgMCAwIDEtLjUuNWgtMWEuNS41IDAgMCAxLS41LS41em0zIDBhLjUuNSAwIDAgMSAxIDB2N2EuNS41IDAgMCAxLTEgMHoiLz4KPC9zdmc+)*/
 const Upc: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="upc"

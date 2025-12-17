@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-no-left-turn-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAxMy4yOTJBOCA4IDAgMCAxIDEzLjI5MyAyTDkuMTk1IDYuMDk5QTIuNSAyLjUgMCAwIDAgOC41IDZIN1Y0LjUzNGEuMjUuMjUgMCAwIDAtLjQxLS4xOTJMNC4yMyA2LjMwOGEuMjUuMjUgMCAwIDAgMCAuMzg0bDIuMzYgMS45NjYuMDI2LjAyem0uNzA4LjcwOEE4IDggMCAwIDAgMTQgMi43MDdsLTMuODg1IDMuODg0QzEwLjY1NiA3LjA1IDExIDcuNzM1IDExIDguNVYxMWgtMVY4LjVjMC0uNDg5LS4yMzQtLjkyMy0uNTk2LTEuMTk3bC02LjY5NiA2LjY5NloiLz4KICA8cGF0aCBkPSJNOC4yOTMgNyA3IDguMjkzVjd6Ii8+Cjwvc3ZnPg==)*/
 const SignNoLeftTurnFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-no-left-turn-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![pentagon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy42ODUgMS41NDVhLjUuNSAwIDAgMSAuNjMgMGw2LjI2MyA1LjA4OGEuNS41IDAgMCAxIC4xNjEuNTM5bC0yLjM2MiA3LjQ3OWEuNS41IDAgMCAxLS40NzYuMzQ5SDQuMDk5YS41LjUgMCAwIDEtLjQ3Ni0uMzVMMS4yNiA3LjE3M2EuNS41IDAgMCAxIC4xNjEtLjU0bDYuMjYzLTUuMDg3Wm04LjIxMyA1LjI4YS41LjUgMCAwIDAtLjE2Mi0uNTRMOC4zMTYuMjU3YS41LjUgMCAwIDAtLjYzMSAwTC4yNjQgNi4yODZhLjUuNSAwIDAgMC0uMTYyLjUzOGwyLjc4OCA4LjgyN2EuNS41IDAgMCAwIC40NzYuMzQ5aDkuMjY4YS41LjUgMCAwIDAgLjQ3Ni0uMzVsMi43ODgtOC44MjZaIi8+Cjwvc3ZnPg==)*/
 const Pentagon: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="pentagon"

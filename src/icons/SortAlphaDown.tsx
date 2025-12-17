@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sort-alpha-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMC4wODIgNS42MjkgOS42NjQgN0g4LjU5OGwxLjc4OS01LjMzMmgxLjIzNEwxMy40MDIgN2gtMS4xMmwtLjQxOS0xLjM3MXptMS41Ny0uNzg1TDExIDIuNjg3aC0uMDQ3bC0uNjUyIDIuMTU3eiIvPgogIDxwYXRoIGQ9Ik0xMi45NiAxNEg5LjAyOHYtLjY5MWwyLjU3OS0zLjcydi0uMDU0SDkuMDk4di0uODY3aDMuNzg1di42OTFsLTIuNTY3IDMuNzJ2LjA1NGgyLjY0NXpNNC41IDIuNWEuNS41IDAgMCAwLTEgMHY5Ljc5M2wtMS4xNDYtMS4xNDdhLjUuNSAwIDAgMC0uNzA4LjcwOGwyIDEuOTk5LjAwNy4wMDdhLjQ5Ny40OTcgMCAwIDAgLjctLjAwNmwyLTJhLjUuNSAwIDAgMC0uNzA3LS43MDhMNC41IDEyLjI5M3oiLz4KPC9zdmc+)*/
 const SortAlphaDown: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sort-alpha-down"

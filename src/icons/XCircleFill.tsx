@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![x-circle-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwTTUuMzU0IDQuNjQ2YS41LjUgMCAxIDAtLjcwOC43MDhMNy4yOTMgOGwtMi42NDcgMi42NDZhLjUuNSAwIDAgMCAuNzA4LjcwOEw4IDguNzA3bDIuNjQ2IDIuNjQ3YS41LjUgMCAwIDAgLjcwOC0uNzA4TDguNzA3IDhsMi42NDctMi42NDZhLjUuNSAwIDAgMC0uNzA4LS43MDhMOCA3LjI5M3oiLz4KPC9zdmc+)*/
 const XCircleFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="x-circle-fill"

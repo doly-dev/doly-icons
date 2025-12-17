@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNmMzLjMxNCAwIDYtMiA2LTUuNSAwLTEuNS0uNS00LTIuNS02IC4yNSAxLjUtMS4yNSAyLTEuMjUgMkMxMSA0IDkgLjUgNiAwYy4zNTcgMiAuNSA0LTIgNi0xLjI1IDEtMiAyLjcyOS0yIDQuNUMyIDE0IDQuNjg2IDE2IDggMTZtMC0xYy0xLjY1NyAwLTMtMS0zLTIuNzUgMC0uNzUuMjUtMiAxLjI1LTNDNi4xMjUgMTAgNyAxMC41IDcgMTAuNWMtLjM3NS0xLjI1LjUtMy4yNSAyLTMuNS0uMTc5IDEtLjI1IDIgMSAzIC42MjUuNSAxIDEuMzY0IDEgMi4yNUMxMSAxNCA5LjY1NyAxNSA4IDE1Ii8+Cjwvc3ZnPg==)*/
 const Fire: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="fire"

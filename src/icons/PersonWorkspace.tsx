@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![person-workspace](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCAxNnMtMSAwLTEtMSAxLTQgNS00IDUgMyA1IDQtMSAxLTEgMXptNC01Ljk1YTIuNSAyLjUgMCAxIDAgMC01IDIuNSAyLjUgMCAwIDAgMCA1Ii8+CiAgPHBhdGggZD0iTTIgMWEyIDIgMCAwIDAtMiAydjkuNUExLjUgMS41IDAgMCAwIDEuNSAxNGguNjUzYTUuNCA1LjQgMCAwIDEgMS4wNjYtMkgxVjNhMSAxIDAgMCAxIDEtMWgxMmExIDEgMCAwIDEgMSAxdjloLTIuMjE5Yy41NTQuNjU0Ljg5IDEuMzczIDEuMDY2IDJoLjY1M2ExLjUgMS41IDAgMCAwIDEuNS0xLjVWM2EyIDIgMCAwIDAtMi0yeiIvPgo8L3N2Zz4=)*/
 const PersonWorkspace: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="person-workspace"

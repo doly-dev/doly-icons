@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![send-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTUuOTY0LjY4NmEuNS41IDAgMCAwLS42NS0uNjVMLjc2NyA1Ljg1NWEuNzUuNzUgMCAwIDAtLjEyNCAxLjMyOWw0Ljk5NSAzLjE3OCAxLjUzMSAyLjQwNmEuNS41IDAgMCAwIC44NDQtLjUzNkw2LjYzNyAxMC4wN2w3LjQ5NC03LjQ5NC0xLjg5NSA0LjczOGEuNS41IDAgMSAwIC45MjguMzcyem0tMi41NCAxLjE4M0w1LjkzIDkuMzYzIDEuNTkxIDYuNjAyeiIvPgogIDxwYXRoIGQ9Ik0xNiAxMi41YTMuNSAzLjUgMCAxIDEtNyAwIDMuNSAzLjUgMCAwIDEgNyAwbS0xLjk5My0xLjY3OWEuNS41IDAgMCAwLS42ODYuMTcybC0xLjE3IDEuOTUtLjU0Ny0uNTQ3YS41LjUgMCAwIDAtLjcwOC43MDhsLjc3NC43NzNhLjc1Ljc1IDAgMCAwIDEuMTc0LS4xNDRsMS4zMzUtMi4yMjZhLjUuNSAwIDAgMC0uMTcyLS42ODYiLz4KPC9zdmc+)*/
 const SendCheck: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="send-check"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![reply-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNS45MjEgMTEuOSAxLjM1MyA4LjYyYS43Mi43MiAwIDAgMSAwLTEuMjM4TDUuOTIxIDQuMUEuNzE2LjcxNiAwIDAgMSA3IDQuNzE5VjZjMS41IDAgNiAwIDcgOC0yLjUtNC41LTctNC03LTR2MS4yODFjMCAuNTYtLjYwNi44OTgtMS4wNzkuNjJ6Ii8+Cjwvc3ZnPg==)*/
 const ReplyFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="reply-fill"

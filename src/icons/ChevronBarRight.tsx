@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chevron-bar-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00LjE0NiAzLjY0NmEuNS41IDAgMCAwIDAgLjcwOEw3Ljc5MyA4bC0zLjY0NyAzLjY0NmEuNS41IDAgMCAwIC43MDguNzA4bDQtNGEuNS41IDAgMCAwIDAtLjcwOGwtNC00YS41LjUgMCAwIDAtLjcwOCAwTTExLjUgMWEuNS41IDAgMCAxIC41LjV2MTNhLjUuNSAwIDAgMS0xIDB2LTEzYS41LjUgMCAwIDEgLjUtLjUiLz4KPC9zdmc+)*/
 const ChevronBarRight: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chevron-bar-right"

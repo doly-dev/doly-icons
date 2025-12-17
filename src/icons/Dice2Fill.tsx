@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![dice-2-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAzYTMgMyAwIDAgMSAzLTNoMTBhMyAzIDAgMCAxIDMgM3YxMGEzIDMgMCAwIDEtMyAzSDNhMyAzIDAgMCAxLTMtM3ptNS41IDFhMS41IDEuNSAwIDEgMC0zIDAgMS41IDEuNSAwIDAgMCAzIDBtNi41IDkuNWExLjUgMS41IDAgMSAwIDAtMyAxLjUgMS41IDAgMCAwIDAgMyIvPgo8L3N2Zz4=)*/
 const Dice2Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="dice-2-fill"

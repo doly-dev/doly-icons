@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-intersection-y](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAuNDkzIDUuMTk3IDggNy40ODMgNS41MDcgNS4xOTcgNC40OTMgNi4zMDMgNy4yNSA4LjgzVjEyaDEuNVY4LjgzbDIuNzU3LTIuNTI3eiIvPgogIDxwYXRoIGQ9Ik05LjA1LjQzNWMtLjU4LS41OC0xLjUyLS41OC0yLjEgMEwuNDM2IDYuOTVjLS41OC41OC0uNTggMS41MTkgMCAyLjA5OGw2LjUxNiA2LjUxNmMuNTguNTggMS41MTkuNTggMi4wOTggMGw2LjUxNi02LjUxNmMuNTgtLjU4LjU4LTEuNTE5IDAtMi4wOTh6bS0xLjQuN2EuNDk1LjQ5NSAwIDAgMSAuNyAwbDYuNTE2IDYuNTE1YS40OTUuNDk1IDAgMCAxIDAgLjdMOC4zNSAxNC44NjZhLjQ5NS40OTUgMCAwIDEtLjcgMEwxLjEzNCA4LjM1YS40OTUuNDk1IDAgMCAxIDAtLjdMNy42NSAxLjEzNFoiLz4KPC9zdmc+)*/
 const SignIntersectionY: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-intersection-y"

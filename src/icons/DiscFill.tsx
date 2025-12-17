@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![disc-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgOEE4IDggMCAxIDEgMCA4YTggOCAwIDAgMSAxNiAwbS02IDBhMiAyIDAgMSAwLTQgMCAyIDIgMCAwIDAgNCAwTTQgOGE0IDQgMCAwIDEgNC00IC41LjUgMCAwIDAgMC0xIDUgNSAwIDAgMC01IDUgLjUuNSAwIDAgMCAxIDBtOSAwYS41LjUgMCAxIDAtMSAwIDQgNCAwIDAgMS00IDQgLjUuNSAwIDAgMCAwIDEgNSA1IDAgMCAwIDUtNSIvPgo8L3N2Zz4=)*/
 const DiscFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="disc-fill"

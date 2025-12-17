@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![twitch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy44NTcgMCAxIDIuODU3djEwLjI4NmgzLjQyOVYxNmwyLjg1Ny0yLjg1N0g5LjU3TDE0LjcxNCA4VjB6bTkuNzE0IDcuNDI5LTIuMjg1IDIuMjg1SDlsLTIgMnYtMkg0LjQyOVYxLjE0M2g5LjE0MnoiLz4KICA8cGF0aCBkPSJNMTEuODU3IDMuMTQzaC0xLjE0M1Y2LjU3aDEuMTQzem0tMy4xNDMgMEg3LjU3MVY2LjU3aDEuMTQzeiIvPgo8L3N2Zz4=)*/
 const Twitch: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="twitch"

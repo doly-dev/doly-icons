@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-slides-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNyA3Ljc4VjUuMjJjMC0uMDk2LjEwNi0uMTU2LjE5LS4xMDZsMi4xMyAxLjI3OWEuMTI1LjEyNSAwIDAgMSAwIC4yMTRsLTIuMTMgMS4yOEEuMTI1LjEyNSAwIDAgMSA3IDcuNzc4eiIvPgogIDxwYXRoIGQ9Ik0xMiAwSDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDhhMiAyIDAgMCAwIDItMlYyYTIgMiAwIDAgMC0yLTJNNSA0aDZhLjUuNSAwIDAgMSAuNDk2LjQzOGwuNSA0QS41LjUgMCAwIDEgMTEuNSA5aC0zdjIuMDE2Yy44NjMuMDU1IDEuNS4yNTEgMS41LjQ4NCAwIC4yNzYtLjg5NS41LTIgLjVzLTItLjIyNC0yLS41YzAtLjIzMy42MzctLjQyOSAxLjUtLjQ4NFY5aC0zYS41LjUgMCAwIDEtLjQ5Ni0uNTYybC41LTRBLjUuNSAwIDAgMSA1IDQiLz4KPC9zdmc+)*/
 const FileSlidesFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-slides-fill"

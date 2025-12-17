@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![skip-start](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCA0YS41LjUgMCAwIDEgMSAwdjMuMjQ4bDYuMjY3LTMuNjM2Yy41Mi0uMzAyIDEuMjMzLjA0MyAxLjIzMy42OTZ2Ny4zODRjMCAuNjUzLS43MTMuOTk4LTEuMjMzLjY5Nkw1IDguNzUyVjEyYS41LjUgMCAwIDEtMSAwem03LjUuNjMzTDUuNjk2IDhsNS44MDQgMy4zNjd6Ii8+Cjwvc3ZnPg==)*/
 const SkipStart: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="skip-start"

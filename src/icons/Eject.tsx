@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![eject](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy4yNyAxLjA0N2ExIDEgMCAwIDEgMS40NiAwbDYuMzQ1IDYuNzdjLjYuNjM4LjE0NiAxLjY4My0uNzMgMS42ODNIMS42NTZDLjc4IDkuNS4zMjYgOC40NTUuOTI2IDcuODE2ek0xNC4zNDYgOC41IDggMS43MzEgMS42NTQgOC41ek0uNSAxMS41YTEgMSAwIDAgMSAxLTFoMTNhMSAxIDAgMCAxIDEgMXYxYTEgMSAwIDAgMS0xIDFoLTEzYTEgMSAwIDAgMS0xLTF6bTE0IDBoLTEzdjFoMTN6Ii8+Cjwvc3ZnPg==)*/
 const Eject: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="eject"

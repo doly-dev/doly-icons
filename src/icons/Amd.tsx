@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![amd](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtLjMzNCAwIDQuMzU4IDQuMzU5aDcuMTV2Ny4xNWw0LjM1OCA0LjM1OFYwek0uMiA5LjcybDQuNDg3LTQuNDg4djYuMjgxaDYuMjhMNi40OCAxNkguMnoiLz4KPC9zdmc+)*/
 const Amd: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="amd"

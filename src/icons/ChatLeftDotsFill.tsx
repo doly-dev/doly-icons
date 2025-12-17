@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chat-left-dots-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAyYTIgMiAwIDAgMSAyLTJoMTJhMiAyIDAgMCAxIDIgMnY4YTIgMiAwIDAgMS0yIDJINC40MTRhMSAxIDAgMCAwLS43MDcuMjkzTC44NTQgMTUuMTQ2QS41LjUgMCAwIDEgMCAxNC43OTN6bTUgNGExIDEgMCAxIDAtMiAwIDEgMSAwIDAgMCAyIDBtNCAwYTEgMSAwIDEgMC0yIDAgMSAxIDAgMCAwIDIgMG0zIDFhMSAxIDAgMSAwIDAtMiAxIDEgMCAwIDAgMCAyIi8+Cjwvc3ZnPg==)*/
 const ChatLeftDotsFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chat-left-dots-fill"

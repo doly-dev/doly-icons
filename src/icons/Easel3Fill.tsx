@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![easel3-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41IDEydjEuMTM0YTEgMSAwIDEgMS0xIDBWMTJoLTVBMS41IDEuNSAwIDAgMSAxIDEwLjVWM2gxNHY3LjVhMS41IDEuNSAwIDAgMS0xLjUgMS41em03LTEwYS41LjUgMCAwIDAgMC0xSC41YS41LjUgMCAwIDAgMCAxeiIvPgo8L3N2Zz4=)*/
 const Easel3Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="easel3-fill"

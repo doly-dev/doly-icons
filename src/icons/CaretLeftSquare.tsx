@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![caret-left-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgMWExIDEgMCAwIDEgMSAxdjEyYTEgMSAwIDAgMS0xIDFIMmExIDEgMCAwIDEtMS0xVjJhMSAxIDAgMCAxIDEtMXpNMiAwYTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmgxMmEyIDIgMCAwIDAgMi0yVjJhMiAyIDAgMCAwLTItMnoiLz4KICA8cGF0aCBkPSJNMTAuMjA1IDEyLjQ1NkEuNS41IDAgMCAwIDEwLjUgMTJWNGEuNS41IDAgMCAwLS44MzItLjM3NGwtNC41IDRhLjUuNSAwIDAgMCAwIC43NDhsNC41IDRhLjUuNSAwIDAgMCAuNTM3LjA4MiIvPgo8L3N2Zz4=)*/
 const CaretLeftSquare: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="caret-left-square"

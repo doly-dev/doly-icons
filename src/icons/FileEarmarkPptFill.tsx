@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-ppt-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4xODggMTBIN1Y2LjVoMS4xODhhMS43NSAxLjc1IDAgMSAxIDAgMy41Ii8+CiAgPHBhdGggZD0iTTQgMGg1LjI5M0ExIDEgMCAwIDEgMTAgLjI5M0wxMy43MDcgNGExIDEgMCAwIDEgLjI5My43MDdWMTRhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJWMmEyIDIgMCAwIDEgMi0ybTUuNSAxLjV2MmExIDEgMCAwIDAgMSAxaDJ6TTcgNS41YTEgMSAwIDAgMC0xIDFWMTNhLjUuNSAwIDAgMCAxIDB2LTJoMS4xODhhMi43NSAyLjc1IDAgMCAwIDAtNS41eiIvPgo8L3N2Zz4=)*/
 const FileEarmarkPptFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-ppt-fill"

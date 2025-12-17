@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![anthropic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjIxOCAyaDIuNDAyTDE2IDEyLjk4N2gtMi40MDJ6TTQuMzc5IDJoMi41MTJsNC4zOCAxMC45ODdIOC44MmwtLjg5NS0yLjMwOGgtNC41OGwtLjg5NiAyLjMwN0gwTDQuMzggMi4wMDF6bTIuNzU1IDYuNjRMNS42MzUgNC43NzcgNC4xMzcgOC42NHoiLz4KPC9zdmc+)*/
 const Anthropic: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="anthropic"

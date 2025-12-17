@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![forward-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtOS43NyAxMi4xMSA0LjAxMi0yLjk1M2EuNjQ3LjY0NyAwIDAgMCAwLTEuMTE0TDkuNzcxIDUuMDlhLjY0NC42NDQgMCAwIDAtLjk3MS41NTdWNi42NUgydjMuOWg2Ljh2MS4wMDNjMCAuNTA1LjU0NS44MDguOTcuNTU3Ii8+Cjwvc3ZnPg==)*/
 const ForwardFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="forward-fill"

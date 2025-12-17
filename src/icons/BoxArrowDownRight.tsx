@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![box-arrow-down-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjYzNiAxMi41YS41LjUgMCAwIDEtLjUuNUgxLjVBMS41IDEuNSAwIDAgMSAwIDExLjV2LTEwQTEuNSAxLjUgMCAwIDEgMS41IDBoMTBBMS41IDEuNSAwIDAgMSAxMyAxLjV2Ni42MzZhLjUuNSAwIDAgMS0xIDBWMS41YS41LjUgMCAwIDAtLjUtLjVoLTEwYS41LjUgMCAwIDAtLjUuNXYxMGEuNS41IDAgMCAwIC41LjVoNi42MzZhLjUuNSAwIDAgMSAuNS41Ii8+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTYgMTUuNWEuNS41IDAgMCAxLS41LjVoLTVhLjUuNSAwIDAgMSAwLTFoMy43OTNMNi4xNDYgNi44NTRhLjUuNSAwIDEgMSAuNzA4LS43MDhMMTUgMTQuMjkzVjEwLjVhLjUuNSAwIDAgMSAxIDB6Ii8+Cjwvc3ZnPg==)*/
 const BoxArrowDownRight: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="box-arrow-down-right"

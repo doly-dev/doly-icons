@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![shield-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNS4wNzIuNTZDNi4xNTcuMjY1IDcuMzEgMCA4IDBzMS44NDMuMjY1IDIuOTI4LjU2YzEuMTEuMyAyLjIyOS42NTUgMi44ODcuODdhMS41NCAxLjU0IDAgMCAxIDEuMDQ0IDEuMjYyYy41OTYgNC40NzctLjc4NyA3Ljc5NS0yLjQ2NSA5Ljk5YTExLjggMTEuOCAwIDAgMS0yLjUxNyAyLjQ1MyA3IDcgMCAwIDEtMS4wNDguNjI1Yy0uMjguMTMyLS41ODEuMjQtLjgyOS4yNHMtLjU0OC0uMTA4LS44MjktLjI0YTcgNyAwIDAgMS0xLjA0OC0uNjI1IDExLjggMTEuOCAwIDAgMS0yLjUxNy0yLjQ1M0MxLjkyOCAxMC40ODcuNTQ1IDcuMTY5IDEuMTQxIDIuNjkyQTEuNTQgMS41NCAwIDAgMSAyLjE4NSAxLjQzIDYzIDYzIDAgMCAxIDUuMDcyLjU2Ii8+Cjwvc3ZnPg==)*/
 const ShieldFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="shield-fill"

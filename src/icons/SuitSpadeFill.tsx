@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![suit-spade-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy4xODQgMTEuMjQ2QTMuNSAzLjUgMCAwIDEgMSA5YzAtMS42MDIgMS4xNC0yLjYzMyAyLjY2LTQuMDA4QzQuOTg2IDMuNzkyIDYuNjAyIDIuMzMgOCAwYzEuMzk4IDIuMzMgMy4wMTQgMy43OTIgNC4zNCA0Ljk5MkMxMy44NiA2LjM2NyAxNSA3LjM5OCAxNSA5YTMuNSAzLjUgMCAwIDEtNi4xODQgMi4yNDYgMjAgMjAgMCAwIDAgMS41ODIgMi45MDdjLjIzMS4zNS0uMDIuODQ3LS40MzguODQ3SDYuMDRjLS40MTkgMC0uNjctLjQ5Ny0uNDM4LS44NDdhMjAgMjAgMCAwIDAgMS41ODItMi45MDciLz4KPC9zdmc+)*/
 const SuitSpadeFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="suit-spade-fill"

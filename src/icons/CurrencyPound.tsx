@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![currency-pound](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCA4LjU4NWgxLjk2OWMuMTE1LjQ2NS4xODYuOTM5LjE4NiAxLjQzIDAgMS4zODUtLjczNiAyLjQ5Ni0yLjA3NSAyLjc3MVYxNEgxMnYtMS4yNEg2LjQ5MnYtLjEyOWMuODI1LS41MjUgMS4xMzUtMS40NDYgMS4xMzUtMi42OTQgMC0uNDY1LS4wNy0uOTEzLS4xNjgtMS4zNTJoMy4yOXYtLjk3Mkg3LjIyYy0uMTg2LS43MjMtLjM3Mi0xLjQ1NS0uMzcyLTIuMjQ3IDAtMS4yNzQgMS4wNDctMi4wNjYgMi41OC0yLjA2NmE1LjMgNS4zIDAgMCAxIDIuMTAzLjQ2NVYyLjQ1NkE1LjYgNS42IDAgMCAwIDkuMzQ4IDJDNi44NjUgMiA1LjMyMiAzLjI5MSA1LjMyMiA1LjM2NmMwIC43NzUuMTk1IDEuNTE1LjM5OSAyLjI0N0g0eiIvPgo8L3N2Zz4=)*/
 const CurrencyPound: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="currency-pound"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrow-left-short](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiA4YS41LjUgMCAwIDEtLjUuNUg1LjcwN2wyLjE0NyAyLjE0NmEuNS41IDAgMCAxLS43MDguNzA4bC0zLTNhLjUuNSAwIDAgMSAwLS43MDhsMy0zYS41LjUgMCAxIDEgLjcwOC43MDhMNS43MDcgNy41SDExLjVhLjUuNSAwIDAgMSAuNS41Ii8+Cjwvc3ZnPg==)*/
 const ArrowLeftShort: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrow-left-short"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrow-bar-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDEwYS41LjUgMCAwIDAgLjUtLjVWMy43MDdsMi4xNDYgMi4xNDdhLjUuNSAwIDAgMCAuNzA4LS43MDhsLTMtM2EuNS41IDAgMCAwLS43MDggMGwtMyAzYS41LjUgMCAxIDAgLjcwOC43MDhMNy41IDMuNzA3VjkuNWEuNS41IDAgMCAwIC41LjVtLTcgMi41YS41LjUgMCAwIDEgLjUtLjVoMTNhLjUuNSAwIDAgMSAwIDFoLTEzYS41LjUgMCAwIDEtLjUtLjUiLz4KPC9zdmc+)*/
 const ArrowBarUp: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrow-bar-up"

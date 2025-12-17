@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![mask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi4yMjUgMS4yMjdBNy41IDcuNSAwIDAgMSAxMC41IDhhNy41IDcuNSAwIDAgMS00LjI3NSA2Ljc3MyA3IDcgMCAxIDAgMC0xMy41NDZNNC4xODcuOTY2YTggOCAwIDEgMSA3LjYyNyAxNC4wNjlBOCA4IDAgMCAxIDQuMTg2Ljk2NHoiLz4KPC9zdmc+)*/
 const Mask: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="mask"

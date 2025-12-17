@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrows-expand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xIDhhLjUuNSAwIDAgMSAuNS0uNWgxM2EuNS41IDAgMCAxIDAgMWgtMTNBLjUuNSAwIDAgMSAxIDhNNy42NDYuMTQ2YS41LjUgMCAwIDEgLjcwOCAwbDIgMmEuNS41IDAgMCAxLS43MDguNzA4TDguNSAxLjcwN1Y1LjVhLjUuNSAwIDAgMS0xIDBWMS43MDdMNi4zNTQgMi44NTRhLjUuNSAwIDEgMS0uNzA4LS43MDh6TTggMTBhLjUuNSAwIDAgMSAuNS41djMuNzkzbDEuMTQ2LTEuMTQ3YS41LjUgMCAwIDEgLjcwOC43MDhsLTIgMmEuNS41IDAgMCAxLS43MDggMGwtMi0yYS41LjUgMCAwIDEgLjcwOC0uNzA4TDcuNSAxNC4yOTNWMTAuNUEuNS41IDAgMCAxIDggMTAiLz4KPC9zdmc+)*/
 const ArrowsExpand: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrows-expand"

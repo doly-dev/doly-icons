@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![arrow-return-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNC41IDEuNWEuNS41IDAgMCAxIC41LjV2NC44YTIuNSAyLjUgMCAwIDEtMi41IDIuNUgyLjcwN2wzLjM0NyAzLjM0NmEuNS41IDAgMCAxLS43MDguNzA4bC00LjItNC4yYS41LjUgMCAwIDEgMC0uNzA4bDQtNGEuNS41IDAgMSAxIC43MDguNzA4TDIuNzA3IDguM0gxMi41QTEuNSAxLjUgMCAwIDAgMTQgNi44VjJhLjUuNSAwIDAgMSAuNS0uNSIvPgo8L3N2Zz4=)*/
 const ArrowReturnLeft: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="arrow-return-left"

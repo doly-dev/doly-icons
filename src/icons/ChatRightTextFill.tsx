@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![chat-right-text-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTYgMmEyIDIgMCAwIDAtMi0ySDJhMiAyIDAgMCAwLTIgMnY4YTIgMiAwIDAgMCAyIDJoOS41ODZhMSAxIDAgMCAxIC43MDcuMjkzbDIuODUzIDIuODUzYS41LjUgMCAwIDAgLjg1NC0uMzUzek0zLjUgM2g5YS41LjUgMCAwIDEgMCAxaC05YS41LjUgMCAwIDEgMC0xbTAgMi41aDlhLjUuNSAwIDAgMSAwIDFoLTlhLjUuNSAwIDAgMSAwLTFtMCAyLjVoNWEuNS41IDAgMCAxIDAgMWgtNWEuNS41IDAgMCAxIDAtMSIvPgo8L3N2Zz4=)*/
 const ChatRightTextFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="chat-right-text-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-intersection-t](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNSA1djEuNWgyLjI1VjEyaDEuNVY2LjVIMTFWNXoiLz4KICA8cGF0aCBkPSJNOS4wNS40MzVjLS41OC0uNTgtMS41Mi0uNTgtMi4xIDBMLjQzNiA2Ljk1Yy0uNTguNTgtLjU4IDEuNTE5IDAgMi4wOThsNi41MTYgNi41MTZjLjU4LjU4IDEuNTE5LjU4IDIuMDk4IDBsNi41MTYtNi41MTZjLjU4LS41OC41OC0xLjUxOSAwLTIuMDk4em0tMS40LjdhLjQ5NS40OTUgMCAwIDEgLjcgMGw2LjUxNiA2LjUxNWEuNDk1LjQ5NSAwIDAgMSAwIC43TDguMzUgMTQuODY2YS40OTUuNDk1IDAgMCAxLS43IDBMMS4xMzQgOC4zNWEuNDk1LjQ5NSAwIDAgMSAwLS43TDcuNjUgMS4xMzRaIi8+Cjwvc3ZnPg==)*/
 const SignIntersectionT: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-intersection-t"

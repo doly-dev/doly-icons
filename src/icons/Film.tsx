@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![film](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxYTEgMSAwIDAgMSAxLTFoMTRhMSAxIDAgMCAxIDEgMXYxNGExIDEgMCAwIDEtMSAxSDFhMSAxIDAgMCAxLTEtMXptNCAwdjZoOFYxem04IDhINHY2aDh6TTEgMXYyaDJWMXptMiAzSDF2Mmgyek0xIDd2MmgyVjd6bTIgM0gxdjJoMnptLTIgM3YyaDJ2LTJ6TTE1IDFoLTJ2Mmgyem0tMiAzdjJoMlY0em0yIDNoLTJ2Mmgyem0tMiAzdjJoMnYtMnptMiAzaC0ydjJoMnoiLz4KPC9zdmc+)*/
 const Film: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="film"

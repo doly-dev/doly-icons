@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-diff-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yTTguNSA0LjVWNkgxMGEuNS41IDAgMCAxIDAgMUg4LjV2MS41YS41LjUgMCAwIDEtMSAwVjdINmEuNS41IDAgMCAxIDAtMWgxLjVWNC41YS41LjUgMCAwIDEgMSAwTTYgMTBoNGEuNS41IDAgMCAxIDAgMUg2YS41LjUgMCAwIDEgMC0xIi8+Cjwvc3ZnPg==)*/
 const FileDiffFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-diff-fill"

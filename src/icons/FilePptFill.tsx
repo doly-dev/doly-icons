@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-ppt-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4xODggOC41SDdWNWgxLjE4OGExLjc1IDEuNzUgMCAxIDEgMCAzLjUiLz4KICA8cGF0aCBkPSJNNCAwaDhhMiAyIDAgMCAxIDIgMnYxMmEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlYyYTIgMiAwIDAgMSAyLTJtMyA0YTEgMSAwIDAgMC0xIDF2Ni41YS41LjUgMCAwIDAgMSAwdi0yaDEuMTg4YTIuNzUgMi43NSAwIDAgMCAwLTUuNXoiLz4KPC9zdmc+)*/
 const FilePptFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-ppt-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![check2-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMyAxNC41QTEuNSAxLjUgMCAwIDEgMS41IDEzVjNBMS41IDEuNSAwIDAgMSAzIDEuNWg4YS41LjUgMCAwIDEgMCAxSDNhLjUuNSAwIDAgMC0uNS41djEwYS41LjUgMCAwIDAgLjUuNWgxMGEuNS41IDAgMCAwIC41LS41VjhhLjUuNSAwIDAgMSAxIDB2NWExLjUgMS41IDAgMCAxLTEuNSAxLjV6Ii8+CiAgPHBhdGggZD0ibTguMzU0IDEwLjM1NCA3LTdhLjUuNSAwIDAgMC0uNzA4LS43MDhMOCA5LjI5MyA1LjM1NCA2LjY0NmEuNS41IDAgMSAwLS43MDguNzA4bDMgM2EuNS41IDAgMCAwIC43MDggMCIvPgo8L3N2Zz4=)*/
 const Check2Square: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="check2-square"

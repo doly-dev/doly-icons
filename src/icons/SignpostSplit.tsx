@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![signpost-split](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNyA3VjEuNDE0YTEgMSAwIDAgMSAyIDBWMmg1YTEgMSAwIDAgMSAuOC40bC45NzUgMS4zYS41LjUgMCAwIDEgMCAuNkwxNC44IDUuNmExIDEgMCAwIDEtLjguNEg5djEwSDd2LTVIMmExIDEgMCAwIDEtLjgtLjRMLjIyNSA5LjNhLjUuNSAwIDAgMSAwLS42TDEuMiA3LjRBMSAxIDAgMCAxIDIgN3ptMSAzVjhIMmwtLjc1IDFMMiAxMHptMC01aDZsLjc1LTFMMTQgM0g4eiIvPgo8L3N2Zz4=)*/
 const SignpostSplit: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="signpost-split"

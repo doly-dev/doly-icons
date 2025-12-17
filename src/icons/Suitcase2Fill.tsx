@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![suitcase2-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNi41IDBhLjUuNSAwIDAgMC0uNS41VjNINC41QTEuNSAxLjUgMCAwIDAgMyA0LjV2OWExLjUgMS41IDAgMCAwIDEuMDAzIDEuNDE2QTEgMSAwIDEgMCA2IDE1aDRhMSAxIDAgMSAwIDEuOTk2LS4wODRBMS41IDEuNSAwIDAgMCAxMyAxMy41di05QTEuNSAxLjUgMCAwIDAgMTEuNSAzSDEwVi41YS41LjUgMCAwIDAtLjUtLjV6TTkgM0g3VjFoMnpNNCA3VjZoOHYxeiIvPgo8L3N2Zz4=)*/
 const Suitcase2Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="suitcase2-fill"

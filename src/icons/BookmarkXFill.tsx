@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![bookmark-x-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yIDE1LjVWMmEyIDIgMCAwIDEgMi0yaDhhMiAyIDAgMCAxIDIgMnYxMy41YS41LjUgMCAwIDEtLjc0LjQzOUw4IDEzLjA2OWwtNS4yNiAyLjg3QS41LjUgMCAwIDEgMiAxNS41TTYuODU0IDUuMTQ2YS41LjUgMCAxIDAtLjcwOC43MDhMNy4yOTMgNyA2LjE0NiA4LjE0NmEuNS41IDAgMSAwIC43MDguNzA4TDggNy43MDdsMS4xNDYgMS4xNDdhLjUuNSAwIDEgMCAuNzA4LS43MDhMOC43MDcgN2wxLjE0Ny0xLjE0NmEuNS41IDAgMCAwLS43MDgtLjcwOEw4IDYuMjkzeiIvPgo8L3N2Zz4=)*/
 const BookmarkXFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="bookmark-x-fill"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-merge-right-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOS4wNS40MzVjLS41OC0uNTgtMS41Mi0uNTgtMi4xIDBMLjQzNiA2Ljk1Yy0uNTguNTgtLjU4IDEuNTE5IDAgMi4wOThsNi41MTYgNi41MTZjLjU4LjU4IDEuNTE5LjU4IDIuMDk4IDBsNi41MTYtNi41MTZjLjU4LS41OC41OC0xLjUxOSAwLTIuMDk4ek04Ljc1IDZ2MXEuMjExLjQ1MS41ODguOTVjLjUzNy43MTYgMS4yNTkgMS40NCAyLjAxNiAyLjE5NmwtLjcwOC43MDgtLjAxNS0uMDE2Yy0uNjUyLS42NTItMS4zMy0xLjMzLTEuODgxLTIuMDE1VjEyaC0xLjVWNkg2LjAzNGEuMjUuMjUgMCAwIDEtLjE5Mi0uNDFsMS45NjYtMi4zNmEuMjUuMjUgMCAwIDEgLjM4NCAwbDEuOTY2IDIuMzZhLjI1LjI1IDAgMCAxLS4xOTIuNDF6Ii8+Cjwvc3ZnPg==)*/
 const SignMergeRightFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-merge-right-fill"

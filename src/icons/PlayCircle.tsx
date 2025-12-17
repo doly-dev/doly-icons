@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![play-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNUE3IDcgMCAxIDEgOCAxYTcgNyAwIDAgMSAwIDE0bTAgMUE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2Ii8+CiAgPHBhdGggZD0iTTYuMjcxIDUuMDU1YS41LjUgMCAwIDEgLjUyLjAzOGwzLjUgMi41YS41LjUgMCAwIDEgMCAuODE0bC0zLjUgMi41QS41LjUgMCAwIDEgNiAxMC41di01YS41LjUgMCAwIDEgLjI3MS0uNDQ1Ii8+Cjwvc3ZnPg==)*/
 const PlayCircle: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="play-circle"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![fonts](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIuMjU4IDNoLTguNTFsLS4wODMgMi40NmguNDc5Yy4yNi0xLjU0NC43NTgtMS43ODMgMi42OTMtMS44NDVsLjQyNC0uMDEzdjcuODI3YzAgLjY2My0uMTQ0LjgyLTEuMy45MjN2LjUyaDQuMDgydi0uNTJjLTEuMTYyLS4xMDMtMS4zMDYtLjI2LTEuMzA2LS45MjNWMy42MDJsLjQzMS4wMTNjMS45MzQuMDYyIDIuNDM0LjMwMSAyLjY5MyAxLjg0NmguNDc5eiIvPgo8L3N2Zz4=)*/
 const Fonts: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="fonts"

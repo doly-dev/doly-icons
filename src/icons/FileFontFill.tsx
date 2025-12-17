@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-font-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yTTUuMDU3IDRoNS44ODZMMTEgNmgtLjVjLS4xOC0xLjA5Ni0uMzU2LTEuMTkyLTEuNjk0LTEuMjM1bC0uMjk4LS4wMXY2LjA5YzAgLjQ3LjEuNTgyLjkwMy42NTV2LjVINi41OXYtLjVjLjc5OS0uMDczLjg5OC0uMTg0Ljg5OC0uNjU0VjQuNzU1bC0uMjkzLjAxQzUuODU2IDQuODA4IDUuNjggNC45MDUgNS41IDZINXoiLz4KPC9zdmc+)*/
 const FileFontFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-font-fill"

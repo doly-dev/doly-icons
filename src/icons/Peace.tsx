@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![peace](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy41IDEuMDE4YTcgNyAwIDAgMC00Ljc5IDExLjU2Nkw3LjUgNy43OTN6bTEgMHY2Ljc3NWw0Ljc5IDQuNzlBNyA3IDAgMCAwIDguNSAxLjAxOG00LjA4NCAxMi4yNzNMOC41IDkuMjA3djUuNzc1YTYuOTcgNi45NyAwIDAgMCA0LjA4NC0xLjY5MU03LjUgMTQuOTgyVjkuMjA3bC00LjA4NCA0LjA4NEE2Ljk3IDYuOTcgMCAwIDAgNy41IDE0Ljk4Mk0wIDhhOCA4IDAgMSAxIDE2IDBBOCA4IDAgMCAxIDAgOCIvPgo8L3N2Zz4=)*/
 const Peace: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="peace"

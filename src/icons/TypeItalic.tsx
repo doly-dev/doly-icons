@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![type-italic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy45OTEgMTEuNjc0IDkuNTMgNC40NTVjLjEyMy0uNTk1LjI0Ni0uNzEgMS4zNDctLjgwN2wuMTEtLjUySDcuMjExbC0uMTEuNTJjMS4wNi4wOTYgMS4xMjguMjEyIDEuMDA1LjgwN0w2LjU3IDExLjY3NGMtLjEyMy41OTUtLjI0Ni43MS0xLjM0Ni44MDZsLS4xMS41MmgzLjc3NGwuMTEtLjUyYy0xLjA2LS4wOTUtMS4xMjktLjIxMS0xLjAwNi0uODA2eiIvPgo8L3N2Zz4=)*/
 const TypeItalic: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="type-italic"

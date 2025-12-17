@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![prescription2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNyA2aDJ2MmgydjJIOXYySDd2LTJINVY4aDJ6Ii8+CiAgPHBhdGggZD0iTTIgMWExIDEgMCAwIDEgMS0xaDEwYTEgMSAwIDAgMSAxIDF2MmExIDEgMCAwIDEtMSAxdjEwLjVhMS41IDEuNSAwIDAgMS0xLjUgMS41aC03QTEuNSAxLjUgMCAwIDEgMyAxNC41VjRhMSAxIDAgMCAxLTEtMXptMiAzdjEwLjVhLjUuNSAwIDAgMCAuNS41aDdhLjUuNSAwIDAgMCAuNS0uNVY0ek0zIDNoMTBWMUgzeiIvPgo8L3N2Zz4=)*/
 const Prescription2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="prescription2"

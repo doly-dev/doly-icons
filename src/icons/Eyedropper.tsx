@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![eyedropper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTMuMzU0LjY0NmExLjIwNyAxLjIwNyAwIDAgMC0xLjcwOCAwTDguNSAzLjc5M2wtLjY0Ni0uNjQ3YS41LjUgMCAxIDAtLjcwOC43MDhMOC4yOTMgNWwtNy4xNDcgNy4xNDZBLjUuNSAwIDAgMCAxIDEyLjV2MS43OTNsLS44NTQuODUzYS41LjUgMCAxIDAgLjcwOC43MDdMMS43MDcgMTVIMy41YS41LjUgMCAwIDAgLjM1NC0uMTQ2TDExIDcuNzA3bDEuMTQ2IDEuMTQ3YS41LjUgMCAwIDAgLjcwOC0uNzA4bC0uNjQ3LS42NDYgMy4xNDctMy4xNDZhMS4yMDcgMS4yMDcgMCAwIDAgMC0xLjcwOHpNMiAxMi43MDdsNy03TDEwLjI5MyA3bC03IDdIMnoiLz4KPC9zdmc+)*/
 const Eyedropper: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="eyedropper"

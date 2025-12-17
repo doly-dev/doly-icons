@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-word-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yTTUuNDg1IDQuODc5bDEuMDM2IDQuMTQ0Ljk5Ny0zLjY1NWEuNS41IDAgMCAxIC45NjQgMGwuOTk3IDMuNjU1IDEuMDM2LTQuMTQ0YS41LjUgMCAwIDEgLjk3LjI0MmwtMS41IDZhLjUuNSAwIDAgMS0uOTY3LjAxTDggNy40MDJsLTEuMDE4IDMuNzNhLjUuNSAwIDAgMS0uOTY3LS4wMWwtMS41LTZhLjUuNSAwIDEgMSAuOTctLjI0MnoiLz4KPC9zdmc+)*/
 const FileWordFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-word-fill"

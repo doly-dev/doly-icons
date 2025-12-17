@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![box-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNS41MjggMi45NzNhLjc1Ljc1IDAgMCAxIC40NzIuNjk2djguNjYyYS43NS43NSAwIDAgMS0uNDcyLjY5NmwtNy4yNSAyLjlhLjc1Ljc1IDAgMCAxLS41NTcgMGwtNy4yNS0yLjlBLjc1Ljc1IDAgMCAxIDAgMTIuMzMxVjMuNjY5YS43NS43NSAwIDAgMSAuNDcxLS42OTZMNy40NDMuMTg0bC4wMDQtLjAwMS4yNzQtLjExYS43NS43NSAwIDAgMSAuNTU4IDBsLjI3NC4xMS4wMDQuMDAxem0tMS4zNzQuNTI3TDggNS45NjIgMS44NDYgMy41IDEgMy44Mzl2LjRsNi41IDIuNnY3LjkyMmwuNS4yLjUtLjJWNi44NGw2LjUtMi42di0uNGwtLjg0Ni0uMzM5WiIvPgo8L3N2Zz4=)*/
 const BoxFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="box-fill"

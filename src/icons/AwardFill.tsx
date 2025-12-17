@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![award-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJtOCAwIDEuNjY5Ljg2NCAxLjg1OC4yODIuODQyIDEuNjggMS4zMzcgMS4zMkwxMy40IDZsLjMwNiAxLjg1NC0xLjMzNyAxLjMyLS44NDIgMS42OC0xLjg1OC4yODJMOCAxMmwtMS42NjktLjg2NC0xLjg1OC0uMjgyLS44NDItMS42OC0xLjMzNy0xLjMyTDIuNiA2bC0uMzA2LTEuODU0IDEuMzM3LTEuMzIuODQyLTEuNjhMNi4zMzEuODY0eiIvPgogIDxwYXRoIGQ9Ik00IDExLjc5NFYxNmw0LTEgNCAxdi00LjIwNmwtMi4wMTguMzA2TDggMTMuMTI2IDYuMDE4IDEyLjF6Ii8+Cjwvc3ZnPg==)*/
 const AwardFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="award-fill"

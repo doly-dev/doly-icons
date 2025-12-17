@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![heptagon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNy43NzkuMDUyYS41LjUgMCAwIDEgLjQ0MiAwbDYuMDE1IDIuOTdhLjUuNSAwIDAgMSAuMjY3LjM0bDEuNDg1IDYuNjc2YS41LjUgMCAwIDEtLjA5My40MTVsLTQuMTYyIDUuMzU0YS41LjUgMCAwIDEtLjM5NS4xOTNINC42NjJhLjUuNSAwIDAgMS0uMzk1LS4xOTNMLjEwNSAxMC40NTNhLjUuNSAwIDAgMS0uMDkzLS40MTVsMS40ODUtNi42NzZhLjUuNSAwIDAgMSAuMjY3LS4zNHpNMi40MjIgMy44MTNsLTEuMzgzIDYuMjEyTDQuOTA3IDE1aDYuMTg2bDMuODY4LTQuOTc1LTEuMzgzLTYuMjEyTDggMS4wNTh6Ii8+Cjwvc3ZnPg==)*/
 const Heptagon: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="heptagon"

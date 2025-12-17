@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![unlock-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAwYTQgNCAwIDAgMSA0IDR2Mi41aC0xVjRhMyAzIDAgMSAwLTYgMHYyaC41QTIuNSAyLjUgMCAwIDEgMTIgOC41djVBMi41IDIuNSAwIDAgMSA5LjUgMTZoLTdBMi41IDIuNSAwIDAgMSAwIDEzLjV2LTVBMi41IDIuNSAwIDAgMSAyLjUgNkg4VjRhNCA0IDAgMCAxIDQtNCIvPgo8L3N2Zz4=)*/
 const UnlockFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="unlock-fill"

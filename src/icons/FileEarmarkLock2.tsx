@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-earmark-lock2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTAgN3YxLjA3NmMuNTQuMTY2IDEgLjU5NyAxIDEuMjI0djIuNGMwIC44MTYtLjc4MSAxLjMtMS41IDEuM2gtM2MtLjcxOSAwLTEuNS0uNDg0LTEuNS0xLjNWOS4zYzAtLjYyNy40Ni0xLjA1OCAxLTEuMjI0VjdhMiAyIDAgMSAxIDQgME03IDd2MWgyVjdhMSAxIDAgMCAwLTIgMCIvPgogIDxwYXRoIGQ9Ik0xNCAxNFY0LjVMOS41IDBINGEyIDIgMCAwIDAtMiAydjEyYTIgMiAwIDAgMCAyIDJoOGEyIDIgMCAwIDAgMi0yTTkuNSAzQTEuNSAxLjUgMCAwIDAgMTEgNC41aDJWMTRhMSAxIDAgMCAxLTEgMUg0YTEgMSAwIDAgMS0xLTFWMmExIDEgMCAwIDEgMS0xaDUuNXoiLz4KPC9zdmc+)*/
 const FileEarmarkLock2: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-earmark-lock2"

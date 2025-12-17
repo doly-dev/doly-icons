@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-no-parking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNkE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2bTUuMjktMy40MTZMOS42MyA4LjkyM0MxMC41IDguNTIzIDExIDcuNjYgMTEgNi41ODZjMC0xLjQ4Mi0uOTU1LTIuNTg0LTIuNTM4LTIuNTg0SDUuNXYuNzlMMy40MTYgMi43MWE3IDcgMCAwIDEgOS44NzQgOS44NzRtLS43MDYuNzA3QTcgNyAwIDAgMSAyLjcxIDMuNDE3bDIuNzkgMi43OVYxMmgxLjI4M1Y5LjE2NGgxLjY3NHpNOC43MjYgOC4wMTkgNi43NzcgNi4wN3YtLjk2Nkg4LjI3Yy44OTMgMCAxLjQxOS41MzkgMS40MTkgMS40ODIgMCAuNzY5LS4zNSAxLjI3My0uOTYzIDEuNDMzbS0xLjk0OS0uNTM0LjU5LjU5aC0uNTl6Ii8+Cjwvc3ZnPg==)*/
 const SignNoParking: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-no-parking"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![trash2-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMi4wMzcgMy4yMjVBLjcuNyAwIDAgMSAyIDNjMC0xLjEwNSAyLjY4Ni0yIDYtMnM2IC44OTUgNiAyYS43LjcgMCAwIDEtLjAzNy4yMjVsLTEuNjg0IDEwLjEwNEEyIDIgMCAwIDEgMTAuMzA1IDE1SDUuNjk0YTIgMiAwIDAgMS0xLjk3My0xLjY3MXptOS44OS0uNjlDMTAuOTY2IDIuMjE0IDkuNTc4IDIgOCAyYy0xLjU4IDAtMi45NjguMjE1LTMuOTI2LjUzNC0uNDc3LjE2LS43OTUuMzI3LS45NzUuNDY2LjE4LjE0LjQ5OC4zMDcuOTc1LjQ2NkM1LjAzMiAzLjc4NiA2LjQyIDQgOCA0czIuOTY3LS4yMTUgMy45MjYtLjUzNGMuNDc3LS4xNi43OTUtLjMyNy45NzUtLjQ2Ni0uMTgtLjE0LS40OTgtLjMwNy0uOTc1LS40NjZ6Ii8+Cjwvc3ZnPg==)*/
 const Trash2Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="trash2-fill"

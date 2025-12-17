@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![triangle-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC4wNjUgMi4wMTZBLjEzLjEzIDAgMCAwIDguMDAyIDJ2MTEuOTgzbDYuODU2LjAxN2EuMTIuMTIgMCAwIDAgLjA2Ni0uMDE3LjIuMiAwIDAgMCAuMDU0LS4wNi4xOC4xOCAwIDAgMC0uMDAyLS4xODNMOC4xMiAyLjA3M2EuMTUuMTUgMCAwIDAtLjA1NC0uMDU3em0tMS4wNDMtLjQ1YTEuMTMgMS4xMyAwIDAgMSAxLjk2IDBsNi44NTYgMTEuNjY3Yy40NTguNzc4LS4wOTEgMS43NjctLjk4IDEuNzY3SDEuMTQ2Yy0uODg5IDAtMS40MzctLjk5LS45OC0xLjc2N3oiLz4KPC9zdmc+)*/
 const TriangleHalf: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="triangle-half"

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![layout-text-window-reverse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTMgNi41YS41LjUgMCAwIDAtLjUtLjVoLTVhLjUuNSAwIDAgMCAwIDFoNWEuNS41IDAgMCAwIC41LS41bTAgM2EuNS41IDAgMCAwLS41LS41aC01YS41LjUgMCAwIDAgMCAxaDVhLjUuNSAwIDAgMCAuNS0uNW0tLjUgMi41YS41LjUgMCAwIDEgMCAxaC01YS41LjUgMCAwIDEgMC0xeiIvPgogIDxwYXRoIGQ9Ik0xNCAwYTIgMiAwIDAgMSAyIDJ2MTJhMiAyIDAgMCAxLTIgMkgyYTIgMiAwIDAgMS0yLTJWMmEyIDIgMCAwIDEgMi0yek0yIDFhMSAxIDAgMCAwLTEgMXYxaDE0VjJhMSAxIDAgMCAwLTEtMXpNMSA0djEwYTEgMSAwIDAgMCAxIDFoMlY0em00IDB2MTFoOWExIDEgMCAwIDAgMS0xVjR6Ii8+Cjwvc3ZnPg==)*/
 const LayoutTextWindowReverse: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="layout-text-window-reverse"

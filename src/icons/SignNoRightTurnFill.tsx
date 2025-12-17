@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-no-right-turn-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgMTMuMjkyQTggOCAwIDAgMCAyLjcwNyAybDQuMDk3IDQuMDk4UTcuMTM3IDYuMDAxIDcuNSA2SDlWNC41MzRhLjI1LjI1IDAgMCAxIC40MS0uMTkybDIuMzYgMS45NjZjLjEyLjEuMTIuMjg0IDAgLjM4NEw5LjQxIDguNjU4bC0uMDI2LjAyem0tLjcwOC43MDhBOCA4IDAgMCAxIDIgMi43MDdsMy44ODUgMy44ODRBMi41IDIuNSAwIDAgMCA1IDguNVYxMWgxVjguNWMwLS40ODkuMjM0LS45MjMuNTk2LTEuMTk3bDYuNjk2IDYuNjk2WiIvPgogIDxwYXRoIGQ9Ik03LjcwNyA3IDkgOC4yOTNWN3oiLz4KPC9zdmc+)*/
 const SignNoRightTurnFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-no-right-turn-fill"

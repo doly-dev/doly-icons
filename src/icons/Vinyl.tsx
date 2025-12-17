@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![vinyl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNUE3IDcgMCAxIDEgOCAxYTcgNyAwIDAgMSAwIDE0bTAgMUE4IDggMCAxIDAgOCAwYTggOCAwIDAgMCAwIDE2Ii8+CiAgPHBhdGggZD0iTTggNmEyIDIgMCAxIDAgMCA0IDIgMiAwIDAgMCAwLTRNNCA4YTQgNCAwIDEgMSA4IDAgNCA0IDAgMCAxLTggMCIvPgogIDxwYXRoIGQ9Ik05IDhhMSAxIDAgMSAxLTIgMCAxIDEgMCAwIDEgMiAwIi8+Cjwvc3ZnPg==)*/
 const Vinyl: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="vinyl"

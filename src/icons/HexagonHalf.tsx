@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![hexagon-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgNC41Nzd2Ni44NDZMOCAxNVYxek04LjUuMTM0YTEgMSAwIDAgMC0xIDBsLTYgMy41NzdhMSAxIDAgMCAwLS41Ljg2NnY2Ljg0NmExIDEgMCAwIDAgLjUuODY2bDYgMy41NzdhMSAxIDAgMCAwIDEgMGw2LTMuNTc3YTEgMSAwIDAgMCAuNS0uODY2VjQuNTc3YTEgMSAwIDAgMC0uNS0uODY2eiIvPgo8L3N2Zz4=)*/
 const HexagonHalf: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="hexagon-half"

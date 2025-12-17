@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![window-desktop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMy41IDExYS41LjUgMCAwIDAtLjUuNXYxYS41LjUgMCAwIDAgLjUuNWg5YS41LjUgMCAwIDAgLjUtLjV2LTFhLjUuNSAwIDAgMC0uNS0uNXoiLz4KICA8cGF0aCBkPSJNMi4zNzUgMUEyLjM2NiAyLjM2NiAwIDAgMCAwIDMuMzU3djkuMjg2QTIuMzY2IDIuMzY2IDAgMCAwIDIuMzc1IDE1aDExLjI1QTIuMzY2IDIuMzY2IDAgMCAwIDE2IDEyLjY0M1YzLjM1N0EyLjM2NiAyLjM2NiAwIDAgMCAxMy42MjUgMXpNMSAzLjM1N0MxIDIuNjEyIDEuNjExIDIgMi4zNzUgMmgxMS4yNUMxNC4zODkgMiAxNSAyLjYxMiAxNSAzLjM1N1Y0SDF6TTEgNWgxNHY3LjY0M2MwIC43NDUtLjYxMSAxLjM1Ny0xLjM3NSAxLjM1N0gyLjM3NUExLjM2NiAxLjM2NiAwIDAgMSAxIDEyLjY0M3oiLz4KPC9zdmc+)*/
 const WindowDesktop: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="window-desktop"

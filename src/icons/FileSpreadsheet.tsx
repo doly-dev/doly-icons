@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-spreadsheet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMiAyYTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yem0yLTFhMSAxIDAgMCAwLTEgMXY0aDEwVjJhMSAxIDAgMCAwLTEtMXptOSA2aC0zdjJoM3ptMCAzaC0zdjJoM3ptMCAzaC0zdjJoMmExIDEgMCAwIDAgMS0xem0tNCAydi0ySDZ2MnptLTQgMHYtMkgzdjFhMSAxIDAgMCAwIDEgMXptLTItM2gydi0ySDN6bTAtM2gyVjdIM3ptMy0ydjJoM1Y3em0zIDNINnYyaDN6Ii8+Cjwvc3ZnPg==)*/
 const FileSpreadsheet: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-spreadsheet"

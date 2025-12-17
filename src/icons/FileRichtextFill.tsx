@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![file-richtext-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTIgMEg0YTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMCAwIDIgMmg4YTIgMiAwIDAgMCAyLTJWMmEyIDIgMCAwIDAtMi0yTTcgNC4yNWEuNzUuNzUgMCAxIDEtMS41IDAgLjc1Ljc1IDAgMCAxIDEuNSAwbS0uODYxIDEuNTQyIDEuMzMuODg2IDEuODU0LTEuODU1YS4yNS4yNSAwIDAgMSAuMjg5LS4wNDdsMS44ODguOTc0VjcuNWEuNS41IDAgMCAxLS41LjVINWEuNS41IDAgMCAxLS41LS41VjdzMS41NC0xLjI3NCAxLjYzOS0xLjIwOE01IDloNmEuNS41IDAgMCAxIDAgMUg1YS41LjUgMCAwIDEgMC0xbTAgMmgzYS41LjUgMCAwIDEgMCAxSDVhLjUuNSAwIDAgMSAwLTEiLz4KPC9zdmc+)*/
 const FileRichtextFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="file-richtext-fill"

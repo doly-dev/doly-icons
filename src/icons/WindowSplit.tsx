@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![window-split](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMi41IDRhLjUuNSAwIDEgMCAwLTEgLjUuNSAwIDAgMCAwIDFtMi0uNWEuNS41IDAgMSAxLTEgMCAuNS41IDAgMCAxIDEgMG0xIC41YS41LjUgMCAxIDAgMC0xIC41LjUgMCAwIDAgMCAxIi8+CiAgPHBhdGggZD0iTTIgMWEyIDIgMCAwIDAtMiAydjEwYTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMlYzYTIgMiAwIDAgMC0yLTJ6bTEyIDFhMSAxIDAgMCAxIDEgMXYySDFWM2ExIDEgMCAwIDEgMS0xek0xIDEzVjZoNi41djhIMmExIDEgMCAwIDEtMS0xbTcuNSAxVjZIMTV2N2ExIDEgMCAwIDEtMSAxeiIvPgo8L3N2Zz4=)*/
 const WindowSplit: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="window-split"

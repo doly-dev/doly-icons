@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![cloud-haze2-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOC41IDJhNSA1IDAgMCAxIDQuOTA1IDQuMDI3QTMgMyAwIDAgMSAxMyAxMkgzLjVBMy41IDMuNSAwIDAgMSAuMDM1IDlINS41YS41LjUgMCAwIDAgMC0xSC4wMzVhMy41IDMuNSAwIDAgMSAzLjg3MS0yLjk3N0E1IDUgMCAwIDEgOC41IDJtLTYgOGEuNS41IDAgMCAwIDAgMWg5YS41LjUgMCAwIDAgMC0xek0wIDEzLjVhLjUuNSAwIDAgMSAuNS0uNWg5YS41LjUgMCAwIDEgMCAxaC05YS41LjUgMCAwIDEtLjUtLjUiLz4KPC9zdmc+)*/
 const CloudHaze2Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="cloud-haze2-fill"

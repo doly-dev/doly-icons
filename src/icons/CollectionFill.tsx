@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![collection-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxM2ExLjUgMS41IDAgMCAwIDEuNSAxLjVoMTNBMS41IDEuNSAwIDAgMCAxNiAxM1Y2YTEuNSAxLjUgMCAwIDAtMS41LTEuNWgtMTNBMS41IDEuNSAwIDAgMCAwIDZ6TTIgM2EuNS41IDAgMCAwIC41LjVoMTFhLjUuNSAwIDAgMCAwLTFoLTExQS41LjUgMCAwIDAgMiAzbTItMmEuNS41IDAgMCAwIC41LjVoN2EuNS41IDAgMCAwIDAtMWgtN0EuNS41IDAgMCAwIDQgMSIvPgo8L3N2Zz4=)*/
 const CollectionFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="collection-fill"

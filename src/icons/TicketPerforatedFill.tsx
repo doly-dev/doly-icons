@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![ticket-perforated-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCA0LjVBMS41IDEuNSAwIDAgMSAxLjUgM2gxM0ExLjUgMS41IDAgMCAxIDE2IDQuNVY2YS41LjUgMCAwIDEtLjUuNSAxLjUgMS41IDAgMCAwIDAgMyAuNS41IDAgMCAxIC41LjV2MS41YTEuNSAxLjUgMCAwIDEtMS41IDEuNWgtMTNBMS41IDEuNSAwIDAgMSAwIDExLjVWMTBhLjUuNSAwIDAgMSAuNS0uNSAxLjUgMS41IDAgMSAwIDAtM0EuNS41IDAgMCAxIDAgNnptNC0xdjFoMXYtMXptMSAzdi0xSDR2MXptNyAwdi0xaC0xdjF6bS0xLTJoMXYtMWgtMXptLTYgM0g0djFoMXptNyAxdi0xaC0xdjF6bS03IDFINHYxaDF6bTcgMXYtMWgtMXYxem0tOCAxdjFoMXYtMXptNyAxaDF2LTFoLTF6Ii8+Cjwvc3ZnPg==)*/
 const TicketPerforatedFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="ticket-perforated-fill"

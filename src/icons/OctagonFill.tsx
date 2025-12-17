@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![octagon-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEuMTA3IDBhLjUuNSAwIDAgMSAuMzUzLjE0Nmw0LjM5NCA0LjM5NGEuNS41IDAgMCAxIC4xNDYuMzUzdjYuMjE0YS41LjUgMCAwIDEtLjE0Ni4zNTNsLTQuMzk0IDQuMzk0YS41LjUgMCAwIDEtLjM1My4xNDZINC44OTNhLjUuNSAwIDAgMS0uMzUzLS4xNDZMLjE0NiAxMS40NkEuNS41IDAgMCAxIDAgMTEuMTA3VjQuODkzYS41LjUgMCAwIDEgLjE0Ni0uMzUzTDQuNTQuMTQ2QS41LjUgMCAwIDEgNC44OTMgMHoiLz4KPC9zdmc+)*/
 const OctagonFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="octagon-fill"

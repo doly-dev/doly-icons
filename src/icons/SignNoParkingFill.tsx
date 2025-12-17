@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![sign-no-parking-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTMuMjkyIDE0QTggOCAwIDAgMSAyIDIuNzA3bDMuNSAzLjVWMTJoMS4yODNWOS4xNjRoMS42NzR6bS43MDgtLjcwOC00LjM3LTQuMzdDMTAuNSA4LjUyNCAxMSA3LjY2MiAxMSA2LjU4N2MwLTEuNDgyLS45NTUtMi41ODQtMi41MzgtMi41ODRINS41di43OUwyLjcwOCAyLjAwMkE4IDggMCAwIDEgMTQgMTMuMjkzWiIvPgogIDxwYXRoIGQ9Ik02Ljc3NyA3LjQ4NXYuNTloLjU5em0xLjk0OS41MzVMNi43NzcgNi4wN3YtLjk2Nkg4LjI3Yy44OTMgMCAxLjQxOS41MzkgMS40MTkgMS40ODIgMCAuNzY5LS4zNSAxLjI3My0uOTYzIDEuNDMzWiIvPgo8L3N2Zz4=)*/
 const SignNoParkingFill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="sign-no-parking-fill"

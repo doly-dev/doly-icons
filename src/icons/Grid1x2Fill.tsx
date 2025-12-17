@@ -1,6 +1,7 @@
 import React from 'react';
 import IconBase, { IconBaseProps } from '../icon/IconBase';
 
+/**![grid-1x2-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iI2NjYyIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMCAxYTEgMSAwIDAgMSAxLTFoNWExIDEgMCAwIDEgMSAxdjE0YTEgMSAwIDAgMS0xIDFIMWExIDEgMCAwIDEtMS0xem05IDBhMSAxIDAgMCAxIDEtMWg1YTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC01YTEgMSAwIDAgMS0xLTF6bTAgOWExIDEgMCAwIDEgMS0xaDVhMSAxIDAgMCAxIDEgMXY1YTEgMSAwIDAgMS0xIDFoLTVhMSAxIDAgMCAxLTEtMXoiLz4KPC9zdmc+)*/
 const Grid1x2Fill: React.FC<IconBaseProps> = (props) => (
     <IconBase
       aria-label="grid-1x2-fill"
