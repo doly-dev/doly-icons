@@ -1,10 +1,15 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
-const { camelCase, upperFirst, words } = require('ut2');
+const { camelCase, upperFirst, words, lowerCase } = require('ut2');
 
 const regEnglish = /[a-z]/i;
 
 // 首字母是否为英语
 const firstIsEnglish = (str) => regEnglish.test(str.substring(0, 1));
+
+/**特殊组件名映射 */
+const SpecialComponentNameMap = {
+  infinity: 'IconInfinity'
+};
 
 const transformKey = (str) => {
   return words(str)
@@ -75,10 +80,18 @@ const transformPropName = (elStr) => {
  * @returns
  */
 const transformComponentName = (componentName) => {
+  // 特殊组件名称
+  const lowName = lowerCase(componentName);
+  if (SpecialComponentNameMap[lowName]) {
+    return SpecialComponentNameMap[lowName];
+  }
+
   return words(componentName)
     .map((strItem, i) => {
-      if (i === 0 && !firstIsEnglish(strItem)) {
-        return `Icon${strItem}`;
+      if (i === 0) {
+        if (!firstIsEnglish(strItem)) {
+          return `Icon${strItem}`;
+        }
       }
       return upperFirst(strItem);
     })

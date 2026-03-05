@@ -823,7 +823,7 @@ export { default as InfoSquareFill } from './icons/InfoSquareFill';
 export { default as InfoLg } from './icons/InfoLg';
 export { default as InfoCircle } from './icons/InfoCircle';
 export { default as InfoCircleFill } from './icons/InfoCircleFill';
-export { default as Infinity } from './icons/Infinity';
+export { default as IconInfinity } from './icons/Infinity';
 export { default as Indent } from './icons/Indent';
 export { default as Incognito } from './icons/Incognito';
 export { default as Inboxes } from './icons/Inboxes';

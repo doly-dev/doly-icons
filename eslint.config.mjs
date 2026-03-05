@@ -38,8 +38,7 @@ export default defineConfig(
     rules: {
       '@typescript-eslint/no-explicit-any': 0,
       '@typescript-eslint/ban-ts-comment': 0,
-      ...reactHooks.configs.recommended.rules,
-      'no-shadow-restricted-names': 0 // TODO 下个大版本将 Infinity 改为 IconInfinity
+      ...reactHooks.configs.recommended.rules
     }
   }
 );
