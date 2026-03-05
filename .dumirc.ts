@@ -9,7 +9,7 @@ const versionSiteRoot = `refs/heads/v${MajorVersionNumber}`;
 // const preMajorVersionNumber = MajorVersionNumber - 1;
 // const preVersionSiteRoot = `refs/heads/v${preMajorVersionNumber}`;
 
-const version = process.env.BUIDL_DOC_VERSION ? versionSiteRoot : 'latest';
+const version = process.env.BUILD_DOC_VERSION ? versionSiteRoot : 'latest';
 
 const publicPath = isDev ? '/' : `/${pkg.name}/${version}/`;
 
