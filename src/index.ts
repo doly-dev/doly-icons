@@ -3,3 +3,6 @@ export { IconProvider } from './icon/IconContext';
 export { default } from './icon';
 export type { IconProps } from './icon';
 export type { IconBaseProps } from './icon/IconBase';
+
+// legacy 组件，大版本更新时废弃
+export { default as Infinity } from './legacy/Infinity';
